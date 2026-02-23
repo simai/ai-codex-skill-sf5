@@ -1,4 +1,4 @@
 interface:
-  display_name: "SIMAI SF5"
+  display_name: "SIMAI Framewok 5"
   short_description: "Frontend-first workflows for SIMAI Framework 5."
   default_prompt: "Use this skill to implement and review SF5 frontend layers (core, loader, utilities, components, smart-components, blocks), then expand to backend planning for Bitrix and Laravel."
