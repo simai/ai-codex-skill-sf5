@@ -1,0 +1,27 @@
+name: SF5 Skill Checks
+
+on:
+  push:
+    paths:
+      - "skills/sf5/**"
+      - ".github/workflows/sf5-skill-checks.yml"
+  pull_request:
+    paths:
+      - "skills/sf5/**"
+      - ".github/workflows/sf5-skill-checks.yml"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run SF5 Local Checks
+        run: |
+          bash skills/sf5/scripts/run_local_checks.sh

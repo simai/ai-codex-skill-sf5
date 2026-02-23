@@ -1,0 +1,2079 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-02-12T07:37:13.101Z",
+  "excludedNonSfClasses": {
+    "monaco-editor": {
+      "tokensUsed": [
+        "--vscode-diffEditor-diagonalFill",
+        "--vscode-diffEditor-unchangedRegionShadow",
+        "--vscode-editor-background",
+        "--vscode-editor-foreground",
+        "--vscode-editorCodeLens-fontFeatureSettings",
+        "--vscode-editorCursor-foreground",
+        "--vscode-editorHoverWidget-border",
+        "--vscode-editorStickyScroll-shadow",
+        "--vscode-editorUnicodeHighlight-background",
+        "--vscode-editorUnicodeHighlight-border",
+        "--vscode-focusBorder",
+        "--vscode-inlineEdit-modifiedBorder",
+        "--vscode-inputValidation-infoBorder",
+        "--vscode-keybindingLabel-bottomBorder"
+      ]
+    },
+    "monaco-action-bar": {
+      "tokensUsed": [
+        "--vscode-disabledForeground",
+        "--vscode-editorGutter-itemGlyphForeground",
+        "--vscode-toolbar-hoverBackground"
+      ]
+    },
+    "vertical": {
+      "tokensUsed": [
+        "--vscode-disabledForeground",
+        "--vscode-sash-size"
+      ]
+    },
+    "action-item": {
+      "tokensUsed": [
+        "--vscode-button-foreground",
+        "--vscode-menu-separatorBackground",
+        "--vscode-toolbar-hoverBackground"
+      ]
+    },
+    "action-label": {
+      "tokensUsed": [
+        "--vscode-disabledForeground",
+        "--vscode-editorActionList-background",
+        "--vscode-editorSuggestWidgetStatus-foreground",
+        "--vscode-menu-separatorBackground"
+      ]
+    },
+    "hc-black": {
+      "tokensUsed": [
+        "--dropdown-padding-bottom",
+        "--dropdown-padding-top",
+        "--vscode-editor-compositionBorder"
+      ]
+    },
+    "hc-light": {
+      "tokensUsed": [
+        "--vscode-editor-compositionBorder"
+      ]
+    },
+    "monaco-hover": {
+      "tokensUsed": [
+        "--monaco-monospace-font",
+        "--text-link-decoration",
+        "--vscode-editorHoverWidget-border",
+        "--vscode-hover-maxWidth",
+        "--vscode-hover-sourceWhiteSpace",
+        "--vscode-textCodeBlock-background",
+        "--vscode-textLink-foreground"
+      ]
+    },
+    "synthetic-focus": {
+      "tokensUsed": [
+        "--vscode-focusBorder"
+      ]
+    },
+    "monaco-diff-editor": {
+      "tokensUsed": [
+        "--vscode-diffEditor-border",
+        "--vscode-diffEditor-move-border",
+        "--vscode-diffEditor-removedLineBackground",
+        "--vscode-diffEditor-removedTextBackground",
+        "--vscode-diffEditorGutter-removedLineBackground",
+        "--vscode-editorCodeLens-foreground",
+        "--vscode-focusBorder",
+        "--vscode-menu-separatorBackground",
+        "--vscode-scrollbar-shadow",
+        "--vscode-toolbar-hoverBackground"
+      ]
+    },
+    "monaco-editor-background": {
+      "tokensUsed": [
+        "--vscode-peekViewEditor-background"
+      ]
+    },
+    "rangeHighlight": {
+      "tokensUsed": [
+        "--vscode-editor-rangeHighlightBackground",
+        "--vscode-editor-rangeHighlightBorder"
+      ]
+    },
+    "symbolHighlight": {
+      "tokensUsed": [
+        "--vscode-editor-symbolHighlightBackground",
+        "--vscode-editor-symbolHighlightBorder"
+      ]
+    },
+    "margin-view-overlays": {
+      "tokensUsed": [
+        "--vscode-editorWarning-foreground"
+      ]
+    },
+    "squiggly-error": {
+      "tokensUsed": [
+        "--vscode-editorError-background",
+        "--vscode-editorError-border"
+      ]
+    },
+    "squiggly-warning": {
+      "tokensUsed": [
+        "--vscode-editorWarning-background",
+        "--vscode-editorWarning-border"
+      ]
+    },
+    "squiggly-info": {
+      "tokensUsed": [
+        "--vscode-editorInfo-background",
+        "--vscode-editorInfo-border"
+      ]
+    },
+    "squiggly-hint": {
+      "tokensUsed": [
+        "--vscode-editorHint-border"
+      ]
+    },
+    "showUnused": {
+      "tokensUsed": [
+        "--vscode-editorUnnecessaryCode-border"
+      ]
+    },
+    "squiggly-unnecessary": {
+      "tokensUsed": [
+        "--vscode-editorUnnecessaryCode-border"
+      ]
+    },
+    "showDeprecated": {
+      "tokensUsed": [
+        "--vscode-editor-foreground"
+      ]
+    },
+    "squiggly-inline-deprecated": {
+      "tokensUsed": [
+        "--vscode-editor-foreground"
+      ]
+    },
+    "monaco-scrollable-element": {
+      "tokensUsed": [
+        "--vscode-editorHoverWidget-border",
+        "--vscode-list-hoverBackground",
+        "--vscode-scrollbar-shadow"
+      ]
+    },
+    "shadow": {
+      "tokensUsed": [
+        "--vscode-scrollbar-shadow"
+      ]
+    },
+    "top": {
+      "tokensUsed": [
+        "--vscode-inputValidation-infoBorder",
+        "--vscode-scrollbar-shadow"
+      ]
+    },
+    "left": {
+      "tokensUsed": [
+        "--vscode-scrollbar-shadow"
+      ]
+    },
+    "active": {
+      "tokensUsed": [
+        "--sf-a1",
+        "--sf-outline-primary",
+        "--sf-primary-95",
+        "--sf-space-3",
+        "--sf-surface-container-active",
+        "--vscode-editorHoverWidget-highlightForeground",
+        "--vscode-focusBorder",
+        "--vscode-menu-selectionBorder"
+      ]
+    },
+    "glyph-margin-widgets": {
+      "tokensUsed": [
+        "--vscode-editorLightBulbAi-foreground",
+        "--vscode-icon-foreground"
+      ]
+    },
+    "cgmr": {
+      "tokensUsed": [
+        "--vscode-editorLightBulbAi-foreground",
+        "--vscode-icon-foreground"
+      ]
+    },
+    "line-numbers": {
+      "tokensUsed": [
+        "--vscode-editorLineNumber-activeForeground"
+      ]
+    },
+    "active-line-number": {
+      "tokensUsed": [
+        "--vscode-editorLineNumber-activeForeground"
+      ]
+    },
+    "mtkoverflow": {
+      "tokensUsed": [
+        "--vscode-button-foreground",
+        "--vscode-button-hoverBackground",
+        "--vscode-contrastBorder",
+        "--vscode-editor-foreground"
+      ]
+    },
+    "mtkw": {
+      "tokensUsed": [
+        "--vscode-editorWhitespace-foreground"
+      ]
+    },
+    "mtkz": {
+      "tokensUsed": [
+        "--vscode-editorWhitespace-foreground"
+      ]
+    },
+    "cldr": {
+      "tokensUsed": [
+        "--vscode-editorGutter-foldingControlForeground"
+      ]
+    },
+    "margin": {
+      "tokensUsed": [
+        "--vscode-peekViewEditorGutter-background"
+      ]
+    },
+    "minimap-slider": {
+      "tokensUsed": [
+        "--vscode-minimapSlider-activeBackground"
+      ]
+    },
+    "minimap-slider-horizontal": {
+      "tokensUsed": [
+        "--vscode-minimapSlider-activeBackground"
+      ]
+    },
+    "minimap-shadow-visible": {
+      "tokensUsed": [
+        "--vscode-scrollbar-shadow"
+      ]
+    },
+    "view-ruler": {
+      "tokensUsed": [
+        "--vscode-editorRuler-foreground"
+      ]
+    },
+    "scroll-decoration": {
+      "tokensUsed": [
+        "--vscode-scrollbar-shadow"
+      ]
+    },
+    "focused": {
+      "tokensUsed": [
+        "--vscode-editor-selectionHighlightBackground",
+        "--vscode-editor-selectionHighlightBorder",
+        "--vscode-list-focusOutline"
+      ]
+    },
+    "selected-text": {
+      "tokensUsed": [
+        "--vscode-editor-inactiveSelectionBackground"
+      ]
+    },
+    "mwh": {
+      "tokensUsed": [
+        "--vscode-editorWhitespace-foreground"
+      ]
+    },
+    "inputarea": {
+      "tokensUsed": [
+        "--vscode-editor-foreground",
+        "--vscode-editorCursor-foreground",
+        "--vscode-peekViewEditor-background"
+      ]
+    },
+    "ime-input": {
+      "tokensUsed": [
+        "--vscode-editor-foreground",
+        "--vscode-editorCursor-foreground",
+        "--vscode-peekViewEditor-background"
+      ]
+    },
+    "edit-context-composition-secondary": {
+      "tokensUsed": [
+        "--vscode-editor-compositionBorder"
+      ]
+    },
+    "edit-context-composition-primary": {
+      "tokensUsed": [
+        "--vscode-editor-compositionBorder"
+      ]
+    },
+    "gpu-mark": {
+      "tokensUsed": [
+        "--vscode-editorWarning-foreground"
+      ]
+    },
+    "monaco-workbench": {
+      "tokensUsed": [
+        "--vscode-editorHoverWidget-background",
+        "--vscode-editorHoverWidget-border",
+        "--vscode-editorHoverWidget-statusBarBackground",
+        "--vscode-focusBorder",
+        "--vscode-textLink-activeForeground",
+        "--vscode-widget-shadow"
+      ]
+    },
+    "workbench-hover": {
+      "tokensUsed": [
+        "--vscode-editorHoverWidget-border",
+        "--vscode-editorHoverWidget-statusBarBackground",
+        "--vscode-focusBorder",
+        "--vscode-textLink-activeForeground",
+        "--vscode-widget-shadow"
+      ]
+    },
+    "codicon": {
+      "tokensUsed": [
+        "--vscode-banner-iconForeground"
+      ]
+    },
+    "hover-contents": {
+      "tokensUsed": [
+        "--vscode-hover-maxWidth",
+        "--vscode-textLink-activeForeground"
+      ]
+    },
+    "workbench-hover-container": {
+      "tokensUsed": [
+        "--vscode-editorHoverWidget-border",
+        "--vscode-focusBorder"
+      ]
+    },
+    "locked": {
+      "tokensUsed": [
+        "--vscode-editorHoverWidget-border",
+        "--vscode-focusBorder"
+      ]
+    },
+    "workbench-hover-pointer": {
+      "tokensUsed": [
+        "--vscode-editorHoverWidget-background",
+        "--vscode-focusBorder"
+      ]
+    },
+    "monaco-button": {
+      "tokensUsed": [
+        "--vscode-button-hoverBackground",
+        "--vscode-button-secondaryForeground"
+      ]
+    },
+    "hover-row": {
+      "tokensUsed": [
+        "--text-link-decoration",
+        "--vscode-editorHoverWidget-border",
+        "--vscode-editorHoverWidget-statusBarBackground",
+        "--vscode-textLink-foreground"
+      ]
+    },
+    "actions": {
+      "tokensUsed": [
+        "--text-link-decoration",
+        "--vscode-editorHoverWidget-statusBarBackground",
+        "--vscode-textLink-foreground"
+      ]
+    },
+    "status-bar": {
+      "tokensUsed": [
+        "--text-link-decoration",
+        "--vscode-textLink-foreground"
+      ]
+    },
+    "action-container": {
+      "tokensUsed": [
+        "--text-link-decoration",
+        "--vscode-banner-foreground"
+      ]
+    },
+    "disabled": {
+      "tokensUsed": [
+        "--vscode-disabledForeground",
+        "--vscode-sash-size",
+        "--vscode-toolbar-hoverBackground"
+      ]
+    },
+    "markdown-hover": {
+      "tokensUsed": [
+        "--vscode-hover-maxWidth"
+      ]
+    },
+    "code-hover-contents": {
+      "tokensUsed": [
+        "--vscode-hover-maxWidth"
+      ]
+    },
+    "code": {
+      "tokensUsed": [
+        "--vscode-parameterHintsWidget-editorFontFamily",
+        "--vscode-parameterHintsWidget-editorFontFamilyDefault"
+      ]
+    },
+    "info": {
+      "tokensUsed": [
+        "--vscode-problemsInfoIcon-foreground"
+      ]
+    },
+    "action": {
+      "tokensUsed": [
+        "--vscode-keybindingLabel-background",
+        "--vscode-keybindingLabel-border",
+        "--vscode-keybindingLabel-bottomBorder",
+        "--vscode-keybindingLabel-foreground",
+        "--vscode-menu-selectionBorder",
+        "--vscode-widget-shadow"
+      ]
+    },
+    "icon": {
+      "tokensUsed": [
+        "--sf-on-disable",
+        "--sf-text-height-3",
+        "--vscode-icon-x-content",
+        "--vscode-icon-x-font-family"
+      ]
+    },
+    "code-link": {
+      "tokensUsed": [
+        "--vscode-textLink-activeForeground"
+      ]
+    },
+    "monaco-text-button": {
+      "tokensUsed": [
+        "--vscode-button-border"
+      ]
+    },
+    "rendered-markdown": {
+      "tokensUsed": [
+        "--vscode-keybindingLabel-background",
+        "--vscode-keybindingLabel-border",
+        "--vscode-keybindingLabel-bottomBorder",
+        "--vscode-keybindingLabel-foreground",
+        "--vscode-widget-shadow"
+      ]
+    },
+    "monaco-select-box-dropdown-container": {
+      "tokensUsed": [
+        "--dropdown-padding-bottom",
+        "--dropdown-padding-top",
+        "--monaco-monospace-font"
+      ]
+    },
+    "monaco-list": {
+      "tokensUsed": [
+        "--vscode-list-focusHighlightForeground",
+        "--vscode-list-focusOutline"
+      ]
+    },
+    "monaco-list-rows": {
+      "tokensUsed": [
+        "--vscode-editorHoverWidget-border",
+        "--vscode-peekViewResult-selectionBackground",
+        "--vscode-peekViewResult-selectionForeground"
+      ]
+    },
+    "monaco-list-row": {
+      "tokensUsed": [
+        "--vscode-keybindingLabel-bottomBorder",
+        "--vscode-list-focusOutline",
+        "--vscode-widget-shadow"
+      ]
+    },
+    "monaco-split-view2": {
+      "tokensUsed": [
+        "--separator-border",
+        "--vscode-sash-size"
+      ]
+    },
+    "monaco-drag-image": {
+      "tokensUsed": [
+        "--vscode-list-activeSelectionBackground",
+        "--vscode-list-activeSelectionForeground",
+        "--vscode-list-focusOutline"
+      ]
+    },
+    "select-box-details-pane": {
+      "tokensUsed": [
+        "--monaco-monospace-font"
+      ]
+    },
+    "select-box-description-markdown": {
+      "tokensUsed": [
+        "--monaco-monospace-font"
+      ]
+    },
+    "select-box-dropdown-list-container": {
+      "tokensUsed": [
+        "--dropdown-padding-bottom",
+        "--dropdown-padding-top"
+      ]
+    },
+    "actions-container": {
+      "tokensUsed": [
+        "--vscode-editorGutter-itemGlyphForeground",
+        "--vscode-toolbar-hoverBackground"
+      ]
+    },
+    "separator": {
+      "tokensUsed": [
+        "--vscode-descriptionForeground",
+        "--vscode-disabledForeground",
+        "--vscode-menu-separatorBackground"
+      ]
+    },
+    "monaco-dropdown": {
+      "tokensUsed": [
+        "--vscode-descriptionForeground"
+      ]
+    },
+    "menu-entry": {
+      "tokensUsed": [
+        "--vscode-descriptionForeground"
+      ]
+    },
+    "text-only": {
+      "tokensUsed": [
+        "--vscode-descriptionForeground"
+      ]
+    },
+    "monaco-dropdown-with-default": {
+      "tokensUsed": [
+        "--vscode-toolbar-hoverBackground"
+      ]
+    },
+    "monaco-highlighted-label": {
+      "tokensUsed": [
+        "--vscode-list-focusHighlightForeground"
+      ]
+    },
+    "highlight": {
+      "tokensUsed": [
+        "--vscode-contrastActiveBorder",
+        "--vscode-list-focusHighlightForeground"
+      ]
+    },
+    "vs": {
+      "tokensUsed": [
+        "--vscode-editorBracketMatch-border"
+      ]
+    },
+    "monaco-keybinding": {
+      "tokensUsed": [
+        "--vscode-keybindingLabel-border"
+      ]
+    },
+    "monaco-keybinding-key": {
+      "tokensUsed": [
+        "--vscode-keybindingLabel-border"
+      ]
+    },
+    "monaco-custom-toggle": {
+      "tokensUsed": [
+        "--vscode-inputOption-hoverBackground"
+      ]
+    },
+    "checkbox-action-item": {
+      "tokensUsed": [
+        "--vscode-toolbar-hoverBackground"
+      ]
+    },
+    "quick-input-list": {
+      "tokensUsed": [
+        "--vscode-list-focusOutline"
+      ]
+    },
+    "quick-input-tree": {
+      "tokensUsed": [
+        "--vscode-list-focusOutline"
+      ]
+    },
+    "monaco-icon-label": {
+      "tokensUsed": [
+        "--vscode-editorSuggestWidget-foreground"
+      ]
+    },
+    "monaco-tree-sticky-row": {
+      "tokensUsed": [
+        "--vscode-list-hoverBackground"
+      ]
+    },
+    "monaco-button-dropdown": {
+      "tokensUsed": [
+        "--vscode-button-border",
+        "--vscode-button-secondaryForeground",
+        "--vscode-button-separator"
+      ]
+    },
+    "monaco-button-dropdown-separator": {
+      "tokensUsed": [
+        "--vscode-button-border",
+        "--vscode-button-separator"
+      ]
+    },
+    "monaco-dropdown-button": {
+      "tokensUsed": [
+        "--vscode-button-border"
+      ]
+    },
+    "default-colors": {
+      "tokensUsed": [
+        "--vscode-button-border",
+        "--vscode-button-secondaryForeground",
+        "--vscode-button-separator"
+      ]
+    },
+    "secondary": {
+      "tokensUsed": [
+        "--vscode-button-secondaryBackground",
+        "--vscode-button-secondaryForeground"
+      ]
+    },
+    "monaco-inputbox": {
+      "tokensUsed": [
+        "--vscode-focusBorder"
+      ]
+    },
+    "selected": {
+      "tokensUsed": [
+        "--vscode-peekViewResult-selectionBackground"
+      ]
+    },
+    "collapsed": {
+      "tokensUsed": [
+        "--vscode-sideBarSectionHeader-border"
+      ]
+    },
+    "monaco-tree-type-filter": {
+      "tokensUsed": [
+        "--vscode-widget-border"
+      ]
+    },
+    "monaco-tree-sticky-container": {
+      "tokensUsed": [
+        "--vscode-list-hoverBackground"
+      ]
+    },
+    "monaco-sash": {
+      "tokensUsed": [
+        "--vscode-editorWidget-border",
+        "--vscode-editorWidget-resizeBorder",
+        "--vscode-sash-hover-size",
+        "--vscode-sash-size"
+      ]
+    },
+    "horizontal": {
+      "tokensUsed": [
+        "--vscode-sash-hover-size",
+        "--vscode-sash-size"
+      ]
+    },
+    "orthogonal-drag-handle": {
+      "tokensUsed": [
+        "--vscode-sash-size"
+      ]
+    },
+    "start": {
+      "tokensUsed": [
+        "--vscode-inlineEdit-modifiedBorder",
+        "--vscode-sash-size"
+      ]
+    },
+    "end": {
+      "tokensUsed": [
+        "--vscode-inlineEdit-modifiedBorder",
+        "--vscode-sash-size"
+      ]
+    },
+    "hover": {
+      "tokensUsed": [
+        "--vscode-sash-hoverBorder"
+      ]
+    },
+    "split-view-container": {
+      "tokensUsed": [
+        "--separator-border"
+      ]
+    },
+    "split-view-view": {
+      "tokensUsed": [
+        "--separator-border"
+      ]
+    },
+    "separator-border": {
+      "tokensUsed": [
+        "--separator-border"
+      ]
+    },
+    "monaco-table": {
+      "tokensUsed": [
+        "--vscode-sash-size"
+      ]
+    },
+    "diff-review": {
+      "tokensUsed": [
+        "--vscode-editorActionList-background",
+        "--vscode-editorLineNumber-foreground",
+        "--vscode-scrollbar-shadow"
+      ]
+    },
+    "monaco-component": {
+      "tokensUsed": [
+        "--vscode-focusBorder",
+        "--vscode-foreground",
+        "--vscode-multiDiffEditor-border",
+        "--vscode-multiDiffEditor-headerBackground",
+        "--vscode-scrollbar-shadow"
+      ]
+    },
+    "diff-review-line-number": {
+      "tokensUsed": [
+        "--vscode-editorLineNumber-foreground"
+      ]
+    },
+    "diff-review-shadow": {
+      "tokensUsed": [
+        "--vscode-scrollbar-shadow"
+      ]
+    },
+    "monaco-toolbar": {
+      "tokensUsed": [
+        "--vscode-editorGutter-itemGlyphForeground",
+        "--vscode-toolbar-hoverBackground"
+      ]
+    },
+    "diff-hidden-lines": {
+      "tokensUsed": [
+        "--vscode-diffEditor-unchangedRegionBackground",
+        "--vscode-diffEditor-unchangedRegionShadow",
+        "--vscode-editorLink-activeForeground"
+      ]
+    },
+    "dragging": {
+      "tokensUsed": [
+        "--vscode-disabledForeground",
+        "--vscode-focusBorder"
+      ]
+    },
+    "diff-unchanged-lines": {
+      "tokensUsed": [
+        "--vscode-diffEditor-unchangedCodeBackground"
+      ]
+    },
+    "noModificationsOverlay": {
+      "tokensUsed": [
+        "--vscode-editor-background"
+      ]
+    },
+    "center": {
+      "tokensUsed": [
+        "--sf-a1",
+        "--sf-b2",
+        "--sf-outline-variant",
+        "--vscode-diffEditor-unchangedRegionBackground",
+        "--vscode-diffEditor-unchangedRegionShadow",
+        "--vscode-editorLink-activeForeground"
+      ]
+    },
+    "breadcrumb-item": {
+      "tokensUsed": [
+        "--vscode-editorLink-activeForeground"
+      ]
+    },
+    "movedOriginal": {
+      "tokensUsed": [
+        "--vscode-diffEditor-moveActive-border"
+      ]
+    },
+    "movedModified": {
+      "tokensUsed": [
+        "--vscode-diffEditor-moveActive-border"
+      ]
+    },
+    "currentMove": {
+      "tokensUsed": [
+        "--vscode-diffEditor-moveActive-border"
+      ]
+    },
+    "moved-blocks-lines": {
+      "tokensUsed": [
+        "--vscode-diffEditor-move-border"
+      ]
+    },
+    "arrow": {
+      "tokensUsed": [
+        "--vscode-diffEditor-moveActive-border"
+      ]
+    },
+    "arrow-rectangle": {
+      "tokensUsed": [
+        "--vscode-editor-background"
+      ]
+    },
+    "char-delete": {
+      "tokensUsed": [
+        "--vscode-diffEditor-removedTextBackground",
+        "--vscode-diffEditor-removedTextBorder"
+      ]
+    },
+    "diff-range-empty": {
+      "tokensUsed": [
+        "--vscode-inlineEdit-modifiedChangedTextBackground"
+      ]
+    },
+    "char-insert": {
+      "tokensUsed": [
+        "--vscode-diffEditor-insertedTextBackground",
+        "--vscode-diffEditor-insertedTextBorder"
+      ]
+    },
+    "diffViewport": {
+      "tokensUsed": [
+        "--vscode-scrollbarSlider-activeBackground"
+      ]
+    },
+    "inline-deleted-margin-view-zone": {
+      "tokensUsed": [
+        "--vscode-diffEditor-removedLineBackground",
+        "--vscode-diffEditor-removedTextBackground",
+        "--vscode-diffEditorGutter-removedLineBackground"
+      ]
+    },
+    "inline-added-margin-view-zone": {
+      "tokensUsed": [
+        "--vscode-diffEditor-insertedLineBackground",
+        "--vscode-diffEditor-insertedTextBackground",
+        "--vscode-diffEditorGutter-insertedLineBackground"
+      ]
+    },
+    "line-insert": {
+      "tokensUsed": [
+        "--vscode-diffEditor-insertedLineBackground",
+        "--vscode-diffEditor-insertedTextBackground",
+        "--vscode-diffEditor-insertedTextBorder"
+      ]
+    },
+    "line-delete": {
+      "tokensUsed": [
+        "--vscode-diffEditor-removedLineBackground",
+        "--vscode-diffEditor-removedTextBackground",
+        "--vscode-diffEditor-removedTextBorder"
+      ]
+    },
+    "gutter-insert": {
+      "tokensUsed": [
+        "--vscode-diffEditor-insertedLineBackground",
+        "--vscode-diffEditor-insertedTextBackground",
+        "--vscode-diffEditorGutter-insertedLineBackground"
+      ]
+    },
+    "inline-deleted-text": {
+      "tokensUsed": [
+        "--vscode-diffEditor-removedTextBackground"
+      ]
+    },
+    "gutter-delete": {
+      "tokensUsed": [
+        "--vscode-diffEditor-removedLineBackground",
+        "--vscode-diffEditor-removedTextBackground",
+        "--vscode-diffEditorGutter-removedLineBackground"
+      ]
+    },
+    "side-by-side": {
+      "tokensUsed": [
+        "--vscode-diffEditor-border",
+        "--vscode-scrollbar-shadow"
+      ]
+    },
+    "editor": {
+      "tokensUsed": [
+        "--vscode-diffEditor-border",
+        "--vscode-scrollbar-shadow"
+      ]
+    },
+    "modified": {
+      "tokensUsed": [
+        "--vscode-diffEditor-border",
+        "--vscode-scrollbar-shadow"
+      ]
+    },
+    "original": {
+      "tokensUsed": [
+        "--vscode-diffEditor-border",
+        "--vscode-scrollbar-shadow"
+      ]
+    },
+    "diagonal-fill": {
+      "tokensUsed": [
+        "--vscode-diffEditor-diagonalFill"
+      ]
+    },
+    "gutter": {
+      "tokensUsed": [
+        "--vscode-editorGutter-itemGlyphForeground",
+        "--vscode-menu-separatorBackground",
+        "--vscode-toolbar-hoverBackground"
+      ]
+    },
+    "gutterItem": {
+      "tokensUsed": [
+        "--vscode-editorGutter-itemGlyphForeground",
+        "--vscode-menu-separatorBackground",
+        "--vscode-toolbar-hoverBackground"
+      ]
+    },
+    "background": {
+      "tokensUsed": [
+        "--vscode-menu-separatorBackground"
+      ]
+    },
+    "buttons": {
+      "tokensUsed": [
+        "--vscode-editorGutter-itemGlyphForeground",
+        "--vscode-toolbar-hoverBackground"
+      ]
+    },
+    "diff-hidden-lines-compact": {
+      "tokensUsed": [
+        "--vscode-editorCodeLens-foreground"
+      ]
+    },
+    "line-left": {
+      "tokensUsed": [
+        "--vscode-editorCodeLens-foreground"
+      ]
+    },
+    "line-right": {
+      "tokensUsed": [
+        "--vscode-editorCodeLens-foreground"
+      ]
+    },
+    "multiDiffEditor": {
+      "tokensUsed": [
+        "--vscode-focusBorder",
+        "--vscode-foreground",
+        "--vscode-multiDiffEditor-border",
+        "--vscode-multiDiffEditor-headerBackground",
+        "--vscode-scrollbar-shadow"
+      ]
+    },
+    "multiDiffEntry": {
+      "tokensUsed": [
+        "--vscode-foreground",
+        "--vscode-multiDiffEditor-border",
+        "--vscode-multiDiffEditor-headerBackground",
+        "--vscode-scrollbar-shadow"
+      ]
+    },
+    "header": {
+      "tokensUsed": [
+        "--vscode-foreground",
+        "--vscode-multiDiffEditor-border",
+        "--vscode-multiDiffEditor-headerBackground",
+        "--vscode-scrollbar-shadow",
+        "--vscode-sideBarSectionHeader-border"
+      ]
+    },
+    "header-content": {
+      "tokensUsed": [
+        "--vscode-foreground",
+        "--vscode-multiDiffEditor-border",
+        "--vscode-multiDiffEditor-headerBackground",
+        "--vscode-scrollbar-shadow",
+        "--vscode-sideBarSectionHeader-border"
+      ]
+    },
+    "editorParent": {
+      "tokensUsed": [
+        "--vscode-multiDiffEditor-border"
+      ]
+    },
+    "swiper-button-prev": {
+      "tokensUsed": [
+        "--swiper-navigation-color",
+        "--swiper-navigation-size",
+        "--swiper-theme-color"
+      ]
+    },
+    "swiper-button-next": {
+      "tokensUsed": [
+        "--swiper-navigation-color",
+        "--swiper-navigation-size",
+        "--swiper-theme-color"
+      ]
+    },
+    "sf-clipboard": {
+      "tokensUsed": [
+        "--btn-font-size",
+        "--btn-space-2-y",
+        "--sf-space-1"
+      ]
+    },
+    "body": {
+      "tokensUsed": [
+        "--sf-radius-1",
+        "--vscode-editorHoverWidget-border"
+      ]
+    },
+    "fad": {
+      "tokensUsed": [
+        "--fa-primary-opacity"
+      ]
+    },
+    "fa-swap-opacity": {
+      "tokensUsed": [
+        "--fa-primary-opacity"
+      ]
+    },
+    "error": {
+      "tokensUsed": [
+        "--sf-error",
+        "--sf-error-container",
+        "--sf-input--color",
+        "--sf-on-surface",
+        "--sf-on-surface-variant",
+        "--vscode-problemsErrorIcon-foreground"
+      ]
+    },
+    "bracket-match": {
+      "tokensUsed": [
+        "--vscode-editorBracketMatch-background",
+        "--vscode-editorBracketMatch-border"
+      ]
+    },
+    "inline-progress-widget": {
+      "tokensUsed": [
+        "--vscode-icon-x-content",
+        "--vscode-icon-x-font-family"
+      ]
+    },
+    "monaco-editor-overlaymessage": {
+      "tokensUsed": [
+        "--vscode-editorHoverWidget-background",
+        "--vscode-inputValidation-infoBorder",
+        "--vscode-textLink-activeForeground"
+      ]
+    },
+    "below": {
+      "tokensUsed": [
+        "--vscode-inputValidation-infoBorder"
+      ]
+    },
+    "message": {
+      "tokensUsed": [
+        "--vscode-editorHoverWidget-background",
+        "--vscode-inputValidation-infoBorder",
+        "--vscode-textLink-activeForeground"
+      ]
+    },
+    "anchor": {
+      "tokensUsed": [
+        "--vscode-inputValidation-infoBorder"
+      ]
+    },
+    "action-widget": {
+      "tokensUsed": [
+        "--vscode-keybindingLabel-border",
+        "--vscode-keybindingLabel-bottomBorder",
+        "--vscode-keybindingLabel-foreground",
+        "--vscode-menu-background",
+        "--vscode-menu-border",
+        "--vscode-widget-shadow"
+      ]
+    },
+    "group-header": {
+      "tokensUsed": [
+        "--vscode-descriptionForeground"
+      ]
+    },
+    "drop-target": {
+      "tokensUsed": [
+        "--vscode-disabledForeground"
+      ]
+    },
+    "action-widget-action-bar": {
+      "tokensUsed": [
+        "--vscode-menu-border",
+        "--vscode-textLink-activeForeground"
+      ]
+    },
+    "highlight-toggled": {
+      "tokensUsed": [
+        "--vscode-actionBar-toggledBackground"
+      ]
+    },
+    "checked": {
+      "tokensUsed": [
+        "--vscode-actionBar-toggledBackground"
+      ]
+    },
+    "post-edit-widget": {
+      "tokensUsed": [
+        "--vscode-button-foreground",
+        "--vscode-button-hoverBackground",
+        "--vscode-widget-shadow"
+      ]
+    },
+    "codicon-symbol-array": {
+      "tokensUsed": [
+        "--vscode-symbolIcon-arrayForeground"
+      ]
+    },
+    "codicon-symbol-boolean": {
+      "tokensUsed": [
+        "--vscode-symbolIcon-booleanForeground"
+      ]
+    },
+    "codicon-symbol-class": {
+      "tokensUsed": [
+        "--vscode-symbolIcon-classForeground"
+      ]
+    },
+    "codicon-symbol-method": {
+      "tokensUsed": [
+        "--vscode-symbolIcon-methodForeground"
+      ]
+    },
+    "codicon-symbol-color": {
+      "tokensUsed": [
+        "--vscode-symbolIcon-colorForeground"
+      ]
+    },
+    "codicon-symbol-constant": {
+      "tokensUsed": [
+        "--vscode-symbolIcon-constantForeground"
+      ]
+    },
+    "codicon-symbol-constructor": {
+      "tokensUsed": [
+        "--vscode-symbolIcon-constructorForeground"
+      ]
+    },
+    "codicon-symbol-value": {
+      "tokensUsed": [
+        "--vscode-symbolIcon-enumeratorForeground"
+      ]
+    },
+    "codicon-symbol-enum": {
+      "tokensUsed": [
+        "--vscode-symbolIcon-enumeratorForeground"
+      ]
+    },
+    "codicon-symbol-enum-member": {
+      "tokensUsed": [
+        "--vscode-symbolIcon-enumeratorMemberForeground"
+      ]
+    },
+    "codicon-symbol-event": {
+      "tokensUsed": [
+        "--vscode-symbolIcon-eventForeground"
+      ]
+    },
+    "codicon-symbol-field": {
+      "tokensUsed": [
+        "--vscode-symbolIcon-fieldForeground"
+      ]
+    },
+    "codicon-symbol-file": {
+      "tokensUsed": [
+        "--vscode-symbolIcon-fileForeground"
+      ]
+    },
+    "codicon-symbol-folder": {
+      "tokensUsed": [
+        "--vscode-symbolIcon-folderForeground"
+      ]
+    },
+    "codicon-symbol-function": {
+      "tokensUsed": [
+        "--vscode-symbolIcon-functionForeground"
+      ]
+    },
+    "codicon-symbol-interface": {
+      "tokensUsed": [
+        "--vscode-symbolIcon-interfaceForeground"
+      ]
+    },
+    "codicon-symbol-key": {
+      "tokensUsed": [
+        "--vscode-symbolIcon-keyForeground"
+      ]
+    },
+    "codicon-symbol-keyword": {
+      "tokensUsed": [
+        "--vscode-symbolIcon-keywordForeground"
+      ]
+    },
+    "codicon-symbol-module": {
+      "tokensUsed": [
+        "--vscode-symbolIcon-moduleForeground"
+      ]
+    },
+    "codicon-symbol-namespace": {
+      "tokensUsed": [
+        "--vscode-symbolIcon-namespaceForeground"
+      ]
+    },
+    "codicon-symbol-null": {
+      "tokensUsed": [
+        "--vscode-symbolIcon-nullForeground"
+      ]
+    },
+    "codicon-symbol-number": {
+      "tokensUsed": [
+        "--vscode-symbolIcon-numberForeground"
+      ]
+    },
+    "codicon-symbol-object": {
+      "tokensUsed": [
+        "--vscode-symbolIcon-objectForeground"
+      ]
+    },
+    "codicon-symbol-operator": {
+      "tokensUsed": [
+        "--vscode-symbolIcon-operatorForeground"
+      ]
+    },
+    "codicon-symbol-package": {
+      "tokensUsed": [
+        "--vscode-symbolIcon-packageForeground"
+      ]
+    },
+    "codicon-symbol-property": {
+      "tokensUsed": [
+        "--vscode-symbolIcon-propertyForeground"
+      ]
+    },
+    "codicon-symbol-reference": {
+      "tokensUsed": [
+        "--vscode-symbolIcon-referenceForeground"
+      ]
+    },
+    "codicon-symbol-snippet": {
+      "tokensUsed": [
+        "--vscode-symbolIcon-snippetForeground"
+      ]
+    },
+    "codicon-symbol-string": {
+      "tokensUsed": [
+        "--vscode-symbolIcon-stringForeground"
+      ]
+    },
+    "codicon-symbol-struct": {
+      "tokensUsed": [
+        "--vscode-symbolIcon-structForeground"
+      ]
+    },
+    "codicon-symbol-text": {
+      "tokensUsed": [
+        "--vscode-symbolIcon-textForeground"
+      ]
+    },
+    "codicon-symbol-type-parameter": {
+      "tokensUsed": [
+        "--vscode-symbolIcon-typeParameterForeground"
+      ]
+    },
+    "codicon-symbol-unit": {
+      "tokensUsed": [
+        "--vscode-symbolIcon-unitForeground"
+      ]
+    },
+    "codicon-symbol-variable": {
+      "tokensUsed": [
+        "--vscode-symbolIcon-variableForeground"
+      ]
+    },
+    "lightBulbWidget": {
+      "tokensUsed": [
+        "--vscode-editorLightBulbAi-foreground",
+        "--vscode-icon-foreground"
+      ]
+    },
+    "codicon-light-bulb": {
+      "tokensUsed": [
+        "--vscode-editorLightBulb-foreground"
+      ]
+    },
+    "codicon-lightbulb-sparkle": {
+      "tokensUsed": [
+        "--vscode-editorLightBulb-foreground"
+      ]
+    },
+    "codicon-lightbulb-autofix": {
+      "tokensUsed": [
+        "--vscode-editorLightBulb-foreground",
+        "--vscode-editorLightBulbAutoFix-foreground"
+      ]
+    },
+    "codicon-lightbulb-sparkle-autofix": {
+      "tokensUsed": [
+        "--vscode-editorLightBulb-foreground",
+        "--vscode-editorLightBulbAutoFix-foreground"
+      ]
+    },
+    "codicon-sparkle-filled": {
+      "tokensUsed": [
+        "--vscode-editorLightBulbAi-foreground",
+        "--vscode-icon-foreground"
+      ]
+    },
+    "codicon-gutter-lightbulb": {
+      "tokensUsed": [
+        "--vscode-editorLightBulb-foreground"
+      ]
+    },
+    "codicon-gutter-lightbulb-sparkle": {
+      "tokensUsed": [
+        "--vscode-editorLightBulb-foreground"
+      ]
+    },
+    "codicon-gutter-lightbulb-auto-fix": {
+      "tokensUsed": [
+        "--vscode-editorLightBulb-foreground",
+        "--vscode-editorLightBulbAutoFix-foreground"
+      ]
+    },
+    "codicon-gutter-lightbulb-aifix-auto-fix": {
+      "tokensUsed": [
+        "--vscode-editorLightBulb-foreground",
+        "--vscode-editorLightBulbAutoFix-foreground"
+      ]
+    },
+    "codicon-gutter-lightbulb-sparkle-filled": {
+      "tokensUsed": [
+        "--vscode-editorLightBulbAi-foreground",
+        "--vscode-icon-foreground"
+      ]
+    },
+    "codelens-decoration": {
+      "tokensUsed": [
+        "--vscode-editorCodeLens-fontFamily",
+        "--vscode-editorCodeLens-fontFamilyDefault",
+        "--vscode-editorCodeLens-fontFeatureSettings",
+        "--vscode-editorCodeLens-fontSize",
+        "--vscode-editorCodeLens-foreground",
+        "--vscode-editorCodeLens-lineHeight"
+      ]
+    },
+    "inlineSuggestionsHints": {
+      "tokensUsed": [
+        "--vscode-editorHoverWidget-background",
+        "--vscode-editorHoverWidget-border",
+        "--vscode-foreground"
+      ]
+    },
+    "withBorder": {
+      "tokensUsed": [
+        "--vscode-editorHoverWidget-background",
+        "--vscode-editorHoverWidget-border",
+        "--vscode-editorHoverWidget-foreground"
+      ]
+    },
+    "colorpicker-header": {
+      "tokensUsed": [
+        "--vscode-editorHoverWidget-border",
+        "--vscode-toolbar-hoverBackground"
+      ]
+    },
+    "standalone-colorpicker": {
+      "tokensUsed": [
+        "--vscode-editorHoverWidget-background",
+        "--vscode-editorHoverWidget-border",
+        "--vscode-editorHoverWidget-foreground"
+      ]
+    },
+    "close-button": {
+      "tokensUsed": [
+        "--vscode-editorHoverWidget-background",
+        "--vscode-editorHoverWidget-border"
+      ]
+    },
+    "close-button-inner-div": {
+      "tokensUsed": [
+        "--vscode-toolbar-hoverBackground"
+      ]
+    },
+    "colorpicker-body": {
+      "tokensUsed": [
+        "--vscode-button-foreground",
+        "--vscode-button-hoverBackground"
+      ]
+    },
+    "standalone-colorpicker-body": {
+      "tokensUsed": [
+        "--vscode-editorHoverWidget-border"
+      ]
+    },
+    "insert-button": {
+      "tokensUsed": [
+        "--vscode-button-foreground",
+        "--vscode-button-hoverBackground"
+      ]
+    },
+    "filename": {
+      "tokensUsed": [
+        "--vscode-textLink-activeForeground"
+      ]
+    },
+    "zone-widget": {
+      "tokensUsed": [
+        "--vscode-problemsInfoIcon-foreground"
+      ]
+    },
+    "reference-zone-widget": {
+      "tokensUsed": [
+        "--vscode-contrastActiveBorder",
+        "--vscode-peekViewEditorGutter-background",
+        "--vscode-peekViewResult-selectionForeground"
+      ]
+    },
+    "ref-tree": {
+      "tokensUsed": [
+        "--vscode-contrastActiveBorder",
+        "--vscode-peekViewResult-matchHighlightBackground",
+        "--vscode-peekViewResult-selectionForeground"
+      ]
+    },
+    "highlighted": {
+      "tokensUsed": [
+        "--vscode-peekViewResult-selectionBackground",
+        "--vscode-peekViewResult-selectionForeground"
+      ]
+    },
+    "referenceMatch": {
+      "tokensUsed": [
+        "--vscode-contrastActiveBorder",
+        "--vscode-peekViewResult-matchHighlightBackground"
+      ]
+    },
+    "preview": {
+      "tokensUsed": [
+        "--vscode-peekViewEditorGutter-background"
+      ]
+    },
+    "reference-decoration": {
+      "tokensUsed": [
+        "--vscode-peekViewEditor-matchHighlightBackground",
+        "--vscode-peekViewEditor-matchHighlightBorder"
+      ]
+    },
+    "hoverHighlight": {
+      "tokensUsed": [
+        "--vscode-editor-hoverHighlightBackground"
+      ]
+    },
+    "verbosity-actions": {
+      "tokensUsed": [
+        "--vscode-editorHoverWidget-border"
+      ]
+    },
+    "verbosity-actions-inner": {
+      "tokensUsed": [
+        "--vscode-textLink-foreground"
+      ]
+    },
+    "enabled": {
+      "tokensUsed": [
+        "--vscode-textLink-foreground"
+      ]
+    },
+    "findOptionsWidget": {
+      "tokensUsed": [
+        "--vscode-contrastBorder",
+        "--vscode-editorWidget-background",
+        "--vscode-editorWidget-foreground",
+        "--vscode-widget-shadow"
+      ]
+    },
+    "find-widget": {
+      "tokensUsed": [
+        "--vscode-errorForeground",
+        "--vscode-focusBorder",
+        "--vscode-toolbar-hoverBackground",
+        "--vscode-widget-border",
+        "--vscode-widget-shadow"
+      ]
+    },
+    "matchesCount": {
+      "tokensUsed": [
+        "--vscode-errorForeground"
+      ]
+    },
+    "button": {
+      "tokensUsed": [
+        "--vscode-toolbar-hoverBackground"
+      ]
+    },
+    "codicon-find-selection": {
+      "tokensUsed": [
+        "--vscode-toolbar-hoverBackground"
+      ]
+    },
+    "no-results": {
+      "tokensUsed": [
+        "--vscode-errorForeground"
+      ]
+    },
+    "findMatch": {
+      "tokensUsed": [
+        "--vscode-editorWidget-background"
+      ]
+    },
+    "currentFindMatch": {
+      "tokensUsed": [
+        "--vscode-editor-findMatchBackground",
+        "--vscode-editor-findMatchBorder"
+      ]
+    },
+    "findScope": {
+      "tokensUsed": [
+        "--vscode-editor-findRangeHighlightBackground"
+      ]
+    },
+    "floating-menu-overlay-widget": {
+      "tokensUsed": [
+        "--vscode-button-foreground",
+        "--vscode-contrastBorder",
+        "--vscode-menu-separatorBackground",
+        "--vscode-widget-shadow"
+      ]
+    },
+    "codicon-folding-manual-collapsed": {
+      "tokensUsed": [
+        "--vscode-editorGutter-foldingControlForeground"
+      ]
+    },
+    "codicon-folding-manual-expanded": {
+      "tokensUsed": [
+        "--vscode-editorGutter-foldingControlForeground"
+      ]
+    },
+    "codicon-folding-expanded": {
+      "tokensUsed": [
+        "--vscode-editorGutter-foldingControlForeground",
+        "--vscode-editorStickyScroll-foldingOpacityTransition"
+      ]
+    },
+    "codicon-folding-collapsed": {
+      "tokensUsed": [
+        "--vscode-editorGutter-foldingControlForeground",
+        "--vscode-editorStickyScroll-foldingOpacityTransition"
+      ]
+    },
+    "inline-folded": {
+      "tokensUsed": [
+        "--vscode-editor-foldPlaceholderForeground"
+      ]
+    },
+    "folded-background": {
+      "tokensUsed": [
+        "--vscode-editor-foldBackground"
+      ]
+    },
+    "marker-widget": {
+      "tokensUsed": [
+        "--vscode-textLink-activeForeground"
+      ]
+    },
+    "descriptioncontainer": {
+      "tokensUsed": [
+        "--vscode-textLink-activeForeground"
+      ]
+    },
+    "codicon-error": {
+      "tokensUsed": [
+        "--vscode-problemsErrorIcon-foreground"
+      ]
+    },
+    "markers-panel": {
+      "tokensUsed": [
+        "--vscode-problemsInfoIcon-foreground"
+      ]
+    },
+    "marker-icon": {
+      "tokensUsed": [
+        "--vscode-problemsInfoIcon-foreground"
+      ]
+    },
+    "text-search-provider-messages": {
+      "tokensUsed": [
+        "--vscode-problemsInfoIcon-foreground"
+      ]
+    },
+    "providerMessage": {
+      "tokensUsed": [
+        "--vscode-problemsInfoIcon-foreground"
+      ]
+    },
+    "extensions-viewlet": {
+      "tokensUsed": [
+        "--vscode-problemsInfoIcon-foreground"
+      ]
+    },
+    "extensions": {
+      "tokensUsed": [
+        "--vscode-problemsInfoIcon-foreground"
+      ]
+    },
+    "extension-editor": {
+      "tokensUsed": [
+        "--vscode-problemsInfoIcon-foreground"
+      ]
+    },
+    "chat-attached-context-attachment": {
+      "tokensUsed": [
+        "--vscode-problemsErrorIcon-foreground"
+      ]
+    },
+    "codicon-warning": {
+      "tokensUsed": [
+        "--vscode-problemsWarningIcon-foreground"
+      ]
+    },
+    "warning": {
+      "tokensUsed": [
+        "--monaco-editor-warning-decoration",
+        "--vscode-editorWarning-border",
+        "--vscode-problemsWarningIcon-foreground"
+      ]
+    },
+    "preferences-editor": {
+      "tokensUsed": [
+        "--vscode-problemsWarningIcon-foreground"
+      ]
+    },
+    "codicon-info": {
+      "tokensUsed": [
+        "--vscode-problemsInfoIcon-foreground"
+      ]
+    },
+    "goto-definition-link": {
+      "tokensUsed": [
+        "--vscode-editorLink-activeForeground"
+      ]
+    },
+    "valueSetReplacement": {
+      "tokensUsed": [
+        "--vscode-editorBracketMatch-border"
+      ]
+    },
+    "snippet-placeholder": {
+      "tokensUsed": [
+        "--vscode-editor-snippetTabstopHighlightBackground",
+        "--vscode-editor-snippetTabstopHighlightBorder"
+      ]
+    },
+    "finish-snippet-placeholder": {
+      "tokensUsed": [
+        "--vscode-editor-snippetFinalTabstopHighlightBackground",
+        "--vscode-editor-snippetFinalTabstopHighlightBorder"
+      ]
+    },
+    "suggest-widget": {
+      "tokensUsed": [
+        "--vscode-editorSuggestWidget-background",
+        "--vscode-editorSuggestWidget-border"
+      ]
+    },
+    "suggest-details": {
+      "tokensUsed": [
+        "--monaco-monospace-font",
+        "--vscode-focusBorder",
+        "--vscode-textCodeBlock-background",
+        "--vscode-textLink-activeForeground"
+      ]
+    },
+    "suggest-status-bar": {
+      "tokensUsed": [
+        "--vscode-editorSuggestWidget-border",
+        "--vscode-editorSuggestWidgetStatus-foreground"
+      ]
+    },
+    "with-status-bar": {
+      "tokensUsed": [
+        "--vscode-editorSuggestWidgetStatus-foreground"
+      ]
+    },
+    "docs": {
+      "tokensUsed": [
+        "--monaco-monospace-font",
+        "--vscode-textCodeBlock-background",
+        "--vscode-textLink-activeForeground"
+      ]
+    },
+    "ghost-text-decoration": {
+      "tokensUsed": [
+        "--vscode-editorGhostText-background",
+        "--vscode-editorGhostText-border",
+        "--vscode-editorGhostText-foreground",
+        "--vscode-editorWarning-border",
+        "--vscode-inlineEdit-modifiedChangedTextBackground"
+      ]
+    },
+    "suggest-preview-text": {
+      "tokensUsed": [
+        "--vscode-editorGhostText-background",
+        "--vscode-editorGhostText-border",
+        "--vscode-editorGhostText-foreground",
+        "--vscode-editorWarning-border",
+        "--vscode-inlineEdit-modifiedChangedTextBackground"
+      ]
+    },
+    "ghost-text": {
+      "tokensUsed": [
+        "--vscode-editorGhostText-background",
+        "--vscode-editorGhostText-border",
+        "--vscode-editorGhostText-foreground",
+        "--vscode-editorWarning-border",
+        "--vscode-inlineEdit-modifiedChangedTextBackground"
+      ]
+    },
+    "ghost-text-decoration-preview": {
+      "tokensUsed": [
+        "--vscode-editorGhostText-background",
+        "--vscode-editorGhostText-border",
+        "--vscode-editorGhostText-foreground",
+        "--vscode-editorWarning-border",
+        "--vscode-inlineEdit-modifiedChangedTextBackground"
+      ]
+    },
+    "syntax-highlighted": {
+      "tokensUsed": [
+        "--vscode-editorGhostText-foreground"
+      ]
+    },
+    "ghost-text-view-warning-widget-icon": {
+      "tokensUsed": [
+        "--vscode-editorWarning-foreground"
+      ]
+    },
+    "edits-fadeout-decoration": {
+      "tokensUsed": [
+        "--animation-opacity",
+        "--vscode-inlineEdit-modifiedChangedTextBackground"
+      ]
+    },
+    "sticky-widget": {
+      "tokensUsed": [
+        "--vscode-editorLineNumber-foreground",
+        "--vscode-editorStickyScroll-border",
+        "--vscode-editorStickyScroll-foldingOpacityTransition",
+        "--vscode-editorStickyScroll-scrollableWidth",
+        "--vscode-editorStickyScroll-shadow",
+        "--vscode-editorStickyScrollHover-background"
+      ]
+    },
+    "sticky-widget-line-numbers": {
+      "tokensUsed": [
+        "--vscode-peekViewEditorStickyScrollGutter-background"
+      ]
+    },
+    "peek": {
+      "tokensUsed": [
+        "--vscode-peekViewEditorStickyScroll-background"
+      ]
+    },
+    "sticky-widget-lines-scrollable": {
+      "tokensUsed": [
+        "--vscode-editorStickyScroll-scrollableWidth",
+        "--vscode-peekViewEditorStickyScroll-background"
+      ]
+    },
+    "sticky-line-number": {
+      "tokensUsed": [
+        "--vscode-editorLineNumber-foreground",
+        "--vscode-editorStickyScroll-foldingOpacityTransition"
+      ]
+    },
+    "sticky-line-content": {
+      "tokensUsed": [
+        "--vscode-editorLineNumber-foreground",
+        "--vscode-editorStickyScroll-scrollableWidth",
+        "--vscode-editorStickyScrollHover-background"
+      ]
+    },
+    "inline-edits-view-indicator": {
+      "tokensUsed": [
+        "--vscode-inlineEdit-gutterIndicator-background",
+        "--vscode-inlineEdit-gutterIndicator-primaryBorder",
+        "--vscode-inlineEdit-gutterIndicator-primaryForeground"
+      ]
+    },
+    "inlineCompletions-line-insert": {
+      "tokensUsed": [
+        "--vscode-inlineEdit-modifiedChangedLineBackground"
+      ]
+    },
+    "inlineCompletions-line-delete": {
+      "tokensUsed": [
+        "--vscode-inlineEdit-originalChangedLineBackground"
+      ]
+    },
+    "inlineCompletions-char-insert": {
+      "tokensUsed": [
+        "--vscode-inlineEdit-modifiedBorder",
+        "--vscode-inlineEdit-modifiedChangedTextBackground"
+      ]
+    },
+    "inlineCompletions-char-delete": {
+      "tokensUsed": [
+        "--vscode-editorHoverWidget-border",
+        "--vscode-inlineEdit-originalChangedTextBackground"
+      ]
+    },
+    "single-line-inline": {
+      "tokensUsed": [
+        "--vscode-editorHoverWidget-border",
+        "--vscode-inlineEdit-modifiedBorder"
+      ]
+    },
+    "inlineCompletions-modified-bubble": {
+      "tokensUsed": [
+        "--vscode-inlineEdit-modifiedChangedTextBackground"
+      ]
+    },
+    "inlineCompletions-original-bubble": {
+      "tokensUsed": [
+        "--vscode-inlineEdit-originalChangedTextBackground"
+      ]
+    },
+    "inline-edit": {
+      "tokensUsed": [
+        "--vscode-inlineEdit-modifiedChangedTextBackground"
+      ]
+    },
+    "modified-background": {
+      "tokensUsed": [
+        "--vscode-inlineEdit-modifiedChangedTextBackground"
+      ]
+    },
+    "inlineCompletions-original-lines": {
+      "tokensUsed": [
+        "--vscode-editor-background"
+      ]
+    },
+    "monaco-menu-option": {
+      "tokensUsed": [
+        "--vscode-editorActionList-focusBackground",
+        "--vscode-editorActionList-focusForeground",
+        "--vscode-menu-selectionBorder"
+      ]
+    },
+    "tokens-inspect-widget": {
+      "tokensUsed": [
+        "--monaco-monospace-font",
+        "--vscode-editorHoverWidget-border",
+        "--vscode-editorHoverWidget-foreground"
+      ]
+    },
+    "tokens-inspect-separator": {
+      "tokensUsed": [
+        "--vscode-editorHoverWidget-border"
+      ]
+    },
+    "tm-token": {
+      "tokensUsed": [
+        "--monaco-monospace-font"
+      ]
+    },
+    "tm-metadata-value": {
+      "tokensUsed": [
+        "--monaco-monospace-font"
+      ]
+    },
+    "tm-token-type": {
+      "tokensUsed": [
+        "--monaco-monospace-font"
+      ]
+    },
+    "linked-editing-decoration": {
+      "tokensUsed": [
+        "--vscode-editor-linkedEditingBackground"
+      ]
+    },
+    "detected-link-active": {
+      "tokensUsed": [
+        "--vscode-editorLink-activeForeground"
+      ]
+    },
+    "scroll-editor-on-middle-click-dot": {
+      "tokensUsed": [
+        "--vscode-editor-background",
+        "--vscode-editor-foreground"
+      ]
+    },
+    "selectionHighlight": {
+      "tokensUsed": [
+        "--vscode-editor-selectionHighlightBackground",
+        "--vscode-editor-selectionHighlightBorder"
+      ]
+    },
+    "wordHighlight": {
+      "tokensUsed": [
+        "--vscode-editor-wordHighlightBackground",
+        "--vscode-editor-wordHighlightBorder"
+      ]
+    },
+    "wordHighlightStrong": {
+      "tokensUsed": [
+        "--vscode-editor-wordHighlightStrongBackground",
+        "--vscode-editor-wordHighlightStrongBorder"
+      ]
+    },
+    "wordHighlightText": {
+      "tokensUsed": [
+        "--vscode-editor-wordHighlightTextBackground",
+        "--vscode-editor-wordHighlightTextBorder"
+      ]
+    },
+    "parameter-hints-widget": {
+      "tokensUsed": [
+        "--monaco-monospace-font",
+        "--vscode-editorHoverWidget-border",
+        "--vscode-editorHoverWidget-highlightForeground",
+        "--vscode-textCodeBlock-background"
+      ]
+    },
+    "multiple": {
+      "tokensUsed": [
+        "--vscode-editorHoverWidget-border"
+      ]
+    },
+    "signature": {
+      "tokensUsed": [
+        "--vscode-editorHoverWidget-border",
+        "--vscode-editorHoverWidget-highlightForeground"
+      ]
+    },
+    "has-docs": {
+      "tokensUsed": [
+        "--vscode-editorHoverWidget-border"
+      ]
+    },
+    "overloads": {
+      "tokensUsed": [
+        "--monaco-monospace-font"
+      ]
+    },
+    "parameter": {
+      "tokensUsed": [
+        "--vscode-editorHoverWidget-highlightForeground"
+      ]
+    },
+    "editorPlaceholder": {
+      "tokensUsed": [
+        "--vscode-editor-placeholder-foreground"
+      ]
+    },
+    "rename-box": {
+      "tokensUsed": [
+        "--vscode-toolbar-hoverBackground"
+      ]
+    },
+    "rename-suggestions-button": {
+      "tokensUsed": [
+        "--vscode-toolbar-hoverBackground"
+      ]
+    },
+    "unicode-highlight": {
+      "tokensUsed": [
+        "--vscode-editorUnicodeHighlight-background",
+        "--vscode-editorUnicodeHighlight-border"
+      ]
+    },
+    "editor-banner": {
+      "tokensUsed": [
+        "--vscode-banner-background",
+        "--vscode-banner-iconForeground"
+      ]
+    },
+    "icon-container": {
+      "tokensUsed": [
+        "--vscode-banner-iconForeground"
+      ]
+    },
+    "message-actions-container": {
+      "tokensUsed": [
+        "--vscode-banner-foreground"
+      ]
+    },
+    "monaco-link": {
+      "tokensUsed": [
+        "--vscode-textLink-activeForeground"
+      ]
+    },
+    "sf-progress-bar": {
+      "tokensUsed": [
+        "--sf-a8",
+        "--sf-primary",
+        "--width"
+      ]
+    },
+    "sf-slider-track": {
+      "tokensUsed": [
+        "--left",
+        "--right",
+        "--sf-primary",
+        "--sf-surface-overlay"
+      ]
+    },
+    "sf-loader-container": {
+      "tokensUsed": [
+        "--i",
+        "--sf-a5",
+        "--sf-b0",
+        "--sf-b6",
+        "--sf-d6",
+        "--sf-loader--color",
+        "--sf-loader-points-span--diameter",
+        "--sf-on-surface",
+        "--sf-primary",
+        "--sf-surface-4",
+        "--sf-text--family",
+        "--sf-text--size"
+      ]
+    },
+    "sf-loader--circles": {
+      "tokensUsed": [
+        "--i",
+        "--sf-a6",
+        "--sf-loader--color",
+        "--sf-loader-points-span--diameter"
+      ]
+    },
+    "swiper-vertical": {
+      "tokensUsed": [
+        "--swiper-centered-offset-after",
+        "--swiper-centered-offset-before"
+      ]
+    },
+    "swiper-wrapper": {
+      "tokensUsed": [
+        "--swiper-centered-offset-after",
+        "--swiper-centered-offset-before"
+      ]
+    },
+    "swiper-slide": {
+      "tokensUsed": [
+        "--swiper-centered-offset-before"
+      ]
+    },
+    "swiper-horizontal": {
+      "tokensUsed": [
+        "--swiper-centered-offset-after",
+        "--swiper-centered-offset-before"
+      ]
+    },
+    "swiper-centered": {
+      "tokensUsed": [
+        "--swiper-centered-offset-after",
+        "--swiper-centered-offset-before"
+      ]
+    }
+  }
+}

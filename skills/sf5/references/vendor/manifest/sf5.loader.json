@@ -1,0 +1,14 @@
+{
+  "pluginDiscovery": {
+    "defaultAttr": "sf-asset",
+    "findPlugins": "object: {<pluginName>: {regex: /.../, type: 'component'|'smart'|'framework'}}",
+    "mutationObserver": true,
+    "canOverrideAttr": true
+  },
+  "dynamicJsCss": {
+    "supportsCdnUrl": true,
+    "supportsLocalPath": true,
+    "avoidsDuplicateLoads": true,
+    "async": true
+  }
+}

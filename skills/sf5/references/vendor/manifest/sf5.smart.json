@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-02-12T07:37:13.101Z",
+  "smart": [
+    {
+      "name": "fancybox",
+      "sf_code": null,
+      "regex": "/data-fancybox/",
+      "mode": "component",
+      "type": "attribute",
+      "requires_js": true,
+      "requires_css": true,
+      "relation": [
+        {
+          "name": "jquery",
+          "mode": "component",
+          "js": true
+        }
+      ]
+    },
+    {
+      "name": "hideShow",
+      "sf_code": null,
+      "regex": "/sf-hide-show/",
+      "mode": null,
+      "type": "component",
+      "requires_js": true,
+      "requires_css": false,
+      "relation": []
+    },
+    {
+      "name": "highlight",
+      "sf_code": null,
+      "regex": "/(?:class\\s*=\\s*[\"'][^\"']*language-[^\"']*[\"']|<pre\\b[^>]*>\\s*<code\\b[^>]*>)/i",
+      "mode": null,
+      "type": "component",
+      "requires_js": true,
+      "requires_css": true,
+      "relation": []
+    },
+    {
+      "name": "cl-accordion",
+      "sf_code": "accordion",
+      "regex": "/sf-code=\"accordion\"/",
+      "mode": "smart",
+      "type": "smart",
+      "requires_js": true,
+      "requires_css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-ajax",
+      "sf_code": "ajax",
+      "regex": "/sf-code=\"ajax\"/",
+      "mode": "smart",
+      "type": "smart",
+      "requires_js": true,
+      "requires_css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-button",
+      "sf_code": "button",
+      "regex": "/sf-code=\"button\"/",
+      "mode": "smart",
+      "type": "smart",
+      "requires_js": true,
+      "requires_css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-buttons",
+      "sf_code": "buttons",
+      "regex": "/sf-code=\"buttons\"/",
+      "mode": "smart",
+      "type": "smart",
+      "requires_js": true,
+      "requires_css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-cards",
+      "sf_code": "cards",
+      "regex": "/sf-code=\"cards\"/",
+      "mode": "smart",
+      "type": "smart",
+      "requires_js": true,
+      "requires_css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-close",
+      "sf_code": "close",
+      "regex": "/sf-code=\"close\"/",
+      "mode": "smart",
+      "type": "smart",
+      "requires_js": true,
+      "requires_css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-contentDivider",
+      "sf_code": "contentDivider",
+      "regex": "/sf-code=\"contentDivider\"/",
+      "mode": "smart",
+      "type": "smart",
+      "requires_js": true,
+      "requires_css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-debug",
+      "sf_code": "debug",
+      "regex": "/sf-code=\"debug\"/",
+      "mode": "smart",
+      "type": "smart",
+      "requires_js": true,
+      "requires_css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-edit",
+      "sf_code": "edit",
+      "regex": "/sf-code=\"edit\"/",
+      "mode": "smart",
+      "type": "smart",
+      "requires_js": true,
+      "requires_css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-icons",
+      "sf_code": "icons",
+      "regex": "/sf-code=\"icons\"/",
+      "mode": "smart",
+      "type": "smart",
+      "requires_js": true,
+      "requires_css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-inputs",
+      "sf_code": "inputs",
+      "regex": "/sf-code=\"inputs\"/",
+      "mode": "smart",
+      "type": "smart",
+      "requires_js": true,
+      "requires_css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-list",
+      "sf_code": "list",
+      "regex": "/sf-code=\"list\"/",
+      "mode": "smart",
+      "type": "smart",
+      "requires_js": true,
+      "requires_css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-news",
+      "sf_code": "news",
+      "regex": "/sf-code=\"news\"/",
+      "mode": "smart",
+      "type": "smart",
+      "requires_js": true,
+      "requires_css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-pagination",
+      "sf_code": "pagination",
+      "regex": "/sf-code=\"pagination\"/",
+      "mode": "smart",
+      "type": "smart",
+      "requires_js": true,
+      "requires_css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-search",
+      "sf_code": "search",
+      "regex": "/sf-code=\"search\"/",
+      "mode": "smart",
+      "type": "smart",
+      "requires_js": true,
+      "requires_css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-select",
+      "sf_code": "select",
+      "regex": "/sf-code=\"select\"/",
+      "mode": "smart",
+      "type": "smart",
+      "requires_js": true,
+      "requires_css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-sfAccordion",
+      "sf_code": "sfAccordion",
+      "regex": "/sf-code=\"sfAccordion\"/",
+      "mode": "smart",
+      "type": "smart",
+      "requires_js": true,
+      "requires_css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-span",
+      "sf_code": "span",
+      "regex": "/sf-code=\"span\"/",
+      "mode": "smart",
+      "type": "smart",
+      "requires_js": true,
+      "requires_css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-table",
+      "sf_code": "table",
+      "regex": "/sf-code=\"table\"/",
+      "mode": "smart",
+      "type": "smart",
+      "requires_js": true,
+      "requires_css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-tabs",
+      "sf_code": "tabs",
+      "regex": "/sf-code=\"tabs\"/",
+      "mode": "smart",
+      "type": "smart",
+      "requires_js": true,
+      "requires_css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-tags",
+      "sf_code": "tags",
+      "regex": "/sf-code=\"tags\"/",
+      "mode": "smart",
+      "type": "smart",
+      "requires_js": true,
+      "requires_css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-text",
+      "sf_code": "text",
+      "regex": "/sf-code=\"text\"/",
+      "mode": "smart",
+      "type": "smart",
+      "requires_js": true,
+      "requires_css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-textarea",
+      "sf_code": "textarea",
+      "regex": "/sf-code=\"textarea\"/",
+      "mode": "smart",
+      "type": "smart",
+      "requires_js": true,
+      "requires_css": false,
+      "relation": []
+    }
+  ]
+}

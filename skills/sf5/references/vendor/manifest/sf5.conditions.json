@@ -1,0 +1,21 @@
+{
+  "states": [
+    "hover",
+    "focus",
+    "active"
+  ],
+  "breakpoints": [
+    "sm",
+    "md",
+    "lg",
+    "xl",
+    "xxl"
+  ],
+  "breakpointVariables": {
+    "--sf-breakpoint-sm": "--sf-g8",
+    "--sf-breakpoint-md": "--sf-h2",
+    "--sf-breakpoint-lg": "--sf-h5",
+    "--sf-breakpoint-xl": "--sf-h8",
+    "--sf-breakpoint-xxl": "--sf-i2"
+  }
+}

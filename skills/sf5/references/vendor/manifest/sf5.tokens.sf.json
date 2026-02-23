@@ -1,0 +1,3970 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-02-12T07:37:13.101Z",
+  "sfTokens": {
+    "--sf-radius-1\\/2": {
+      "value": "var(--sf-a4)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-radius-1": {
+      "value": "var(--sf-a8)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-radius-2": {
+      "value": "var(--sf-b2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-radius-3": {
+      "value": "var(--sf-c2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-radius-4": {
+      "value": "var(--sf-d2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-radius-circle": {
+      "value": "1000px",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-radius-default": {
+      "value": "var(--sf-a4)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-radius-square": {
+      "value": "0",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-radius-rounded": {
+      "value": "1000px",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-radius-round": {
+      "value": "var(--sf-radius-rounded)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-focus-outline-width": {
+      "value": "var(--sf-a4)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-border--width": {
+      "value": "0",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-border--style": {
+      "value": "solid",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-border--color": {
+      "value": "var(--sf-transparent)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-radius--ui": {
+      "value": "var(--sf-radius-1\\/3)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-focus--offset": {
+      "value": "var(--sf-a0)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-focus--style": {
+      "value": "solid",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-focus--width": {
+      "value": "var(--sf-a4)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-space-0": {
+      "value": "0",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-space-1\\/4": {
+      "value": "var(--sf-a4)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-space-1\\/3": {
+      "value": "var(--sf-a8)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-space-1\\/2": {
+      "value": "var(--sf-b2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-space-1": {
+      "value": "var(--sf-b6)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-space-2": {
+      "value": "var(--sf-c0)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-space-3": {
+      "value": "var(--sf-c2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-space-4": {
+      "value": "var(--sf-c6)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-space-5": {
+      "value": "var(--sf-d0)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-space-6": {
+      "value": "var(--sf-d2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-space-7": {
+      "value": "var(--sf-d6)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-space-8": {
+      "value": "var(--sf-e0)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-blur-small": {
+      "value": "blur(var(--sf-blur-small))",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-blur-medium": {
+      "value": "blur(var(--sf-blur-medium))",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-blur-large": {
+      "value": "blur(var(--sf-blur-large))",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-blur-surface-overlay": {
+      "value": "blur(var(--sf-surface-overlay--blur))",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-focus": {
+      "value": "0px 0px 0px var(--sf-focus-outline-width) var(--sf-focus)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-shadow-1": {
+      "value": "0px 2px 4px 1px var(--sf-shadow--color-shading), 0px 1px 3px 0px var(--sf-shadow--color-outline), 0px 2px 2px -1px var(--sf-shadow--color-fill)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-shadow-2": {
+      "value": "0px 4px 8px 2px var(--sf-shadow--color-shading), 0px 2px 6px 0px var(--sf-shadow--color-outline), 0px 4px 4px -2px var(--sf-shadow--color-fill)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-shadow-3": {
+      "value": "0px 8px 16px 4px var(--sf-shadow--color-shading), 0px 4px 12px 0px var(--sf-shadow--color-outline), 0px 8px 8px -4px var(--sf-shadow--color-fill)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-shadow-4": {
+      "value": "0px 16px 32px 4px var(--sf-shadow--color-shading), 0px 8px 24px 0px var(--sf-shadow--color-outline), 0px 16px 16px -8px var(--sf-shadow--color-fill)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-shadow-5": {
+      "value": "0px 32px 64px 8px var(--sf-shadow--color-shading), 0px 16px 48px 0px var(--sf-shadow--color-outline), 0px 32px 32px -16px var(--sf-shadow--color-fill)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-gradient-light": {
+      "value": "linear-gradient(0deg, rgba(212, 212, 217, 1) 0%, rgba(241, 240, 246, 1) 100%)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-gradient-dark": {
+      "value": "linear-gradient(0deg, rgba(58, 59, 64, 1) 0%, rgba(36, 38, 42, 1) 100%)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-skeleton": {
+      "value": "linear-gradient(179.99999990539914deg, rgba(204, 204, 204, 0.5) 0%, rgba(136, 136, 136, 0.5) 100%)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-empty": {
+      "value": " ",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-alfa": {
+      "value": "1",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-0": {
+      "value": "0rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-px": {
+      "value": "1px",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-auto": {
+      "value": "auto",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-a0": {
+      "value": "0rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-a1": {
+      "value": "0.0625rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-a2": {
+      "value": "0.125rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-a3": {
+      "value": "0.1875rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-a4": {
+      "value": "0.25rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-a5": {
+      "value": "0.3125rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-a6": {
+      "value": "0.375rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-a7": {
+      "value": "0.4375rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-a8": {
+      "value": "0.5rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-a9": {
+      "value": "0.5625rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-b0": {
+      "value": "0.625rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-b1": {
+      "value": "0.6875rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-b2": {
+      "value": "0.75rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-b3": {
+      "value": "0.8125rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-b4": {
+      "value": "0.875rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-b5": {
+      "value": "0.9375rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-b6": {
+      "value": "1rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-b7": {
+      "value": "1.0625rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-b8": {
+      "value": "1.125rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-b9": {
+      "value": "1.1875rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-c0": {
+      "value": "1.25rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-c1": {
+      "value": "1.375rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-c2": {
+      "value": "1.5rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-c3": {
+      "value": "1.625rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-c4": {
+      "value": "1.75rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-c5": {
+      "value": "1.875rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-c6": {
+      "value": "2rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-c7": {
+      "value": "2.125rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-c8": {
+      "value": "2.25rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-c9": {
+      "value": "2.375rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-d0": {
+      "value": "2.5rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-d1": {
+      "value": "2.75rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-d2": {
+      "value": "3rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-d3": {
+      "value": "3.25rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-d4": {
+      "value": "3.5rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-d5": {
+      "value": "3.75rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-d6": {
+      "value": "4rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-d7": {
+      "value": "4.25rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-d8": {
+      "value": "4.5rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-d9": {
+      "value": "4.75rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-e0": {
+      "value": "5rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-e1": {
+      "value": "5.5rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-e2": {
+      "value": "6rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-e3": {
+      "value": "6.5rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-e4": {
+      "value": "7rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-e5": {
+      "value": "7.5rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-e6": {
+      "value": "8rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-e7": {
+      "value": "8.5rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-e8": {
+      "value": "9rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-e9": {
+      "value": "9.5rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-f0": {
+      "value": "10rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-f1": {
+      "value": "11rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-f2": {
+      "value": "12rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-f3": {
+      "value": "13rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-f4": {
+      "value": "14rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-f5": {
+      "value": "15rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-f6": {
+      "value": "16rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-f7": {
+      "value": "17rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-f8": {
+      "value": "18rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-f9": {
+      "value": "19rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-g0": {
+      "value": "20rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-g1": {
+      "value": "22rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-g2": {
+      "value": "24rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-g3": {
+      "value": "26rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-g4": {
+      "value": "28rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-g5": {
+      "value": "30rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-g6": {
+      "value": "32rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-g7": {
+      "value": "34rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-g8": {
+      "value": "36rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-g9": {
+      "value": "38rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-h0": {
+      "value": "40rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-h1": {
+      "value": "44rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-h2": {
+      "value": "48rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-h3": {
+      "value": "52rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-h4": {
+      "value": "56rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-h5": {
+      "value": "60rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-h6": {
+      "value": "64rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-h7": {
+      "value": "68rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-h8": {
+      "value": "72rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-h9": {
+      "value": "76rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-i0": {
+      "value": "80rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-i1": {
+      "value": "88rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-i2": {
+      "value": "96rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-i3": {
+      "value": "104rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-i4": {
+      "value": "112rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-i5": {
+      "value": "120rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-i6": {
+      "value": "128rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-i7": {
+      "value": "136rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-i8": {
+      "value": "144rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-i9": {
+      "value": "152rem",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-z-index--1": {
+      "value": "-1",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-z-index-1": {
+      "value": "10",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-z-index-2": {
+      "value": "20",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-z-index-3": {
+      "value": "30",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-z-index-4": {
+      "value": "40",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-z-index-5": {
+      "value": "50",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-z-index-6": {
+      "value": "60",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-z-index-7": {
+      "value": "70",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-z-index-8": {
+      "value": "80",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-z-index-9": {
+      "value": "90",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-z-index-0": {
+      "value": "0",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-color--alfa": {
+      "value": "1",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-decoration--alfa": {
+      "value": "1",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-border--alfa": {
+      "value": "1",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-divider--alfa": {
+      "value": "1",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-outline--alfa": {
+      "value": "1",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ring--alfa": {
+      "value": "1",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-bg--alfa": {
+      "value": "1",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-stripe--alfa": {
+      "value": "1",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ring-color": {
+      "value": " ",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-gradient--angle": {
+      "value": "90deg",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-gradient--alfa-1": {
+      "value": "1",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-gradient--alfa-2": {
+      "value": "1",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-gradient--alfa-3": {
+      "value": "1",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-stripe--size": {
+      "value": "var(--sf-a1, 1px)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-accent--alfa": {
+      "value": "1",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-caret--alfa": {
+      "value": "1",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-scroll--alfa": {
+      "value": "1",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-scroll-thumb--alfa": {
+      "value": "1",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-scroll-track--alfa": {
+      "value": "1",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-stripe--color": {
+      "value": "var(--sf-color--surface-inverse)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-drop-shadow--alfa": {
+      "value": "1",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-shadow--alfa": {
+      "value": "1",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-transparent": {
+      "value": "rgba(255,255,255,0)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-transparent-for-focus": {
+      "value": "rgba(255,255,255,0)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-white": {
+      "value": "#ffffff",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-white--alfa-4": {
+      "value": "rgba(255,255,255,0.03922)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-white--alfa-8": {
+      "value": "rgba(255,255,255,0.07843)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-white--alfa-12": {
+      "value": "rgba(255,255,255,0.12157)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-white--alfa-24": {
+      "value": "rgba(255,255,255,0.23922)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-white--alfa-48": {
+      "value": "rgba(255,255,255,0.47843)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-black": {
+      "value": "#000000",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-black--alfa-4": {
+      "value": "rgba(0,0,0,0.03922)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-black--alfa-8": {
+      "value": "rgba(0,0,0,0.07843)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-black--alfa-12": {
+      "value": "rgba(0,0,0,0.12157)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-black--alfa-24": {
+      "value": "rgba(0,0,0,0.23922)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-black--alfa-48": {
+      "value": "rgba(0,0,0,0.47843)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-neutral-98": {
+      "value": "#faf9fe",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-neutral-95": {
+      "value": "#f1f0f6",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-neutral-90": {
+      "value": "#e3e2e7",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-neutral-90--alfa-10": {
+      "value": "rgba(227,226,231,0.10196)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-neutral-90--alfa-15": {
+      "value": "rgba(227,226,231,0.14902)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-neutral-90--alfa-4": {
+      "value": "rgba(227,226,231,0.03922)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-neutral-90--alfa-8": {
+      "value": "rgba(227,226,231,0.07843)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-neutral-90--alfa-12": {
+      "value": "rgba(227,226,231,0.12157)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-neutral-90--alfa-24": {
+      "value": "rgba(227,226,231,0.23922)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-neutral-90--alfa-48": {
+      "value": "rgba(227,226,231,0.47843)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-neutral-85": {
+      "value": "#d4d4d9",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-neutral-80": {
+      "value": "#c6c6cb",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-neutral-70": {
+      "value": "#ababb0",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-neutral-60": {
+      "value": "#909095",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-neutral-50": {
+      "value": "#76777c",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-neutral-50--alfa-12": {
+      "value": "rgba(118,119,124,0.12157)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-neutral-50--alfa-16": {
+      "value": "rgba(118,119,124,0.16078)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-neutral-50--alfa-20": {
+      "value": "rgba(118,119,124,0.2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-neutral-50--alfa-24": {
+      "value": "rgba(118,119,124,0.23922)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-neutral-50--alfa-28": {
+      "value": "rgba(118,119,124,0.27843)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-neutral-50--alfa-32": {
+      "value": "rgba(118,119,124,0.32157)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-neutral-50--alfa-36": {
+      "value": "rgba(118,119,124,0.36078)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-neutral-50--alfa-40": {
+      "value": "rgba(118,119,124,0.4)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-neutral-50--alfa-44": {
+      "value": "rgba(118,119,124,0.43922)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-neutral-40": {
+      "value": "#5d5e63",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-neutral-35": {
+      "value": "#515257",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-neutral-30": {
+      "value": "#45474b",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-neutral-25": {
+      "value": "#3a3b40",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-neutral-20": {
+      "value": "#2f3035",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-neutral-15": {
+      "value": "#24262a",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-neutral-10": {
+      "value": "#1a1b1f",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-neutral-5": {
+      "value": "#0f1115",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-primary-98": {
+      "value": "#f9f9ff",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-secondary-98": {
+      "value": "#f9f9ff",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-tertiary-98": {
+      "value": "#fff7fa",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-tertiary-95": {
+      "value": "#ffebfd",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-tertiary-90": {
+      "value": "#fdd6ff",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-tertiary-90--alfa-4": {
+      "value": "rgba(253,214,255,0.03922)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-tertiary-90--alfa-8": {
+      "value": "rgba(253,214,255,0.07843)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-tertiary-90--alfa-12": {
+      "value": "rgba(253,214,255,0.12157)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-tertiary-90--alfa-24": {
+      "value": "rgba(253,214,255,0.23922)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-tertiary-90--alfa-48": {
+      "value": "rgba(253,214,255,0.47843)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-tertiary-85": {
+      "value": "#f9c2ff",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-tertiary-80": {
+      "value": "#ecb3f4",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-tertiary-70": {
+      "value": "#cf98d8",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-tertiary-60": {
+      "value": "#b37ebb",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-tertiary-50": {
+      "value": "#9765a0",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-tertiary-50--alfa-12": {
+      "value": "rgba(151,101,160,0.12157)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-tertiary-50--alfa-16": {
+      "value": "rgba(151,101,160,0.16078)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-tertiary-50--alfa-20": {
+      "value": "rgba(151,101,160,0.2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-tertiary-50--alfa-24": {
+      "value": "rgba(151,101,160,0.23922)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-tertiary-50--alfa-28": {
+      "value": "rgba(151,101,160,0.27843)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-tertiary-50--alfa-32": {
+      "value": "rgba(151,101,160,0.32157)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-tertiary-50--alfa-36": {
+      "value": "rgba(151,101,160,0.36078)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-tertiary-50--alfa-40": {
+      "value": "rgba(151,101,160,0.4)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-tertiary-50--alfa-44": {
+      "value": "rgba(151,101,160,0.43922)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-tertiary-40": {
+      "value": "#7c4c86",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-tertiary-35": {
+      "value": "#6f4079",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-tertiary-30": {
+      "value": "#63356c",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-tertiary-25": {
+      "value": "#562960",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-tertiary-20": {
+      "value": "#4a1e54",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-tertiary-15": {
+      "value": "#3e1249",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-tertiary-10": {
+      "value": "#32053e",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-tertiary-5": {
+      "value": "#23002d",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-secondary-95": {
+      "value": "#edf0ff",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-secondary-90": {
+      "value": "#d7e2ff",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-secondary-90--alfa-4": {
+      "value": "rgba(215,226,255,0.03922)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-secondary-90--alfa-8": {
+      "value": "rgba(215,226,255,0.07843)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-secondary-90--alfa-12": {
+      "value": "rgba(215,226,255,0.12157)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-secondary-90--alfa-24": {
+      "value": "rgba(215,226,255,0.23922)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-secondary-90--alfa-48": {
+      "value": "rgba(215,226,255,0.47843)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-secondary-85": {
+      "value": "#c9d4f1",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-secondary-80": {
+      "value": "#bbc6e3",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-secondary-70": {
+      "value": "#a0abc7",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-secondary-60": {
+      "value": "#8591ab",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-secondary-50": {
+      "value": "#6c7791",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-secondary-50--alfa-12": {
+      "value": "rgba(108,119,145,0.12157)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-secondary-50--alfa-16": {
+      "value": "rgba(108,119,145,0.16078)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-secondary-50--alfa-20": {
+      "value": "rgba(108,119,145,0.2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-secondary-50--alfa-24": {
+      "value": "rgba(108,119,145,0.23922)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-secondary-50--alfa-28": {
+      "value": "rgba(108,119,145,0.27843)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-secondary-50--alfa-32": {
+      "value": "rgba(108,119,145,0.32157)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-secondary-50--alfa-36": {
+      "value": "rgba(108,119,145,0.36078)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-secondary-50--alfa-40": {
+      "value": "rgba(108,119,145,0.4)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-secondary-50--alfa-44": {
+      "value": "rgba(108,119,145,0.43922)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-secondary-40": {
+      "value": "#535e77",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-secondary-35": {
+      "value": "#47526a",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-secondary-30": {
+      "value": "#3c475e",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-secondary-25": {
+      "value": "#303b52",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-secondary-20": {
+      "value": "#253047",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-secondary-15": {
+      "value": "#1a263b",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-secondary-10": {
+      "value": "#101b31",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-secondary-5": {
+      "value": "#051126",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-primary-95": {
+      "value": "#edf0ff",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-primary-90": {
+      "value": "#d7e2ff",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-primary-90--alfa-4": {
+      "value": "rgba(215,226,255,0.03922)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-primary-90--alfa-8": {
+      "value": "rgba(215,226,255,0.07843)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-primary-90--alfa-12": {
+      "value": "rgba(215,226,255,0.12157)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-primary-90--alfa-24": {
+      "value": "rgba(215,226,255,0.23922)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-primary-90--alfa-48": {
+      "value": "rgba(215,226,255,0.47843)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-primary-85": {
+      "value": "#c2d5ff",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-primary-80": {
+      "value": "#acc7ff",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-info-98": {
+      "value": "#f9f9ff",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-info-95": {
+      "value": "#edf0ff",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-info-90": {
+      "value": "#d7e2ff",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-info-90--alfa-4": {
+      "value": "rgba(215,226,255,0.03922)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-info-90--alfa-8": {
+      "value": "rgba(215,226,255,0.07843)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-info-90--alfa-12": {
+      "value": "rgba(215,226,255,0.12157)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-info-90--alfa-24": {
+      "value": "rgba(215,226,255,0.23922)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-info-90--alfa-48": {
+      "value": "rgba(215,226,255,0.47843)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-info-85": {
+      "value": "#c2d5ff",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-info-80": {
+      "value": "#acc7ff",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-info-70": {
+      "value": "#7eabff",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-info-60": {
+      "value": "#488fff",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-info-50": {
+      "value": "#0073ed",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-info-50--alfa-12": {
+      "value": "rgba(0,115,237,0.12157)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-info-50--alfa-16": {
+      "value": "rgba(0,115,237,0.16078)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-info-50--alfa-20": {
+      "value": "rgba(0,115,237,0.2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-info-50--alfa-24": {
+      "value": "rgba(0,115,237,0.23922)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-info-50--alfa-28": {
+      "value": "rgba(0,115,237,0.27843)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-info-50--alfa-32": {
+      "value": "rgba(0,115,237,0.32157)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-info-50--alfa-36": {
+      "value": "rgba(0,115,237,0.36078)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-info-50--alfa-40": {
+      "value": "rgba(0,115,237,0.4)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-info-50--alfa-44": {
+      "value": "rgba(0,115,237,0.43922)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-info-40": {
+      "value": "#005bbe",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-info-35": {
+      "value": "#0050a7",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-info-30": {
+      "value": "#004491",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-info-25": {
+      "value": "#00397c",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-info-20": {
+      "value": "#002f67",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-info-15": {
+      "value": "#002453",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-info-10": {
+      "value": "#001a40",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-info-5": {
+      "value": "#00102c",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-primary-70": {
+      "value": "#7eabff",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-primary-60": {
+      "value": "#488fff",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-primary-50": {
+      "value": "#0073ed",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-primary-50--alfa-12": {
+      "value": "rgba(0,115,237,0.12157)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-primary-50--alfa-16": {
+      "value": "rgba(0,115,237,0.16078)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-primary-50--alfa-20": {
+      "value": "rgba(0,115,237,0.2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-primary-50--alfa-24": {
+      "value": "rgba(0,115,237,0.23922)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-primary-50--alfa-28": {
+      "value": "rgba(0,115,237,0.27843)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-primary-50--alfa-32": {
+      "value": "rgba(0,115,237,0.32157)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-primary-50--alfa-36": {
+      "value": "rgba(0,115,237,0.36078)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-primary-50--alfa-40": {
+      "value": "rgba(0,115,237,0.4)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-primary-50--alfa-44": {
+      "value": "rgba(0,115,237,0.43922)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-primary-40": {
+      "value": "#005bbe",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-primary-40--alfa-20": {
+      "value": "rgba(0,91,190,0.2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-primary-40--alfa-30": {
+      "value": "rgba(0,91,190,0.30196)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-primary-40--alfa-40": {
+      "value": "rgba(0,91,190,0.4)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-primary-35": {
+      "value": "#0050a7",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-primary-30": {
+      "value": "#004491",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-primary-25": {
+      "value": "#00397c",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-primary-20": {
+      "value": "#002f67",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-primary-15": {
+      "value": "#002453",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-primary-10": {
+      "value": "#001a40",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-primary-10--alfa-4": {
+      "value": "rgba(0,26,64,0.03922)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-primary-10--alfa-8": {
+      "value": "rgba(0,26,64,0.07843)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-primary-10--alfa-12": {
+      "value": "rgba(0,26,64,0.12157)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-primary-10--alfa-24": {
+      "value": "rgba(0,26,64,0.23922)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-primary-10--alfa-48": {
+      "value": "rgba(0,26,64,0.47843)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-primary-5": {
+      "value": "#00102c",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-error-98": {
+      "value": "#fff8f7",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-error-95": {
+      "value": "#ffedea",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-error-90": {
+      "value": "#ffdad6",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-error-90--alfa-4": {
+      "value": "rgba(255,218,214,0.03922)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-error-90--alfa-8": {
+      "value": "rgba(255,218,214,0.07843)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-error-90--alfa-12": {
+      "value": "rgba(255,218,214,0.12157)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-error-90--alfa-24": {
+      "value": "rgba(255,218,214,0.23922)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-error-90--alfa-48": {
+      "value": "rgba(255,218,214,0.47843)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-error-85": {
+      "value": "#ffc7c0",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-error-80": {
+      "value": "#ffb4ab",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-error-70": {
+      "value": "#ff897d",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-error-60": {
+      "value": "#ff5449",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-error-50": {
+      "value": "#df362f",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-error-50--alfa-12": {
+      "value": "rgba(223,54,47,0.12157)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-error-50--alfa-16": {
+      "value": "rgba(223,54,47,0.16078)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-error-50--alfa-20": {
+      "value": "rgba(223,54,47,0.2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-error-50--alfa-24": {
+      "value": "rgba(223,54,47,0.23922)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-error-50--alfa-28": {
+      "value": "rgba(223,54,47,0.27843)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-error-50--alfa-32": {
+      "value": "rgba(223,54,47,0.32157)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-error-50--alfa-36": {
+      "value": "rgba(223,54,47,0.36078)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-error-50--alfa-40": {
+      "value": "rgba(223,54,47,0.4)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-error-50--alfa-44": {
+      "value": "rgba(223,54,47,0.43922)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-error-40": {
+      "value": "#bb1919",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-error-35": {
+      "value": "#a9040e",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-error-30": {
+      "value": "#93000a",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-error-25": {
+      "value": "#7e0007",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-error-20": {
+      "value": "#690005",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-error-15": {
+      "value": "#540003",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-error-10": {
+      "value": "#410002",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-error-5": {
+      "value": "#2d0001",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-warning-98": {
+      "value": "#fff8f5",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-warning-95": {
+      "value": "#ffeee2",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-warning-90": {
+      "value": "#ffdcc1",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-warning-90--alfa-4": {
+      "value": "rgba(255,220,193,0.03922)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-warning-90--alfa-8": {
+      "value": "rgba(255,220,193,0.07843)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-warning-90--alfa-12": {
+      "value": "rgba(255,220,193,0.12157)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-warning-90--alfa-24": {
+      "value": "rgba(255,220,193,0.23922)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-warning-90--alfa-48": {
+      "value": "rgba(255,220,193,0.47843)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-warning-85": {
+      "value": "#ffca9f",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-warning-80": {
+      "value": "#ffb779",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-warning-70": {
+      "value": "#fa911c",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-warning-60": {
+      "value": "#d87900",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-warning-50": {
+      "value": "#b26300",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-warning-50--alfa-12": {
+      "value": "rgba(178,99,0,0.12157)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-warning-50--alfa-16": {
+      "value": "rgba(178,99,0,0.16078)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-warning-50--alfa-20": {
+      "value": "rgba(178,99,0,0.2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-warning-50--alfa-24": {
+      "value": "rgba(178,99,0,0.23922)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-warning-50--alfa-28": {
+      "value": "rgba(178,99,0,0.27843)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-warning-50--alfa-32": {
+      "value": "rgba(178,99,0,0.32157)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-warning-50--alfa-36": {
+      "value": "rgba(178,99,0,0.36078)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-warning-50--alfa-40": {
+      "value": "rgba(178,99,0,0.4)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-warning-50--alfa-44": {
+      "value": "rgba(178,99,0,0.43922)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-warning-40": {
+      "value": "#8f4e00",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-warning-35": {
+      "value": "#7d4400",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-warning-30": {
+      "value": "#6c3a00",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-warning-25": {
+      "value": "#5c3000",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-warning-20": {
+      "value": "#4c2700",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-warning-15": {
+      "value": "#3d1e00",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-warning-10": {
+      "value": "#2e1500",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-warning-5": {
+      "value": "#1f0c00",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-success-98": {
+      "value": "#ecffe4",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-success-95": {
+      "value": "#c9ffbe",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-success-90": {
+      "value": "#8ffa88",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-success-90--alfa-4": {
+      "value": "rgba(143,250,136,0.03922)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-success-90--alfa-8": {
+      "value": "rgba(143,250,136,0.07843)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-success-90--alfa-12": {
+      "value": "rgba(143,250,136,0.12157)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-success-90--alfa-24": {
+      "value": "rgba(143,250,136,0.23922)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-success-90--alfa-48": {
+      "value": "rgba(143,250,136,0.47843)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-success-85": {
+      "value": "#81ec7c",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-success-80": {
+      "value": "#74dd6f",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-success-70": {
+      "value": "#58c157",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-success-60": {
+      "value": "#3ba53f",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-success-50": {
+      "value": "#198a27",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-success-50--alfa-12": {
+      "value": "rgba(25,138,39,0.12157)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-success-50--alfa-16": {
+      "value": "rgba(25,138,39,0.16078)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-success-50--alfa-20": {
+      "value": "rgba(25,138,39,0.2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-success-50--alfa-24": {
+      "value": "rgba(25,138,39,0.23922)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-success-50--alfa-28": {
+      "value": "rgba(25,138,39,0.27843)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-success-50--alfa-32": {
+      "value": "rgba(25,138,39,0.32157)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-success-50--alfa-36": {
+      "value": "rgba(25,138,39,0.36078)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-success-50--alfa-40": {
+      "value": "rgba(25,138,39,0.4)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-success-50--alfa-44": {
+      "value": "rgba(25,138,39,0.43922)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-success-40": {
+      "value": "#006e17",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-success-35": {
+      "value": "#006013",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-success-30": {
+      "value": "#00530f",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-success-25": {
+      "value": "#00460b",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-success-20": {
+      "value": "#003908",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-success-15": {
+      "value": "#002d05",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-success-10": {
+      "value": "#002203",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-success-5": {
+      "value": "#001501",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-container-1--size-max": {
+      "value": "var(--sf-h5)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-container-2--size-max": {
+      "value": "var(--sf-h6)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-container-3--size-max": {
+      "value": "var(--sf-h8)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-container-4--size-max": {
+      "value": "var(--sf-i0)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-container-5--size-max": {
+      "value": "var(--sf-i1)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-container-6--size-max": {
+      "value": "var(--sf-i2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-container-7--size-max": {
+      "value": "var(--sf-i3)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-container-8--size-max": {
+      "value": "var(--sf-i4)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-floating-the-others-1\\/3-space-y": {
+      "value": "var(--sf-b2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-floating-the-others-1\\/2-space-y": {
+      "value": "var(--sf-b4)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-floating-the-others-1-space-y": {
+      "value": "var(--sf-b6)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-floating-the-others-2-space-y": {
+      "value": "var(--sf-c0)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-floating-the-others-3-space-y": {
+      "value": "var(--sf-c1)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-floating-active-1\\/3-space-y": {
+      "value": "var(--sf-a6)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-floating-active-1\\/2-space-y": {
+      "value": "var(--sf-a6)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-floating-active-1-space-y": {
+      "value": "var(--sf-a6)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-floating-active-2-space-y": {
+      "value": "var(--sf-a8)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-floating-active-3-space-y": {
+      "value": "var(--sf-b0)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-size-1\\/7": {
+      "value": "var(--sf-a4)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-size-1\\/6": {
+      "value": "var(--sf-a6)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-size-1\\/5": {
+      "value": "var(--sf-a8)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-size-1\\/4": {
+      "value": "var(--sf-b0)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-size-1\\/3": {
+      "value": "var(--sf-b2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-size-1\\/2": {
+      "value": "var(--sf-b4)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-size-1": {
+      "value": "var(--sf-b6)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-size-2": {
+      "value": "var(--sf-c0)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-size-3": {
+      "value": "var(--sf-c2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-size-4": {
+      "value": "var(--sf-c4)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-size-5": {
+      "value": "var(--sf-c6)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-size-6": {
+      "value": "var(--sf-c8)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-size-7": {
+      "value": "var(--sf-d0)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-size-8": {
+      "value": "var(--sf-d2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-size-9": {
+      "value": "var(--sf-d4)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-size-10": {
+      "value": "var(--sf-d6)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-size-11": {
+      "value": "var(--sf-d8)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-size-12": {
+      "value": "var(--sf-e0)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-height-1\\/4": {
+      "value": "var(--sf-b2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-height-1\\/3": {
+      "value": "var(--sf-b6)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-height-1\\/2": {
+      "value": "var(--sf-c0)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-height-1": {
+      "value": "var(--sf-c2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-height-2": {
+      "value": "var(--sf-c4)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-height-3": {
+      "value": "var(--sf-c8)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-height-4": {
+      "value": "var(--sf-d0)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-height-5": {
+      "value": "var(--sf-d2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-height-6": {
+      "value": "var(--sf-d3)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-height-7": {
+      "value": "var(--sf-d5)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-height-8": {
+      "value": "var(--sf-d8)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-height-9": {
+      "value": "var(--sf-e0)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-height-10": {
+      "value": "var(--sf-e2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-height-11": {
+      "value": "var(--sf-e3)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-height-12": {
+      "value": "var(--sf-e5)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-title-height-1": {
+      "value": "var(--sf-b6)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-title-height-2": {
+      "value": "var(--sf-c2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-title-height-3": {
+      "value": "var(--sf-c4)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-title-height-4": {
+      "value": "var(--sf-c6)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-title-height-5": {
+      "value": "var(--sf-c8)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-title-height-6": {
+      "value": "var(--sf-d0)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-title-height-7": {
+      "value": "var(--sf-d2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-title-height-8": {
+      "value": "var(--sf-d4)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-title-height-9": {
+      "value": "var(--sf-d6)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-title-height-10": {
+      "value": "var(--sf-d9)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-title-height-11": {
+      "value": "var(--sf-e2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-title-height-12": {
+      "value": "var(--sf-e4)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-1\\/3--text-space-x": {
+      "value": "var(--sf-a6)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-1\\/2--text-space-x": {
+      "value": "var(--sf-a7)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-1--text-space-x": {
+      "value": "var(--sf-a8)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-2--text-space-x": {
+      "value": "var(--sf-b0)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-3--text-space-x": {
+      "value": "var(--sf-b2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-1\\/3--space-x": {
+      "value": "var(--sf-b2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-1\\/2--space-x": {
+      "value": "var(--sf-b4)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-1--space-x": {
+      "value": "var(--sf-b6)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-2--space-x": {
+      "value": "var(--sf-c0)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-3--space-x": {
+      "value": "var(--sf-c2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-radius-default": {
+      "value": "var(--sf-a4)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-1\\/3--space-y-tightness-default": {
+      "value": "var(--sf-a6)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-1\\/2--space-y-tightness-default": {
+      "value": "var(--sf-a6)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-1--space-y-tightness-default": {
+      "value": "var(--sf-a8)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-2--space-y-tightness-default": {
+      "value": "var(--sf-b0)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-3--space-y-tightness-default": {
+      "value": "var(--sf-b0)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-1\\/3--space-y-tightness-low": {
+      "value": "var(--sf-a4)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-1\\/2--space-y-tightness-low": {
+      "value": "var(--sf-a4)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-1--space-y-tightness-low": {
+      "value": "var(--sf-a4)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-2--space-y-tightness-low": {
+      "value": "var(--sf-a6)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-3--space-y-tightness-low": {
+      "value": "var(--sf-a6)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-1\\/3--space-y-tightness-high": {
+      "value": "var(--sf-a8)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-1\\/2--space-y-tightness-high": {
+      "value": "var(--sf-b0)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-1--space-y-tightness-high": {
+      "value": "var(--sf-b2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-2--space-y-tightness-high": {
+      "value": "var(--sf-b4)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-3--space-y-tightness-high": {
+      "value": "var(--sf-b6)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-1\\/3--space-y-tightness-highest": {
+      "value": "var(--sf-b2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-1\\/2--space-y-tightness-highest": {
+      "value": "var(--sf-b4)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-1--space-y-tightness-highest": {
+      "value": "var(--sf-b6)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-2--space-y-tightness-highest": {
+      "value": "var(--sf-c0)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-3--space-y-tightness-highest": {
+      "value": "var(--sf-c1)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-1\\/3--space-y": {
+      "value": "var(--sf-a6)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-1\\/2--space-y": {
+      "value": "var(--sf-a6)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-1--space-y": {
+      "value": "var(--sf-a8)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-2--space-y": {
+      "value": "var(--sf-b0)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-ui-3--space-y": {
+      "value": "var(--sf-b0)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-weight--thin": {
+      "value": "100",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-weight--extra-light": {
+      "value": "200",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-weight--light": {
+      "value": "300",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-weight--regular": {
+      "value": "400",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-weight--medium": {
+      "value": "500",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-weight--semi-bold": {
+      "value": "600",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-weight--bold": {
+      "value": "700",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-weight--extra-bold": {
+      "value": "800",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-weight--black": {
+      "value": "900",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-heading--family": {
+      "value": "\"Inter Variable\", sans-serif",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-display--family": {
+      "value": "\"Inter Variable\", sans-serif",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text--family": {
+      "value": "\"Inter Variable\", sans-serif",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-heading--margin": {
+      "value": "var(--sf-b6)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text--margin": {
+      "value": "var(--sf-space-1)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text--weight": {
+      "value": "400",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-heading--weight": {
+      "value": "700",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-display--weight": {
+      "value": "300",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-font-weight-regular": {
+      "value": "400",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-font-weight-medium": {
+      "value": "500",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-font-weight-bold": {
+      "value": "700",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-font-weight-light": {
+      "value": "300",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-space-auto": {
+      "value": "auto",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-sans": {
+      "value": "ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-serif": {
+      "value": "ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-mono": {
+      "value": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-label-small--size": {
+      "value": "var(--sf-text-size-1\\/4)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-label-medium--size": {
+      "value": "var(--sf-text-size-1\\/3)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-label-large--size": {
+      "value": "var(--sf-text-size-1\\/2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-label-small--height": {
+      "value": "var(--sf-text-height-1\\/4)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-label-medium--height": {
+      "value": "var(--sf-text-height-1\\/3)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-label-large--height": {
+      "value": "var(--sf-text-height-1\\/2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-small--size": {
+      "value": "var(--sf-text-size-1\\/2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-medium--size": {
+      "value": "var(--sf-text-size-1)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-large--size": {
+      "value": "var(--sf-text-size-2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-small--height": {
+      "value": "var(--sf-text-height-1\\/2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-medium--height": {
+      "value": "var(--sf-text-height-1)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-large--height": {
+      "value": "var(--sf-text-height-2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-heading--font-family": {
+      "value": "inherit",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-heading--font-weight": {
+      "value": "600",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-heading--font-style": {
+      "value": "normal",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-display-1--size": {
+      "value": "var(--sf-text-size-12)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-display-2--size": {
+      "value": "var(--sf-text-size-11)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-display-3--size": {
+      "value": "var(--sf-text-size-10)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-display-4--size": {
+      "value": "var(--sf-text-size-9)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-display-5--size": {
+      "value": "var(--sf-text-size-8)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-display-6--size": {
+      "value": "var(--sf-text-size-7)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-display-1--height": {
+      "value": "var( --sf-title-height-12 )",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-display-2--height": {
+      "value": "var( --sf-title-height-11 )",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-display-3--height": {
+      "value": "var( --sf-title-height-10 )",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-display-4--height": {
+      "value": "var( --sf-title-height-9 )",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-display-5--height": {
+      "value": "var( --sf-title-height-8 )",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-display-6--height": {
+      "value": "var( --sf-title-height-7 )",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text--space-bottom": {
+      "value": "var(--sf-space-1)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-heading--space-top": {
+      "value": "var(--sf-space-4)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-heading--space-bottom": {
+      "value": "var(--sf-space-1)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text--size": {
+      "value": "var(--sf-text-size-1)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text--height": {
+      "value": "var(--sf-text-height-1)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text--style": {
+      "value": "inherit",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text--tracking": {
+      "value": "inherit",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-mark--color": {
+      "value": "var(--sf-warning-transparent-overlay)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-code--color": {
+      "value": "var(--sf-tertiary)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-code--background": {
+      "value": "var(--sf-tertiary-container)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-code--font-family": {
+      "value": "var(--sf-mono)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-code--radius": {
+      "value": "var(--sf-radius-1\\/3)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text--line-height-tight": {
+      "value": "1.25",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text--line-height-snug": {
+      "value": "1.375",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text--line-height-relaxed": {
+      "value": "1.625",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text--line-height-loose": {
+      "value": "2",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text--line-height-none": {
+      "value": "1",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text--line-height-normal": {
+      "value": "1.5",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text--font-weight-1": {
+      "value": "100",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text--font-weight-2": {
+      "value": "200",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text--font-weight-3": {
+      "value": "300",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text--font-weight-4": {
+      "value": "400",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text--font-weight-5": {
+      "value": "500",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text--font-weight-6": {
+      "value": "600",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text--font-weight-7": {
+      "value": "700",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text--font-weight-8": {
+      "value": "800",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text--font-weight-9": {
+      "value": "900",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text--tracking-tighter": {
+      "value": "-0.05em",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text--tracking-tight": {
+      "value": "-0.025em",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text--tracking-wide": {
+      "value": "0.025em",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text--tracking-wider": {
+      "value": "0.05em",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text--tracking-widest": {
+      "value": "0.1em",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text--tracking-no-tracking": {
+      "value": "0em",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text--measure": {
+      "value": "65ch",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text--measure-wide": {
+      "value": "80ch",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text--measure-narrow": {
+      "value": "45ch",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-link--underline-weight": {
+      "value": "var(--sf-px)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-link--underline-dotted": {
+      "value": "var(--sf-a3)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-link--underline-dashed": {
+      "value": "var(--sf-a6)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-breakpoint-sm": {
+      "value": "var(--sf-g8)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-breakpoint-md": {
+      "value": "var(--sf-h2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-breakpoint-lg": {
+      "value": "var(--sf-h5)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-breakpoint-xl": {
+      "value": "var(--sf-h8)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-breakpoint-xxl": {
+      "value": "var(--sf-i2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-transition--property": {
+      "value": "all",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-transition--duration": {
+      "value": "300ms",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-transition--timing-function": {
+      "value": "ease-in",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-transition--delay": {
+      "value": "0ms",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-duration-fast": {
+      "value": "0.1S",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-duration-normal": {
+      "value": "0.3S",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-duration-slow": {
+      "value": "0.5S",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-animation": {
+      "value": "cubic-bezier(.25,.8,.25,1)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-shadow--level-ratio": {
+      "value": "1",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-shadow--alfa-fill": {
+      "value": "24%",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-shadow--alfa-outline": {
+      "value": "12%",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-shadow--alfa-shade": {
+      "value": "8%",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-shadow--color-fill": {
+      "value": "color-mix(in srgb, var(--sf-transparent), var(--sf-shadow--color, var(--sf-on-surface, #000)) var(--sf-shadow--alfa-fill))",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-shadow--color-outline": {
+      "value": "color-mix(in srgb, var(--sf-transparent), var(--sf-shadow--color, var(--sf-on-surface, #000)) var(--sf-shadow--alfa-outline))",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-shadow--color-shading": {
+      "value": "color-mix(in srgb, var(--sf-transparent), var(--sf-shadow--color, var(--sf-on-surface, #000)) var(--sf-shadow--alfa-shade))",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-shadow--color-shade": {
+      "value": "var(--sf-shadow--color-shading)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-blur-small": {
+      "value": "var(--sf-a2)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-blur-medium": {
+      "value": "var(--sf-a4)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-blur-large": {
+      "value": "var(--sf-a8)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-surface-overlay--blur": {
+      "value": "var(--sf-d6)",
+      "files": [
+        "core/css/core.css"
+      ]
+    },
+    "--sf-text-num-ordinal": {
+      "value": "ordinal",
+      "files": [
+        "core/css/utility.full.css",
+        "utility/font-variant-numeric/default/css/default.css"
+      ]
+    },
+    "--sf-text-num-slashed-zero": {
+      "value": "slashed-zero",
+      "files": [
+        "core/css/utility.full.css",
+        "utility/font-variant-numeric/default/css/default.css"
+      ]
+    },
+    "--sf-text-num-lining": {
+      "value": "lining-nums",
+      "files": [
+        "core/css/utility.full.css",
+        "utility/font-variant-numeric/default/css/default.css"
+      ]
+    },
+    "--sf-text-num-oldstyle": {
+      "value": "oldstyle-nums",
+      "files": [
+        "core/css/utility.full.css",
+        "utility/font-variant-numeric/default/css/default.css"
+      ]
+    },
+    "--sf-text-num-proportional": {
+      "value": "proportional-nums",
+      "files": [
+        "core/css/utility.full.css",
+        "utility/font-variant-numeric/default/css/default.css"
+      ]
+    },
+    "--sf-text-num-tabular": {
+      "value": "tabular-nums",
+      "files": [
+        "core/css/utility.full.css",
+        "utility/font-variant-numeric/default/css/default.css"
+      ]
+    },
+    "--sf-text-num-diagonal": {
+      "value": "diagonal-fractions",
+      "files": [
+        "core/css/utility.full.css",
+        "utility/font-variant-numeric/default/css/default.css"
+      ]
+    },
+    "--sf-text-num-stacked-fractions": {
+      "value": "stacked-fractions",
+      "files": [
+        "core/css/utility.full.css",
+        "utility/font-variant-numeric/default/css/default.css"
+      ]
+    },
+    "--sf-text-num-normal": {
+      "value": "normal",
+      "files": [
+        "core/css/utility.full.css",
+        "utility/font-variant-numeric/default/css/default.css"
+      ]
+    }
+  },
+  "otherTokensCount": 4
+}
