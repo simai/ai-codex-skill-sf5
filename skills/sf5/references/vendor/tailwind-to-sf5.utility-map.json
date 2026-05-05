@@ -1,0 +1,1410 @@
+{
+  "schemaVersion": 1,
+  "artifact": "tailwind-to-sf5.utility-map",
+  "owner": "tailwind-converter",
+  "targetCatalog": "references/vendor/source/catalog-lite.sf-only.json",
+  "mappingPolicy": {
+    "mapped": "All targetClasses must exist in the SF5 vendor catalog.",
+    "deferred": "Class intent is known, but safe SF5 mapping requires component, state, breakpoint, palette, or design review.",
+    "blocked": "Class must not be converted automatically in Stage 1-2."
+  },
+  "mappings": [
+    {
+      "sourceClass": "block",
+      "family": "layout-display",
+      "status": "mapped",
+      "targetClasses": [
+        "block"
+      ],
+      "reason": "Direct display utility exists in SF5."
+    },
+    {
+      "sourceClass": "inline",
+      "family": "layout-display",
+      "status": "mapped",
+      "targetClasses": [
+        "inline"
+      ],
+      "reason": "Direct display utility exists in SF5."
+    },
+    {
+      "sourceClass": "inline-block",
+      "family": "layout-display",
+      "status": "mapped",
+      "targetClasses": [
+        "inline-block"
+      ],
+      "reason": "Direct display utility exists in SF5."
+    },
+    {
+      "sourceClass": "hidden",
+      "family": "layout-display",
+      "status": "mapped",
+      "targetClasses": [
+        "hidden"
+      ],
+      "reason": "Direct display utility exists in SF5."
+    },
+    {
+      "sourceClass": "flex",
+      "family": "layout-display",
+      "status": "mapped",
+      "targetClasses": [
+        "flex"
+      ],
+      "reason": "Direct display utility exists in SF5."
+    },
+    {
+      "sourceClass": "inline-flex",
+      "family": "layout-display",
+      "status": "mapped",
+      "targetClasses": [
+        "inline-flex"
+      ],
+      "reason": "Direct display utility exists in SF5."
+    },
+    {
+      "sourceClass": "grid",
+      "family": "layout-display",
+      "status": "mapped",
+      "targetClasses": [
+        "grid"
+      ],
+      "reason": "Direct display utility exists in SF5."
+    },
+    {
+      "sourceClass": "inline-grid",
+      "family": "layout-display",
+      "status": "mapped",
+      "targetClasses": [
+        "inline-grid"
+      ],
+      "reason": "Direct display utility exists in SF5."
+    },
+    {
+      "sourceClass": "flex-row",
+      "family": "layout-flex-grid",
+      "status": "mapped",
+      "targetClasses": [
+        "flex-row"
+      ],
+      "reason": "Direct flex direction utility exists in SF5."
+    },
+    {
+      "sourceClass": "flex-col",
+      "family": "layout-flex-grid",
+      "status": "mapped",
+      "targetClasses": [
+        "flex-col"
+      ],
+      "reason": "Direct flex direction utility exists in SF5."
+    },
+    {
+      "sourceClass": "flex-wrap",
+      "family": "layout-flex-grid",
+      "status": "mapped",
+      "targetClasses": [
+        "flex-wrap"
+      ],
+      "reason": "Direct flex wrap utility exists in SF5."
+    },
+    {
+      "sourceClass": "flex-nowrap",
+      "family": "layout-flex-grid",
+      "status": "mapped",
+      "targetClasses": [
+        "flex-nowrap"
+      ],
+      "reason": "Direct flex nowrap utility exists in SF5."
+    },
+    {
+      "sourceClass": "items-center",
+      "family": "layout-flex-grid",
+      "status": "mapped",
+      "targetClasses": [
+        "items-center"
+      ],
+      "reason": "Direct alignment utility exists in SF5."
+    },
+    {
+      "sourceClass": "justify-center",
+      "family": "layout-flex-grid",
+      "status": "mapped",
+      "targetClasses": [
+        "content-main-center"
+      ],
+      "reason": "Tailwind main-axis centering maps to SF5 main-axis content centering."
+    },
+    {
+      "sourceClass": "justify-between",
+      "family": "layout-flex-grid",
+      "status": "mapped",
+      "targetClasses": [
+        "content-main-between"
+      ],
+      "reason": "Tailwind main-axis space-between maps to SF5 main-axis content spacing."
+    },
+    {
+      "sourceClass": "justify-start",
+      "family": "layout-flex-grid",
+      "status": "mapped",
+      "targetClasses": [
+        "content-main-start"
+      ],
+      "reason": "Tailwind main-axis start maps to SF5 main-axis content start."
+    },
+    {
+      "sourceClass": "justify-end",
+      "family": "layout-flex-grid",
+      "status": "mapped",
+      "targetClasses": [
+        "content-main-end"
+      ],
+      "reason": "Tailwind main-axis end maps to SF5 main-axis content end."
+    },
+    {
+      "sourceClass": "justify-around",
+      "family": "layout-flex-grid",
+      "status": "mapped",
+      "targetClasses": [
+        "content-main-around"
+      ],
+      "reason": "Tailwind main-axis space-around maps to SF5 main-axis content spacing."
+    },
+    {
+      "sourceClass": "justify-evenly",
+      "family": "layout-flex-grid",
+      "status": "mapped",
+      "targetClasses": [
+        "content-main-evenly"
+      ],
+      "reason": "Tailwind main-axis space-evenly maps to SF5 main-axis content spacing."
+    },
+    {
+      "sourceClass": "items-start",
+      "family": "layout-flex-grid",
+      "status": "mapped",
+      "targetClasses": [
+        "items-start"
+      ],
+      "reason": "Direct alignment utility exists in SF5."
+    },
+    {
+      "sourceClass": "items-end",
+      "family": "layout-flex-grid",
+      "status": "mapped",
+      "targetClasses": [
+        "items-end"
+      ],
+      "reason": "Direct alignment utility exists in SF5."
+    },
+    {
+      "sourceClass": "items-stretch",
+      "family": "layout-flex-grid",
+      "status": "mapped",
+      "targetClasses": [
+        "items-stretch"
+      ],
+      "reason": "Direct alignment utility exists in SF5."
+    },
+    {
+      "sourceClass": "gap-2",
+      "family": "spacing",
+      "status": "mapped",
+      "targetClasses": [
+        "gap-2"
+      ],
+      "reason": "Direct gap scale utility exists in SF5."
+    },
+    {
+      "sourceClass": "p-2",
+      "family": "spacing",
+      "status": "mapped",
+      "targetClasses": [
+        "p-2"
+      ],
+      "reason": "Direct padding scale utility exists in SF5."
+    },
+    {
+      "sourceClass": "p-1",
+      "family": "spacing",
+      "status": "mapped",
+      "targetClasses": [
+        "p-1"
+      ],
+      "reason": "Direct padding scale utility exists in SF5."
+    },
+    {
+      "sourceClass": "p-3",
+      "family": "spacing",
+      "status": "mapped",
+      "targetClasses": [
+        "p-3"
+      ],
+      "reason": "Direct padding scale utility exists in SF5."
+    },
+    {
+      "sourceClass": "p-4",
+      "family": "spacing",
+      "status": "mapped",
+      "targetClasses": [
+        "p-4"
+      ],
+      "reason": "Direct padding scale utility exists in SF5."
+    },
+    {
+      "sourceClass": "px-4",
+      "family": "spacing",
+      "status": "mapped",
+      "targetClasses": [
+        "p-inline-start-4",
+        "p-inline-end-4"
+      ],
+      "reason": "Tailwind horizontal padding maps to RTL-safe SF5 inline padding."
+    },
+    {
+      "sourceClass": "px-2",
+      "family": "spacing",
+      "status": "mapped",
+      "targetClasses": [
+        "p-inline-start-2",
+        "p-inline-end-2"
+      ],
+      "reason": "Tailwind horizontal padding maps to RTL-safe SF5 inline padding."
+    },
+    {
+      "sourceClass": "py-2",
+      "family": "spacing",
+      "status": "mapped",
+      "targetClasses": [
+        "p-top-2",
+        "p-bottom-2"
+      ],
+      "reason": "Tailwind vertical padding maps to explicit SF5 top and bottom padding."
+    },
+    {
+      "sourceClass": "m-0",
+      "family": "spacing",
+      "status": "mapped",
+      "targetClasses": [
+        "m-0"
+      ],
+      "reason": "Direct margin utility exists in SF5."
+    },
+    {
+      "sourceClass": "mt-2",
+      "family": "spacing",
+      "status": "mapped",
+      "targetClasses": [
+        "m-top-2"
+      ],
+      "reason": "Tailwind top margin maps to explicit SF5 top margin."
+    },
+    {
+      "sourceClass": "mt-4",
+      "family": "spacing",
+      "status": "mapped",
+      "targetClasses": [
+        "m-top-4"
+      ],
+      "reason": "Tailwind top margin maps to explicit SF5 top margin."
+    },
+    {
+      "sourceClass": "mb-2",
+      "family": "spacing",
+      "status": "mapped",
+      "targetClasses": [
+        "m-bottom-2"
+      ],
+      "reason": "Tailwind bottom margin maps to explicit SF5 bottom margin."
+    },
+    {
+      "sourceClass": "w-full",
+      "family": "sizing",
+      "status": "mapped",
+      "targetClasses": [
+        "w-full"
+      ],
+      "reason": "Direct width utility exists in SF5."
+    },
+    {
+      "sourceClass": "w-auto",
+      "family": "sizing",
+      "status": "mapped",
+      "targetClasses": [
+        "w-auto"
+      ],
+      "reason": "Direct width utility exists in SF5."
+    },
+    {
+      "sourceClass": "h-full",
+      "family": "sizing",
+      "status": "mapped",
+      "targetClasses": [
+        "h-full"
+      ],
+      "reason": "Direct height utility exists in SF5."
+    },
+    {
+      "sourceClass": "h-auto",
+      "family": "sizing",
+      "status": "mapped",
+      "targetClasses": [
+        "h-auto"
+      ],
+      "reason": "Direct height utility exists in SF5."
+    },
+    {
+      "sourceClass": "text-left",
+      "family": "typography",
+      "status": "mapped",
+      "targetClasses": [
+        "text-start"
+      ],
+      "reason": "Tailwind physical left alignment maps to RTL-safe SF5 start alignment."
+    },
+    {
+      "sourceClass": "text-right",
+      "family": "typography",
+      "status": "mapped",
+      "targetClasses": [
+        "text-end"
+      ],
+      "reason": "Tailwind physical right alignment maps to RTL-safe SF5 end alignment."
+    },
+    {
+      "sourceClass": "font-medium",
+      "family": "typography",
+      "status": "mapped",
+      "targetClasses": [
+        "weight-5"
+      ],
+      "reason": "Tailwind font-medium maps to SF5 numeric weight scale."
+    },
+    {
+      "sourceClass": "font-semibold",
+      "family": "typography",
+      "status": "mapped",
+      "targetClasses": [
+        "weight-6"
+      ],
+      "reason": "Tailwind font-semibold maps to SF5 numeric weight scale."
+    },
+    {
+      "sourceClass": "font-bold",
+      "family": "typography",
+      "status": "mapped",
+      "targetClasses": [
+        "weight-7"
+      ],
+      "reason": "Tailwind font-bold maps to SF5 numeric weight scale."
+    },
+    {
+      "sourceClass": "font-normal",
+      "family": "typography",
+      "status": "mapped",
+      "targetClasses": [
+        "weight-4"
+      ],
+      "reason": "Tailwind font-normal maps to SF5 numeric weight scale."
+    },
+    {
+      "sourceClass": "font-extrabold",
+      "family": "typography",
+      "status": "mapped",
+      "targetClasses": [
+        "weight-8"
+      ],
+      "reason": "Tailwind font-extrabold maps to SF5 numeric weight scale."
+    },
+    {
+      "sourceClass": "border",
+      "family": "border-radius-shadow",
+      "status": "mapped",
+      "targetClasses": [
+        "border"
+      ],
+      "reason": "Direct border utility exists in SF5."
+    },
+    {
+      "sourceClass": "rounded",
+      "family": "border-radius-shadow",
+      "status": "mapped",
+      "targetClasses": [
+        "radius-rounded"
+      ],
+      "reason": "Tailwind generic rounded radius maps to SF5 rounded radius."
+    },
+    {
+      "sourceClass": "rounded-lg",
+      "family": "border-radius-shadow",
+      "status": "mapped",
+      "targetClasses": [
+        "radius-2"
+      ],
+      "reason": "Initial conservative radius mapping; requires visual QA for pixel-perfect work."
+    },
+    {
+      "sourceClass": "shadow",
+      "family": "border-radius-shadow",
+      "status": "mapped",
+      "targetClasses": [
+        "shadow-1"
+      ],
+      "reason": "Initial conservative shadow mapping; requires visual QA for pixel-perfect work."
+    },
+    {
+      "sourceClass": "relative",
+      "family": "structure-helper",
+      "status": "mapped",
+      "targetClasses": [
+        "relative"
+      ],
+      "reason": "Direct positioning utility exists in SF5."
+    },
+    {
+      "sourceClass": "absolute",
+      "family": "structure-helper",
+      "status": "mapped",
+      "targetClasses": [
+        "absolute"
+      ],
+      "reason": "Direct positioning utility exists in SF5."
+    },
+    {
+      "sourceClass": "overflow-hidden",
+      "family": "structure-helper",
+      "status": "mapped",
+      "targetClasses": [
+        "overflow-hidden"
+      ],
+      "reason": "Direct overflow utility exists in SF5."
+    },
+    {
+      "sourceClass": "overflow-x-auto",
+      "family": "structure-helper",
+      "status": "mapped",
+      "targetClasses": [
+        "overflow-auto"
+      ],
+      "reason": "Tailwind horizontal overflow maps to SF5 overflow container behavior for conversion draft."
+    },
+    {
+      "sourceClass": "min-w-full",
+      "family": "sizing",
+      "status": "mapped",
+      "targetClasses": [
+        "min-w-full"
+      ],
+      "reason": "Direct minimum width utility exists in SF5."
+    },
+    {
+      "sourceClass": "min-h-screen",
+      "family": "sizing",
+      "status": "mapped",
+      "targetClasses": [
+        "min-h-screen"
+      ],
+      "reason": "Direct minimum viewport height utility exists in SF5."
+    },
+    {
+      "sourceClass": "mx-auto",
+      "family": "spacing",
+      "status": "mapped",
+      "targetClasses": [
+        "m-inline-auto"
+      ],
+      "reason": "Tailwind horizontal auto margin maps to RTL-safe SF5 inline auto margin."
+    },
+    {
+      "sourceClass": "max-w-md",
+      "family": "sizing",
+      "status": "mapped",
+      "targetClasses": [
+        "max-w-md"
+      ],
+      "reason": "Direct max-width utility exists in SF5."
+    },
+    {
+      "sourceClass": "rounded-md",
+      "family": "border-radius-shadow",
+      "status": "mapped",
+      "targetClasses": [
+        "radius-1"
+      ],
+      "reason": "Common Tailwind medium radius maps to SF5 radius scale."
+    },
+    {
+      "sourceClass": "rounded-2xl",
+      "family": "border-radius-shadow",
+      "status": "mapped",
+      "targetClasses": [
+        "radius-1/3"
+      ],
+      "reason": "Common Tailwind large card radius maps to SF5 rounded surface radius."
+    },
+    {
+      "sourceClass": "rounded-full",
+      "family": "border-radius-shadow",
+      "status": "mapped",
+      "targetClasses": [
+        "radius-round"
+      ],
+      "reason": "Tailwind full radius maps to SF5 round radius."
+    },
+    {
+      "sourceClass": "border-b",
+      "family": "border-radius-shadow",
+      "status": "mapped",
+      "targetClasses": [
+        "border-bottom-1"
+      ],
+      "reason": "Tailwind bottom border maps to SF5 bottom border width utility."
+    },
+    {
+      "sourceClass": "border-gray-200",
+      "family": "color",
+      "status": "mapped",
+      "targetClasses": [
+        "border-outline-variant"
+      ],
+      "reason": "Light Tailwind gray border maps to SF5 outline variant."
+    },
+    {
+      "sourceClass": "border-gray-300",
+      "family": "color",
+      "status": "mapped",
+      "targetClasses": [
+        "border-outline"
+      ],
+      "reason": "Medium Tailwind gray border maps to SF5 outline."
+    },
+    {
+      "sourceClass": "bg-white",
+      "family": "color",
+      "status": "mapped",
+      "targetClasses": [
+        "bg-surface-1"
+      ],
+      "reason": "White Tailwind surfaces map to SF5 surface role."
+    },
+    {
+      "sourceClass": "bg-gray-50",
+      "family": "color",
+      "status": "mapped",
+      "targetClasses": [
+        "bg-surface-0"
+      ],
+      "reason": "Very light Tailwind gray background maps to SF5 page surface role."
+    },
+    {
+      "sourceClass": "bg-indigo-600",
+      "family": "color",
+      "status": "mapped",
+      "targetClasses": [
+        "bg-primary"
+      ],
+      "reason": "Tailwind primary action color maps to SF5 primary role in application UI conversion drafts."
+    },
+    {
+      "sourceClass": "hover:bg-indigo-500",
+      "family": "responsive-state",
+      "status": "mapped",
+      "targetClasses": [
+        "hover:bg-primary"
+      ],
+      "reason": "Tailwind primary hover color maps to SF5 primary hover role."
+    },
+    {
+      "sourceClass": "bg-green-50",
+      "family": "color",
+      "status": "mapped",
+      "targetClasses": [
+        "bg-success-container"
+      ],
+      "reason": "Tailwind success tint maps to SF5 success container role."
+    },
+    {
+      "sourceClass": "ring-gray-200",
+      "family": "color",
+      "status": "mapped",
+      "targetClasses": [
+        "border-outline-variant"
+      ],
+      "reason": "Light Tailwind ring color maps to SF5 outline variant."
+    },
+    {
+      "sourceClass": "text-gray-900",
+      "family": "color",
+      "status": "mapped",
+      "targetClasses": [
+        "color-on-surface"
+      ],
+      "reason": "Dark Tailwind gray text maps to SF5 on-surface role."
+    },
+    {
+      "sourceClass": "text-gray-700",
+      "family": "color",
+      "status": "mapped",
+      "targetClasses": [
+        "color-on-surface"
+      ],
+      "reason": "Tailwind medium-dark gray text maps to SF5 on-surface role."
+    },
+    {
+      "sourceClass": "text-white",
+      "family": "color",
+      "status": "mapped",
+      "targetClasses": [
+        "color-on-primary"
+      ],
+      "reason": "White text on primary action maps to SF5 on-primary role."
+    },
+    {
+      "sourceClass": "text-green-700",
+      "family": "color",
+      "status": "mapped",
+      "targetClasses": [
+        "color-success"
+      ],
+      "reason": "Tailwind success text maps to SF5 success color role."
+    },
+    {
+      "sourceClass": "text-sm",
+      "family": "typography",
+      "status": "mapped",
+      "targetClasses": [
+        "text-2"
+      ],
+      "reason": "Tailwind small text maps to SF5 body text scale for application UI conversion drafts."
+    },
+    {
+      "sourceClass": "text-lg",
+      "family": "typography",
+      "status": "mapped",
+      "targetClasses": [
+        "title-3"
+      ],
+      "reason": "Tailwind large heading text maps to SF5 compact title scale."
+    },
+    {
+      "sourceClass": "text-2xl",
+      "family": "typography",
+      "status": "mapped",
+      "targetClasses": [
+        "title-3"
+      ],
+      "reason": "Tailwind 2xl heading text maps to SF5 title scale."
+    },
+    {
+      "sourceClass": "text-3xl",
+      "family": "typography",
+      "status": "mapped",
+      "targetClasses": [
+        "title-2"
+      ],
+      "reason": "Tailwind 3xl heading text maps to SF5 larger title scale."
+    },
+    {
+      "sourceClass": "tracking-tight",
+      "family": "typography",
+      "status": "mapped",
+      "targetClasses": [
+        "tracking-tight"
+      ],
+      "reason": "Direct tracking utility exists in SF5."
+    },
+    {
+      "sourceClass": "text-center",
+      "family": "typography",
+      "status": "mapped",
+      "targetClasses": [
+        "text-center"
+      ],
+      "reason": "Direct text alignment utility exists in SF5."
+    },
+    {
+      "sourceClass": "placeholder:text-gray-400",
+      "family": "responsive-state",
+      "status": "mapped",
+      "targetClasses": [
+        "placeholder-on-surface-variant"
+      ],
+      "reason": "Tailwind placeholder gray maps to SF5 placeholder color role."
+    },
+    {
+      "sourceClass": "focus:border-indigo-600",
+      "family": "responsive-state",
+      "status": "mapped",
+      "targetClasses": [
+        "focus:border-primary"
+      ],
+      "reason": "Tailwind primary focus border maps to SF5 primary focus border."
+    },
+    {
+      "sourceClass": "focus:ring-2",
+      "family": "responsive-state",
+      "status": "mapped",
+      "targetClasses": [
+        "focus:ring-2"
+      ],
+      "reason": "Direct focus ring width utility exists in SF5."
+    },
+    {
+      "sourceClass": "focus:ring-indigo-600",
+      "family": "responsive-state",
+      "status": "mapped",
+      "targetClasses": [
+        "focus:ring-primary"
+      ],
+      "reason": "Tailwind primary focus ring maps to SF5 primary focus ring."
+    },
+    {
+      "sourceClass": "px-3",
+      "family": "spacing",
+      "status": "mapped",
+      "targetClasses": [
+        "p-inline-start-3",
+        "p-inline-end-3"
+      ],
+      "reason": "Tailwind horizontal padding maps to RTL-safe SF5 inline padding."
+    },
+    {
+      "sourceClass": "px-6",
+      "family": "spacing",
+      "status": "mapped",
+      "targetClasses": [
+        "p-inline-start-6",
+        "p-inline-end-6"
+      ],
+      "reason": "Tailwind horizontal padding maps to RTL-safe SF5 inline padding."
+    },
+    {
+      "sourceClass": "py-3",
+      "family": "spacing",
+      "status": "mapped",
+      "targetClasses": [
+        "p-y-3"
+      ],
+      "reason": "Tailwind vertical padding maps to SF5 vertical padding utility."
+    },
+    {
+      "sourceClass": "py-1",
+      "family": "spacing",
+      "status": "mapped",
+      "targetClasses": [
+        "p-y-1"
+      ],
+      "reason": "Tailwind vertical padding maps to SF5 vertical padding utility."
+    },
+    {
+      "sourceClass": "py-4",
+      "family": "spacing",
+      "status": "mapped",
+      "targetClasses": [
+        "p-y-4"
+      ],
+      "reason": "Tailwind vertical padding maps to SF5 vertical padding utility."
+    },
+    {
+      "sourceClass": "py-12",
+      "family": "spacing",
+      "status": "mapped",
+      "targetClasses": [
+        "p-y-8"
+      ],
+      "reason": "Tailwind large vertical page padding maps to the largest available SF5 vertical padding scale."
+    },
+    {
+      "sourceClass": "p-6",
+      "family": "spacing",
+      "status": "mapped",
+      "targetClasses": [
+        "p-6"
+      ],
+      "reason": "Direct padding scale utility exists in SF5."
+    },
+    {
+      "sourceClass": "p-8",
+      "family": "spacing",
+      "status": "mapped",
+      "targetClasses": [
+        "p-8"
+      ],
+      "reason": "Direct padding scale utility exists in SF5."
+    },
+    {
+      "sourceClass": "gap-4",
+      "family": "spacing",
+      "status": "mapped",
+      "targetClasses": [
+        "gap-4"
+      ],
+      "reason": "Direct gap scale utility exists in SF5."
+    },
+    {
+      "sourceClass": "gap-6",
+      "family": "spacing",
+      "status": "mapped",
+      "targetClasses": [
+        "gap-6"
+      ],
+      "reason": "Direct gap scale utility exists in SF5."
+    },
+    {
+      "sourceClass": "space-y-1",
+      "family": "spacing",
+      "status": "mapped",
+      "targetClasses": [
+        "flex",
+        "flex-col",
+        "gap-1"
+      ],
+      "reason": "Tailwind vertical stack spacing maps to explicit SF5 flex-column gap in conversion drafts."
+    },
+    {
+      "sourceClass": "space-y-2",
+      "family": "spacing",
+      "status": "mapped",
+      "targetClasses": [
+        "flex",
+        "flex-col",
+        "gap-2"
+      ],
+      "reason": "Tailwind vertical stack spacing maps to explicit SF5 flex-column gap in conversion drafts."
+    },
+    {
+      "sourceClass": "space-y-5",
+      "family": "spacing",
+      "status": "mapped",
+      "targetClasses": [
+        "flex",
+        "flex-col",
+        "gap-5"
+      ],
+      "reason": "Tailwind vertical stack spacing maps to explicit SF5 flex-column gap in conversion drafts."
+    },
+    {
+      "sourceClass": "mt-1",
+      "family": "spacing",
+      "status": "mapped",
+      "targetClasses": [
+        "m-top-1"
+      ],
+      "reason": "Tailwind top margin maps to SF5 top margin utility."
+    },
+    {
+      "sourceClass": "mt-6",
+      "family": "spacing",
+      "status": "mapped",
+      "targetClasses": [
+        "m-top-6"
+      ],
+      "reason": "Tailwind top margin maps to SF5 top margin utility."
+    },
+    {
+      "sourceClass": "divide-y",
+      "family": "border-radius-shadow",
+      "status": "mapped",
+      "targetClasses": [
+        "divide-y-1"
+      ],
+      "reason": "Tailwind vertical dividers map to SF5 vertical divider width utility."
+    },
+    {
+      "sourceClass": "divide-gray-200",
+      "family": "color",
+      "status": "mapped",
+      "targetClasses": [
+        "divide-outline"
+      ],
+      "reason": "Tailwind light gray divider maps to SF5 outline divider color."
+    },
+    {
+      "sourceClass": "divide-gray-100",
+      "family": "color",
+      "status": "mapped",
+      "targetClasses": [
+        "divide-outline"
+      ],
+      "reason": "Tailwind very light gray divider maps to SF5 outline divider color."
+    },
+    {
+      "sourceClass": "shadow-sm",
+      "family": "border-radius-shadow",
+      "status": "mapped",
+      "targetClasses": [
+        "shadow-1"
+      ],
+      "reason": "Tailwind small shadow maps to the first SF5 shadow level."
+    },
+    {
+      "sourceClass": "shadow-lg",
+      "family": "border-radius-shadow",
+      "status": "mapped",
+      "targetClasses": [
+        "shadow-2"
+      ],
+      "reason": "Tailwind large shadow maps to a stronger SF5 shadow level."
+    },
+    {
+      "sourceClass": "text-gray-800",
+      "family": "color",
+      "status": "mapped",
+      "targetClasses": [
+        "color-on-surface"
+      ],
+      "reason": "TailAdmin repeated dark-gray text maps to SF5 on-surface role."
+    },
+    {
+      "sourceClass": "text-gray-400",
+      "family": "color",
+      "status": "mapped",
+      "targetClasses": [
+        "color-on-surface-variant"
+      ],
+      "reason": "TailAdmin repeated gray helper text maps to SF5 on-surface variant role."
+    },
+    {
+      "sourceClass": "border-gray-100",
+      "family": "color",
+      "status": "mapped",
+      "targetClasses": [
+        "border-outline-variant"
+      ],
+      "reason": "Very light Tailwind gray border maps to SF5 outline variant."
+    },
+    {
+      "sourceClass": "bg-gray-100",
+      "family": "color",
+      "status": "mapped",
+      "targetClasses": [
+        "bg-surface-2"
+      ],
+      "reason": "Light Tailwind gray background maps to SF5 elevated surface role."
+    },
+    {
+      "sourceClass": "bg-transparent",
+      "family": "color",
+      "status": "mapped",
+      "targetClasses": [
+        "bg-transparent"
+      ],
+      "reason": "Direct transparent background utility exists in SF5."
+    },
+    {
+      "sourceClass": "border-white",
+      "family": "color",
+      "status": "mapped",
+      "targetClasses": [
+        "border-white"
+      ],
+      "reason": "Direct white border utility exists in SF5."
+    },
+    {
+      "sourceClass": "fill-current",
+      "family": "color",
+      "status": "mapped",
+      "targetClasses": [
+        "fill-current"
+      ],
+      "reason": "Direct current-color fill utility exists in SF5."
+    },
+    {
+      "sourceClass": "stroke-current",
+      "family": "color",
+      "status": "mapped",
+      "targetClasses": [
+        "stroke-current"
+      ],
+      "reason": "Direct current-color stroke utility exists in SF5."
+    },
+    {
+      "sourceClass": "bg-brand-500",
+      "family": "color",
+      "status": "mapped",
+      "targetClasses": [
+        "bg-primary"
+      ],
+      "reason": "TailAdmin brand action background maps to SF5 primary role."
+    },
+    {
+      "sourceClass": "hover:bg-brand-600",
+      "family": "responsive-state",
+      "status": "mapped",
+      "targetClasses": [
+        "hover:bg-primary"
+      ],
+      "reason": "TailAdmin brand hover background maps to SF5 primary hover role."
+    },
+    {
+      "sourceClass": "hover:bg-gray-100",
+      "family": "responsive-state",
+      "status": "mapped",
+      "targetClasses": [
+        "hover:bg-surface-0"
+      ],
+      "reason": "TailAdmin light gray hover maps to SF5 low surface hover role."
+    },
+    {
+      "sourceClass": "hover:text-gray-800",
+      "family": "responsive-state",
+      "status": "mapped",
+      "targetClasses": [
+        "hover:color-on-surface"
+      ],
+      "reason": "TailAdmin dark-gray hover text maps to SF5 on-surface hover role."
+    },
+    {
+      "sourceClass": "text-base",
+      "family": "typography",
+      "status": "mapped",
+      "targetClasses": [
+        "text-2"
+      ],
+      "reason": "Tailwind base text maps to SF5 body text scale for application UI conversion drafts."
+    },
+    {
+      "sourceClass": "text-xs",
+      "family": "typography",
+      "status": "mapped",
+      "targetClasses": [
+        "text-1"
+      ],
+      "reason": "Tailwind extra-small text maps to SF5 compact text scale."
+    },
+    {
+      "sourceClass": "text-theme-sm",
+      "family": "typography",
+      "status": "mapped",
+      "targetClasses": [
+        "text-2"
+      ],
+      "reason": "TailAdmin repeated theme small text maps to SF5 body text scale."
+    },
+    {
+      "sourceClass": "text-theme-xs",
+      "family": "typography",
+      "status": "mapped",
+      "targetClasses": [
+        "text-1"
+      ],
+      "reason": "TailAdmin repeated theme extra-small text maps to SF5 compact text scale."
+    },
+    {
+      "sourceClass": "shadow-theme-xs",
+      "family": "border-radius-shadow",
+      "status": "mapped",
+      "targetClasses": [
+        "shadow-1"
+      ],
+      "reason": "TailAdmin repeated theme extra-small shadow maps to the first SF5 shadow level."
+    },
+    {
+      "sourceClass": "gap-1",
+      "family": "spacing",
+      "status": "mapped",
+      "targetClasses": [
+        "gap-1"
+      ],
+      "reason": "Direct gap scale utility exists in SF5."
+    },
+    {
+      "sourceClass": "gap-3",
+      "family": "spacing",
+      "status": "mapped",
+      "targetClasses": [
+        "gap-3"
+      ],
+      "reason": "Direct gap scale utility exists in SF5."
+    },
+    {
+      "sourceClass": "gap-5",
+      "family": "spacing",
+      "status": "mapped",
+      "targetClasses": [
+        "gap-5"
+      ],
+      "reason": "Direct gap scale utility exists in SF5."
+    },
+    {
+      "sourceClass": "px-5",
+      "family": "spacing",
+      "status": "mapped",
+      "targetClasses": [
+        "p-inline-start-5",
+        "p-inline-end-5"
+      ],
+      "reason": "Tailwind horizontal padding maps to RTL-safe SF5 inline padding."
+    },
+    {
+      "sourceClass": "py-5",
+      "family": "spacing",
+      "status": "mapped",
+      "targetClasses": [
+        "p-y-5"
+      ],
+      "reason": "Tailwind vertical padding maps to SF5 vertical padding utility."
+    },
+    {
+      "sourceClass": "p-5",
+      "family": "spacing",
+      "status": "mapped",
+      "targetClasses": [
+        "p-5"
+      ],
+      "reason": "Direct padding scale utility exists in SF5."
+    },
+    {
+      "sourceClass": "mb-1",
+      "family": "spacing",
+      "status": "mapped",
+      "targetClasses": [
+        "m-bottom-1"
+      ],
+      "reason": "Tailwind bottom margin maps to SF5 bottom margin utility."
+    },
+    {
+      "sourceClass": "mb-6",
+      "family": "spacing",
+      "status": "mapped",
+      "targetClasses": [
+        "m-bottom-6"
+      ],
+      "reason": "Tailwind bottom margin maps to SF5 bottom margin utility."
+    },
+    {
+      "sourceClass": "space-y-6",
+      "family": "spacing",
+      "status": "mapped",
+      "targetClasses": [
+        "flex",
+        "flex-col",
+        "gap-6"
+      ],
+      "reason": "Tailwind vertical stack spacing maps to explicit SF5 flex-column gap in conversion drafts."
+    },
+    {
+      "sourceClass": "focus:border-brand-300",
+      "family": "responsive-state",
+      "status": "mapped",
+      "targetClasses": [
+        "focus:border-primary"
+      ],
+      "reason": "TailAdmin brand focus border maps to SF5 primary focus border."
+    },
+    {
+      "sourceClass": "focus:ring-3",
+      "family": "responsive-state",
+      "status": "mapped",
+      "targetClasses": [
+        "focus:ring-3"
+      ],
+      "reason": "Direct focus ring width utility exists in SF5."
+    },
+    {
+      "sourceClass": "focus:ring-brand-500/10",
+      "family": "responsive-state",
+      "status": "mapped",
+      "targetClasses": [
+        "focus:ring-primary"
+      ],
+      "reason": "TailAdmin translucent brand focus ring maps to SF5 primary focus ring."
+    },
+    {
+      "sourceClass": "border-t",
+      "family": "border-radius-shadow",
+      "status": "mapped",
+      "targetClasses": [
+        "border-top-1"
+      ],
+      "reason": "Tailwind top border maps to SF5 top border width utility."
+    },
+    {
+      "sourceClass": "rounded-xl",
+      "family": "border-radius-shadow",
+      "status": "mapped",
+      "targetClasses": [
+        "radius-1/2"
+      ],
+      "reason": "Tailwind extra-large radius maps to SF5 intermediate rounded surface radius."
+    },
+    {
+      "sourceClass": "overflow-y-auto",
+      "family": "structure-helper",
+      "status": "mapped",
+      "targetClasses": [
+        "overflow-y-auto"
+      ],
+      "reason": "Direct overflow utility exists in SF5."
+    },
+    {
+      "sourceClass": "cursor-pointer",
+      "family": "structure-helper",
+      "status": "mapped",
+      "targetClasses": [
+        "cursor-pointer"
+      ],
+      "reason": "Direct cursor utility exists in SF5."
+    },
+    {
+      "sourceClass": "appearance-none",
+      "family": "structure-helper",
+      "status": "mapped",
+      "targetClasses": [
+        "appearance-none"
+      ],
+      "reason": "Direct appearance utility exists in SF5."
+    },
+    {
+      "sourceClass": "bg-none",
+      "family": "color",
+      "status": "mapped",
+      "targetClasses": [
+        "bg-none"
+      ],
+      "reason": "Direct background-none utility exists in SF5."
+    },
+    {
+      "sourceClass": "flex-1",
+      "family": "layout-flex-grid",
+      "status": "mapped",
+      "targetClasses": [
+        "flex-1"
+      ],
+      "reason": "Direct flex grow/shrink utility exists in SF5."
+    },
+    {
+      "sourceClass": "h-screen",
+      "family": "sizing",
+      "status": "mapped",
+      "targetClasses": [
+        "h-screen"
+      ],
+      "reason": "Direct viewport height utility exists in SF5."
+    },
+    {
+      "sourceClass": "w-10",
+      "family": "sizing",
+      "status": "mapped",
+      "targetClasses": [
+        "w-10"
+      ],
+      "reason": "Direct width scale utility exists in SF5."
+    },
+    {
+      "sourceClass": "w-11",
+      "family": "sizing",
+      "status": "mapped",
+      "targetClasses": [
+        "w-11"
+      ],
+      "reason": "Direct width scale utility exists in SF5."
+    },
+    {
+      "sourceClass": "w-5",
+      "family": "sizing",
+      "status": "mapped",
+      "targetClasses": [
+        "w-5"
+      ],
+      "reason": "Direct width scale utility exists in SF5."
+    },
+    {
+      "sourceClass": "top-1/2",
+      "family": "structure-helper",
+      "status": "mapped",
+      "targetClasses": [
+        "top-1/2"
+      ],
+      "reason": "Direct positioning utility exists in SF5."
+    },
+    {
+      "sourceClass": "transition",
+      "family": "behavior-adjacent",
+      "status": "mapped",
+      "targetClasses": [
+        "transition"
+      ],
+      "reason": "Direct transition utility exists in SF5."
+    },
+    {
+      "sourceClass": "overflow-x-hidden",
+      "family": "structure-helper",
+      "status": "mapped",
+      "targetClasses": [
+        "overflow-x-hidden"
+      ],
+      "reason": "Direct overflow utility exists in SF5."
+    },
+    {
+      "sourceClass": "select-none",
+      "family": "structure-helper",
+      "status": "mapped",
+      "targetClasses": [
+        "select-none"
+      ],
+      "reason": "Direct selection utility exists in SF5."
+    },
+    {
+      "sourceClass": "bg-blue-600",
+      "family": "color",
+      "status": "deferred",
+      "targetClasses": [],
+      "reason": "Tailwind palette color requires semantic SF5 color-role decision."
+    },
+    {
+      "sourceClass": "text-gray-500",
+      "family": "color",
+      "status": "mapped",
+      "targetClasses": [
+        "color-on-surface-variant"
+      ],
+      "reason": "Tailwind secondary gray text maps to SF5 on-surface variant."
+    },
+    {
+      "sourceClass": "ring-1",
+      "family": "border-radius-shadow",
+      "status": "mapped",
+      "targetClasses": [
+        "border"
+      ],
+      "reason": "Tailwind static ring maps to SF5 border for application UI surface conversion drafts."
+    },
+    {
+      "sourceClass": "sr-only",
+      "family": "structure-helper",
+      "status": "deferred",
+      "targetClasses": [],
+      "reason": "Accessibility helper must be checked against SF5 accessibility utility policy."
+    },
+    {
+      "sourceClass": "group",
+      "family": "behavior-adjacent",
+      "status": "blocked",
+      "targetClasses": [],
+      "reason": "Group behavior cannot be converted without inspecting dependent group-* classes."
+    },
+    {
+      "sourceClass": "peer",
+      "family": "behavior-adjacent",
+      "status": "blocked",
+      "targetClasses": [],
+      "reason": "Peer behavior cannot be converted without inspecting dependent peer-* classes."
+    },
+    {
+      "sourceClass": "dark:bg-gray-900",
+      "family": "responsive-state",
+      "status": "blocked",
+      "targetClasses": [],
+      "reason": "Dark mode requires project theme policy and must not be guessed."
+    },
+    {
+      "sourceClass": "disabled:opacity-50",
+      "family": "responsive-state",
+      "status": "blocked",
+      "targetClasses": [],
+      "reason": "Disabled state mapping is deferred until SF5 state policy is explicitly defined."
+    }
+  ]
+}

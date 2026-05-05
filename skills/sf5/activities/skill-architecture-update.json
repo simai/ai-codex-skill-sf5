@@ -1,0 +1,42 @@
+{
+  "activity_id": "skill-architecture-update",
+  "title": "Refactor SF5 skill architecture, coordinator model, and specialist system",
+  "triggers": [
+    "skill architecture",
+    "coordinator",
+    "specialists",
+    "expert system",
+    "council model"
+  ],
+  "required_specialists": [
+    "task-goal",
+    "skill-maintainer",
+    "validation-qa"
+  ],
+  "optional_specialists": [
+    "docs-learning",
+    "routing-orchestrator"
+  ],
+  "required_rules": [
+    "rules/routing.md",
+    "rules/specialist-engagement-model.md",
+    "rules/decision-policy.md",
+    "rules/learning.md"
+  ],
+  "knowledge_packs": [
+    "knowledge-packs/skill-architecture-update.md",
+    "references/activity-routing-overview.md"
+  ],
+  "workflow": [
+    "Confirm the current architecture gap and the target coordinator behavior.",
+    "Change manifests, specialists, rules, and entrypoints in one coherent batch.",
+    "Update machine-readable routing or regression when architecture becomes executable.",
+    "Run JSON, fixture, and local checks before closing."
+  ],
+  "required_outputs": [
+    "updated coordinator structure",
+    "specialist or activity artifacts",
+    "verification result",
+    "remaining migration path"
+  ]
+}

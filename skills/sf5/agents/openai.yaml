@@ -1,4 +1,4 @@
 interface:
   display_name: "SIMAI Framewok 5"
-  short_description: "Frontend-first workflows for SIMAI Framework 5."
-  default_prompt: "Use this skill to implement and review SF5 frontend layers (core, loader, utilities, components, smart-components, blocks), then expand to backend planning for Bitrix and Laravel."
+  short_description: "Coordinator-driven SF5 workflows with activities, specialists, routing, scaffolds, and strict validation."
+  default_prompt: "Use this skill as an SF5 coordinator: identify the activity, engage the minimum specialist set, route the task with recommend_sf5_route.py when useful, generate or adapt scaffolds and working sets, verify against source-backed references, and validate strictly before delivery."

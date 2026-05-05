@@ -1,0 +1,42 @@
+{
+  "activity_id": "validation-hardening",
+  "title": "Strengthen validators, fixtures, and local check flows",
+  "triggers": [
+    "validator",
+    "fixture",
+    "checks",
+    "regression",
+    "strict validation"
+  ],
+  "required_specialists": [
+    "task-goal",
+    "validation-qa"
+  ],
+  "optional_specialists": [
+    "routing-orchestrator",
+    "working-set",
+    "docs-learning"
+  ],
+  "required_rules": [
+    "rules/routing.md",
+    "rules/decision-policy.md",
+    "rules/change-gates.md"
+  ],
+  "knowledge_packs": [
+    "knowledge-packs/validation-hardening.md"
+  ],
+  "gate_rules": [
+    "rules/change-gates.md#validation-hardening-gate"
+  ],
+  "workflow": [
+    "Confirm the broken validation or missing regression proof.",
+    "Change the narrowest validator or fixture surface.",
+    "Run the touched validator directly.",
+    "Then run the full local suite."
+  ],
+  "required_outputs": [
+    "updated validation or fixture layer",
+    "verification result",
+    "residual risk note"
+  ]
+}

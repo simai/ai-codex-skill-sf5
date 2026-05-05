@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "artifact": "tailwind-to-sf5.smart-hints",
+  "owner": "tailwind-converter",
+  "purpose": "Advisory smart-component recognition for Tailwind snippets. These hints never inject sf-code automatically; they report where SF5 smart behavior may be relevant.",
+  "hints": [
+    {
+      "id": "smart-search",
+      "title": "Search behavior",
+      "sfCode": "search",
+      "minimumScore": 2,
+      "requiresHtmlSignal": true,
+      "htmlSignals": [
+        "type=\"search\"",
+        "search",
+        "placeholder=\"search"
+      ],
+      "classSignals": [
+        "w-full",
+        "px-4",
+        "py-2"
+      ],
+      "strategy": "Consider sf-code=\"search\" only when the source behavior is an interactive search flow, not a plain input field.",
+      "sourceRefs": [
+        "references/pattern-pagination-filters.md",
+        "references/frontend-components-smart.md"
+      ]
+    },
+    {
+      "id": "smart-select",
+      "title": "Select/filter behavior",
+      "sfCode": "select",
+      "minimumScore": 2,
+      "requiresHtmlSignal": true,
+      "htmlSignals": [
+        "select",
+        "filter",
+        "option"
+      ],
+      "classSignals": [
+        "flex",
+        "gap-2"
+      ],
+      "strategy": "Consider sf-code=\"select\" when source filters rely on selectable options and the target SF5 project uses smart select components.",
+      "sourceRefs": [
+        "references/pattern-dropdown-selection.md",
+        "references/frontend-components-smart.md"
+      ]
+    },
+    {
+      "id": "smart-pagination",
+      "title": "Pagination behavior",
+      "sfCode": "pagination",
+      "minimumScore": 2,
+      "requiresHtmlSignal": true,
+      "requiredHtmlSignals": [
+        "pagination"
+      ],
+      "htmlSignals": [
+        "pagination",
+        "next",
+        "previous",
+        "page"
+      ],
+      "classSignals": [
+        "flex",
+        "gap-2"
+      ],
+      "strategy": "Consider sf-code=\"pagination\" only after confirming page-change behavior, URL policy, and loading state.",
+      "sourceRefs": [
+        "references/pattern-pagination-filters.md",
+        "references/frontend-components-smart.md"
+      ]
+    },
+    {
+      "id": "smart-table",
+      "title": "Table behavior",
+      "sfCode": "table",
+      "minimumScore": 3,
+      "requiresHtmlSignal": true,
+      "htmlSignals": [
+        "table",
+        "thead",
+        "tbody",
+        "sort"
+      ],
+      "classSignals": [
+        "w-full",
+        "text-left",
+        "border"
+      ],
+      "strategy": "Prefer static semantic <table class=\"table ...\"> output today. Treat sf-code=\"table\" as registry-only and blocked for auto-promotion until a source-backed ui-smart table runtime/data contract exists.",
+      "sourceRefs": [
+        "references/page-recipe-dashboard-table.md",
+        "references/frontend-components-smart.md",
+        "references/ui-doc-utility-atlas.md"
+      ]
+    },
+    {
+      "id": "smart-cards",
+      "title": "Cards behavior",
+      "sfCode": "cards",
+      "minimumScore": 3,
+      "htmlSignals": [
+        "article",
+        "card",
+        "list"
+      ],
+      "classSignals": [
+        "rounded-lg",
+        "border",
+        "shadow"
+      ],
+      "strategy": "Consider sf-code=\"cards\" when repeated cards need dynamic list behavior, filtering, selection, or async data loading.",
+      "sourceRefs": [
+        "references/frontend-components-smart.md",
+        "references/scenario-catalog-listing.md"
+      ]
+    }
+  ]
+}

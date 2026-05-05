@@ -1,0 +1,12 @@
+{
+  "activities": [
+    "source-refresh",
+    "routing-maintenance",
+    "recipe-scaffold-maintenance",
+    "working-set-maintenance",
+    "tailwind-conversion",
+    "validation-hardening",
+    "documentation-update",
+    "skill-architecture-update"
+  ]
+}

@@ -26,7 +26,7 @@ Run when docs snapshot changes:
 
 ```bash
 skills/sf5/scripts/build_ui_doc_atlas.py \
-  --docs-root '/Users/rim/Downloads/ui-doc-main (2)/ui-doc-main/source/docs/ru' \
+  --docs-root '/Users/rim/Documents/GitHub/ai-codex-skill-sf5/source/simai/ui-doc/source/docs/ru' \
   --skill-root /Users/rim/Documents/GitHub/ai-codex-skill-sf5/skills/sf5
 ```
 

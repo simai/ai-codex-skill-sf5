@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "organization": "simai",
+  "sourceRoot": "source/simai",
+  "repos": [
+    {
+      "name": "ui",
+      "remote": "git@github.com:simai/ui.git",
+      "defaultBranch": "main",
+      "localPath": "source/simai/ui",
+      "kind": "runtime-distribution",
+      "priority": "primary",
+      "authoritativeFor": [
+        "shipped loader assets",
+        "component inventory under distr/component",
+        "core runtime paths under distr/core"
+      ]
+    },
+    {
+      "name": "ui-doc",
+      "remote": "git@github.com:simai/ui-doc.git",
+      "defaultBranch": "main",
+      "localPath": "source/simai/ui-doc",
+      "kind": "documentation",
+      "priority": "primary",
+      "authoritativeFor": [
+        "official docs pages",
+        "loader semantics",
+        "utility and component docs structure"
+      ]
+    },
+    {
+      "name": "ui-play",
+      "remote": "git@github.com:simai/ui-play.git",
+      "defaultBranch": "master",
+      "localPath": "source/simai/ui-play",
+      "kind": "playground-and-examples",
+      "priority": "primary",
+      "authoritativeFor": [
+        "runnable examples",
+        "real host/runner wiring",
+        "smart asset publishing assumptions"
+      ]
+    },
+    {
+      "name": "ui-smart",
+      "remote": "git@github.com:simai/ui-smart.git",
+      "defaultBranch": "main",
+      "localPath": "source/simai/ui-smart",
+      "kind": "smart-components-runtime",
+      "priority": "primary",
+      "authoritativeFor": [
+        "available smart component names",
+        "smart js/css/template structure",
+        "smart deploy artifact layout"
+      ]
+    },
+    {
+      "name": "ui-utilities",
+      "remote": "git@github.com:simai/ui-utilities.git",
+      "defaultBranch": "main",
+      "localPath": "source/simai/ui-utilities",
+      "kind": "utility-distribution",
+      "priority": "secondary",
+      "authoritativeFor": [
+        "full utility bundle",
+        "utility group folder naming",
+        "utility-only standalone integration"
+      ]
+    },
+    {
+      "name": "ui-vscode",
+      "remote": "git@github.com:simai/ui-vscode.git",
+      "defaultBranch": "main",
+      "localPath": "source/simai/ui-vscode",
+      "kind": "editor-tooling",
+      "priority": "secondary",
+      "authoritativeFor": [
+        "modifier autocomplete hints",
+        "editor-facing utility metadata generation"
+      ]
+    },
+    {
+      "name": "ui-components",
+      "remote": "git@github.com:simai/ui-components.git",
+      "defaultBranch": "main",
+      "localPath": "source/simai/ui-components",
+      "kind": "components-source",
+      "priority": "optional",
+      "authoritativeFor": [
+        "raw component source code if repository access is available"
+      ],
+      "notes": [
+        "Repository is visible in organization listing provided by the user.",
+        "Current workspace sees the remote, but the repository does not expose a usable main branch during sync.",
+        "Treat it as unresolved until a concrete default branch or populated refs are confirmed."
+      ]
+    }
+  ]
+}

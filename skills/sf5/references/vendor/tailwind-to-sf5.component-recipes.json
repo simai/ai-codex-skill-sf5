@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "artifact": "tailwind-to-sf5.component-recipes",
+  "owner": "tailwind-converter",
+  "purpose": "Actionable SF5 recipe guidance for component hints detected in Tailwind snippets. Recipes are advisory and do not rewrite source HTML automatically.",
+  "recipes": [
+    {
+      "id": "auth-form",
+      "hintId": "auth-form",
+      "title": "Authentication Form Recipe",
+      "targetSurface": "page-recipe",
+      "route": {
+        "scenario": "auth",
+        "recipeType": "auth",
+        "scaffoldCommand": "python3 skills/sf5/scripts/generate_page_scaffold.py --type auth --snippet-only"
+      },
+      "conversionSteps": [
+        "Preserve the form action, method, field names, labels, aria attributes, and submit behavior.",
+        "Replace utility-only layout wrappers with the auth page recipe structure.",
+        "Map inputs to source-backed SF5 input patterns only after confirming project custom-element usage.",
+        "Keep validation messages inline and close to the field that owns them."
+      ],
+      "starterMarkup": "<form class=\"flex flex-col gap-2\"><sf-input size=\"1\" type=\"filled\" label=\"Email\" name=\"email\"></sf-input><sf-input size=\"1\" type=\"filled\" label=\"Password\" name=\"password\"></sf-input><button class=\"sf-button sf-button--default sf-button--primary sf-button--size-1\" type=\"submit\"><span class=\"sf-button-text-container\">Continue</span></button></form>",
+      "sourceRefs": [
+        "references/page-recipe-auth.md",
+        "references/pattern-forms-inputs.md",
+        "references/frontend-components-smart.md"
+      ],
+      "manualChecks": [
+        "Confirm auth flow type: login, registration, reset, or invite.",
+        "Confirm whether password managers and browser autofill require native input fallback.",
+        "Run visual QA on error, disabled, loading, and success states."
+      ]
+    },
+    {
+      "id": "card",
+      "hintId": "card",
+      "title": "Static Card Recipe",
+      "targetSurface": "component",
+      "route": {
+        "scenario": "card",
+        "recipeType": "component",
+        "scaffoldCommand": "python3 skills/sf5/scripts/generate_component_scaffold.py --kind component --snippet-only"
+      },
+      "conversionSteps": [
+        "Preserve the source semantic container: article, section, li, or div according to context.",
+        "Use SF5 surface, border, radius, spacing, and shadow utilities for static cards.",
+        "Do not infer interactive behavior unless source markup has explicit button, link, or data hooks.",
+        "Promote repeated cards to a component scaffold only after at least two repeated instances are present."
+      ],
+      "starterMarkup": "<article class=\"bg-surface-1 border border-outline-variant radius-1/3 p-2 shadow-1\"><div class=\"flex flex-col gap-1\"><h2 class=\"title-3\">Card title</h2><p class=\"text-2 color-on-surface-variant\">Supporting text</p></div></article>",
+      "sourceRefs": [
+        "references/component-template.md",
+        "references/frontend-components-smart.md"
+      ],
+      "manualChecks": [
+        "Check whether the card is static, clickable, selectable, or a list item.",
+        "Check if image/media slots require an SF5 media or gallery pattern.",
+        "Run visual QA for radius and shadow scale."
+      ]
+    },
+    {
+      "id": "data-table",
+      "hintId": "data-table",
+      "title": "Data Table Recipe",
+      "targetSurface": "page-recipe",
+      "route": {
+        "scenario": "dashboard-workspace",
+        "recipeType": "dashboard-table",
+        "scaffoldCommand": "python3 skills/sf5/scripts/generate_page_scaffold.py --type dashboard-table --snippet-only"
+      },
+      "conversionSteps": [
+        "Preserve table semantics: table, thead, tbody, tr, th, td, scope, and aria attributes.",
+        "Wrap wide tables in an overflow container before adding smart behavior.",
+        "Route filters, sorting, pagination, and bulk actions to pattern playbooks instead of guessing JS behavior.",
+        "Keep row actions explicit and verify keyboard navigation separately."
+      ],
+      "starterMarkup": "<article class=\"bg-surface-1 border border-outline-variant radius-1/3 p-2\"><div class=\"overflow-auto\"><table class=\"table w-full\"><thead><tr><th scope=\"col\">Column</th></tr></thead><tbody><tr><td>Value</td></tr></tbody></table></div></article>",
+      "sourceRefs": [
+        "references/page-recipe-dashboard-table.md",
+        "references/scenario-dashboard-workspace.md",
+        "references/scenario-catalog-listing.md",
+        "references/pattern-pagination-filters.md"
+      ],
+      "manualChecks": [
+        "Confirm whether the table is static, sortable, filterable, selectable, or paginated.",
+        "Check horizontal overflow on mobile.",
+        "Confirm empty, loading, and error states."
+      ]
+    },
+    {
+      "id": "toolbar",
+      "hintId": "toolbar",
+      "title": "Toolbar Recipe",
+      "targetSurface": "pattern",
+      "route": {
+        "scenario": "catalog-listing",
+        "recipeType": "action-bar",
+        "scaffoldCommand": "python3 skills/sf5/scripts/generate_sf5_working_set.py \"catalog listing with filters and toolbar\" --out-dir /tmp/sf5-toolbar"
+      },
+      "conversionSteps": [
+        "Preserve buttons, links, search inputs, filter controls, labels, and data hooks.",
+        "Use SF5 flex, wrapping, gap, and main-axis content utilities for responsive toolbar layout.",
+        "Do not collapse filters into a smart component until source behavior is explicit.",
+        "Keep primary and secondary actions visually distinct."
+      ],
+      "starterMarkup": "<div class=\"flex flex-row flex-wrap items-center content-main-between gap-2 w-full\"><div class=\"flex flex-wrap gap-1\"></div><div class=\"flex gap-1\"><button class=\"sf-button sf-button--default sf-button--primary sf-button--size-1\" type=\"button\"><span class=\"sf-button-text-container\">Apply</span></button></div></div>",
+      "sourceRefs": [
+        "references/pattern-pagination-filters.md",
+        "references/scenario-catalog-listing.md",
+        "references/working-set-generation.md"
+      ],
+      "manualChecks": [
+        "Confirm primary action and destructive actions.",
+        "Check wrapping and control order on mobile.",
+        "Confirm whether search/filter changes are immediate or submit-based."
+      ]
+    }
+  ]
+}

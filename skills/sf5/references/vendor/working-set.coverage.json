@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "summary": {
+    "expectedRecipeTypeCount": 9,
+    "supportedRecipeTypeCount": 9,
+    "unsupportedRecipeTypes": [],
+    "recipeTypesWithoutUpstreamExtracts": [],
+    "sectionCount": 24,
+    "sectionsWithSourceRefs": 24,
+    "sectionsWithUpstreamExtracts": 24
+  },
+  "recipes": [
+    {
+      "recipeType": "auth",
+      "supported": true,
+      "sectionCount": 2,
+      "withSourceRefs": 2,
+      "withUpstreamExtracts": 2,
+      "sectionIds": [
+        "auth-card",
+        "auth-help"
+      ],
+      "sectionsWithoutSourceRefs": [],
+      "sectionsWithoutUpstreamExtracts": []
+    },
+    {
+      "recipeType": "landing",
+      "supported": true,
+      "sectionCount": 3,
+      "withSourceRefs": 3,
+      "withUpstreamExtracts": 3,
+      "sectionIds": [
+        "hero-cta",
+        "benefit-cards",
+        "footer-links"
+      ],
+      "sectionsWithoutSourceRefs": [],
+      "sectionsWithoutUpstreamExtracts": []
+    },
+    {
+      "recipeType": "catalog",
+      "supported": true,
+      "sectionCount": 3,
+      "withSourceRefs": 3,
+      "withUpstreamExtracts": 3,
+      "sectionIds": [
+        "filters-sidebar",
+        "cards-grid",
+        "toolbar-sort"
+      ],
+      "sectionsWithoutSourceRefs": [],
+      "sectionsWithoutUpstreamExtracts": []
+    },
+    {
+      "recipeType": "catalog-empty",
+      "supported": true,
+      "sectionCount": 2,
+      "withSourceRefs": 2,
+      "withUpstreamExtracts": 2,
+      "sectionIds": [
+        "empty-state",
+        "filters-toolbar"
+      ],
+      "sectionsWithoutSourceRefs": [],
+      "sectionsWithoutUpstreamExtracts": []
+    },
+    {
+      "recipeType": "dashboard",
+      "supported": true,
+      "sectionCount": 3,
+      "withSourceRefs": 3,
+      "withUpstreamExtracts": 3,
+      "sectionIds": [
+        "kpi-row",
+        "activity-table",
+        "action-bar"
+      ],
+      "sectionsWithoutSourceRefs": [],
+      "sectionsWithoutUpstreamExtracts": []
+    },
+    {
+      "recipeType": "dashboard-table",
+      "supported": true,
+      "sectionCount": 2,
+      "withSourceRefs": 2,
+      "withUpstreamExtracts": 2,
+      "sectionIds": [
+        "table-shell",
+        "table-filters"
+      ],
+      "sectionsWithoutSourceRefs": [],
+      "sectionsWithoutUpstreamExtracts": []
+    },
+    {
+      "recipeType": "article",
+      "supported": true,
+      "sectionCount": 3,
+      "withSourceRefs": 3,
+      "withUpstreamExtracts": 3,
+      "sectionIds": [
+        "article-hero",
+        "toc-sidebar",
+        "related-grid"
+      ],
+      "sectionsWithoutSourceRefs": [],
+      "sectionsWithoutUpstreamExtracts": []
+    },
+    {
+      "recipeType": "checkout",
+      "supported": true,
+      "sectionCount": 3,
+      "withSourceRefs": 3,
+      "withUpstreamExtracts": 3,
+      "sectionIds": [
+        "customer-form",
+        "payment-summary",
+        "delivery-payment"
+      ],
+      "sectionsWithoutSourceRefs": [],
+      "sectionsWithoutUpstreamExtracts": []
+    },
+    {
+      "recipeType": "profile",
+      "supported": true,
+      "sectionCount": 3,
+      "withSourceRefs": 3,
+      "withUpstreamExtracts": 3,
+      "sectionIds": [
+        "avatar-upload",
+        "settings-form",
+        "notification-preferences"
+      ],
+      "sectionsWithoutSourceRefs": [],
+      "sectionsWithoutUpstreamExtracts": []
+    }
+  ]
+}

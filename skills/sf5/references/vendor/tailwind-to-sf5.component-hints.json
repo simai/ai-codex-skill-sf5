@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "artifact": "tailwind-to-sf5.component-hints",
+  "owner": "tailwind-converter",
+  "purpose": "Early component-recognition hints for converted Tailwind snippets. These hints do not replace markup automatically; they guide later SF5 component or smart-component substitution.",
+  "hints": [
+    {
+      "id": "auth-form",
+      "title": "Authentication form",
+      "scenario": "auth",
+      "stage": "component-recognition",
+      "minimumScore": 3,
+      "requiresHtmlSignal": true,
+      "requiredHtmlSignals": [
+        "<form"
+      ],
+      "classSignals": [
+        "flex",
+        "flex-col",
+        "gap-2",
+        "w-full",
+        "font-medium"
+      ],
+      "htmlSignals": [
+        "form",
+        "input",
+        "password",
+        "submit"
+      ],
+      "sf5Strategy": "Use the auth page recipe first, then map inputs/buttons to source-backed SF5 form and button patterns.",
+      "sourceRefs": [
+        "references/page-recipe-auth.md",
+        "references/pattern-forms-inputs.md",
+        "references/frontend-components-smart.md"
+      ]
+    },
+    {
+      "id": "card",
+      "title": "Static card",
+      "scenario": "card",
+      "stage": "component-recognition",
+      "minimumScore": 3,
+      "requiresHtmlSignal": true,
+      "requiredHtmlSignals": [
+        "<article"
+      ],
+      "classSignals": [
+        "rounded-lg",
+        "rounded-2xl",
+        "border",
+        "p-4",
+        "p-6",
+        "bg-white",
+        "shadow-sm",
+        "shadow"
+      ],
+      "htmlSignals": [
+        "article",
+        "section",
+        "header"
+      ],
+      "sf5Strategy": "Keep semantic container and prefer SF5 radius/border/shadow utilities until a shipped card component is confirmed.",
+      "sourceRefs": [
+        "references/component-template.md",
+        "references/frontend-components-smart.md"
+      ]
+    },
+    {
+      "id": "data-table",
+      "title": "Data table",
+      "scenario": "table",
+      "stage": "component-recognition",
+      "minimumScore": 3,
+      "requiredHtmlSignals": [
+        "<table"
+      ],
+      "classSignals": [
+        "w-full",
+        "text-left",
+        "border",
+        "px-4",
+        "py-2"
+      ],
+      "htmlSignals": [
+        "table",
+        "thead",
+        "tbody",
+        "tr"
+      ],
+      "sf5Strategy": "Route to dashboard-table or catalog-listing recipes and preserve table semantics before smart behavior is introduced.",
+      "sourceRefs": [
+        "references/page-recipe-dashboard-table.md",
+        "references/scenario-dashboard-workspace.md",
+        "references/scenario-catalog-listing.md"
+      ]
+    },
+    {
+      "id": "toolbar",
+      "title": "Toolbar or action bar",
+      "scenario": "toolbar",
+      "stage": "component-recognition",
+      "minimumScore": 5,
+      "classSignals": [
+        "flex",
+        "flex-row",
+        "items-center",
+        "justify-between",
+        "gap-2",
+        "w-full"
+      ],
+      "htmlSignals": [
+        "button",
+        "nav",
+        "search",
+        "filter"
+      ],
+      "sf5Strategy": "Route to toolbar/action-bar patterns and keep search/filter controls explicit until smart-component behavior is confirmed.",
+      "sourceRefs": [
+        "references/pattern-pagination-filters.md",
+        "references/scenario-catalog-listing.md",
+        "references/working-set-generation.md"
+      ]
+    }
+  ]
+}

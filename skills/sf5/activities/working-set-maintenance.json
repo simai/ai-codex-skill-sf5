@@ -1,0 +1,44 @@
+{
+  "activity_id": "working-set-maintenance",
+  "title": "Update working-set generation, section variants, and upstream extracts",
+  "triggers": [
+    "working set",
+    "upstream extract",
+    "section variants",
+    "bundle generation"
+  ],
+  "required_specialists": [
+    "task-goal",
+    "working-set",
+    "validation-qa"
+  ],
+  "optional_specialists": [
+    "source-sync",
+    "docs-learning"
+  ],
+  "required_rules": [
+    "rules/routing.md",
+    "rules/specialist-engagement-model.md",
+    "rules/decision-policy.md",
+    "rules/change-gates.md"
+  ],
+  "knowledge_packs": [
+    "knowledge-packs/working-set-maintenance.md",
+    "references/working-set-generation.md",
+    "references/working-set-coverage.md"
+  ],
+  "gate_rules": [
+    "rules/change-gates.md#working-set-gate"
+  ],
+  "workflow": [
+    "Confirm the touched recipe, section, or upstream extract surface.",
+    "Verify real source paths before changing working-set manifests or extraction logic.",
+    "Generate a real working set for the touched route family.",
+    "Run e2e and local validation after bundle contract changes."
+  ],
+  "required_outputs": [
+    "updated bundle contract",
+    "updated section or upstream coverage",
+    "verification result"
+  ]
+}

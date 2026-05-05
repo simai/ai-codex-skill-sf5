@@ -160,7 +160,7 @@ def write_manifest(records: List[Dict], out_file: Path) -> None:
     )
 
 
-def write_full_map(records: List[Dict], out_file: Path) -> None:
+def write_full_map(records: List[Dict], out_file: Path, docs_root: Path) -> None:
     top_counts = Counter(r["top"] for r in records)
     util_counts = Counter(r["utility_group"] for r in records if r["top"] == "utilities")
     by_top: Dict[str, List[Dict]] = defaultdict(list)
@@ -171,7 +171,7 @@ def write_full_map(records: List[Dict], out_file: Path) -> None:
     lines.append("# SF5 UI Docs Full Map")
     lines.append("")
     lines.append("Generated from:")
-    lines.append("`/Users/rim/Downloads/ui-doc-main (2)/ui-doc-main/source/docs/ru`")
+    lines.append(f"`{docs_root.as_posix()}`")
     lines.append("")
     lines.append("## Contents")
     lines.append("")
@@ -214,7 +214,7 @@ def write_full_map(records: List[Dict], out_file: Path) -> None:
     out_file.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
 
 
-def write_utility_atlas(records: List[Dict], out_file: Path) -> None:
+def write_utility_atlas(records: List[Dict], out_file: Path, docs_root: Path) -> None:
     util_records = [r for r in records if r["top"] == "utilities"]
     groups: Dict[str, List[Dict]] = defaultdict(list)
     for r in util_records:
@@ -223,7 +223,7 @@ def write_utility_atlas(records: List[Dict], out_file: Path) -> None:
     lines: List[str] = []
     lines.append("# SF5 Utility Atlas")
     lines.append("")
-    lines.append("Generated from utility pages in the SF5 docs snapshot.")
+    lines.append(f"Generated from utility pages in the SF5 docs snapshot at `{docs_root.as_posix()}`.")
     lines.append("")
     lines.append("## Contents")
     lines.append("")
@@ -283,8 +283,8 @@ def main() -> int:
 
     records = build_records(docs_root)
     write_manifest(records, refs / "ui-doc-manifest.json")
-    write_full_map(records, refs / "ui-doc-full-map.md")
-    write_utility_atlas(records, refs / "ui-doc-utility-atlas.md")
+    write_full_map(records, refs / "ui-doc-full-map.md", docs_root)
+    write_utility_atlas(records, refs / "ui-doc-utility-atlas.md", docs_root)
 
     print(f"Processed {len(records)} markdown files.")
     print(f"Wrote {(refs / 'ui-doc-manifest.json').as_posix()}")

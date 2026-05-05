@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "fixtures": [
+    {
+      "query": "checkout page with customer form, delivery, payment, summary and submit confirmation",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "checkout-flow",
+      "expectedRecipeType": "checkout",
+      "requiredActivitySpecialists": ["task-goal", "working-set", "validation-qa"],
+      "requiredActivityGateRules": ["rules/change-gates.md#working-set-gate"],
+      "requiredActivityKnowledgePacks": ["knowledge-packs/working-set-maintenance.md"],
+      "requiredActivityRoles": {"validation-qa": "gatekeeper"},
+      "requiredActivityWorkflowSnippets": ["Verify real source paths", "Run e2e and local validation"],
+      "forbiddenScenarioIds": ["catalog-listing", "dashboard-workspace"]
+    },
+    {
+      "query": "profile settings page with avatar upload and notification toggles",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "profile-settings",
+      "expectedRecipeType": "profile",
+      "forbiddenScenarioIds": ["auth", "dashboard-workspace"]
+    },
+    {
+      "query": "dashboard with KPI cards, activity table and filters",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "dashboard-workspace",
+      "expectedRecipeType": "dashboard",
+      "forbiddenScenarioIds": ["catalog-listing", "dashboard-table"]
+    },
+    {
+      "query": "dashboard table with search and status filters",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "dashboard-table",
+      "expectedRecipeType": "dashboard-table",
+      "forbiddenScenarioIds": ["catalog-listing", "dashboard-workspace"]
+    },
+    {
+      "query": "orders dashboard table with inline search and status filter row",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "dashboard-table",
+      "expectedRecipeType": "dashboard-table",
+      "forbiddenScenarioIds": ["catalog-listing", "dashboard-workspace"]
+    },
+    {
+      "query": "admin dashboard with KPI cards, activity table and filters",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "dashboard-workspace",
+      "expectedRecipeType": "dashboard",
+      "forbiddenScenarioIds": ["catalog-listing", "dashboard-table"]
+    },
+    {
+      "query": "catalog listing with search and sort toolbar",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "catalog-listing",
+      "expectedRecipeType": "catalog",
+      "forbiddenScenarioIds": ["dashboard-table", "dashboard-workspace"]
+    },
+    {
+      "query": "catalog empty state with filters and reset action",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "catalog-empty",
+      "expectedRecipeType": "catalog-empty",
+      "requiredActivitySpecialists": ["task-goal", "working-set", "validation-qa"],
+      "requiredActivityGateRules": ["rules/change-gates.md#working-set-gate"],
+      "requiredActivityKnowledgePacks": ["knowledge-packs/working-set-maintenance.md"],
+      "requiredActivityRoles": {"validation-qa": "gatekeeper"},
+      "requiredActivityWorkflowSnippets": ["Verify real source paths", "Run e2e and local validation"],
+      "forbiddenScenarioIds": ["catalog-listing", "dashboard-workspace"]
+    },
+    {
+      "query": "login page with password recovery links",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "auth",
+      "expectedRecipeType": "auth",
+      "requiredActivitySpecialists": ["task-goal", "working-set", "validation-qa"],
+      "requiredActivityGateRules": ["rules/change-gates.md#working-set-gate"],
+      "requiredActivityKnowledgePacks": ["knowledge-packs/working-set-maintenance.md"],
+      "requiredActivityRoles": {"validation-qa": "gatekeeper"},
+      "requiredActivityWorkflowSnippets": ["Verify real source paths", "Run e2e and local validation"],
+      "forbiddenScenarioIds": ["profile-settings", "checkout-flow"]
+    },
+    {
+      "query": "forgot password form with recovery action and auth help links",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "auth",
+      "expectedRecipeType": "auth",
+      "forbiddenScenarioIds": ["profile-settings", "catalog-listing"]
+    },
+    {
+      "query": "account preferences form with avatar upload and security settings",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "profile-settings",
+      "expectedRecipeType": "profile",
+      "forbiddenScenarioIds": ["auth", "checkout-flow"]
+    },
+    {
+      "query": "checkout success page with billing summary and payment details",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "checkout-flow",
+      "expectedRecipeType": "checkout",
+      "forbiddenScenarioIds": ["catalog-listing", "profile-settings"]
+    },
+    {
+      "query": "operator workspace table for orders with search filter and statuses",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "dashboard-table",
+      "expectedRecipeType": "dashboard-table",
+      "forbiddenScenarioIds": ["catalog-listing", "dashboard-workspace"]
+    },
+    {
+      "query": "product catalog results grid with sidebar filters and sort dropdown",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "catalog-listing",
+      "expectedRecipeType": "catalog",
+      "forbiddenScenarioIds": ["dashboard-table", "checkout-flow"]
+    },
+    {
+      "query": "no results screen for catalog search with clear filters action",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "catalog-empty",
+      "expectedRecipeType": "catalog-empty",
+      "forbiddenScenarioIds": ["catalog-listing", "dashboard-workspace"]
+    },
+    {
+      "query": "article page with table of contents and related posts",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "article-content",
+      "expectedRecipeType": "article",
+      "requiredActivitySpecialists": ["task-goal", "working-set", "validation-qa"],
+      "requiredActivityGateRules": ["rules/change-gates.md#working-set-gate"],
+      "requiredActivityKnowledgePacks": ["knowledge-packs/working-set-maintenance.md"],
+      "requiredActivityRoles": {"validation-qa": "gatekeeper"},
+      "requiredActivityWorkflowSnippets": ["Verify real source paths", "Run e2e and local validation"],
+      "forbiddenScenarioIds": ["dashboard-table", "catalog-listing"]
+    },
+    {
+      "query": "editorial content page with toc sidebar and long-form reading layout",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "article-content",
+      "expectedRecipeType": "article",
+      "forbiddenScenarioIds": ["dashboard-table", "dashboard-workspace"]
+    },
+    {
+      "query": "страница профиля с загрузкой аватара и настройками уведомлений",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "profile-settings",
+      "expectedRecipeType": "profile",
+      "forbiddenScenarioIds": ["auth", "checkout-flow"]
+    },
+    {
+      "query": "оформление заказа с доставкой оплатой и итоговым блоком",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "checkout-flow",
+      "expectedRecipeType": "checkout",
+      "forbiddenScenarioIds": ["catalog-listing", "profile-settings"]
+    },
+    {
+      "query": "каталог товаров с фильтрами слева и сортировкой",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "catalog-listing",
+      "expectedRecipeType": "catalog",
+      "forbiddenScenarioIds": ["dashboard-table", "dashboard-workspace"]
+    },
+    {
+      "query": "статья с оглавлением и блоком похожих материалов",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "article-content",
+      "expectedRecipeType": "article",
+      "forbiddenScenarioIds": ["dashboard-table", "catalog-listing"]
+    },
+    {
+      "query": "profile avatar settings",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "profile-settings",
+      "expectedRecipeType": "profile",
+      "forbiddenScenarioIds": ["auth", "checkout-flow"]
+    },
+    {
+      "query": "checkout доставка payment summary",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "checkout-flow",
+      "expectedRecipeType": "checkout",
+      "forbiddenScenarioIds": ["catalog-listing", "profile-settings"]
+    },
+    {
+      "query": "catalog фильтры sort",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "catalog-listing",
+      "expectedRecipeType": "catalog",
+      "forbiddenScenarioIds": ["dashboard-table", "dashboard-workspace"]
+    },
+    {
+      "query": "dashboard table статусы search",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "dashboard-table",
+      "expectedRecipeType": "dashboard-table",
+      "forbiddenScenarioIds": ["catalog-listing", "dashboard-workspace"]
+    },
+    {
+      "query": "article toc related",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "article-content",
+      "expectedRecipeType": "article",
+      "forbiddenScenarioIds": ["dashboard-table", "catalog-listing"]
+    },
+    {
+      "query": "auth forgot password",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "auth",
+      "expectedRecipeType": "auth",
+      "forbiddenScenarioIds": ["profile-settings", "checkout-flow"]
+    },
+    {
+      "query": "admin дашборд с KPI cards и activity table",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "dashboard-workspace",
+      "expectedRecipeType": "dashboard",
+      "forbiddenScenarioIds": ["dashboard-table", "catalog-listing"]
+    },
+    {
+      "query": "catalog no results фильтры clear all",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "catalog-empty",
+      "expectedRecipeType": "catalog-empty",
+      "forbiddenScenarioIds": ["catalog-listing", "dashboard-workspace"]
+    }
+  ]
+}

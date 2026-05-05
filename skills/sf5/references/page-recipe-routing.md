@@ -20,6 +20,15 @@ Use this routing table to map user prompts to page recipes and required utility 
 - Required utility groups:
   `layout`, `grid`, `forms`, `indents`, `border`, `typography`, `interactivity`.
 
+## Catalog Empty State
+
+- Trigger keywords:
+  empty catalog, no results, empty state, пусто, нет результатов, ничего не найдено.
+- Recipe:
+  `references/page-recipe-catalog-empty.md`
+- Required utility groups:
+  `layout`, `grid`, `forms`, `indents`, `border`, `typography`, `interactivity`.
+
 ## Dashboard
 
 - Trigger keywords:
@@ -28,6 +37,15 @@ Use this routing table to map user prompts to page recipes and required utility 
   `references/page-recipe-dashboard.md`
 - Required utility groups:
   `layout`, `grid`, `tables`, `typography`, `interactivity`, `border`, `indents`.
+
+## Dashboard Table
+
+- Trigger keywords:
+  table dashboard, data table, operator, workspace table, таблица заказов.
+- Recipe:
+  `references/page-recipe-dashboard-table.md`
+- Required utility groups:
+  `layout`, `grid`, `tables`, `forms`, `typography`, `interactivity`, `border`, `indents`.
 
 ## Article
 
@@ -46,6 +64,24 @@ Use this routing table to map user prompts to page recipes and required utility 
   `references/page-recipe-checkout.md`
 - Required utility groups:
   `layout`, `grid`, `forms`, `border`, `outline`, `interactivity`, `typography`.
+
+## Auth
+
+- Trigger keywords:
+  login, sign in, register, sign up, auth, forgot password, password reset.
+- Recipe:
+  `references/page-recipe-auth.md`
+- Required utility groups:
+  `layout`, `forms`, `typography`, `indents`, `interactivity`, `border`.
+
+## Profile
+
+- Trigger keywords:
+  profile, settings, account, preferences, avatar, notification.
+- Recipe:
+  `references/page-recipe-profile.md`
+- Required utility groups:
+  `layout`, `grid`, `forms`, `indents`, `border`, `interactivity`, `typography`.
 
 ## Fallback
 

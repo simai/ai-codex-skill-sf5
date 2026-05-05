@@ -2,7 +2,7 @@
 
 Use this file as the entry point for frontend work. It is based on the documentation snapshot located at:
 
-`/Users/rim/Downloads/ui-doc-main (2)/ui-doc-main/source/docs/ru`
+`/Users/rim/Documents/GitHub/ai-codex-skill-sf5/source/simai/ui-doc/source/docs/ru`
 
 ## Scope
 
@@ -45,6 +45,24 @@ Use this file as the entry point for frontend work. It is based on the documenta
   `scripts/validate_sf5_html_files.py`
 - Request normalization template:
   `references/task-intake-template.md`
+- External source topology and refresh workflow:
+  `references/source-repositories.md`
+- Source-backed coverage map for shipped components, smart-components, and examples:
+  `references/source-inventory.md`
+- Recurring UI task playbooks:
+  `references/pattern-playbooks.md`
+- Pattern router for recurring UI tasks:
+  `references/pattern-routing.md`
+- Product-level screen scenarios:
+  `references/product-scenarios.md`
+- Unified top-level routing:
+  `references/routing-overview.md`
+- Default execution order for real tasks:
+  `references/execution-workflow.md`
+- One-shot task brief preparation:
+  `references/task-preparation.md`
+- Fast route for wiring SF5 and shipping markup quickly:
+  `references/sf5-fast-start.md`
 - Exhaustive atlas workflow and scripts:
   `references/ui-doc-atlas-usage.md`
 - Full docs map and utility atlas:
@@ -53,6 +71,8 @@ Use this file as the entry point for frontend work. It is based on the documenta
   `references/ui-doc-curated-map.md`
 - Vendor SF5 contracts and registries (authoritative for strict checks):
   `references/vendor/source/catalog-lite.sf-only.json`,
+  `references/vendor/source-repos.json`,
+  `references/vendor/source-inventory.json`,
   `references/vendor/manifest/sf5.conditions.json`,
   `references/vendor/manifest/sf5.excluded-non-sf-classes.json`,
   `references/vendor/manifest/sf5.loader.json`,
@@ -74,6 +94,7 @@ Use this file as the entry point for frontend work. It is based on the documenta
 - `components/introduction.md` and `smart-components/introduction.md` are roadmap pages, not full specs.
 - Several pages are high-level or placeholders and must be treated as intent, not full contract.
 - Breakpoint values are inconsistent across pages; always verify actual project variables before changing responsive logic.
+- For real implementation examples, prefer `source/simai/ui-play/examples` over the roadmap component sections.
 
 ## Frontend Acceptance Checklist
 

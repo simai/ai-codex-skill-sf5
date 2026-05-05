@@ -1,0 +1,40 @@
+{
+  "activity_id": "documentation-update",
+  "title": "Update SF5 references, indexes, maps, and usage docs",
+  "triggers": [
+    "docs update",
+    "reference update",
+    "readme",
+    "atlas",
+    "inventory docs"
+  ],
+  "required_specialists": [
+    "task-goal",
+    "docs-learning"
+  ],
+  "optional_specialists": [
+    "source-sync",
+    "routing-orchestrator",
+    "validation-qa"
+  ],
+  "required_rules": [
+    "rules/routing.md",
+    "rules/decision-policy.md",
+    "rules/learning.md"
+  ],
+  "knowledge_packs": [
+    "references/activity-routing-overview.md",
+    "references/execution-workflow.md"
+  ],
+  "workflow": [
+    "Confirm which entrypoint or reference surface is stale.",
+    "Update the narrowest documentation owner.",
+    "Preserve cross-links between coordinator, scripts, and usage docs.",
+    "Verify by direct readback or local checks when docs describe changed tooling."
+  ],
+  "required_outputs": [
+    "updated docs surface",
+    "cross-link integrity",
+    "verification result"
+  ]
+}

@@ -1,7 +1,7 @@
 # SF5 UI Docs Full Map
 
 Generated from:
-`/Users/rim/Downloads/ui-doc-main (2)/ui-doc-main/source/docs/ru`
+`/Users/rim/Documents/GitHub/ai-codex-skill-sf5/source/simai/ui-doc/source/docs/ru`
 
 ## Contents
 

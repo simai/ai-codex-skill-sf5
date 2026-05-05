@@ -1,0 +1,522 @@
+{
+  "auth": [
+    {
+      "id": "auth-card",
+      "title": "Auth Card",
+      "description": "Centered login/register shell with stacked inputs and primary action.",
+      "source_refs": [
+        "source/simai/ui-play/examples/smart-components/inputs/element/index.html",
+        "source/simai/ui-play/examples/components/buttons/buttons/index.html"
+      ],
+      "upstream_extracts": [
+        {
+          "source": "source/simai/ui-play/examples/smart-components/inputs/element/index.html",
+          "mode": "range",
+          "start": {
+            "tag": "sf-input",
+            "class_token": "sf-input",
+            "occurrence": 1
+          },
+          "end": {
+            "tag": "sf-input",
+            "class_token": "sf-input",
+            "occurrence": 2
+          }
+        },
+        {
+          "source": "source/simai/ui-play/examples/components/buttons/buttons/index.html",
+          "tag": "button",
+          "class_token": "sf-button",
+          "occurrence": 1
+        }
+      ],
+      "html": "<section class=\"container md:container p-y-4\">\n  <div class=\"max-w-g8 m-x-auto bg-surface-1 border border-outline-variant p-3 radius-1/3\">\n    <h2 class=\"title-4\">Sign in</h2>\n    <div class=\"m-top-2 grid grid-col-1 gap-1\">\n      <sf-input placeholder=\"Email\"></sf-input>\n      <sf-input placeholder=\"Password\" type=\"password\"></sf-input>\n    </div>\n    <div class=\"flex gap-1 m-top-2\">\n      <button class=\"bg-primary color-on-primary p-x-2 p-y-1 radius-1/3\">Continue</button>\n      <a class=\"border border-outline p-x-2 p-y-1 radius-1/3\" href=\"#\">Create account</a>\n    </div>\n  </div>\n</section>\n"
+    },
+    {
+      "id": "auth-help",
+      "title": "Auth Help Row",
+      "description": "Secondary recovery and trust actions under the main form.",
+      "source_refs": [
+        "source/simai/ui-doc/source/docs/ru/utilities/links/links-default-parameters.md",
+        "source/simai/ui-play/examples/links/links-formatting/index.html"
+      ],
+      "upstream_extracts": [
+        {
+          "source": "source/simai/ui-play/examples/links/links-formatting/index.html",
+          "tag": "a",
+          "class_token": "link-dotted",
+          "occurrence": 1
+        }
+      ],
+      "html": "<section class=\"container md:container p-bottom-4\">\n  <div class=\"max-w-g8 m-x-auto flex flex-wrap gap-1 content-main-between\">\n    <a class=\"text-small color-primary\" href=\"#\">Forgot password?</a>\n    <a class=\"text-small color-primary\" href=\"#\">Need help signing in?</a>\n  </div>\n</section>\n"
+    }
+  ],
+  "landing": [
+    {
+      "id": "hero-cta",
+      "title": "Landing Hero CTA",
+      "description": "Primary hero section with headline, body copy, and actions.",
+      "source_refs": [
+        "source/simai/ui-play/examples/components/buttons/buttons/index.html",
+        "source/simai/ui-play/examples/links/links-default-parameters/index.html",
+        "source/simai/ui-doc/source/docs/ru/utilities/grid/grid-template-columns.md"
+      ],
+      "upstream_extracts": [
+        {
+          "source": "source/simai/ui-play/examples/components/buttons/buttons/index.html",
+          "tag": "button",
+          "class_token": "sf-button",
+          "occurrence": 1
+        }
+      ],
+      "html": "<section class=\"container md:container p-y-4\">\n  <div class=\"grid grid-col-1 md:grid-col-2 gap-3 items-cross-center\">\n    <div>\n      <h1 class=\"title-3\">Main value proposition</h1>\n      <p class=\"text-medium m-top-1\">Short supporting message.</p>\n      <div class=\"flex gap-1 m-top-2\">\n        <a class=\"bg-primary color-on-primary p-x-2 p-y-1 radius-1/3\" href=\"#\">Try now</a>\n        <a class=\"border border-outline p-x-2 p-y-1 radius-1/3\" href=\"#\">Learn more</a>\n      </div>\n    </div>\n    <div class=\"bg-surface-1 radius-1 p-3\">Hero visual block</div>\n  </div>\n</section>\n"
+    },
+    {
+      "id": "benefit-cards",
+      "title": "Landing Benefit Cards",
+      "description": "Three-column feature or benefit card row.",
+      "source_refs": [
+        "source/simai/ui-play/examples/grid/grid-template-columns/index.html",
+        "source/simai/ui-play/examples/components/badges/all/index.html"
+      ],
+      "upstream_extracts": [
+        {
+          "source": "source/simai/ui-play/examples/grid/grid-template-columns/index.html",
+          "tag": "div",
+          "class_token": "demo",
+          "occurrence": 1
+        }
+      ],
+      "html": "<section class=\"container md:container p-y-4\">\n  <div class=\"grid grid-col-1 sm:grid-col-2 lg:grid-col-3 gap-2\">\n    <article class=\"bg-surface-1 border border-outline-variant p-2 radius-1/3\">Benefit 1</article>\n    <article class=\"bg-surface-1 border border-outline-variant p-2 radius-1/3\">Benefit 2</article>\n    <article class=\"bg-surface-1 border border-outline-variant p-2 radius-1/3\">Benefit 3</article>\n  </div>\n</section>\n"
+    },
+    {
+      "id": "footer-links",
+      "title": "Landing Footer Links",
+      "description": "Simple footer row with legal/navigation links.",
+      "source_refs": [
+        "source/simai/ui-play/examples/links/links-default-parameters/index.html",
+        "source/simai/ui-play/examples/grid-and-flexbox-utilities/justify-content/index.html"
+      ],
+      "upstream_extracts": [
+        {
+          "source": "source/simai/ui-play/examples/links/links-formatting/index.html",
+          "tag": "a",
+          "class_token": "link-dotted",
+          "occurrence": 1
+        }
+      ],
+      "html": "<footer class=\"container md:container p-y-3 border-top-1 border-outline-variant\">\n  <div class=\"flex flex-wrap gap-2 content-main-between\">\n    <div class=\"text-small\">Copyright</div>\n    <div class=\"flex gap-2\">\n      <a class=\"link-underline-none\" href=\"#\">Terms</a>\n      <a class=\"link-underline-none\" href=\"#\">Privacy</a>\n    </div>\n  </div>\n</footer>\n"
+    }
+  ],
+  "catalog": [
+    {
+      "id": "filters-sidebar",
+      "title": "Filters Sidebar",
+      "description": "Static sidebar with checkbox filters and reset action.",
+      "source_refs": [
+        "source/simai/ui-play/examples/components/checkbox/all/index.html",
+        "source/simai/ui-doc/source/docs/ru/utilities/forms/accent-color.md"
+      ],
+      "upstream_extracts": [
+        {
+          "source": "source/simai/ui-play/examples/components/checkbox/all/index.html",
+          "tag": "label",
+          "class_token": "sf-checkbox",
+          "occurrence": 1
+        }
+      ],
+      "html": "<aside class=\"bg-surface-1 border border-outline-variant p-2 radius-1/3\">\n  <div class=\"flex items-cross-center content-main-between gap-1\">\n    <h2 class=\"title-5\">Filters</h2>\n    <button class=\"text-small color-primary\">Reset</button>\n  </div>\n  <div class=\"m-top-2 space-y-1\">\n    <label class=\"flex gap-1\"><input type=\"checkbox\" /> In stock</label>\n    <label class=\"flex gap-1\"><input type=\"checkbox\" /> New</label>\n    <label class=\"flex gap-1\"><input type=\"checkbox\" /> Discount</label>\n  </div>\n</aside>\n"
+    },
+    {
+      "id": "cards-grid",
+      "title": "Cards Grid",
+      "description": "Three-up responsive product grid with price and CTA.",
+      "source_refs": [
+        "source/simai/ui-play/examples/grid/grid-template-columns/index.html",
+        "source/simai/ui-play/examples/components/buttons/buttons/index.html",
+        "source/simai/ui-doc/source/docs/ru/utilities/grid/grid-template-columns.md"
+      ],
+      "upstream_extracts": [
+        {
+          "source": "source/simai/ui-play/examples/grid/grid-template-columns/index.html",
+          "tag": "div",
+          "class_token": "demo",
+          "occurrence": 1
+        }
+      ],
+      "html": "<section class=\"grid grid-col-1 sm:grid-col-2 xl:grid-col-3 gap-2\">\n  <article class=\"bg-surface-1 border border-outline-variant p-2 radius-1/3\">\n    <div class=\"bg-surface-2 radius-1/3 p-2\">Image</div>\n    <h3 class=\"title-5 m-top-1\">Item name</h3>\n    <p class=\"text-medium\">Short description.</p>\n    <div class=\"flex items-cross-center content-main-between m-top-1\">\n      <span class=\"title-5\">$99</span>\n      <button class=\"bg-primary color-on-primary p-x-1 p-y-1 radius-1/3\">Add</button>\n    </div>\n  </article>\n</section>\n"
+    },
+    {
+      "id": "toolbar-sort",
+      "title": "Toolbar Sort",
+      "description": "Search and sort controls for listing pages.",
+      "source_refs": [
+        "source/simai/ui-play/examples/components/dropdown/dropdown/index.html",
+        "source/simai/ui-play/examples/smart-components/inputs/element/index.html"
+      ],
+      "upstream_extracts": [
+        {
+          "source": "source/simai/ui-play/examples/components/dropdown/dropdown/index.html",
+          "mode": "ancestor",
+          "tag": "div",
+          "class_token": "sf-dropdown",
+          "occurrence": 1,
+          "ancestor_tag": "div",
+          "levels_up": 1
+        },
+        {
+          "source": "source/simai/ui-play/examples/smart-components/inputs/element/index.html",
+          "tag": "sf-input",
+          "class_token": "sf-input",
+          "occurrence": 1
+        }
+      ],
+      "html": "<section class=\"container md:container p-y-2\">\n  <div class=\"flex flex-wrap gap-2 items-cross-center content-main-between\">\n    <h2 class=\"title-4\">Catalog results</h2>\n    <div class=\"flex gap-1\">\n      <input class=\"border border-outline p-x-1 p-y-1 radius-1/3\" placeholder=\"Search\" />\n      <select class=\"border border-outline p-x-1 p-y-1 radius-1/3\">\n        <option>Popular</option>\n        <option>Price</option>\n        <option>Newest</option>\n      </select>\n    </div>\n  </div>\n</section>\n"
+    }
+  ],
+  "catalog-empty": [
+    {
+      "id": "empty-state",
+      "title": "Catalog Empty State",
+      "description": "Empty result block with reset filters action.",
+      "source_refs": [
+        "source/simai/ui-play/examples/components/buttons/buttons/index.html",
+        "source/simai/ui-play/examples/components/placeholder/default/index.html"
+      ],
+      "upstream_extracts": [
+        {
+          "source": "source/simai/ui-play/examples/components/placeholder/default/index.html",
+          "tag": "div",
+          "class_token": "sf-placeholder",
+          "occurrence": 1
+        },
+        {
+          "source": "source/simai/ui-play/examples/components/buttons/buttons/index.html",
+          "tag": "button",
+          "class_token": "sf-button",
+          "occurrence": 1
+        }
+      ],
+      "html": "<section class=\"bg-surface-1 border border-outline-variant p-3 radius-1/3 text-center\">\n  <h2 class=\"title-4\">Nothing found</h2>\n  <p class=\"text-medium m-top-1\">Try changing filters or clear the search query.</p>\n  <div class=\"flex content-main-center gap-1 m-top-2\">\n    <button class=\"bg-primary color-on-primary p-x-2 p-y-1 radius-1/3\">Reset filters</button>\n    <button class=\"border border-outline p-x-2 p-y-1 radius-1/3\">Back to catalog</button>\n  </div>\n</section>\n"
+    },
+    {
+      "id": "filters-toolbar",
+      "title": "Empty Filters Toolbar",
+      "description": "Compact top toolbar for empty listing state.",
+      "source_refs": [
+        "source/simai/ui-play/examples/components/tags/all/index.html",
+        "source/simai/ui-play/examples/components/buttons/buttons/index.html"
+      ],
+      "upstream_extracts": [
+        {
+          "source": "source/simai/ui-play/examples/components/tags/all/index.html",
+          "tag": "div",
+          "class_token": "sf-tag",
+          "occurrence": 1
+        },
+        {
+          "source": "source/simai/ui-play/examples/components/buttons/buttons/index.html",
+          "tag": "button",
+          "class_token": "sf-button",
+          "occurrence": 1
+        }
+      ],
+      "html": "<section class=\"container md:container p-bottom-2\">\n  <div class=\"flex flex-wrap gap-1 items-cross-center\">\n    <span class=\"text-small bg-surface-2 p-x-1 p-y-1 radius-1/3\">Price</span>\n    <span class=\"text-small bg-surface-2 p-x-1 p-y-1 radius-1/3\">Brand</span>\n    <button class=\"text-small color-primary\">Clear all</button>\n  </div>\n</section>\n"
+    }
+  ],
+  "dashboard": [
+    {
+      "id": "kpi-row",
+      "title": "KPI Row",
+      "description": "Responsive metrics row for overview pages.",
+      "source_refs": [
+        "source/simai/ui-play/examples/grid/grid-template-columns/index.html",
+        "source/simai/ui-doc/source/docs/ru/utilities/grid/grid-template-columns.md"
+      ],
+      "upstream_extracts": [
+        {
+          "source": "source/simai/ui-play/examples/grid/grid-template-columns/index.html",
+          "tag": "div",
+          "class_token": "demo",
+          "occurrence": 2
+        }
+      ],
+      "html": "<section class=\"grid grid-col-1 sm:grid-col-2 xl:grid-col-4 gap-2\">\n  <article class=\"bg-surface-1 border border-outline-variant p-2 radius-1/3\">\n    <p class=\"text-small\">Revenue</p>\n    <p class=\"title-3 m-top-1\">$120k</p>\n  </article>\n  <article class=\"bg-surface-1 border border-outline-variant p-2 radius-1/3\">\n    <p class=\"text-small\">Orders</p>\n    <p class=\"title-3 m-top-1\">1,240</p>\n  </article>\n</section>\n"
+    },
+    {
+      "id": "activity-table",
+      "title": "Activity Table",
+      "description": "Recent activity table for dashboards and workspaces.",
+      "source_refs": [
+        "source/simai/ui-play/examples/tables/tables-default-parameters/index.html",
+        "source/simai/ui-play/examples/tables/tables-formatting/index.html",
+        "source/simai/ui-doc/source/docs/ru/utilities/tables/tables-default-parameters.md",
+        "source/simai/ui-doc/source/docs/ru/utilities/tables/tables-formatting.md"
+      ],
+      "upstream_extracts": [
+        {
+          "source": "source/simai/ui-play/examples/tables/tables-default-parameters/index.html",
+          "tag": "table",
+          "class_token": "table",
+          "occurrence": 1
+        }
+      ],
+      "html": "<section class=\"bg-surface-1 border border-outline-variant p-2 radius-1/3\">\n  <h2 class=\"title-5\">Recent activity</h2>\n  <div class=\"overflow-auto m-top-1\">\n    <table class=\"w-full\">\n      <tr><td class=\"p-1\">09:12</td><td class=\"p-1\">Order created</td></tr>\n      <tr><td class=\"p-1\">09:04</td><td class=\"p-1\">Payment confirmed</td></tr>\n    </table>\n  </div>\n</section>\n"
+    },
+    {
+      "id": "action-bar",
+      "title": "Action Bar",
+      "description": "Top controls for filters and primary dashboard action.",
+      "source_refs": [
+        "source/simai/ui-play/examples/components/buttons/buttons/index.html",
+        "source/simai/ui-play/examples/grid-and-flexbox-utilities/justify-content/index.html"
+      ],
+      "upstream_extracts": [
+        {
+          "source": "source/simai/ui-play/examples/components/buttons/buttons/index.html",
+          "tag": "button",
+          "class_token": "sf-button",
+          "occurrence": 1
+        }
+      ],
+      "html": "<section class=\"container md:container p-y-2 border-bottom-1 border-outline-variant\">\n  <div class=\"flex items-cross-center content-main-between gap-2\">\n    <h2 class=\"title-4\">Workspace</h2>\n    <div class=\"flex gap-1\">\n      <button class=\"border border-outline p-x-1 p-y-1 radius-1/3\">Filter</button>\n      <button class=\"bg-primary color-on-primary p-x-1 p-y-1 radius-1/3\">Create</button>\n    </div>\n  </div>\n</section>\n"
+    }
+  ],
+  "dashboard-table": [
+    {
+      "id": "table-shell",
+      "title": "Dashboard Table Shell",
+      "description": "Primary data table block with compact controls.",
+      "source_refs": [
+        "source/simai/ui-play/examples/tables/tables-default-parameters/index.html",
+        "source/simai/ui-play/examples/tables/table-layout/index.html",
+        "source/simai/ui-doc/source/docs/ru/utilities/tables/table-layout.md"
+      ],
+      "upstream_extracts": [
+        {
+          "source": "source/simai/ui-play/examples/tables/tables-default-parameters/index.html",
+          "tag": "table",
+          "class_token": "table",
+          "occurrence": 2
+        }
+      ],
+      "html": "<section class=\"bg-surface-1 border border-outline-variant p-2 radius-1/3\">\n  <div class=\"flex flex-wrap gap-1 items-cross-center content-main-between\">\n    <h2 class=\"title-5\">Orders</h2>\n    <div class=\"flex gap-1\">\n      <button class=\"border border-outline p-x-1 p-y-1 radius-1/3\">Export</button>\n      <button class=\"bg-primary color-on-primary p-x-1 p-y-1 radius-1/3\">New order</button>\n    </div>\n  </div>\n  <div class=\"overflow-auto m-top-1\">\n    <table class=\"w-full\">\n      <tr><td class=\"p-1\">#1001</td><td class=\"p-1\">Processing</td><td class=\"p-1\">$320</td></tr>\n      <tr><td class=\"p-1\">#1002</td><td class=\"p-1\">Paid</td><td class=\"p-1\">$120</td></tr>\n    </table>\n  </div>\n</section>\n"
+    },
+    {
+      "id": "table-filters",
+      "title": "Table Filters",
+      "description": "Inline filter/search row for table dashboards.",
+      "source_refs": [
+        "source/simai/ui-play/examples/components/dropdown/dropdown/index.html",
+        "source/simai/ui-play/examples/smart-components/inputs/element/index.html"
+      ],
+      "upstream_extracts": [
+        {
+          "source": "source/simai/ui-play/examples/smart-components/inputs/element/index.html",
+          "tag": "sf-input",
+          "class_token": "sf-input",
+          "occurrence": 1
+        },
+        {
+          "source": "source/simai/ui-play/examples/components/dropdown/dropdown/index.html",
+          "mode": "ancestor",
+          "tag": "div",
+          "class_token": "sf-dropdown",
+          "occurrence": 1,
+          "ancestor_tag": "div",
+          "levels_up": 1
+        }
+      ],
+      "html": "<section class=\"flex flex-wrap gap-1 items-cross-center\">\n  <input class=\"border border-outline p-x-1 p-y-1 radius-1/3\" placeholder=\"Search by ID\" />\n  <select class=\"border border-outline p-x-1 p-y-1 radius-1/3\">\n    <option>Status</option>\n    <option>Paid</option>\n    <option>Processing</option>\n  </select>\n  <button class=\"border border-outline p-x-1 p-y-1 radius-1/3\">Reset</button>\n</section>\n"
+    }
+  ],
+  "article": [
+    {
+      "id": "article-hero",
+      "title": "Article Hero",
+      "description": "Article header with category, title, and lead paragraph.",
+      "source_refs": [
+        "source/simai/ui-play/examples/typography/title-size/index.html",
+        "source/simai/ui-play/examples/typography/text-role-modifiers/index.html",
+        "source/simai/ui-play/examples/typography/text-default/index.html"
+      ],
+      "upstream_extracts": [
+        {
+          "source": "source/simai/ui-play/examples/typography/text-default/index.html",
+          "tag": "div",
+          "class_token": "sf-card",
+          "occurrence": 2
+        }
+      ],
+      "html": "<section class=\"container md:container p-y-3\">\n  <p class=\"text-small color-secondary\">Category</p>\n  <h1 class=\"title-3 m-top-1\">Article title</h1>\n  <p class=\"text-medium m-top-1\">Lead paragraph that summarizes the topic.</p>\n</section>\n"
+    },
+    {
+      "id": "toc-sidebar",
+      "title": "Article TOC Sidebar",
+      "description": "Sticky-style table of contents links for article navigation.",
+      "source_refs": [
+        "source/simai/ui-play/examples/links/links-default-parameters/index.html",
+        "source/simai/ui-play/examples/divider/divider-default-parameters/index.html",
+        "source/simai/ui-play/examples/links/links-formatting/index.html"
+      ],
+      "upstream_extracts": [
+        {
+          "source": "source/simai/ui-play/examples/links/links-formatting/index.html",
+          "tag": "a",
+          "class_token": "link-dotted",
+          "occurrence": 1
+        }
+      ],
+      "html": "<aside class=\"bg-surface-1 border border-outline-variant p-2 radius-1/3\">\n  <p class=\"title-5\">Contents</p>\n  <a class=\"block m-top-1 link-underline-none\" href=\"#s1\">Section 1</a>\n  <a class=\"block m-top-1 link-underline-none\" href=\"#s2\">Section 2</a>\n  <a class=\"block m-top-1 link-underline-none\" href=\"#s3\">Section 3</a>\n</aside>\n"
+    },
+    {
+      "id": "related-grid",
+      "title": "Article Related Grid",
+      "description": "Grid of related articles or recommendations.",
+      "source_refs": [
+        "source/simai/ui-play/examples/grid/grid-template-columns/index.html",
+        "source/simai/ui-play/examples/links/links-default-parameters/index.html"
+      ],
+      "upstream_extracts": [
+        {
+          "source": "source/simai/ui-play/examples/grid/grid-template-columns/index.html",
+          "tag": "div",
+          "class_token": "demo",
+          "occurrence": 1
+        }
+      ],
+      "html": "<section class=\"container md:container p-bottom-4\">\n  <h2 class=\"title-5\">Related</h2>\n  <div class=\"grid grid-col-1 sm:grid-col-2 lg:grid-col-3 gap-2 m-top-1\">\n    <article class=\"bg-surface-1 border border-outline-variant p-2 radius-1/3\">Related item</article>\n    <article class=\"bg-surface-1 border border-outline-variant p-2 radius-1/3\">Related item</article>\n    <article class=\"bg-surface-1 border border-outline-variant p-2 radius-1/3\">Related item</article>\n  </div>\n</section>\n"
+    }
+  ],
+  "checkout": [
+    {
+      "id": "customer-form",
+      "title": "Customer Form",
+      "description": "Primary customer details form block.",
+      "source_refs": [
+        "source/simai/ui-play/examples/smart-components/inputs/element/index.html",
+        "source/simai/ui-play/examples/smart-components/inputs/country-code/index.html"
+      ],
+      "upstream_extracts": [
+        {
+          "source": "source/simai/ui-play/examples/smart-components/inputs/element/index.html",
+          "mode": "range",
+          "start": {
+            "tag": "sf-input",
+            "class_token": "sf-input",
+            "occurrence": 1
+          },
+          "end": {
+            "tag": "sf-input",
+            "class_token": "sf-input",
+            "occurrence": 2
+          }
+        },
+        {
+          "source": "source/simai/ui-play/examples/smart-components/inputs/country-code/index.html",
+          "tag": "sf-country-code",
+          "class_token": "sf-country-code",
+          "occurrence": 1
+        }
+      ],
+      "html": "<section class=\"bg-surface-1 border border-outline-variant p-2 radius-1/3\">\n  <h2 class=\"title-5\">Customer info</h2>\n  <div class=\"grid grid-col-1 md:grid-col-2 gap-1 m-top-1\">\n    <input class=\"border border-outline p-1 radius-1/3\" placeholder=\"First name\" />\n    <input class=\"border border-outline p-1 radius-1/3\" placeholder=\"Last name\" />\n    <input class=\"border border-outline p-1 radius-1/3\" placeholder=\"Email\" />\n    <input class=\"border border-outline p-1 radius-1/3\" placeholder=\"Phone\" />\n  </div>\n</section>\n"
+    },
+    {
+      "id": "payment-summary",
+      "title": "Payment Summary",
+      "description": "Sticky-style summary block for totals and CTA.",
+      "source_refs": [
+        "source/simai/ui-play/examples/components/buttons/buttons/index.html",
+        "source/simai/ui-doc/source/docs/ru/utilities/grid-and-flexbox-utilities/justify-content.md"
+      ],
+      "upstream_extracts": [
+        {
+          "source": "source/simai/ui-play/examples/components/buttons/buttons/index.html",
+          "tag": "button",
+          "class_token": "sf-button",
+          "occurrence": 1
+        }
+      ],
+      "html": "<aside class=\"bg-surface-1 border border-outline-variant p-2 radius-1/3\">\n  <h2 class=\"title-5\">Summary</h2>\n  <div class=\"m-top-1 flex content-main-between\"><span>Items</span><span>$120</span></div>\n  <div class=\"m-top-1 flex content-main-between\"><span>Delivery</span><span>$10</span></div>\n  <div class=\"m-top-1 border-top-1 border-outline-variant p-top-1 flex content-main-between\">\n    <strong>Total</strong><strong>$130</strong>\n  </div>\n  <button class=\"w-full bg-primary color-on-primary p-x-2 p-y-1 radius-1/3 m-top-2\">Place order</button>\n</aside>\n"
+    },
+    {
+      "id": "delivery-payment",
+      "title": "Delivery And Payment",
+      "description": "Two logical option groups for delivery and payment.",
+      "source_refs": [
+        "source/simai/ui-play/examples/components/radio-button/default/index.html",
+        "source/simai/ui-play/examples/components/radio-button/default/index.html"
+      ],
+      "upstream_extracts": [
+        {
+          "source": "source/simai/ui-play/examples/components/radio-button/default/index.html",
+          "tag": "label",
+          "class_token": "sf-radio-button",
+          "occurrence": 1
+        }
+      ],
+      "html": "<section class=\"grid grid-col-1 xl:grid-col-2 gap-2\">\n  <div class=\"bg-surface-1 border border-outline-variant p-2 radius-1/3\">\n    <h2 class=\"title-5\">Delivery</h2>\n    <label class=\"flex gap-1 m-top-1\"><input type=\"radio\" name=\"delivery\" /> Standard</label>\n    <label class=\"flex gap-1 m-top-1\"><input type=\"radio\" name=\"delivery\" /> Express</label>\n  </div>\n  <div class=\"bg-surface-1 border border-outline-variant p-2 radius-1/3\">\n    <h2 class=\"title-5\">Payment</h2>\n    <label class=\"flex gap-1 m-top-1\"><input type=\"radio\" name=\"payment\" /> Card</label>\n    <label class=\"flex gap-1 m-top-1\"><input type=\"radio\" name=\"payment\" /> Invoice</label>\n  </div>\n</section>\n"
+    }
+  ],
+  "profile": [
+    {
+      "id": "avatar-upload",
+      "title": "Avatar Upload",
+      "description": "Profile media area with upload control.",
+      "source_refs": [
+        "source/simai/ui-play/examples/components/avatar/default/index.html",
+        "source/simai/ui-play/examples/components/file-upload/default/index.html"
+      ],
+      "upstream_extracts": [
+        {
+          "source": "source/simai/ui-play/examples/components/avatar/default/index.html",
+          "tag": "button",
+          "class_token": "sf-avatar",
+          "occurrence": 1
+        },
+        {
+          "source": "source/simai/ui-play/examples/components/file-upload/default/index.html",
+          "tag": "div",
+          "class_token": "sf-file-upload",
+          "occurrence": 1
+        }
+      ],
+      "html": "<section class=\"bg-surface-1 border border-outline-variant p-2 radius-1/3\">\n  <div class=\"flex flex-wrap gap-2 items-cross-center\">\n    <div class=\"w-g4 h-g4 bg-surface-2 radius-round flex items-main-center items-cross-center\">A</div>\n    <div>\n      <h2 class=\"title-5\">Avatar</h2>\n      <sf-file-upload class=\"m-top-1\"></sf-file-upload>\n    </div>\n  </div>\n</section>\n"
+    },
+    {
+      "id": "settings-form",
+      "title": "Settings Form",
+      "description": "Account settings form with name and email fields.",
+      "source_refs": [
+        "source/simai/ui-play/examples/smart-components/inputs/element/index.html"
+      ],
+      "upstream_extracts": [
+        {
+          "source": "source/simai/ui-play/examples/smart-components/inputs/element/index.html",
+          "tag": "sf-input",
+          "class_token": "sf-input",
+          "occurrence": 2
+        }
+      ],
+      "html": "<section class=\"bg-surface-1 border border-outline-variant p-2 radius-1/3\">\n  <h2 class=\"title-5\">Profile details</h2>\n  <div class=\"grid grid-col-1 md:grid-col-2 gap-1 m-top-1\">\n    <sf-input placeholder=\"First name\"></sf-input>\n    <sf-input placeholder=\"Last name\"></sf-input>\n    <sf-input placeholder=\"Email\"></sf-input>\n    <sf-input placeholder=\"Company\"></sf-input>\n  </div>\n</section>\n"
+    },
+    {
+      "id": "notification-preferences",
+      "title": "Notification Preferences",
+      "description": "Simple preference list with checkboxes.",
+      "source_refs": [
+        "source/simai/ui-play/examples/components/switch/default/index.html",
+        "source/simai/ui-play/examples/components/checkbox/all/index.html"
+      ],
+      "upstream_extracts": [
+        {
+          "source": "source/simai/ui-play/examples/components/switch/default/index.html",
+          "tag": "label",
+          "class_token": "sf-switch",
+          "occurrence": 2
+        }
+      ],
+      "html": "<section class=\"bg-surface-1 border border-outline-variant p-2 radius-1/3\">\n  <h2 class=\"title-5\">Notifications</h2>\n  <label class=\"flex gap-1 m-top-1\"><input type=\"checkbox\" checked /> Product updates</label>\n  <label class=\"flex gap-1 m-top-1\"><input type=\"checkbox\" /> Billing alerts</label>\n  <label class=\"flex gap-1 m-top-1\"><input type=\"checkbox\" checked /> Security notices</label>\n</section>\n"
+    }
+  ]
+}

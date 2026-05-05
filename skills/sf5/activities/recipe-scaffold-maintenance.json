@@ -1,0 +1,38 @@
+{
+  "activity_id": "recipe-scaffold-maintenance",
+  "title": "Update page, component, smart, or block scaffold behavior",
+  "triggers": [
+    "new recipe",
+    "scaffold change",
+    "page scaffold",
+    "component scaffold",
+    "template update"
+  ],
+  "required_specialists": [
+    "task-goal",
+    "recipe-scaffold",
+    "validation-qa"
+  ],
+  "optional_specialists": [
+    "docs-learning",
+    "working-set"
+  ],
+  "required_rules": [
+    "rules/routing.md",
+    "rules/decision-policy.md"
+  ],
+  "knowledge_packs": [
+    "knowledge-packs/recipe-routing.md"
+  ],
+  "workflow": [
+    "Confirm which scaffold family changed and the expected markup contract.",
+    "Update the narrowest scaffold or recipe surface.",
+    "Generate fresh scaffold output for the touched type.",
+    "Run strict validation on generated markup."
+  ],
+  "required_outputs": [
+    "updated scaffold behavior",
+    "verification result",
+    "remaining compatibility notes"
+  ]
+}

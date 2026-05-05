@@ -18,6 +18,15 @@ TEMPLATE_BY_KIND = {
     "block": "block-template.md",
 }
 
+ACTIVITY_HINT = {
+    "activity_id": "recipe-scaffold-maintenance",
+    "required_specialists": [
+        "task-goal",
+        "recipe-scaffold",
+        "validation-qa",
+    ],
+}
+
 DEFAULT_TITLES = {
     "component": "Component",
     "smart": "Smart Component",
@@ -116,6 +125,7 @@ def main() -> int:
         default="",
         help="Override sf-code for --kind smart (must exist in vendor registry)",
     )
+    parser.add_argument("--format", choices=["text", "json"], default="text")
     parser.add_argument("--snippet-only", action="store_true", help="Print only snippet")
     parser.add_argument("--out", default="", help="Output file path (default: stdout)")
     args = parser.parse_args()
@@ -139,13 +149,31 @@ def main() -> int:
 
     output = html if args.snippet_only else wrap_full_document(html, title)
 
+    out_path = None
     if args.out:
         out_path = Path(args.out).expanduser().resolve()
         out_path.parent.mkdir(parents=True, exist_ok=True)
         out_path.write_text(output, encoding="utf-8")
-        print(f"Wrote {out_path}")
-    else:
+        if args.format == "text":
+            print(f"Wrote {out_path}")
+    elif args.format == "text":
         print(output, end="")
+
+    if args.format == "json":
+        payload = {
+            "ok": True,
+            "kind": args.kind,
+            "template_path": str(template_path),
+            "unit_name": args.name,
+            "unit_title": title,
+            "snippet_only": args.snippet_only,
+            "activity_hint": ACTIVITY_HINT,
+        }
+        if args.kind == "smart" and args.smart_code:
+            payload["smart_code"] = args.smart_code
+        if out_path:
+            payload["output_file"] = str(out_path)
+        print(json.dumps(payload, ensure_ascii=False, indent=2))
     return 0
 
 

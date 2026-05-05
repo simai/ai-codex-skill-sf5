@@ -1,6 +1,6 @@
 # SF5 Utility Atlas
 
-Generated from utility pages in the SF5 docs snapshot.
+Generated from utility pages in the SF5 docs snapshot at `/Users/rim/Documents/GitHub/ai-codex-skill-sf5/source/simai/ui-doc/source/docs/ru`.
 
 ## Contents
 

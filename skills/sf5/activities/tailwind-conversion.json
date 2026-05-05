@@ -1,0 +1,53 @@
+{
+  "activity_id": "tailwind-conversion",
+  "title": "Convert Tailwind CSS markup and examples into SF5-safe markup",
+  "triggers": [
+    "tailwind",
+    "tailwindcss",
+    "tailwind ui",
+    "tailwind plus",
+    "convert tailwind",
+    "tailwind to sf5",
+    "конвертировать tailwind",
+    "tailwind в sf5",
+    "перенести tailwind",
+    "application ui"
+  ],
+  "required_specialists": [
+    "task-goal",
+    "tailwind-converter",
+    "validation-qa"
+  ],
+  "optional_specialists": [
+    "source-sync",
+    "recipe-scaffold",
+    "working-set",
+    "docs-learning"
+  ],
+  "required_rules": [
+    "rules/routing.md",
+    "rules/decision-policy.md",
+    "rules/change-gates.md"
+  ],
+  "knowledge_packs": [
+    "knowledge-packs/tailwind-to-sf5-conversion.md",
+    "roadmap/tailwind-to-sf5-learning-plan.md",
+    "roadmap/tailwind-to-sf5-stage-1-2-tz.md",
+    "knowledge-packs/recipe-routing.md",
+    "references/frontend-modifiers.md",
+    "references/frontend-components-smart.md"
+  ],
+  "workflow": [
+    "Confirm the source ownership, license status, and target SF5 surface.",
+    "Classify the source markup into utility, component, smart-component, and behavior zones.",
+    "Map only known Tailwind patterns to verified SF5 utilities or components.",
+    "Generate a conversion report with unmapped classes, assumptions, and manual QA notes.",
+    "Validate SF5-ready output with strict class and component checks."
+  ],
+  "required_outputs": [
+    "converted SF5 markup or conversion plan",
+    "unmapped Tailwind report",
+    "license or source-ownership note",
+    "verification result"
+  ]
+}

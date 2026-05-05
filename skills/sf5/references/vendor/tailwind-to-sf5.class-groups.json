@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "artifact": "tailwind-to-sf5.class-groups",
+  "owner": "tailwind-converter",
+  "sourceTruth": [
+    "references/vendor/source/catalog-lite.sf-only.json",
+    "references/frontend-modifiers.md",
+    "references/frontend-components-smart.md"
+  ],
+  "families": [
+    {
+      "id": "layout-display",
+      "title": "Display and base layout",
+      "patterns": [
+        "block",
+        "inline",
+        "inline-block",
+        "hidden",
+        "flex",
+        "inline-flex",
+        "grid",
+        "inline-grid"
+      ],
+      "conversionPolicy": "map-when-target-class-exists"
+    },
+    {
+      "id": "layout-flex-grid",
+      "title": "Flex and grid structure",
+      "patterns": [
+        "flex-*",
+        "grid-*",
+        "col-span-*",
+        "row-span-*",
+        "auto-cols-*",
+        "auto-rows-*"
+      ],
+      "conversionPolicy": "map-known-structure-only"
+    },
+    {
+      "id": "spacing",
+      "title": "Spacing scale",
+      "patterns": [
+        "p-*",
+        "px-*",
+        "py-*",
+        "pt-*",
+        "pr-*",
+        "pb-*",
+        "pl-*",
+        "m-*",
+        "mx-*",
+        "my-*",
+        "mt-*",
+        "mr-*",
+        "mb-*",
+        "ml-*",
+        "space-*",
+        "gap-*"
+      ],
+      "conversionPolicy": "map-only-confirmed-scale-values"
+    },
+    {
+      "id": "sizing",
+      "title": "Sizing",
+      "patterns": [
+        "w-*",
+        "h-*",
+        "min-w-*",
+        "min-h-*",
+        "max-w-*",
+        "max-h-*"
+      ],
+      "conversionPolicy": "map-low-risk-full-auto-values-first"
+    },
+    {
+      "id": "typography",
+      "title": "Typography",
+      "patterns": [
+        "text-*",
+        "font-*",
+        "leading-*",
+        "tracking-*",
+        "uppercase",
+        "lowercase",
+        "capitalize",
+        "truncate"
+      ],
+      "conversionPolicy": "map-semantic-text-alignment-and-weight-only-when-verified"
+    },
+    {
+      "id": "color",
+      "title": "Color and opacity",
+      "patterns": [
+        "bg-*",
+        "text-*",
+        "border-*",
+        "placeholder-*",
+        "opacity-*"
+      ],
+      "conversionPolicy": "defer-palette-mapping-unless-source-uses-known-semantic-token"
+    },
+    {
+      "id": "border-radius-shadow",
+      "title": "Border, radius, ring, and shadow",
+      "patterns": [
+        "border",
+        "border-*",
+        "rounded-*",
+        "ring-*",
+        "shadow-*"
+      ],
+      "conversionPolicy": "map-border-radius-shadow-known-values-and-block-ring-until-reviewed"
+    },
+    {
+      "id": "responsive-state",
+      "title": "Responsive and state prefixes",
+      "patterns": [
+        "sm:*",
+        "md:*",
+        "lg:*",
+        "xl:*",
+        "2xl:*",
+        "hover:*",
+        "focus:*",
+        "active:*",
+        "disabled:*",
+        "dark:*"
+      ],
+      "conversionPolicy": "map-supported-prefixes-only-and-report-unsupported-state"
+    },
+    {
+      "id": "structure-helper",
+      "title": "Structure helpers",
+      "patterns": [
+        "sr-only",
+        "not-sr-only",
+        "overflow-*",
+        "aspect-*",
+        "divide-*",
+        "relative",
+        "absolute",
+        "fixed",
+        "sticky"
+      ],
+      "conversionPolicy": "map-position-overflow-directly-and-defer-special-helpers"
+    },
+    {
+      "id": "behavior-adjacent",
+      "title": "Behavior-adjacent classes",
+      "patterns": [
+        "group",
+        "group-*",
+        "peer",
+        "peer-*",
+        "transition-*",
+        "duration-*",
+        "ease-*",
+        "animate-*"
+      ],
+      "conversionPolicy": "preserve-or-report-manual-behavior-review"
+    }
+  ],
+  "reportBuckets": [
+    "mapped",
+    "unmapped",
+    "deferred",
+    "blocked",
+    "unsafe"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "fixtures": [
+    {
+      "script": "recommend_page_recipe.py",
+      "query": "profile settings page with avatar upload and notification toggles",
+      "expectedActivityId": "recipe-scaffold-maintenance",
+      "expectedRoute": "profile"
+    },
+    {
+      "script": "recommend_page_recipe.py",
+      "query": "catalog empty state with filters and reset action",
+      "expectedActivityId": "recipe-scaffold-maintenance",
+      "expectedRoute": "catalog-empty"
+    },
+    {
+      "script": "recommend_product_scenario.py",
+      "query": "profile settings page with avatar upload and notification toggles",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedTopId": "profile-settings"
+    },
+    {
+      "script": "recommend_product_scenario.py",
+      "query": "article page with table of contents and related posts",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedTopId": "article-content"
+    },
+    {
+      "script": "recommend_ui_pattern.py",
+      "query": "checkout page with customer form, delivery, payment and summary",
+      "expectedActivityId": "recipe-scaffold-maintenance",
+      "expectedTopId": "forms-inputs"
+    },
+    {
+      "script": "recommend_ui_pattern.py",
+      "query": "catalog filters with tags, toggle and pagination",
+      "expectedActivityId": "recipe-scaffold-maintenance",
+      "expectedTopId": "pagination-filters"
+    }
+  ]
+}

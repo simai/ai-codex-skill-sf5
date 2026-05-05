@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-03T19:15:43.820883+00:00",
+  "repoRoot": "/Users/rim/Documents/GitHub/ai-codex-skill-sf5",
+  "manifest": "/Users/rim/Documents/GitHub/ai-codex-skill-sf5/skills/sf5/references/vendor/source-repos.json",
+  "results": [
+    {
+      "name": "ui",
+      "status": "ok",
+      "branch": "main",
+      "commit": "64aadd5ef33b2fa665b3ef760606ed6c59141307",
+      "localPath": "source/simai/ui",
+      "remote": "git@github.com:simai/ui.git",
+      "priority": "primary",
+      "kind": "runtime-distribution"
+    },
+    {
+      "name": "ui-doc",
+      "status": "ok",
+      "branch": "main",
+      "commit": "6ecb05f1fa94dd379d6defd79fa0e0dae0374902",
+      "localPath": "source/simai/ui-doc",
+      "remote": "git@github.com:simai/ui-doc.git",
+      "priority": "primary",
+      "kind": "documentation"
+    },
+    {
+      "name": "ui-play",
+      "status": "ok",
+      "branch": "master",
+      "commit": "6c3be0c41a917abc427485dfe63c62a2a0e3bcef",
+      "localPath": "source/simai/ui-play",
+      "remote": "git@github.com:simai/ui-play.git",
+      "priority": "primary",
+      "kind": "playground-and-examples"
+    },
+    {
+      "name": "ui-smart",
+      "status": "ok",
+      "branch": "main",
+      "commit": "5e66f1a7da87c2b553d42d33d5f27a39cb4a9217",
+      "localPath": "source/simai/ui-smart",
+      "remote": "git@github.com:simai/ui-smart.git",
+      "priority": "primary",
+      "kind": "smart-components-runtime"
+    },
+    {
+      "name": "ui-utilities",
+      "status": "ok",
+      "branch": "main",
+      "commit": "7ef2047a65ca5c81604199f997792c9ac0513de4",
+      "localPath": "source/simai/ui-utilities",
+      "remote": "git@github.com:simai/ui-utilities.git",
+      "priority": "secondary",
+      "kind": "utility-distribution"
+    },
+    {
+      "name": "ui-vscode",
+      "status": "ok",
+      "branch": "main",
+      "commit": "ad9d7815a5aba10e1c548778c1730f0583065ef4",
+      "localPath": "source/simai/ui-vscode",
+      "remote": "git@github.com:simai/ui-vscode.git",
+      "priority": "secondary",
+      "kind": "editor-tooling"
+    },
+    {
+      "name": "ui-components",
+      "status": "error",
+      "branch": "main",
+      "localPath": "source/simai/ui-components",
+      "remote": "git@github.com:simai/ui-components.git",
+      "priority": "optional",
+      "kind": "components-source",
+      "error": "Cloning into '/Users/rim/Documents/GitHub/ai-codex-skill-sf5/source/simai/ui-components'...\nfatal: Remote branch main not found in upstream origin"
+    }
+  ]
+}

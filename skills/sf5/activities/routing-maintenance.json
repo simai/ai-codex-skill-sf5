@@ -1,0 +1,41 @@
+{
+  "activity_id": "routing-maintenance",
+  "title": "Update scenario, recipe, and playbook routing behavior",
+  "triggers": [
+    "route fix",
+    "scenario match",
+    "recipe routing",
+    "fixtures",
+    "ranking"
+  ],
+  "required_specialists": [
+    "task-goal",
+    "routing-orchestrator",
+    "validation-qa"
+  ],
+  "optional_specialists": [
+    "docs-learning",
+    "skill-maintainer"
+  ],
+  "required_rules": [
+    "rules/routing.md",
+    "rules/specialist-engagement-model.md",
+    "rules/decision-policy.md"
+  ],
+  "knowledge_packs": [
+    "knowledge-packs/routing-maintenance.md",
+    "knowledge-packs/scenario-routing.md",
+    "references/routing-overview.md"
+  ],
+  "workflow": [
+    "Confirm the intended route family and the incorrect current behavior.",
+    "Change the narrowest ranking or routing surface.",
+    "Update route or e2e fixtures that prove the new behavior.",
+    "Run focused route validation before the full local suite."
+  ],
+  "required_outputs": [
+    "routing decision update",
+    "fixture or regression update",
+    "verification result"
+  ]
+}

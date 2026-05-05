@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "artifact": "tailwind-to-sf5.component-renderers",
+  "owner": "tailwind-converter",
+  "purpose": "Source-backed starter renderers for choosing concrete shipped SF5 components and smart custom-elements from Tailwind-like HTML snippets.",
+  "renderers": [
+    {
+      "id": "button",
+      "componentId": "buttons",
+      "title": "SF5 button",
+      "surface": "component",
+      "minimumScore": 2,
+      "requiresHtmlSignal": true,
+      "htmlSignals": [
+        "<button",
+        "type=\"button\"",
+        "type=\"submit\""
+      ],
+      "classSignals": [
+        "inline-flex",
+        "items-center",
+        "justify-center",
+        "rounded-lg",
+        "font-semibold",
+        "px-4",
+        "py-2"
+      ],
+      "starterMarkup": "<sf-button size=\"1\" type=\"default\" scheme=\"primary\" text=\"Action\"></sf-button>",
+      "manualChecks": [
+        "Confirm native submit behavior before replacing a submit button with a custom element.",
+        "Preserve disabled, loading, aria-label, icon, and destructive/action semantics.",
+        "Use native button markup when the target runtime does not hydrate smart custom elements."
+      ],
+      "sourceRefs": [
+        "references/component-smart-catalog.md",
+        "source/simai/ui-play/examples/components/buttons/buttons/index.html",
+        "source/simai/ui-play/examples/smart-components/buttons/element/index.html"
+      ]
+    },
+    {
+      "id": "dropdown",
+      "componentId": "dropdown",
+      "title": "SF5 dropdown",
+      "surface": "smart-component",
+      "minimumScore": 3,
+      "requiresHtmlSignal": true,
+      "htmlSignals": [
+        "<select",
+        "<option",
+        "dropdown",
+        "filter"
+      ],
+      "classSignals": [
+        "rounded-lg",
+        "border",
+        "px-4",
+        "py-2",
+        "w-full"
+      ],
+      "starterMarkup": "<sf-dropdown size=\"1\" type=\"outlined\" mode=\"single\" label=\"Label\" placeholder=\"Select value\" text=\"Value\"></sf-dropdown>",
+      "manualChecks": [
+        "Confirm single vs multiple selection.",
+        "Preserve original option values, selected state, disabled state, and form field name.",
+        "Confirm whether filtering/search inside the dropdown is required."
+      ],
+      "sourceRefs": [
+        "references/component-smart-catalog.md",
+        "source/simai/ui-play/examples/components/dropdown/dropdown/index.html",
+        "source/simai/ui-play/examples/smart-components/dropdown/element/index.html"
+      ]
+    },
+    {
+      "id": "input",
+      "componentId": "inputs",
+      "title": "SF5 input",
+      "surface": "smart-component",
+      "minimumScore": 3,
+      "requiresHtmlSignal": true,
+      "htmlSignals": [
+        "<input",
+        "type=\"email\"",
+        "type=\"text\"",
+        "type=\"search\"",
+        "placeholder="
+      ],
+      "classSignals": [
+        "w-full",
+        "rounded-lg",
+        "border",
+        "px-4",
+        "py-2"
+      ],
+      "starterMarkup": "<sf-input size=\"1\" type=\"filled\" label=\"Label\" name=\"field\" placeholder=\"Placeholder\"></sf-input>",
+      "manualChecks": [
+        "Preserve name, type, value, required, autocomplete, aria attributes, and validation hooks.",
+        "Use native input fallback when browser autofill or password manager behavior is critical.",
+        "Confirm masks, hints, errors, icons, and country-code behavior separately."
+      ],
+      "sourceRefs": [
+        "references/component-smart-catalog.md",
+        "source/simai/ui-play/examples/smart-components/inputs/element/index.html",
+        "source/simai/ui-play/examples/smart-components/inputs/country-code/index.html"
+      ]
+    },
+    {
+      "id": "pagination",
+      "componentId": "pagination",
+      "title": "SF5 pagination",
+      "surface": "smart-component",
+      "minimumScore": 3,
+      "requiresHtmlSignal": true,
+      "htmlSignals": [
+        "pagination",
+        "next",
+        "previous",
+        "page"
+      ],
+      "classSignals": [
+        "flex",
+        "gap-2",
+        "items-center",
+        "justify-between"
+      ],
+      "starterMarkup": "<sf-pagination current=\"1\" total=\"10\"></sf-pagination>",
+      "manualChecks": [
+        "Use this renderer only for the source-backed SF5 full pagination contract; do not auto-promote compact previous/next-only pagers.",
+        "Check the rendered result against the real ui-play source example, not against a handcrafted approximation.",
+        "Confirm current page, total pages, URL policy, and AJAX vs full reload behavior.",
+        "Preserve accessible labels for numeric, page-size, and last-page controls.",
+        "Check mobile wrapping, disabled edge states, and whether top/bottom sections should be enabled."
+      ],
+      "sourceRefs": [
+        "references/component-smart-catalog.md",
+        "source/simai/ui-play/examples/components/pagination/default/index.html",
+        "source/simai/ui-play/examples/smart-components/pagination/default/index.html"
+      ]
+    },
+    {
+      "id": "modal",
+      "componentId": "modal",
+      "title": "SF5 modal",
+      "surface": "smart-component",
+      "minimumScore": 3,
+      "requiresHtmlSignal": true,
+      "htmlSignals": [
+        "modal",
+        "dialog",
+        "aria-modal",
+        "data-modal"
+      ],
+      "classSignals": [
+        "fixed",
+        "inset-0",
+        "z-",
+        "rounded-lg",
+        "shadow"
+      ],
+      "starterMarkup": "<sf-modal id=\"modal-example\" size=\"1\" type=\"default\" scheme=\"primary\" title=\"Modal title\" text=\"Modal content\"></sf-modal>",
+      "manualChecks": [
+        "Preserve trigger wiring, close controls, focus trap expectations, escape behavior, and overlay policy.",
+        "Confirm static content vs remote src mode.",
+        "Check accessibility labels and initial open/hidden state."
+      ],
+      "sourceRefs": [
+        "references/component-smart-catalog.md",
+        "source/simai/ui-play/examples/components/modal/all/index.html",
+        "source/simai/ui-play/examples/smart-components/modal/element/index.html"
+      ]
+    }
+  ]
+}

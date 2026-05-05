@@ -1,0 +1,4380 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-05T17:12:17.265065+00:00",
+  "sourceInventory": "skills/sf5/references/vendor/source-inventory.json",
+  "smartCodeRegistry": "skills/sf5/references/vendor/registries/smart-codes.json",
+  "summary": {
+    "componentCount": 72,
+    "componentsWithExamples": 31,
+    "smartComponentCount": 33,
+    "smartComponentsWithExamples": 32
+  },
+  "components": [
+    {
+      "id": "accordion",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/accordion",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/components/accordion/default/index.html"
+      ],
+      "coverageRefs": [
+        "components/accordion/default"
+      ],
+      "contract": {
+        "rootClassCandidates": [
+          "sf-accordion",
+          "sf-accordion-content",
+          "sf-accordion-title",
+          "sf-accordion-wrap",
+          "sf-icon"
+        ],
+        "modifierClassExamples": [
+          "sf-accordion",
+          "sf-accordion-content",
+          "sf-accordion-title",
+          "sf-accordion-wrap",
+          "sf-icon"
+        ],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/accordion"
+      ]
+    },
+    {
+      "id": "ajax",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/ajax",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/ajax"
+      ]
+    },
+    {
+      "id": "ajaxload",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/ajaxload",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/ajaxload"
+      ]
+    },
+    {
+      "id": "alerts",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/alerts",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/components/alert/default/index.html"
+      ],
+      "coverageRefs": [
+        "alert"
+      ],
+      "contract": {
+        "rootClassCandidates": [
+          "sf-alert",
+          "sf-alert-text",
+          "sf-alert-wrap",
+          "sf-icon",
+          "sf-icon-button",
+          "sf-icon-solid"
+        ],
+        "modifierClassExamples": [
+          "sf-alert",
+          "sf-alert--clear",
+          "sf-alert--danger",
+          "sf-alert--default",
+          "sf-alert--flat",
+          "sf-alert--info",
+          "sf-alert--outlined",
+          "sf-alert--success",
+          "sf-alert--supporting-text",
+          "sf-alert--warning",
+          "sf-alert-text",
+          "sf-alert-wrap",
+          "sf-icon",
+          "sf-icon-button",
+          "sf-icon-button--link",
+          "sf-icon-button--primary",
+          "sf-icon-button--size-1/3",
+          "sf-icon-solid"
+        ],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/alerts"
+      ]
+    },
+    {
+      "id": "avatars",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/avatars",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": true,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/components/avatar/card/index.html",
+        "source/simai/ui-play/examples/components/avatar/default/index.html",
+        "source/simai/ui-play/examples/components/avatar/group/index.html"
+      ],
+      "coverageRefs": [
+        "avatar"
+      ],
+      "contract": {
+        "rootClassCandidates": [
+          "sf-avatar",
+          "sf-avatar-card",
+          "sf-avatar-card-content",
+          "sf-avatar-card-image",
+          "sf-avatar-card-portrait",
+          "sf-avatar-card-row",
+          "sf-avatar-card-square",
+          "sf-avatar-card-title",
+          "sf-avatar-label-group",
+          "sf-avatar-label-group-container",
+          "sf-avatar-label-group-text",
+          "sf-avatar-label-group-title"
+        ],
+        "modifierClassExamples": [
+          "sf-avatar",
+          "sf-avatar--placeholder",
+          "sf-avatar--size-1",
+          "sf-avatar--size-1/2",
+          "sf-avatar--size-1/3",
+          "sf-avatar--size-1/4",
+          "sf-avatar--size-2",
+          "sf-avatar--size-3",
+          "sf-avatar--status-icon-company",
+          "sf-avatar--status-icon-online-indicator",
+          "sf-avatar--text",
+          "sf-avatar-card",
+          "sf-avatar-card-content",
+          "sf-avatar-card-image",
+          "sf-avatar-card-portrait",
+          "sf-avatar-card-row",
+          "sf-avatar-card-square",
+          "sf-avatar-card-title",
+          "sf-avatar-label-group",
+          "sf-avatar-label-group--size-1",
+          "sf-avatar-label-group--size-1/2",
+          "sf-avatar-label-group--size-2",
+          "sf-avatar-label-group--size-3",
+          "sf-avatar-label-group-container"
+        ],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/avatars"
+      ]
+    },
+    {
+      "id": "avatars-group",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/avatars-group",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/components/avatar/card/index.html",
+        "source/simai/ui-play/examples/components/avatar/default/index.html",
+        "source/simai/ui-play/examples/components/avatar/group/index.html"
+      ],
+      "coverageRefs": [
+        "avatar"
+      ],
+      "contract": {
+        "rootClassCandidates": [
+          "sf-avatar",
+          "sf-avatar-card",
+          "sf-avatar-card-content",
+          "sf-avatar-card-image",
+          "sf-avatar-card-portrait",
+          "sf-avatar-card-row",
+          "sf-avatar-card-square",
+          "sf-avatar-card-title",
+          "sf-avatar-label-group",
+          "sf-avatar-label-group-container",
+          "sf-avatar-label-group-text",
+          "sf-avatar-label-group-title"
+        ],
+        "modifierClassExamples": [
+          "sf-avatar",
+          "sf-avatar--placeholder",
+          "sf-avatar--size-1",
+          "sf-avatar--size-1/2",
+          "sf-avatar--size-1/3",
+          "sf-avatar--size-1/4",
+          "sf-avatar--size-2",
+          "sf-avatar--size-3",
+          "sf-avatar--status-icon-company",
+          "sf-avatar--status-icon-online-indicator",
+          "sf-avatar--text",
+          "sf-avatar-card",
+          "sf-avatar-card-content",
+          "sf-avatar-card-image",
+          "sf-avatar-card-portrait",
+          "sf-avatar-card-row",
+          "sf-avatar-card-square",
+          "sf-avatar-card-title",
+          "sf-avatar-label-group",
+          "sf-avatar-label-group--size-1",
+          "sf-avatar-label-group--size-1/2",
+          "sf-avatar-label-group--size-2",
+          "sf-avatar-label-group--size-3",
+          "sf-avatar-label-group-container"
+        ],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/avatars-group"
+      ]
+    },
+    {
+      "id": "badges",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/badges",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": true,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/components/badges/all/index.html"
+      ],
+      "coverageRefs": [
+        "components/badges/all"
+      ],
+      "contract": {
+        "rootClassCandidates": [
+          "sf-badge",
+          "sf-badge-icon-container",
+          "sf-badge-text",
+          "sf-badge-text-container",
+          "sf-icon",
+          "sf-text-2",
+          "sf-text-4",
+          "sf-weight-semibold"
+        ],
+        "modifierClassExamples": [
+          "sf-badge",
+          "sf-badge--main",
+          "sf-badge--neutral",
+          "sf-badge--on-surface",
+          "sf-badge--outline",
+          "sf-badge--primary",
+          "sf-badge--secondary",
+          "sf-badge--size-1",
+          "sf-badge--size-1/2",
+          "sf-badge--size-1/3",
+          "sf-badge--tertiary",
+          "sf-badge--tonal",
+          "sf-badge-icon-container",
+          "sf-badge-text",
+          "sf-badge-text-container",
+          "sf-icon",
+          "sf-text-2",
+          "sf-text-4",
+          "sf-weight-semibold"
+        ],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/badges"
+      ]
+    },
+    {
+      "id": "breadcrumbs",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/breadcrumbs",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/breadcrumbs"
+      ]
+    },
+    {
+      "id": "buttons",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/buttons",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": true,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/components/buttons/buttons/index.html",
+        "source/simai/ui-play/examples/components/buttons/tightness/index.html"
+      ],
+      "coverageRefs": [
+        "components/buttons/buttons",
+        "components/buttons/tightness"
+      ],
+      "contract": {
+        "rootClassCandidates": [
+          "sf-button",
+          "sf-button-text-container",
+          "sf-card",
+          "sf-icon",
+          "sf-text-2"
+        ],
+        "modifierClassExamples": [
+          "sf-button",
+          "sf-button--default",
+          "sf-button--link",
+          "sf-button--on-surface",
+          "sf-button--outline",
+          "sf-button--primary",
+          "sf-button--secondary",
+          "sf-button--size-1",
+          "sf-button--size-1/2",
+          "sf-button--size-1/3",
+          "sf-button--size-2",
+          "sf-button--size-3",
+          "sf-button--tonal",
+          "sf-button-text-container",
+          "sf-card",
+          "sf-icon",
+          "sf-text-2"
+        ],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/buttons"
+      ]
+    },
+    {
+      "id": "carousel",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/carousel",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/carousel"
+      ]
+    },
+    {
+      "id": "checkbox",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/checkbox",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/components/checkbox/all/index.html"
+      ],
+      "coverageRefs": [
+        "components/checkbox/all"
+      ],
+      "contract": {
+        "rootClassCandidates": [
+          "sf-checkbox",
+          "sf-checkbox-box",
+          "sf-checkbox-container",
+          "sf-checkbox-description",
+          "sf-checkbox-label",
+          "sf-checkbox-top",
+          "sf-icon",
+          "sf-text-2"
+        ],
+        "modifierClassExamples": [
+          "sf-checkbox",
+          "sf-checkbox--size-1",
+          "sf-checkbox--size-1/3",
+          "sf-checkbox-box",
+          "sf-checkbox-container",
+          "sf-checkbox-description",
+          "sf-checkbox-label",
+          "sf-checkbox-top",
+          "sf-icon",
+          "sf-text-2"
+        ],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/checkbox"
+      ]
+    },
+    {
+      "id": "clipboard",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/clipboard",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/clipboard"
+      ]
+    },
+    {
+      "id": "close",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/close",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/components/close/default/index.html"
+      ],
+      "coverageRefs": [
+        "components/close/default"
+      ],
+      "contract": {
+        "rootClassCandidates": [
+          "sf-close",
+          "sf-close-icon",
+          "sf-text-1",
+          "sf-weight-medium"
+        ],
+        "modifierClassExamples": [
+          "sf-close",
+          "sf-close--size-1",
+          "sf-close--size-1/2",
+          "sf-close--size-1/3",
+          "sf-close--size-1/4",
+          "sf-close--size-2",
+          "sf-close--size-3",
+          "sf-close--size-4",
+          "sf-close--size-5",
+          "sf-close--size-6",
+          "sf-close--size-7",
+          "sf-close-icon",
+          "sf-text-1",
+          "sf-weight-medium"
+        ],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/close"
+      ]
+    },
+    {
+      "id": "contentDivider",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/contentDivider",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/contentDivider"
+      ]
+    },
+    {
+      "id": "context-menu",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/context-menu",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/components/context-menu/all/index.html"
+      ],
+      "coverageRefs": [
+        "components/context-menu/all"
+      ],
+      "contract": {
+        "rootClassCandidates": [
+          "sf-context-menu",
+          "sf-context-menu-content",
+          "sf-context-menu-tooltip",
+          "sf-text-2"
+        ],
+        "modifierClassExamples": [
+          "sf-context-menu",
+          "sf-context-menu--position-bottom",
+          "sf-context-menu--position-bottom-left",
+          "sf-context-menu--position-bottom-right",
+          "sf-context-menu--position-left",
+          "sf-context-menu--position-right",
+          "sf-context-menu--position-top",
+          "sf-context-menu--position-top-left",
+          "sf-context-menu--position-top-right",
+          "sf-context-menu-content",
+          "sf-context-menu-tooltip",
+          "sf-text-2"
+        ],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/context-menu"
+      ]
+    },
+    {
+      "id": "country-code",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/country-code",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": true,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/country-code"
+      ]
+    },
+    {
+      "id": "doc",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/doc",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/doc"
+      ]
+    },
+    {
+      "id": "dot",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/dot",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/dot"
+      ]
+    },
+    {
+      "id": "download-file",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/download-file",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": true,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/components/download-file/default/index.html"
+      ],
+      "coverageRefs": [
+        "components/download-file/default"
+      ],
+      "contract": {
+        "rootClassCandidates": [
+          "sf-download-file",
+          "sf-download-file-container",
+          "sf-download-file-file-size",
+          "sf-download-file-wrap",
+          "sf-icon"
+        ],
+        "modifierClassExamples": [
+          "sf-download-file",
+          "sf-download-file--size-1",
+          "sf-download-file--size-1/2",
+          "sf-download-file--size-1/3",
+          "sf-download-file--size-2",
+          "sf-download-file--size-3",
+          "sf-download-file-container",
+          "sf-download-file-file-size",
+          "sf-download-file-wrap",
+          "sf-icon"
+        ],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/download-file"
+      ]
+    },
+    {
+      "id": "dropdown",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/dropdown",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/components/dropdown/dropdown/index.html",
+        "source/simai/ui-play/examples/components/dropdown/list/index.html",
+        "source/simai/ui-play/examples/components/dropdown/list-item/index.html"
+      ],
+      "coverageRefs": [
+        "components/dropdown/dropdown",
+        "components/dropdown/list",
+        "components/dropdown/list-item"
+      ],
+      "contract": {
+        "rootClassCandidates": [
+          "sf-avatar",
+          "sf-avatar-label-group",
+          "sf-avatar-label-group-container",
+          "sf-avatar-label-group-title",
+          "sf-checkbox",
+          "sf-checkbox-box",
+          "sf-dropdown",
+          "sf-dropdown-field",
+          "sf-dropdown-hidden-input",
+          "sf-dropdown-label",
+          "sf-dropdown-required",
+          "sf-dropdown-tag-container"
+        ],
+        "modifierClassExamples": [
+          "sf-avatar",
+          "sf-avatar--size-1",
+          "sf-avatar--size-1/2",
+          "sf-avatar--size-1/3",
+          "sf-avatar--size-2",
+          "sf-avatar-label-group",
+          "sf-avatar-label-group--size-1",
+          "sf-avatar-label-group--size-1/2",
+          "sf-avatar-label-group--size-2",
+          "sf-avatar-label-group--size-3",
+          "sf-avatar-label-group-container",
+          "sf-avatar-label-group-title",
+          "sf-checkbox",
+          "sf-checkbox--size-1",
+          "sf-checkbox--size-1/3",
+          "sf-checkbox-box",
+          "sf-dropdown",
+          "sf-dropdown--filled",
+          "sf-dropdown--outlined",
+          "sf-dropdown--size-1",
+          "sf-dropdown--size-1/2",
+          "sf-dropdown--size-1/3",
+          "sf-dropdown--size-2",
+          "sf-dropdown--size-3"
+        ],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/dropdown"
+      ]
+    },
+    {
+      "id": "emoji",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/emoji",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/emoji"
+      ]
+    },
+    {
+      "id": "fab",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/fab",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": true,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/fab"
+      ]
+    },
+    {
+      "id": "fancybox",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/fancybox",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/fancybox"
+      ]
+    },
+    {
+      "id": "featured-icon",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/featured-icon",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/components/featured-icon/all/index.html"
+      ],
+      "coverageRefs": [
+        "components/featured-icon/all"
+      ],
+      "contract": {
+        "rootClassCandidates": [
+          "sf-featured-icon",
+          "sf-icon"
+        ],
+        "modifierClassExamples": [
+          "sf-featured-icon",
+          "sf-featured-icon--circle",
+          "sf-featured-icon--clear",
+          "sf-featured-icon--dark",
+          "sf-featured-icon--error",
+          "sf-featured-icon--light",
+          "sf-featured-icon--mid",
+          "sf-featured-icon--modern",
+          "sf-featured-icon--primary",
+          "sf-featured-icon--size-1",
+          "sf-featured-icon--size-1/2",
+          "sf-featured-icon--size-1/3",
+          "sf-featured-icon--size-2",
+          "sf-featured-icon--size-3",
+          "sf-featured-icon--square",
+          "sf-featured-icon--success",
+          "sf-featured-icon--warning",
+          "sf-icon"
+        ],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/featured-icon"
+      ]
+    },
+    {
+      "id": "file-upload",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/file-upload",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/components/file-upload/default/index.html",
+        "source/simai/ui-play/examples/components/file-upload/interactive/index.html"
+      ],
+      "coverageRefs": [
+        "components/file-upload/default",
+        "components/file-upload/interactive"
+      ],
+      "contract": {
+        "rootClassCandidates": [
+          "sf-button",
+          "sf-button-text-container",
+          "sf-featured-icon",
+          "sf-file-upload",
+          "sf-file-upload-block",
+          "sf-file-upload-block-text",
+          "sf-file-upload-bottom",
+          "sf-file-upload-files",
+          "sf-file-upload-link",
+          "sf-file-upload-text",
+          "sf-icon",
+          "sf-icon-button"
+        ],
+        "modifierClassExamples": [
+          "sf-button",
+          "sf-button--default",
+          "sf-button--on-surface",
+          "sf-button--outline",
+          "sf-button--primary",
+          "sf-button--size-1",
+          "sf-button-text-container",
+          "sf-featured-icon",
+          "sf-featured-icon--circle",
+          "sf-featured-icon--clear",
+          "sf-featured-icon--light",
+          "sf-featured-icon--size-1",
+          "sf-featured-icon--size-1/2",
+          "sf-featured-icon--size-1/3",
+          "sf-featured-icon--size-2",
+          "sf-featured-icon--size-3",
+          "sf-file-upload",
+          "sf-file-upload--size-1",
+          "sf-file-upload--size-1/2",
+          "sf-file-upload--size-1/3",
+          "sf-file-upload--size-2",
+          "sf-file-upload--size-3",
+          "sf-file-upload-block",
+          "sf-file-upload-block-text"
+        ],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/file-upload"
+      ]
+    },
+    {
+      "id": "fileUpload",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/fileUpload",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/fileUpload"
+      ]
+    },
+    {
+      "id": "hideShow",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/hideShow",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/hideShow"
+      ]
+    },
+    {
+      "id": "highlight",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/highlight",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/highlight"
+      ]
+    },
+    {
+      "id": "icon",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/icon",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/icon"
+      ]
+    },
+    {
+      "id": "icon-buttons",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/icon-buttons",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": true,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/components/icon-buttons/icon-buttons/index.html"
+      ],
+      "coverageRefs": [
+        "components/icon-buttons/icon-buttons"
+      ],
+      "contract": {
+        "rootClassCandidates": [
+          "sf-card",
+          "sf-close",
+          "sf-close-icon",
+          "sf-icon",
+          "sf-icon-button"
+        ],
+        "modifierClassExamples": [
+          "sf-card",
+          "sf-close",
+          "sf-close--size-1",
+          "sf-close--size-1/2",
+          "sf-close--size-1/3",
+          "sf-close--size-2",
+          "sf-close--size-3",
+          "sf-close-icon",
+          "sf-icon",
+          "sf-icon-button",
+          "sf-icon-button--close",
+          "sf-icon-button--default",
+          "sf-icon-button--icon",
+          "sf-icon-button--link",
+          "sf-icon-button--on-surface",
+          "sf-icon-button--outline",
+          "sf-icon-button--primary",
+          "sf-icon-button--secondary",
+          "sf-icon-button--size-1",
+          "sf-icon-button--size-1/2",
+          "sf-icon-button--size-1/3",
+          "sf-icon-button--size-2",
+          "sf-icon-button--size-3",
+          "sf-icon-button--tonal"
+        ],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/icon-buttons"
+      ]
+    },
+    {
+      "id": "icons",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/icons",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/icons"
+      ]
+    },
+    {
+      "id": "inputs",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/inputs",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": true,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/components/inputs/textarea/index.html"
+      ],
+      "coverageRefs": [
+        "components/inputs/textarea"
+      ],
+      "contract": {
+        "rootClassCandidates": [
+          "sf-text-2",
+          "sf-textarea",
+          "sf-textarea-hint-text-wrap",
+          "sf-textarea-label",
+          "sf-textarea-required",
+          "sf-textarea-text"
+        ],
+        "modifierClassExamples": [
+          "sf-text-2",
+          "sf-textarea",
+          "sf-textarea--bordered",
+          "sf-textarea--filled",
+          "sf-textarea--size-1",
+          "sf-textarea--size-1/2",
+          "sf-textarea--size-1/3",
+          "sf-textarea--size-2",
+          "sf-textarea--size-3",
+          "sf-textarea-hint-text-wrap",
+          "sf-textarea-label",
+          "sf-textarea-required",
+          "sf-textarea-text"
+        ],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/inputs"
+      ]
+    },
+    {
+      "id": "jquery",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/jquery",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/jquery"
+      ]
+    },
+    {
+      "id": "lazy-load",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/lazy-load",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/lazy-load"
+      ]
+    },
+    {
+      "id": "menu",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/menu",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": true,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/components/menu/default/index.html"
+      ],
+      "coverageRefs": [
+        "components/menu/default"
+      ],
+      "contract": {
+        "rootClassCandidates": [
+          "sf-icon",
+          "sf-icon-button",
+          "sf-menu",
+          "sf-menu-element",
+          "sf-menu-element-text",
+          "sf-menu-element-wrap",
+          "sf-menu-item",
+          "sf-text-1/2",
+          "sf-text-3"
+        ],
+        "modifierClassExamples": [
+          "sf-icon",
+          "sf-icon-button",
+          "sf-icon-button--link",
+          "sf-icon-button--on-surface",
+          "sf-icon-button--size-1/3",
+          "sf-menu",
+          "sf-menu-element",
+          "sf-menu-element-text",
+          "sf-menu-element-wrap",
+          "sf-menu-item",
+          "sf-text-1/2",
+          "sf-text-3"
+        ],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/menu"
+      ]
+    },
+    {
+      "id": "modal",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/modal",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/components/modal/all/index.html"
+      ],
+      "coverageRefs": [
+        "components/modal/all"
+      ],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/modal"
+      ]
+    },
+    {
+      "id": "monaco",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/monaco",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/monaco"
+      ]
+    },
+    {
+      "id": "overbox",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/overbox",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/overbox"
+      ]
+    },
+    {
+      "id": "overcard",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/overcard",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/overcard"
+      ]
+    },
+    {
+      "id": "pagination",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/pagination",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/components/pagination/default/index.html",
+        "source/simai/ui-play/examples/components/pagination/page-number/index.html"
+      ],
+      "coverageRefs": [
+        "components/pagination/default",
+        "components/pagination/page-number"
+      ],
+      "contract": {
+        "rootClassCandidates": [
+          "sf-button",
+          "sf-button-text-container",
+          "sf-checkbox",
+          "sf-checkbox-box",
+          "sf-checkbox-container",
+          "sf-checkbox-label",
+          "sf-checkbox-top",
+          "sf-dropdown",
+          "sf-dropdown-field",
+          "sf-icon",
+          "sf-icon-button",
+          "sf-list"
+        ],
+        "modifierClassExamples": [
+          "sf-button",
+          "sf-button--default",
+          "sf-button--link",
+          "sf-button--outline",
+          "sf-button--primary",
+          "sf-button--size-1",
+          "sf-button-text-container",
+          "sf-checkbox",
+          "sf-checkbox--size-1",
+          "sf-checkbox-box",
+          "sf-checkbox-container",
+          "sf-checkbox-label",
+          "sf-checkbox-top",
+          "sf-dropdown",
+          "sf-dropdown--outlined",
+          "sf-dropdown--size-1",
+          "sf-dropdown--text",
+          "sf-dropdown-field",
+          "sf-icon",
+          "sf-icon-button",
+          "sf-icon-button--link",
+          "sf-icon-button--on-surface",
+          "sf-icon-button--size-1",
+          "sf-icon-button--size-1/2"
+        ],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/pagination"
+      ]
+    },
+    {
+      "id": "placeholder",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/placeholder",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/components/placeholder/default/index.html"
+      ],
+      "coverageRefs": [
+        "components/placeholder/default"
+      ],
+      "contract": {
+        "rootClassCandidates": [
+          "sf-button",
+          "sf-button-text-container",
+          "sf-placeholder",
+          "sf-placeholder-left",
+          "sf-placeholder-right",
+          "sf-placeholder-top",
+          "sf-placeholder-top-text"
+        ],
+        "modifierClassExamples": [
+          "sf-button",
+          "sf-button--default",
+          "sf-button--primary",
+          "sf-button--size-1",
+          "sf-button-text-container",
+          "sf-placeholder",
+          "sf-placeholder--column",
+          "sf-placeholder--row",
+          "sf-placeholder-left",
+          "sf-placeholder-right",
+          "sf-placeholder-top",
+          "sf-placeholder-top-text"
+        ],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/placeholder"
+      ]
+    },
+    {
+      "id": "progress",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/progress",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/components/progress/default/index.html",
+        "source/simai/ui-play/examples/components/progress/progress-scale/index.html"
+      ],
+      "coverageRefs": [
+        "components/progress/default",
+        "components/progress/progress-scale"
+      ],
+      "contract": {
+        "rootClassCandidates": [
+          "sf-progress-bar",
+          "sf-progress-bar-main",
+          "sf-progress-bar-progress",
+          "sf-progress-bar-text",
+          "sf-progress-scale",
+          "sf-progress-scale-block",
+          "sf-progress-scale-container",
+          "sf-scale-text"
+        ],
+        "modifierClassExamples": [
+          "sf-progress-bar",
+          "sf-progress-bar--size-1",
+          "sf-progress-bar--size-1/2",
+          "sf-progress-bar--size-1/3",
+          "sf-progress-bar--size-2",
+          "sf-progress-bar--size-3",
+          "sf-progress-bar-main",
+          "sf-progress-bar-progress",
+          "sf-progress-bar-text",
+          "sf-progress-scale",
+          "sf-progress-scale--10",
+          "sf-progress-scale--100",
+          "sf-progress-scale--20",
+          "sf-progress-scale--30",
+          "sf-progress-scale--40",
+          "sf-progress-scale--50",
+          "sf-progress-scale--60",
+          "sf-progress-scale--70",
+          "sf-progress-scale--80",
+          "sf-progress-scale--90",
+          "sf-progress-scale--size-1",
+          "sf-progress-scale--size-1/2",
+          "sf-progress-scale--size-1/3",
+          "sf-progress-scale--size-2"
+        ],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/progress"
+      ]
+    },
+    {
+      "id": "progress-bar",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/progress-bar",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/progress-bar"
+      ]
+    },
+    {
+      "id": "progress-scale",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/progress-scale",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/progress-scale"
+      ]
+    },
+    {
+      "id": "progressbar",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/progressbar",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/progressbar"
+      ]
+    },
+    {
+      "id": "quantity",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/quantity",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": true,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/quantity"
+      ]
+    },
+    {
+      "id": "radio",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/radio",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/radio"
+      ]
+    },
+    {
+      "id": "range-slider",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/range-slider",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/components/range-slider/default/index.html"
+      ],
+      "coverageRefs": [
+        "components/range-slider/default"
+      ],
+      "contract": {
+        "rootClassCandidates": [
+          "sf-range-slider",
+          "sf-text-2"
+        ],
+        "modifierClassExamples": [
+          "sf-range-slider",
+          "sf-text-2"
+        ],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/range-slider"
+      ]
+    },
+    {
+      "id": "reference-link",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/reference-link",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/components/reference-link/default/index.html"
+      ],
+      "coverageRefs": [
+        "components/reference-link/default"
+      ],
+      "contract": {
+        "rootClassCandidates": [
+          "sf-icon",
+          "sf-reference-link",
+          "sf-reference-link-left",
+          "sf-reference-link-text"
+        ],
+        "modifierClassExamples": [
+          "sf-icon",
+          "sf-reference-link",
+          "sf-reference-link-left",
+          "sf-reference-link-text"
+        ],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/reference-link"
+      ]
+    },
+    {
+      "id": "scrollbar",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/scrollbar",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/scrollbar"
+      ]
+    },
+    {
+      "id": "sf-system",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/sf-system",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/sf-system"
+      ]
+    },
+    {
+      "id": "share",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/share",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/share"
+      ]
+    },
+    {
+      "id": "skeleton",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/skeleton",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/components/skeleton/default/index.html"
+      ],
+      "coverageRefs": [
+        "components/skeleton/default"
+      ],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/skeleton"
+      ]
+    },
+    {
+      "id": "slider",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/slider",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/components/slider/default/index.html"
+      ],
+      "coverageRefs": [
+        "components/slider/default"
+      ],
+      "contract": {
+        "rootClassCandidates": [
+          "sf-icon",
+          "sf-icon-button",
+          "sf-slider",
+          "sf-slider-arrows",
+          "sf-slider-button-next",
+          "sf-slider-button-prev",
+          "sf-slider-controls",
+          "sf-slider-dots",
+          "sf-slider-main",
+          "sf-slider-pagination",
+          "sf-slider-slide",
+          "sf-text-1/2"
+        ],
+        "modifierClassExamples": [
+          "sf-icon",
+          "sf-icon-button",
+          "sf-icon-button--default",
+          "sf-icon-button--link",
+          "sf-icon-button--on-surface",
+          "sf-icon-button--primary",
+          "sf-icon-button--secondary",
+          "sf-icon-button--size-1",
+          "sf-icon-button--size-1/2",
+          "sf-icon-button--tonal",
+          "sf-icon-button--variant-icon",
+          "sf-slider",
+          "sf-slider-arrows",
+          "sf-slider-arrows--size-1",
+          "sf-slider-arrows--size-2",
+          "sf-slider-button-next",
+          "sf-slider-button-prev",
+          "sf-slider-controls",
+          "sf-slider-dots",
+          "sf-slider-dots--clear",
+          "sf-slider-dots--dark",
+          "sf-slider-dots--framed",
+          "sf-slider-dots--light",
+          "sf-slider-dots--primary"
+        ],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/slider"
+      ]
+    },
+    {
+      "id": "special",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/special",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/special"
+      ]
+    },
+    {
+      "id": "spinner",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/spinner",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/components/spinner/default/index.html"
+      ],
+      "coverageRefs": [
+        "components/spinner/default"
+      ],
+      "contract": {
+        "rootClassCandidates": [
+          "sf-loader",
+          "sf-loader-container"
+        ],
+        "modifierClassExamples": [
+          "sf-loader--size-1",
+          "sf-loader--size-1/2",
+          "sf-loader--size-2",
+          "sf-loader--size-3",
+          "sf-loader-container"
+        ],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/spinner"
+      ]
+    },
+    {
+      "id": "step",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/step",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/components/step/default/index.html"
+      ],
+      "coverageRefs": [
+        "components/step/default"
+      ],
+      "contract": {
+        "rootClassCandidates": [
+          "sf-icon",
+          "sf-step",
+          "sf-step-container",
+          "sf-steps",
+          "sf-steps-container"
+        ],
+        "modifierClassExamples": [
+          "sf-icon",
+          "sf-step",
+          "sf-step--size-1",
+          "sf-step--size-1/2",
+          "sf-step--stage-completed",
+          "sf-step--stage-default",
+          "sf-step--stage-error",
+          "sf-step-container",
+          "sf-steps",
+          "sf-steps--size-1",
+          "sf-steps--size-1/2",
+          "sf-steps-container"
+        ],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/step"
+      ]
+    },
+    {
+      "id": "swiper",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/swiper",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/swiper"
+      ]
+    },
+    {
+      "id": "switch",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/switch",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/components/switch/default/index.html"
+      ],
+      "coverageRefs": [
+        "components/switch/default"
+      ],
+      "contract": {
+        "rootClassCandidates": [
+          "sf-icon",
+          "sf-switch",
+          "sf-switch-container",
+          "sf-switch-container-wrap",
+          "sf-switch-description",
+          "sf-switch-inner",
+          "sf-switch-text",
+          "sf-switch-toggler",
+          "sf-switch-top"
+        ],
+        "modifierClassExamples": [
+          "sf-icon",
+          "sf-switch",
+          "sf-switch--size-1",
+          "sf-switch--size-1/3",
+          "sf-switch-container",
+          "sf-switch-container-wrap",
+          "sf-switch-description",
+          "sf-switch-inner",
+          "sf-switch-text",
+          "sf-switch-toggler",
+          "sf-switch-top"
+        ],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/switch"
+      ]
+    },
+    {
+      "id": "tab",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/tab",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/tab"
+      ]
+    },
+    {
+      "id": "tabs",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/tabs",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/tabs"
+      ]
+    },
+    {
+      "id": "tags",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/tags",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/components/tags/all/index.html"
+      ],
+      "coverageRefs": [
+        "components/tags/all"
+      ],
+      "contract": {
+        "rootClassCandidates": [
+          "sf-avatar",
+          "sf-card",
+          "sf-checkbox",
+          "sf-checkbox-box",
+          "sf-close",
+          "sf-close-icon",
+          "sf-dot",
+          "sf-dot-item",
+          "sf-icon",
+          "sf-icon-button",
+          "sf-tag",
+          "sf-tag-color-icon"
+        ],
+        "modifierClassExamples": [
+          "sf-avatar",
+          "sf-avatar--size-1/4",
+          "sf-card",
+          "sf-checkbox",
+          "sf-checkbox--size-1",
+          "sf-checkbox--size-1/3",
+          "sf-checkbox-box",
+          "sf-close",
+          "sf-close--size-1/2",
+          "sf-close--size-1/3",
+          "sf-close-icon",
+          "sf-dot",
+          "sf-dot--size-1/3",
+          "sf-dot-item",
+          "sf-icon",
+          "sf-icon-button",
+          "sf-icon-button--link",
+          "sf-icon-button--on-surface",
+          "sf-icon-button--size-1/2",
+          "sf-icon-button--size-1/3",
+          "sf-tag",
+          "sf-tag--avatar",
+          "sf-tag--checkbox",
+          "sf-tag--color"
+        ],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/tags"
+      ]
+    },
+    {
+      "id": "textarea",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/textarea",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": true,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/textarea"
+      ]
+    },
+    {
+      "id": "theme",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/theme",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/theme"
+      ]
+    },
+    {
+      "id": "theme-builder",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/theme-builder",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/theme-builder"
+      ]
+    },
+    {
+      "id": "toast",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/toast",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/components/toast/default/index.html"
+      ],
+      "coverageRefs": [
+        "components/toast/default"
+      ],
+      "contract": {
+        "rootClassCandidates": [
+          "sf-button",
+          "sf-button-text-container",
+          "sf-close",
+          "sf-close-icon",
+          "sf-icon",
+          "sf-icon-button",
+          "sf-toast",
+          "sf-toast-bottom",
+          "sf-toast-container",
+          "sf-toast-supporting-text",
+          "sf-toast-text",
+          "sf-toast-wrap"
+        ],
+        "modifierClassExamples": [
+          "sf-button",
+          "sf-button--default",
+          "sf-button--on-surface",
+          "sf-button--outline",
+          "sf-button--primary",
+          "sf-button--size-1",
+          "sf-button--size-1/2",
+          "sf-button-text-container",
+          "sf-close",
+          "sf-close--size-1/3",
+          "sf-close-icon",
+          "sf-icon",
+          "sf-icon-button",
+          "sf-icon-button--link",
+          "sf-icon-button--on-surface",
+          "sf-icon-button--size-1/3",
+          "sf-icon-button--variant-close",
+          "sf-toast",
+          "sf-toast--default",
+          "sf-toast--error",
+          "sf-toast--primary",
+          "sf-toast--success",
+          "sf-toast--warning",
+          "sf-toast-bottom"
+        ],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/toast"
+      ]
+    },
+    {
+      "id": "toggle",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/toggle",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/components/toggle/default/index.html"
+      ],
+      "coverageRefs": [
+        "components/toggle/default"
+      ],
+      "contract": {
+        "rootClassCandidates": [
+          "sf-icon",
+          "sf-toggle",
+          "sf-toggle-container",
+          "sf-toggle-control",
+          "sf-toggle-inner",
+          "sf-toggle-inner-wrap",
+          "sf-toggle-text"
+        ],
+        "modifierClassExamples": [
+          "sf-icon",
+          "sf-toggle",
+          "sf-toggle--icon",
+          "sf-toggle--short",
+          "sf-toggle--simple",
+          "sf-toggle--size-1",
+          "sf-toggle--size-2",
+          "sf-toggle-container",
+          "sf-toggle-control",
+          "sf-toggle-inner",
+          "sf-toggle-inner-wrap",
+          "sf-toggle-text"
+        ],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/toggle"
+      ]
+    },
+    {
+      "id": "tooltip",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/tooltip",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/components/tooltip/all/index.html"
+      ],
+      "coverageRefs": [
+        "components/tooltip/all"
+      ],
+      "contract": {
+        "rootClassCandidates": [
+          "sf-text-1/2",
+          "sf-text-2",
+          "sf-tooltip",
+          "sf-tooltip-content",
+          "sf-tooltip-supporting-text",
+          "sf-tooltip-tail",
+          "sf-tooltip-text"
+        ],
+        "modifierClassExamples": [
+          "sf-text-1/2",
+          "sf-text-2",
+          "sf-tooltip",
+          "sf-tooltip--arrow-bottom-center",
+          "sf-tooltip--arrow-bottom-inline-end",
+          "sf-tooltip--arrow-bottom-inline-start",
+          "sf-tooltip--arrow-inline-end",
+          "sf-tooltip--arrow-inline-start",
+          "sf-tooltip--arrow-none",
+          "sf-tooltip--arrow-top-center",
+          "sf-tooltip--dark",
+          "sf-tooltip--light",
+          "sf-tooltip--size-1",
+          "sf-tooltip--size-1/2",
+          "sf-tooltip--size-1/3",
+          "sf-tooltip--size-2",
+          "sf-tooltip--size-3",
+          "sf-tooltip-content",
+          "sf-tooltip-supporting-text",
+          "sf-tooltip-tail",
+          "sf-tooltip-text"
+        ],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/tooltip"
+      ]
+    },
+    {
+      "id": "verification",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/verification",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": true,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/verification"
+      ]
+    },
+    {
+      "id": "viewbox",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/viewbox",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/viewbox"
+      ]
+    },
+    {
+      "id": "waves",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/waves",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/waves"
+      ]
+    },
+    {
+      "id": "wow",
+      "surface": "component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui/distr/component/wow",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "rootClassCandidates": [],
+        "modifierClassExamples": [],
+        "stateClassExamples": []
+      },
+      "sourceRefs": [
+        "source/simai/ui/distr/component/wow"
+      ]
+    }
+  ],
+  "smartComponents": [
+    {
+      "id": "alert",
+      "surface": "smart-component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui-smart/smart/alert",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/smart-components/alert/default/index.html"
+      ],
+      "coverageRefs": [
+        "smart-components/alert/default"
+      ],
+      "contract": {
+        "customElements": [
+          "sf-alert",
+          "sf-button"
+        ],
+        "sfCodeValues": [],
+        "attributeExamples": [
+          "action",
+          "action-text",
+          "closable",
+          "demo",
+          "scheme",
+          "secondary-action",
+          "secondary-action-text",
+          "size",
+          "supporting-text",
+          "text",
+          "title",
+          "type",
+          "variant"
+        ],
+        "attributeFrequency": {
+          "type": 8,
+          "variant": 4,
+          "title": 4,
+          "supporting-text": 4,
+          "scheme": 4,
+          "size": 4,
+          "text": 4,
+          "demo": 4,
+          "closable": 3,
+          "action-text": 2,
+          "action": 2,
+          "secondary-action-text": 1,
+          "secondary-action": 1
+        }
+      },
+      "sourceRefs": [
+        "source/simai/ui-smart/smart/alert"
+      ]
+    },
+    {
+      "id": "avatar",
+      "surface": "smart-component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui-smart/smart/avatar",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/smart-components/avatar/element/index.html",
+        "source/simai/ui-play/examples/smart-components/avatar/group/index.html"
+      ],
+      "coverageRefs": [
+        "smart-components/avatar/element",
+        "smart-components/avatar/group"
+      ],
+      "contract": {
+        "customElements": [
+          "sf-avatar",
+          "sf-button",
+          "sf-icon-button",
+          "sf-tooltip"
+        ],
+        "sfCodeValues": [],
+        "attributeExamples": [
+          "aria-label",
+          "arrow",
+          "card-variant",
+          "class",
+          "description",
+          "icon",
+          "id",
+          "image-alt",
+          "image-url",
+          "meta",
+          "meta-icon",
+          "scheme",
+          "size",
+          "status",
+          "template",
+          "text",
+          "title",
+          "type"
+        ],
+        "attributeFrequency": {
+          "size": 50,
+          "aria-label": 48,
+          "image-url": 30,
+          "text": 15,
+          "status": 9,
+          "template": 7,
+          "title": 7,
+          "description": 5,
+          "type": 4,
+          "scheme": 4,
+          "id": 3,
+          "class": 3,
+          "arrow": 3,
+          "icon": 3,
+          "card-variant": 2,
+          "image-alt": 2,
+          "meta": 2,
+          "meta-icon": 2
+        }
+      },
+      "sourceRefs": [
+        "source/simai/ui-smart/smart/avatar"
+      ]
+    },
+    {
+      "id": "avatars",
+      "surface": "smart-component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui-smart/smart/avatars",
+      "runtime": {
+        "hasCss": true,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": true
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/smart-components/avatar/group/index.html"
+      ],
+      "coverageRefs": [
+        "avatar/group"
+      ],
+      "contract": {
+        "customElements": [
+          "sf-avatar",
+          "sf-icon-button",
+          "sf-tooltip"
+        ],
+        "sfCodeValues": [],
+        "attributeExamples": [
+          "aria-label",
+          "arrow",
+          "class",
+          "icon",
+          "image-url",
+          "scheme",
+          "size",
+          "text",
+          "type"
+        ],
+        "attributeFrequency": {
+          "size": 39,
+          "aria-label": 36,
+          "image-url": 24,
+          "text": 9,
+          "class": 3,
+          "arrow": 3,
+          "type": 3,
+          "scheme": 3,
+          "icon": 3
+        }
+      },
+      "sourceRefs": [
+        "source/simai/ui-smart/smart/avatars"
+      ]
+    },
+    {
+      "id": "badges",
+      "surface": "smart-component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui-smart/smart/badges",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/smart-components/badges/element/index.html"
+      ],
+      "coverageRefs": [
+        "smart-components/badges/element"
+      ],
+      "contract": {
+        "customElements": [
+          "sf-badge"
+        ],
+        "sfCodeValues": [],
+        "attributeExamples": [
+          "icon-left",
+          "icon-right",
+          "scheme",
+          "size",
+          "text",
+          "type"
+        ],
+        "attributeFrequency": {
+          "size": 20,
+          "type": 20,
+          "scheme": 20,
+          "text": 20,
+          "icon-left": 18,
+          "icon-right": 18
+        }
+      },
+      "sourceRefs": [
+        "source/simai/ui-smart/smart/badges"
+      ]
+    },
+    {
+      "id": "buttons",
+      "surface": "smart-component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui-smart/smart/buttons",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/smart-components/buttons/element/index.html",
+        "source/simai/ui-play/examples/smart-components/buttons/events/index.html"
+      ],
+      "coverageRefs": [
+        "smart-components/buttons/element",
+        "smart-components/buttons/events"
+      ],
+      "contract": {
+        "customElements": [
+          "sf-button"
+        ],
+        "sfCodeValues": [],
+        "attributeExamples": [
+          "disabled",
+          "icon-left",
+          "icon-right",
+          "id",
+          "loading",
+          "radius",
+          "scheme",
+          "size",
+          "template",
+          "text",
+          "type"
+        ],
+        "attributeFrequency": {
+          "size": 133,
+          "type": 133,
+          "scheme": 133,
+          "text": 133,
+          "icon-left": 121,
+          "icon-right": 121,
+          "disabled": 40,
+          "loading": 40,
+          "id": 10,
+          "radius": 5,
+          "template": 1
+        }
+      },
+      "sourceRefs": [
+        "source/simai/ui-smart/smart/buttons"
+      ]
+    },
+    {
+      "id": "checkbox",
+      "surface": "smart-component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui-smart/smart/checkbox",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/smart-components/checkbox/all/index.html"
+      ],
+      "coverageRefs": [
+        "smart-components/checkbox/all"
+      ],
+      "contract": {
+        "customElements": [
+          "sf-button",
+          "sf-checkbox"
+        ],
+        "sfCodeValues": [],
+        "attributeExamples": [
+          "checked",
+          "data-indeterminate",
+          "description",
+          "disabled",
+          "error",
+          "id",
+          "indeterminate",
+          "label",
+          "scheme",
+          "size",
+          "text",
+          "type"
+        ],
+        "attributeFrequency": {
+          "label": 10,
+          "description": 10,
+          "size": 5,
+          "checked": 2,
+          "error": 2,
+          "disabled": 2,
+          "data-indeterminate": 2,
+          "indeterminate": 2,
+          "id": 1,
+          "type": 1,
+          "scheme": 1,
+          "text": 1
+        }
+      },
+      "sourceRefs": [
+        "source/simai/ui-smart/smart/checkbox"
+      ]
+    },
+    {
+      "id": "close",
+      "surface": "smart-component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui-smart/smart/close",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [],
+      "coverageRefs": [],
+      "contract": {
+        "customElements": [],
+        "sfCodeValues": [],
+        "attributeExamples": [],
+        "attributeFrequency": {}
+      },
+      "sourceRefs": [
+        "source/simai/ui-smart/smart/close"
+      ]
+    },
+    {
+      "id": "country-code",
+      "surface": "smart-component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui-smart/smart/country-code",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/smart-components/inputs/country-code/index.html"
+      ],
+      "coverageRefs": [
+        "inputs/country-code"
+      ],
+      "contract": {
+        "customElements": [
+          "sf-country-code"
+        ],
+        "sfCodeValues": [],
+        "attributeExamples": [
+          "dial-code",
+          "disabled",
+          "iso2",
+          "label",
+          "lazy-flags",
+          "locale",
+          "mask-style",
+          "max-items",
+          "multi-country",
+          "placeholder",
+          "required",
+          "show-code",
+          "show-mask-placeholder",
+          "size",
+          "use-country-masks",
+          "use-mask",
+          "value"
+        ],
+        "attributeFrequency": {
+          "size": 8,
+          "label": 8,
+          "locale": 8,
+          "use-mask": 8,
+          "show-code": 8,
+          "multi-country": 8,
+          "iso2": 8,
+          "show-mask-placeholder": 6,
+          "mask-style": 6,
+          "use-country-masks": 6,
+          "value": 6,
+          "placeholder": 6,
+          "max-items": 4,
+          "dial-code": 4,
+          "required": 2,
+          "lazy-flags": 2,
+          "disabled": 2
+        }
+      },
+      "sourceRefs": [
+        "source/simai/ui-smart/smart/country-code"
+      ]
+    },
+    {
+      "id": "download-file",
+      "surface": "smart-component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui-smart/smart/download-file",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/smart-components/download-file/element/index.html"
+      ],
+      "coverageRefs": [
+        "smart-components/download-file/element"
+      ],
+      "contract": {
+        "customElements": [
+          "sf-download-file"
+        ],
+        "sfCodeValues": [],
+        "attributeExamples": [
+          "disabled",
+          "download",
+          "file-name",
+          "file-size",
+          "href",
+          "size",
+          "target"
+        ],
+        "attributeFrequency": {
+          "size": 7,
+          "file-name": 7,
+          "href": 6,
+          "download": 5,
+          "file-size": 2,
+          "target": 1,
+          "disabled": 1
+        }
+      },
+      "sourceRefs": [
+        "source/simai/ui-smart/smart/download-file"
+      ]
+    },
+    {
+      "id": "dropdown",
+      "surface": "smart-component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui-smart/smart/dropdown",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/smart-components/dropdown/element/index.html"
+      ],
+      "coverageRefs": [
+        "smart-components/dropdown/element"
+      ],
+      "contract": {
+        "customElements": [
+          "sf-button",
+          "sf-dropdown",
+          "sf-list-item"
+        ],
+        "sfCodeValues": [],
+        "attributeExamples": [
+          "color-class",
+          "disabled",
+          "icon",
+          "id",
+          "label",
+          "mode",
+          "multiple",
+          "placeholder",
+          "scheme",
+          "selected",
+          "size",
+          "text",
+          "type"
+        ],
+        "attributeFrequency": {
+          "size": 24,
+          "type": 24,
+          "text": 19,
+          "mode": 5,
+          "label": 5,
+          "selected": 5,
+          "placeholder": 3,
+          "icon": 3,
+          "color-class": 3,
+          "multiple": 2,
+          "disabled": 1,
+          "id": 1,
+          "scheme": 1
+        }
+      },
+      "sourceRefs": [
+        "source/simai/ui-smart/smart/dropdown"
+      ]
+    },
+    {
+      "id": "file-upload",
+      "surface": "smart-component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui-smart/smart/file-upload",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/smart-components/file-upload/element/index.html"
+      ],
+      "coverageRefs": [
+        "smart-components/file-upload/element"
+      ],
+      "contract": {
+        "customElements": [
+          "sf-button",
+          "sf-file-upload"
+        ],
+        "sfCodeValues": [],
+        "attributeExamples": [
+          "accept",
+          "disabled",
+          "formats",
+          "id",
+          "multiple",
+          "scheme",
+          "size",
+          "text",
+          "type"
+        ],
+        "attributeFrequency": {
+          "size": 4,
+          "id": 3,
+          "accept": 2,
+          "type": 2,
+          "scheme": 2,
+          "text": 2,
+          "multiple": 1,
+          "disabled": 1,
+          "formats": 1
+        }
+      },
+      "sourceRefs": [
+        "source/simai/ui-smart/smart/file-upload"
+      ]
+    },
+    {
+      "id": "gallery",
+      "surface": "smart-component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui-smart/smart/gallery",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/smart-components/gallery/default/index.html",
+        "source/simai/ui-play/examples/smart-components/gallery/images/index.html"
+      ],
+      "coverageRefs": [
+        "smart-components/gallery/default",
+        "smart-components/gallery/images"
+      ],
+      "contract": {
+        "customElements": [
+          "sf-button",
+          "sf-gallery"
+        ],
+        "sfCodeValues": [],
+        "attributeExamples": [
+          "arrows",
+          "blur",
+          "button-type",
+          "content-class",
+          "dots",
+          "id",
+          "loop",
+          "overlay",
+          "panel-class",
+          "scheme",
+          "size",
+          "text",
+          "title",
+          "type",
+          "width"
+        ],
+        "attributeFrequency": {
+          "id": 6,
+          "text": 6,
+          "size": 5,
+          "type": 5,
+          "scheme": 5,
+          "title": 1,
+          "dots": 1,
+          "arrows": 1,
+          "loop": 1,
+          "overlay": 1,
+          "blur": 1,
+          "button-type": 1,
+          "width": 1,
+          "panel-class": 1,
+          "content-class": 1
+        }
+      },
+      "sourceRefs": [
+        "source/simai/ui-smart/smart/gallery"
+      ]
+    },
+    {
+      "id": "icon-buttons",
+      "surface": "smart-component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui-smart/smart/icon-buttons",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/smart-components/icon-buttons/element/index.html"
+      ],
+      "coverageRefs": [
+        "smart-components/icon-buttons/element"
+      ],
+      "contract": {
+        "customElements": [
+          "sf-button",
+          "sf-icon-button"
+        ],
+        "sfCodeValues": [],
+        "attributeExamples": [
+          "disabled",
+          "icon",
+          "id",
+          "radius",
+          "scheme",
+          "size",
+          "text",
+          "type",
+          "variant"
+        ],
+        "attributeFrequency": {
+          "size": 84,
+          "type": 84,
+          "scheme": 84,
+          "variant": 83,
+          "icon": 83,
+          "disabled": 40,
+          "radius": 3,
+          "id": 1,
+          "text": 1
+        }
+      },
+      "sourceRefs": [
+        "source/simai/ui-smart/smart/icon-buttons"
+      ]
+    },
+    {
+      "id": "icons",
+      "surface": "smart-component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui-smart/smart/icons",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/smart-components/icons/default/index.html"
+      ],
+      "coverageRefs": [
+        "smart-components/icons/default"
+      ],
+      "contract": {
+        "customElements": [
+          "sf-icon"
+        ],
+        "sfCodeValues": [],
+        "attributeExamples": [
+          "filled",
+          "icon",
+          "size",
+          "weight"
+        ],
+        "attributeFrequency": {
+          "icon": 31,
+          "size": 31,
+          "filled": 19,
+          "weight": 11
+        }
+      },
+      "sourceRefs": [
+        "source/simai/ui-smart/smart/icons"
+      ]
+    },
+    {
+      "id": "inputs",
+      "surface": "smart-component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui-smart/smart/inputs",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/smart-components/inputs/country-code/index.html",
+        "source/simai/ui-play/examples/smart-components/inputs/element/index.html"
+      ],
+      "coverageRefs": [
+        "smart-components/inputs/country-code",
+        "smart-components/inputs/element"
+      ],
+      "contract": {
+        "customElements": [
+          "sf-button",
+          "sf-country-code",
+          "sf-input"
+        ],
+        "sfCodeValues": [],
+        "attributeExamples": [
+          "dial-code",
+          "disabled",
+          "error",
+          "hint",
+          "hint-icon",
+          "id",
+          "iso2",
+          "label",
+          "lazy-flags",
+          "left-icon",
+          "locale",
+          "mask",
+          "mask-pattern",
+          "mask-style",
+          "max-items",
+          "multi-country",
+          "name",
+          "placeholder",
+          "required",
+          "right-text",
+          "scheme",
+          "show-code",
+          "show-mask-placeholder",
+          "size",
+          "template",
+          "text",
+          "type",
+          "use-country-masks",
+          "use-mask",
+          "value"
+        ],
+        "attributeFrequency": {
+          "size": 17,
+          "label": 15,
+          "placeholder": 13,
+          "locale": 8,
+          "use-mask": 8,
+          "show-code": 8,
+          "multi-country": 8,
+          "iso2": 8,
+          "value": 8,
+          "type": 8,
+          "required": 7,
+          "hint": 7,
+          "name": 7,
+          "left-icon": 7,
+          "show-mask-placeholder": 6,
+          "mask-style": 6,
+          "use-country-masks": 6,
+          "right-text": 6,
+          "hint-icon": 5,
+          "max-items": 4,
+          "dial-code": 4,
+          "disabled": 4,
+          "id": 4,
+          "lazy-flags": 2,
+          "scheme": 2,
+          "text": 2,
+          "error": 1,
+          "mask": 1,
+          "mask-pattern": 1,
+          "template": 1
+        }
+      },
+      "sourceRefs": [
+        "source/simai/ui-smart/smart/inputs"
+      ]
+    },
+    {
+      "id": "list-item",
+      "surface": "smart-component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui-smart/smart/list-item",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/smart-components/list-item/element/index.html"
+      ],
+      "coverageRefs": [
+        "smart-components/list-item/element"
+      ],
+      "contract": {
+        "customElements": [
+          "sf-button",
+          "sf-list-item"
+        ],
+        "sfCodeValues": [],
+        "attributeExamples": [
+          "avatar-image-url",
+          "avatar-title",
+          "checked",
+          "color-class",
+          "disabled",
+          "icon",
+          "id",
+          "scheme",
+          "size",
+          "text",
+          "type"
+        ],
+        "attributeFrequency": {
+          "type": 53,
+          "size": 53,
+          "text": 53,
+          "disabled": 25,
+          "icon": 10,
+          "avatar-title": 10,
+          "avatar-image-url": 10,
+          "color-class": 10,
+          "checked": 6,
+          "id": 1,
+          "scheme": 1
+        }
+      },
+      "sourceRefs": [
+        "source/simai/ui-smart/smart/list-item"
+      ]
+    },
+    {
+      "id": "modal",
+      "surface": "smart-component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui-smart/smart/modal",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/smart-components/modal/element/index.html"
+      ],
+      "coverageRefs": [
+        "smart-components/modal/element"
+      ],
+      "contract": {
+        "customElements": [
+          "sf-button",
+          "sf-modal"
+        ],
+        "sfCodeValues": [],
+        "attributeExamples": [
+          "data-sf-modal-close",
+          "display",
+          "fullscreen",
+          "hidden",
+          "id",
+          "mode",
+          "onclick",
+          "open",
+          "overlay",
+          "position",
+          "scheme",
+          "size",
+          "src",
+          "text",
+          "title",
+          "type"
+        ],
+        "attributeFrequency": {
+          "size": 22,
+          "type": 22,
+          "scheme": 22,
+          "text": 22,
+          "id": 19,
+          "position": 7,
+          "title": 4,
+          "overlay": 3,
+          "mode": 2,
+          "src": 2,
+          "data-sf-modal-close": 2,
+          "hidden": 1,
+          "onclick": 1,
+          "fullscreen": 1,
+          "open": 1,
+          "display": 1
+        }
+      },
+      "sourceRefs": [
+        "source/simai/ui-smart/smart/modal"
+      ]
+    },
+    {
+      "id": "pagination",
+      "surface": "smart-component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui-smart/smart/pagination",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/smart-components/pagination/default/index.html"
+      ],
+      "coverageRefs": [
+        "smart-components/pagination/default"
+      ],
+      "contract": {
+        "customElements": [
+          "sf-pagination"
+        ],
+        "sfCodeValues": [],
+        "attributeExamples": [
+          "bottom",
+          "bottom-class",
+          "current",
+          "main-class",
+          "top-class",
+          "total"
+        ],
+        "attributeFrequency": {
+          "current": 1,
+          "total": 1,
+          "bottom": 1,
+          "top-class": 1,
+          "main-class": 1,
+          "bottom-class": 1
+        }
+      },
+      "sourceRefs": [
+        "source/simai/ui-smart/smart/pagination"
+      ]
+    },
+    {
+      "id": "progress-bar",
+      "surface": "smart-component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui-smart/smart/progress-bar",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/smart-components/progress/progress-bar/index.html"
+      ],
+      "coverageRefs": [
+        "progress/progress-bar"
+      ],
+      "contract": {
+        "customElements": [
+          "sf-progress-bar"
+        ],
+        "sfCodeValues": [],
+        "attributeExamples": [
+          "id",
+          "size",
+          "text-position",
+          "value"
+        ],
+        "attributeFrequency": {
+          "id": 3,
+          "value": 3,
+          "size": 3,
+          "text-position": 2
+        }
+      },
+      "sourceRefs": [
+        "source/simai/ui-smart/smart/progress-bar"
+      ]
+    },
+    {
+      "id": "progress-scale",
+      "surface": "smart-component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui-smart/smart/progress-scale",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/smart-components/progress/progress-scale/index.html"
+      ],
+      "coverageRefs": [
+        "progress/progress-scale"
+      ],
+      "contract": {
+        "customElements": [
+          "sf-progress-scale"
+        ],
+        "sfCodeValues": [],
+        "attributeExamples": [
+          "show-text",
+          "size",
+          "value"
+        ],
+        "attributeFrequency": {
+          "size": 5,
+          "value": 5,
+          "show-text": 2
+        }
+      },
+      "sourceRefs": [
+        "source/simai/ui-smart/smart/progress-scale"
+      ]
+    },
+    {
+      "id": "radio",
+      "surface": "smart-component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui-smart/smart/radio",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/smart-components/radio/all/index.html"
+      ],
+      "coverageRefs": [
+        "smart-components/radio/all"
+      ],
+      "contract": {
+        "customElements": [
+          "sf-radio"
+        ],
+        "sfCodeValues": [],
+        "attributeExamples": [
+          "checked",
+          "description",
+          "disabled",
+          "error",
+          "help",
+          "label",
+          "name",
+          "size",
+          "value"
+        ],
+        "attributeFrequency": {
+          "name": 8,
+          "value": 8,
+          "label": 8,
+          "description": 8,
+          "help": 8,
+          "size": 4,
+          "checked": 2,
+          "error": 2,
+          "disabled": 2
+        }
+      },
+      "sourceRefs": [
+        "source/simai/ui-smart/smart/radio"
+      ]
+    },
+    {
+      "id": "range-slider",
+      "surface": "smart-component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui-smart/smart/range-slider",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/smart-components/range-slider/default/index.html"
+      ],
+      "coverageRefs": [
+        "smart-components/range-slider/default"
+      ],
+      "contract": {
+        "customElements": [
+          "sf-range-slider"
+        ],
+        "sfCodeValues": [],
+        "attributeExamples": [
+          "id",
+          "label",
+          "max",
+          "min",
+          "start",
+          "suffix"
+        ],
+        "attributeFrequency": {
+          "id": 4,
+          "min": 4,
+          "max": 4,
+          "start": 4,
+          "label": 3,
+          "suffix": 3
+        }
+      },
+      "sourceRefs": [
+        "source/simai/ui-smart/smart/range-slider"
+      ]
+    },
+    {
+      "id": "reference-link",
+      "surface": "smart-component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui-smart/smart/reference-link",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/smart-components/reference-link/default/index.html"
+      ],
+      "coverageRefs": [
+        "smart-components/reference-link/default"
+      ],
+      "contract": {
+        "customElements": [
+          "sf-reference-link"
+        ],
+        "sfCodeValues": [],
+        "attributeExamples": [
+          "disabled",
+          "href",
+          "icon",
+          "label",
+          "target",
+          "text"
+        ],
+        "attributeFrequency": {
+          "label": 3,
+          "text": 3,
+          "href": 2,
+          "icon": 2,
+          "target": 1,
+          "disabled": 1
+        }
+      },
+      "sourceRefs": [
+        "source/simai/ui-smart/smart/reference-link"
+      ]
+    },
+    {
+      "id": "skeleton",
+      "surface": "smart-component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui-smart/smart/skeleton",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/smart-components/skeleton/default/index.html"
+      ],
+      "coverageRefs": [
+        "smart-components/skeleton/default"
+      ],
+      "contract": {
+        "customElements": [
+          "sf-skeleton"
+        ],
+        "sfCodeValues": [],
+        "attributeExamples": [
+          "animation",
+          "count",
+          "height",
+          "root-class",
+          "size",
+          "type",
+          "variant",
+          "width"
+        ],
+        "attributeFrequency": {
+          "count": 4,
+          "size": 3,
+          "width": 3,
+          "animation": 2,
+          "variant": 2,
+          "type": 1,
+          "root-class": 1,
+          "height": 1
+        }
+      },
+      "sourceRefs": [
+        "source/simai/ui-smart/smart/skeleton"
+      ]
+    },
+    {
+      "id": "slider",
+      "surface": "smart-component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui-smart/smart/slider",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": true
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/smart-components/slider/default/index.html"
+      ],
+      "coverageRefs": [
+        "smart-components/slider/default"
+      ],
+      "contract": {
+        "customElements": [
+          "sf-slider"
+        ],
+        "sfCodeValues": [],
+        "attributeExamples": [
+          "button-type",
+          "dots",
+          "dots-type",
+          "loop"
+        ],
+        "attributeFrequency": {
+          "button-type": 4,
+          "loop": 4,
+          "dots": 2,
+          "dots-type": 2
+        }
+      },
+      "sourceRefs": [
+        "source/simai/ui-smart/smart/slider"
+      ]
+    },
+    {
+      "id": "spinner",
+      "surface": "smart-component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui-smart/smart/spinner",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/smart-components/spinner/default/index.html"
+      ],
+      "coverageRefs": [
+        "smart-components/spinner/default"
+      ],
+      "contract": {
+        "customElements": [
+          "sf-spinner"
+        ],
+        "sfCodeValues": [],
+        "attributeExamples": [
+          "infinite",
+          "label",
+          "size",
+          "variant"
+        ],
+        "attributeFrequency": {
+          "size": 8,
+          "variant": 8,
+          "label": 8,
+          "infinite": 4
+        }
+      },
+      "sourceRefs": [
+        "source/simai/ui-smart/smart/spinner"
+      ]
+    },
+    {
+      "id": "steps",
+      "surface": "smart-component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui-smart/smart/steps",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/smart-components/steps/default/index.html"
+      ],
+      "coverageRefs": [
+        "smart-components/steps/default"
+      ],
+      "contract": {
+        "customElements": [
+          "sf-steps"
+        ],
+        "sfCodeValues": [],
+        "attributeExamples": [
+          "current",
+          "error-step",
+          "id",
+          "items",
+          "size"
+        ],
+        "attributeFrequency": {
+          "size": 3,
+          "current": 3,
+          "items": 3,
+          "id": 1,
+          "error-step": 1
+        }
+      },
+      "sourceRefs": [
+        "source/simai/ui-smart/smart/steps"
+      ]
+    },
+    {
+      "id": "switch",
+      "surface": "smart-component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui-smart/smart/switch",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/smart-components/switch/default/index.html"
+      ],
+      "coverageRefs": [
+        "smart-components/switch/default"
+      ],
+      "contract": {
+        "customElements": [
+          "sf-switch"
+        ],
+        "sfCodeValues": [],
+        "attributeExamples": [
+          "checked",
+          "description",
+          "disabled",
+          "help",
+          "label",
+          "name",
+          "size"
+        ],
+        "attributeFrequency": {
+          "label": 4,
+          "name": 4,
+          "description": 2,
+          "help": 2,
+          "checked": 2,
+          "disabled": 1,
+          "size": 1
+        }
+      },
+      "sourceRefs": [
+        "source/simai/ui-smart/smart/switch"
+      ]
+    },
+    {
+      "id": "tags",
+      "surface": "smart-component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui-smart/smart/tags",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/smart-components/tags/element/index.html"
+      ],
+      "coverageRefs": [
+        "smart-components/tags/element"
+      ],
+      "contract": {
+        "customElements": [
+          "sf-button",
+          "sf-tag"
+        ],
+        "sfCodeValues": [],
+        "attributeExamples": [
+          "active",
+          "avatar-image-url",
+          "closable",
+          "color-class",
+          "count",
+          "disabled",
+          "icon",
+          "id",
+          "scheme",
+          "size",
+          "text",
+          "type"
+        ],
+        "attributeFrequency": {
+          "type": 35,
+          "size": 35,
+          "text": 35,
+          "closable": 18,
+          "disabled": 16,
+          "icon": 5,
+          "count": 4,
+          "color-class": 4,
+          "avatar-image-url": 4,
+          "active": 2,
+          "id": 1,
+          "scheme": 1
+        }
+      },
+      "sourceRefs": [
+        "source/simai/ui-smart/smart/tags"
+      ]
+    },
+    {
+      "id": "textarea",
+      "surface": "smart-component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui-smart/smart/textarea",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/smart-components/textarea/element/index.html"
+      ],
+      "coverageRefs": [
+        "smart-components/textarea/element"
+      ],
+      "contract": {
+        "customElements": [
+          "sf-textarea"
+        ],
+        "sfCodeValues": [],
+        "attributeExamples": [
+          "disabled",
+          "error",
+          "hint",
+          "label",
+          "mask",
+          "mask-pattern",
+          "name",
+          "placeholder",
+          "required",
+          "rows",
+          "size",
+          "type",
+          "value"
+        ],
+        "attributeFrequency": {
+          "size": 6,
+          "type": 6,
+          "label": 6,
+          "rows": 6,
+          "placeholder": 6,
+          "hint": 6,
+          "name": 6,
+          "required": 3,
+          "disabled": 2,
+          "error": 1,
+          "mask": 1,
+          "mask-pattern": 1,
+          "value": 1
+        }
+      },
+      "sourceRefs": [
+        "source/simai/ui-smart/smart/textarea"
+      ]
+    },
+    {
+      "id": "toast",
+      "surface": "smart-component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui-smart/smart/toast",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/smart-components/toast/default/index.html"
+      ],
+      "coverageRefs": [
+        "smart-components/toast/default"
+      ],
+      "contract": {
+        "customElements": [
+          "sf-button",
+          "sf-toast"
+        ],
+        "sfCodeValues": [],
+        "attributeExamples": [
+          "action",
+          "action-text",
+          "data-smart-toast-demo",
+          "icon",
+          "scheme",
+          "size",
+          "supporting-text",
+          "text",
+          "title",
+          "type"
+        ],
+        "attributeFrequency": {
+          "type": 9,
+          "icon": 5,
+          "title": 5,
+          "supporting-text": 5,
+          "scheme": 4,
+          "size": 4,
+          "text": 4,
+          "data-smart-toast-demo": 4,
+          "action-text": 2,
+          "action": 2
+        }
+      },
+      "sourceRefs": [
+        "source/simai/ui-smart/smart/toast"
+      ]
+    },
+    {
+      "id": "toggle",
+      "surface": "smart-component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui-smart/smart/toggle",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": true
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/smart-components/toggle/default/index.html"
+      ],
+      "coverageRefs": [
+        "smart-components/toggle/default"
+      ],
+      "contract": {
+        "customElements": [
+          "sf-toggle"
+        ],
+        "sfCodeValues": [],
+        "attributeExamples": [
+          "checked",
+          "disabled",
+          "icon",
+          "label",
+          "name",
+          "size",
+          "type"
+        ],
+        "attributeFrequency": {
+          "type": 8,
+          "size": 8,
+          "label": 8,
+          "name": 4,
+          "checked": 4,
+          "icon": 3,
+          "disabled": 2
+        }
+      },
+      "sourceRefs": [
+        "source/simai/ui-smart/smart/toggle"
+      ]
+    },
+    {
+      "id": "tooltip",
+      "surface": "smart-component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui-smart/smart/tooltip",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/smart-components/tooltip/element/index.html"
+      ],
+      "coverageRefs": [
+        "smart-components/tooltip/element"
+      ],
+      "contract": {
+        "customElements": [
+          "sf-tooltip"
+        ],
+        "sfCodeValues": [],
+        "attributeExamples": [
+          "arrow",
+          "size",
+          "supporting-text",
+          "text",
+          "type"
+        ],
+        "attributeFrequency": {
+          "size": 13,
+          "arrow": 13,
+          "text": 12,
+          "type": 5,
+          "supporting-text": 2
+        }
+      },
+      "sourceRefs": [
+        "source/simai/ui-smart/smart/tooltip"
+      ]
+    }
+  ],
+  "sfCodeRegistry": [
+    {
+      "name": "cl-accordion",
+      "regex": "/sf-code=\"accordion\"/",
+      "type": "smart",
+      "mode": "smart",
+      "js": true,
+      "css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-sfAccordion",
+      "regex": "/sf-code=\"sfAccordion\"/",
+      "type": "smart",
+      "mode": "smart",
+      "js": true,
+      "css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-ajax",
+      "regex": "/sf-code=\"ajax\"/",
+      "type": "smart",
+      "mode": "smart",
+      "js": true,
+      "css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-button",
+      "regex": "/sf-code=\"button\"/",
+      "type": "smart",
+      "mode": "smart",
+      "js": true,
+      "css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-buttons",
+      "regex": "/sf-code=\"buttons\"/",
+      "type": "smart",
+      "mode": "smart",
+      "js": true,
+      "css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-cards",
+      "regex": "/sf-code=\"cards\"/",
+      "type": "smart",
+      "mode": "smart",
+      "js": true,
+      "css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-debug",
+      "regex": "/sf-code=\"debug\"/",
+      "type": "smart",
+      "mode": "smart",
+      "js": true,
+      "css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-edit",
+      "regex": "/sf-code=\"edit\"/",
+      "type": "smart",
+      "mode": "smart",
+      "js": true,
+      "css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-list",
+      "regex": "/sf-code=\"list\"/",
+      "type": "smart",
+      "mode": "smart",
+      "js": true,
+      "css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-news",
+      "regex": "/sf-code=\"news\"/",
+      "type": "smart",
+      "mode": "smart",
+      "js": true,
+      "css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-pagination",
+      "regex": "/sf-code=\"pagination\"/",
+      "type": "smart",
+      "mode": "smart",
+      "js": true,
+      "css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-search",
+      "regex": "/sf-code=\"search\"/",
+      "type": "smart",
+      "mode": "smart",
+      "js": true,
+      "css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-select",
+      "regex": "/sf-code=\"select\"/",
+      "type": "smart",
+      "mode": "smart",
+      "js": true,
+      "css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-span",
+      "regex": "/sf-code=\"span\"/",
+      "type": "smart",
+      "mode": "smart",
+      "js": true,
+      "css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-table",
+      "regex": "/sf-code=\"table\"/",
+      "type": "smart",
+      "mode": "smart",
+      "js": true,
+      "css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-tabs",
+      "regex": "/sf-code=\"tabs\"/",
+      "type": "smart",
+      "mode": "smart",
+      "js": true,
+      "css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-text",
+      "regex": "/sf-code=\"text\"/",
+      "type": "smart",
+      "mode": "smart",
+      "js": true,
+      "css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-textarea",
+      "regex": "/sf-code=\"textarea\"/",
+      "type": "smart",
+      "mode": "smart",
+      "js": true,
+      "css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-tags",
+      "regex": "/sf-code=\"tags\"/",
+      "type": "smart",
+      "mode": "smart",
+      "js": true,
+      "css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-icons",
+      "regex": "/sf-code=\"icons\"/",
+      "type": "smart",
+      "mode": "smart",
+      "js": true,
+      "css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-inputs",
+      "regex": "/sf-code=\"inputs\"/",
+      "type": "smart",
+      "mode": "smart",
+      "js": true,
+      "css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-close",
+      "regex": "/sf-code=\"close\"/",
+      "type": "smart",
+      "mode": "smart",
+      "js": true,
+      "css": false,
+      "relation": []
+    },
+    {
+      "name": "cl-contentDivider",
+      "regex": "/sf-code=\"contentDivider\"/",
+      "type": "smart",
+      "mode": "smart",
+      "js": true,
+      "css": false,
+      "relation": []
+    },
+    {
+      "name": "fancybox",
+      "regex": "/data-fancybox/",
+      "type": "attribute",
+      "mode": "component",
+      "js": true,
+      "css": true,
+      "relation": [
+        {
+          "name": "jquery",
+          "mode": "component",
+          "js": true
+        }
+      ]
+    },
+    {
+      "name": "hideShow",
+      "regex": "/sf-hide-show/",
+      "type": "component",
+      "mode": null,
+      "js": true,
+      "css": false,
+      "relation": []
+    },
+    {
+      "name": "highlight",
+      "regex": "/(?:class\\s*=\\s*[\"'][^\"']*language-[^\"']*[\"']|<pre\\b[^>]*>\\s*<code\\b[^>]*>)/i",
+      "type": "component",
+      "mode": null,
+      "js": true,
+      "css": true,
+      "relation": []
+    }
+  ]
+}

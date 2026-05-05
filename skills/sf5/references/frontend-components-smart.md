@@ -10,6 +10,15 @@ This file defines practical boundaries using the current docs snapshot.
 
 Use the rules below as the working contract until dedicated component docs are completed.
 
+## Source Priority
+
+- Use `references/component-smart-catalog.md` and `references/vendor/component-smart-catalog.json` as the first source-backed index of shipped components, shipped smart-components, runnable examples, custom elements, `sf-code` registry entries, and extracted attribute examples.
+- Use `source/simai/ui-play/examples/components` for runnable static component markup.
+- Use `source/simai/ui-play/examples/smart-components` for runnable smart markup.
+- Use `source/simai/ui/distr/component` to confirm a component exists in the shipped runtime.
+- Use `source/simai/ui-smart/smart` to confirm a smart component exists in the smart runtime.
+- Use `references/vendor/registries/smart-codes.json` and `references/vendor/manifest/sf5.smart.json` for strict validation-oriented registries.
+
 ## Layer Boundaries
 
 - `components`: reusable presentational UI with minimal side effects.
@@ -65,6 +74,8 @@ Template cache is tied to loader hash/page identity.
   `references/block-template.md`
 - Scaffold generator:
   `scripts/generate_component_scaffold.py`
+- Source-backed component/smart catalog generator:
+  `scripts/build_component_smart_catalog.py`
 
 Example commands:
 
@@ -72,7 +83,16 @@ Example commands:
 skills/sf5/scripts/generate_component_scaffold.py --kind component --name productCard --title "Product card" --snippet-only
 skills/sf5/scripts/generate_component_scaffold.py --kind smart --name catalogCards --title "Catalog cards" --smart-code cards --snippet-only
 skills/sf5/scripts/generate_component_scaffold.py --kind block --name catalogSection --title "Catalog section" --snippet-only
+skills/sf5/scripts/build_component_smart_catalog.py
 ```
+
+## Tailwind Conversion Integration
+
+- Use `scripts/convert_tailwind_to_sf5.py --render-component` when a Tailwind snippet matches a source-backed component recipe and the target can stay presentational.
+- Source-backed component renderers are declared in `references/vendor/tailwind-to-sf5.component-renderers.json`; current first-class renderers cover buttons, dropdowns, inputs, pagination, and modals.
+- Use `scripts/convert_tailwind_to_sf5.py --render-smart` only as an advisory starter when the source behavior needs state, events, data loading, or widget lifecycle.
+- Do not replace static markup with `sf-code` or a custom smart element until `data`, `property`, `events`, and `modify` payloads are known or deliberately left as placeholders for implementation.
+- For tables, the current source-backed SF5 contract is static semantic markup with utilities such as `table`, `table-sm`, `table-border`, `table-hover`, `table-auto`, `table-fixed`, `table-stripe`, and `table-stripe-col`. `sf-code="table"` exists in the registry, but no source-backed `ui-smart/smart/table` runtime contract is present in the current mirror, so automatic smart-table promotion must remain blocked.
 
 Validation commands:
 

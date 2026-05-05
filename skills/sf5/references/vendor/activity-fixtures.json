@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "fixtures": [
+    {
+      "query": "ui-play changed, new components appeared and source inventory should be refreshed",
+      "expectedActivityId": "source-refresh",
+      "requiredSpecialists": ["task-goal", "source-sync", "validation-qa"],
+      "requiredGateRules": ["rules/change-gates.md#source-refresh-gate"],
+      "requiredKnowledgePacks": ["knowledge-packs/source-refresh.md"],
+      "requiredRoles": {"validation-qa": "gatekeeper"},
+      "requiredWorkflowSnippets": ["Sync or inspect the affected mirror paths", "Refresh inventory"],
+      "requiredOutputs": ["updated source mirror state", "verification result"]
+    },
+    {
+      "query": "route ranking for dashboard and catalog is wrong, fix fixtures too",
+      "expectedActivityId": "routing-maintenance",
+      "requiredSpecialists": ["task-goal", "routing-orchestrator", "validation-qa"],
+      "requiredKnowledgePacks": ["knowledge-packs/routing-maintenance.md"],
+      "requiredRoles": {"validation-qa": "gatekeeper"},
+      "requiredWorkflowSnippets": ["Change the narrowest ranking", "Update route or e2e fixtures"],
+      "requiredOutputs": ["routing decision update", "verification result"]
+    },
+    {
+      "query": "надо обновить page scaffold и recipe под новый auth экран",
+      "expectedActivityId": "recipe-scaffold-maintenance",
+      "requiredSpecialists": ["task-goal", "recipe-scaffold", "validation-qa"],
+      "requiredRoles": {"validation-qa": "gatekeeper"},
+      "requiredWorkflowSnippets": ["Generate fresh scaffold output", "Run strict validation"],
+      "requiredOutputs": ["updated scaffold behavior", "verification result"]
+    },
+    {
+      "query": "working set сломан после обновления ui-play, нужно поправить upstream extracts и manifest",
+      "expectedActivityId": "working-set-maintenance",
+      "requiredSpecialists": ["task-goal", "working-set", "validation-qa"],
+      "requiredGateRules": ["rules/change-gates.md#working-set-gate"],
+      "requiredKnowledgePacks": ["knowledge-packs/working-set-maintenance.md"],
+      "requiredRoles": {"validation-qa": "gatekeeper"},
+      "requiredWorkflowSnippets": ["Verify real source paths", "Run e2e and local validation"],
+      "requiredOutputs": ["updated bundle contract", "verification result"]
+    },
+    {
+      "query": "конвертировать tailwindcss markup из application ui в sf5 пример",
+      "expectedActivityId": "tailwind-conversion",
+      "requiredSpecialists": ["task-goal", "tailwind-converter", "validation-qa"],
+      "requiredKnowledgePacks": ["knowledge-packs/tailwind-to-sf5-conversion.md"],
+      "requiredRoles": {"validation-qa": "gatekeeper"},
+      "requiredWorkflowSnippets": ["Classify the source markup", "Generate a conversion report"],
+      "requiredOutputs": ["converted SF5 markup or conversion plan", "unmapped Tailwind report", "license or source-ownership note", "verification result"]
+    },
+    {
+      "query": "усиль локальные проверки и добавь regression fixtures для coordinator routing",
+      "expectedActivityId": "validation-hardening",
+      "requiredSpecialists": ["task-goal", "validation-qa"],
+      "requiredGateRules": ["rules/change-gates.md#validation-hardening-gate"],
+      "requiredKnowledgePacks": ["knowledge-packs/validation-hardening.md"],
+      "requiredRoles": {"validation-qa": "gatekeeper"},
+      "requiredWorkflowSnippets": ["Run the touched validator directly", "Then run the full local suite"],
+      "requiredOutputs": ["updated validation or fixture layer", "verification result"]
+    },
+    {
+      "query": "обнови readme, usage guide и reference map для нового coordinator слоя",
+      "expectedActivityId": "documentation-update",
+      "requiredSpecialists": ["task-goal", "docs-learning"],
+      "requiredKnowledgePacks": ["references/activity-routing-overview.md"],
+      "requiredRoles": {"docs-learning": "reviewer"},
+      "requiredWorkflowSnippets": ["Update the narrowest documentation owner", "Preserve cross-links"],
+      "requiredOutputs": ["updated docs surface", "verification result"]
+    },
+    {
+      "query": "добавь в sf5 систему специалистов и activity manifests как в dev",
+      "expectedActivityId": "skill-architecture-update",
+      "requiredSpecialists": ["task-goal", "skill-maintainer", "validation-qa"],
+      "requiredKnowledgePacks": ["knowledge-packs/skill-architecture-update.md"],
+      "requiredRoles": {"validation-qa": "gatekeeper"},
+      "requiredWorkflowSnippets": ["Change manifests, specialists, rules, and entrypoints", "Run JSON, fixture, and local checks"],
+      "requiredOutputs": ["updated coordinator structure", "verification result"]
+    }
+  ]
+}

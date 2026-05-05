@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "fixtures": [
+    {
+      "id": "dashboard-workspace",
+      "query": "dashboard with KPI cards, activity table and filters",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "dashboard-workspace",
+      "expectedRecipeType": "dashboard",
+      "expectedSectionIds": ["kpi-row", "activity-table", "action-bar"],
+      "expectedUpstreamIds": ["activity-table"],
+      "requiredFiles": ["scaffold.html", "sections.md", "sources.md", "upstream.md", "manifest.json"]
+    },
+    {
+      "id": "catalog-empty",
+      "query": "catalog empty state with filters and reset action",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "catalog-empty",
+      "expectedRecipeType": "catalog-empty",
+      "requiredActivitySpecialists": ["task-goal", "working-set", "validation-qa"],
+      "requiredActivityGateRules": ["rules/change-gates.md#working-set-gate"],
+      "requiredActivityKnowledgePacks": ["knowledge-packs/working-set-maintenance.md"],
+      "requiredActivityRoles": {"validation-qa": "gatekeeper"},
+      "requiredActivityWorkflowSnippets": ["Verify real source paths", "Run e2e and local validation"],
+      "expectedSectionIds": ["empty-state", "filters-toolbar"],
+      "expectedUpstreamIds": ["empty-state", "filters-toolbar"],
+      "requiredFiles": ["scaffold.html", "sections.md", "sources.md", "upstream.md", "manifest.json"]
+    },
+    {
+      "id": "auth",
+      "query": "login page with password recovery links",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "auth",
+      "expectedRecipeType": "auth",
+      "requiredActivitySpecialists": ["task-goal", "working-set", "validation-qa"],
+      "requiredActivityGateRules": ["rules/change-gates.md#working-set-gate"],
+      "requiredActivityKnowledgePacks": ["knowledge-packs/working-set-maintenance.md"],
+      "requiredActivityRoles": {"validation-qa": "gatekeeper"},
+      "requiredActivityWorkflowSnippets": ["Verify real source paths", "Run e2e and local validation"],
+      "expectedSectionIds": ["auth-card", "auth-help"],
+      "expectedUpstreamIds": ["auth-card", "auth-help"],
+      "requiredFiles": ["scaffold.html", "sections.md", "sources.md", "upstream.md", "manifest.json"]
+    },
+    {
+      "id": "dashboard-table",
+      "query": "dashboard table with search and status filters",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "dashboard-table",
+      "expectedRecipeType": "dashboard-table",
+      "expectedSectionIds": ["table-shell", "table-filters"],
+      "expectedUpstreamIds": ["table-shell", "table-filters"],
+      "requiredFiles": ["scaffold.html", "sections.md", "sources.md", "upstream.md", "manifest.json"]
+    },
+    {
+      "id": "profile-settings",
+      "query": "profile settings page with avatar upload and notification toggles",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "profile-settings",
+      "expectedRecipeType": "profile",
+      "expectedSectionIds": ["avatar-upload", "settings-form", "notification-preferences"],
+      "expectedUpstreamIds": ["avatar-upload", "settings-form", "notification-preferences"],
+      "requiredFiles": ["scaffold.html", "sections.md", "sources.md", "upstream.md", "manifest.json"]
+    },
+    {
+      "id": "checkout-flow",
+      "query": "checkout page with customer form, delivery, payment and summary",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "checkout-flow",
+      "expectedRecipeType": "checkout",
+      "requiredActivitySpecialists": ["task-goal", "working-set", "validation-qa"],
+      "requiredActivityGateRules": ["rules/change-gates.md#working-set-gate"],
+      "requiredActivityKnowledgePacks": ["knowledge-packs/working-set-maintenance.md"],
+      "requiredActivityRoles": {"validation-qa": "gatekeeper"},
+      "requiredActivityWorkflowSnippets": ["Verify real source paths", "Run e2e and local validation"],
+      "expectedSectionIds": ["customer-form", "payment-summary", "delivery-payment"],
+      "expectedUpstreamIds": ["customer-form", "payment-summary", "delivery-payment"],
+      "requiredFiles": ["scaffold.html", "sections.md", "sources.md", "upstream.md", "manifest.json"]
+    },
+    {
+      "id": "article-content",
+      "query": "article page with table of contents and related posts",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "article-content",
+      "expectedRecipeType": "article",
+      "expectedSectionIds": ["article-hero", "toc-sidebar", "related-grid"],
+      "expectedUpstreamIds": ["article-hero", "toc-sidebar", "related-grid"],
+      "requiredFiles": ["scaffold.html", "sections.md", "sources.md", "upstream.md", "manifest.json"]
+    },
+    {
+      "id": "profile-settings-ru",
+      "query": "страница профиля с загрузкой аватара и настройками уведомлений",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "profile-settings",
+      "expectedRecipeType": "profile",
+      "expectedSectionIds": ["avatar-upload", "settings-form", "notification-preferences"],
+      "expectedUpstreamIds": ["avatar-upload", "settings-form", "notification-preferences"],
+      "requiredFiles": ["scaffold.html", "sections.md", "sources.md", "upstream.md", "manifest.json"]
+    },
+    {
+      "id": "article-content-ru",
+      "query": "статья с оглавлением и блоком похожих материалов",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "article-content",
+      "expectedRecipeType": "article",
+      "expectedSectionIds": ["article-hero", "toc-sidebar", "related-grid"],
+      "expectedUpstreamIds": ["article-hero", "toc-sidebar", "related-grid"],
+      "requiredFiles": ["scaffold.html", "sections.md", "sources.md", "upstream.md", "manifest.json"]
+    },
+    {
+      "id": "checkout-mixed-short",
+      "query": "checkout доставка payment summary",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "checkout-flow",
+      "expectedRecipeType": "checkout",
+      "expectedSectionIds": ["customer-form", "payment-summary", "delivery-payment"],
+      "expectedUpstreamIds": ["customer-form", "payment-summary", "delivery-payment"],
+      "requiredFiles": ["scaffold.html", "sections.md", "sources.md", "upstream.md", "manifest.json"]
+    },
+    {
+      "id": "article-mixed-short",
+      "query": "article toc related",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "article-content",
+      "expectedRecipeType": "article",
+      "expectedSectionIds": ["article-hero", "toc-sidebar", "related-grid"],
+      "expectedUpstreamIds": ["article-hero", "toc-sidebar", "related-grid"],
+      "requiredFiles": ["scaffold.html", "sections.md", "sources.md", "upstream.md", "manifest.json"],
+      "requiredPatternPlaybooks": ["references/pattern-playbooks.md"],
+      "minWorkflowSteps": 5
+    },
+    {
+      "id": "dashboard-mixed-ru-en",
+      "query": "admin дашборд с KPI cards и activity table",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "dashboard-workspace",
+      "expectedRecipeType": "dashboard",
+      "expectedSectionIds": ["kpi-row", "activity-table", "action-bar"],
+      "expectedUpstreamIds": ["activity-table"],
+      "requiredFiles": ["scaffold.html", "sections.md", "sources.md", "upstream.md", "manifest.json"],
+      "requiredPatternPlaybooks": ["references/pattern-pagination-filters.md"],
+      "minWorkflowSteps": 5
+    },
+    {
+      "id": "catalog-empty-mixed-ru-en",
+      "query": "catalog no results фильтры clear all",
+      "expectedActivityId": "working-set-maintenance",
+      "expectedScenarioId": "catalog-empty",
+      "expectedRecipeType": "catalog-empty",
+      "expectedSectionIds": ["empty-state", "filters-toolbar"],
+      "expectedUpstreamIds": ["empty-state", "filters-toolbar"],
+      "requiredFiles": ["scaffold.html", "sections.md", "sources.md", "upstream.md", "manifest.json"],
+      "requiredPatternPlaybooks": ["references/pattern-pagination-filters.md"],
+      "minWorkflowSteps": 5
+    }
+  ]
+}

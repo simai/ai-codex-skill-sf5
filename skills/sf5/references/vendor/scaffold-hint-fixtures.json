@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "fixtures": [
+    {
+      "script": "generate_page_scaffold.py",
+      "args": ["--type", "profile", "--snippet-only", "--format", "json"],
+      "expectedActivityId": "recipe-scaffold-maintenance",
+      "expectedKind": "page",
+      "expectedRecipeType": "profile"
+    },
+    {
+      "script": "generate_page_scaffold.py",
+      "args": ["--type", "checkout", "--snippet-only", "--format", "json"],
+      "expectedActivityId": "recipe-scaffold-maintenance",
+      "expectedKind": "page",
+      "expectedRecipeType": "checkout"
+    },
+    {
+      "script": "generate_component_scaffold.py",
+      "args": ["--kind", "component", "--snippet-only", "--format", "json"],
+      "expectedActivityId": "recipe-scaffold-maintenance",
+      "expectedKind": "component"
+    },
+    {
+      "script": "generate_component_scaffold.py",
+      "args": ["--kind", "smart", "--smart-code", "cards", "--snippet-only", "--format", "json"],
+      "expectedActivityId": "recipe-scaffold-maintenance",
+      "expectedKind": "smart"
+    }
+  ]
+}
