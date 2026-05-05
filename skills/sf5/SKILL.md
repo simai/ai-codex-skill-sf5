@@ -33,7 +33,8 @@ Follow this sequence for every substantial SF5 task:
 9. Validate at the right depth: source truth, routing, scaffolds, working-set outputs, or strict local checks.
 10. Apply explicit change gates from [rules/change-gates.md](./rules/change-gates.md) when the task touches source refresh, working-set, or validation surfaces.
 11. Update durable references, fixtures, or source-backed artifacts when the change makes them relevant.
-12. If a reusable SF5 lesson was learned, apply [rules/learning.md](./rules/learning.md) and update the narrowest owner.
+12. When implementing an SEO Contract from `$seo`, keep `$seo` as the contract owner and implement through SF5-owned surfaces: semantic HTML, layout, components, smart-components, blocks, loader behavior, renderability, headings, internal links, media behavior, and visible content order. If SF5 constraints conflict with the contract, report a blocker back to `$seo` instead of silently changing URL/canonical/meta/content decisions.
+13. If a reusable SF5 lesson was learned, apply [rules/learning.md](./rules/learning.md) and update the narrowest owner.
 
 Autonomy is the default for work packages. If the user explicitly asks only to discuss or analyze, stay in that narrower mode.
 
