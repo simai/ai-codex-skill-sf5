@@ -12,12 +12,12 @@ import argparse
 import json
 import re
 from collections import Counter
-from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any
 
 
+GENERATED_AT = "1970-01-01T00:00:00+00:00"
 CLASS_ATTR_RE = re.compile(r"""(?<![:@.\w-])class\s*=\s*["']([^"']+)["']""", re.DOTALL)
 SF_CODE_RE = re.compile(r"""sf-code\s*=\s*["']([^"']+)["']""", re.IGNORECASE)
 CUSTOM_ELEMENT_RE = re.compile(r"<(sf-[a-zA-Z0-9-]+)\b")
@@ -263,7 +263,7 @@ def main() -> int:
 
     catalog = {
         "schemaVersion": 1,
-        "generatedAt": datetime.now(timezone.utc).isoformat(),
+        "generatedAt": GENERATED_AT,
         "sourceInventory": rel(inventory_path, repo_root),
         "smartCodeRegistry": rel(smart_codes_path, repo_root),
         "summary": {

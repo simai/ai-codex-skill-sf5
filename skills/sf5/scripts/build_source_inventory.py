@@ -7,8 +7,9 @@ from __future__ import annotations
 
 import argparse
 import json
-from datetime import datetime, timezone
 from pathlib import Path
+
+GENERATED_AT = "1970-01-01T00:00:00+00:00"
 
 ACTIVITY_HINT = {
     "activity_id": "source-refresh",
@@ -118,7 +119,7 @@ def build_inventory(repo_root: Path, skill_root: Path) -> dict:
 
     return {
         "schemaVersion": 1,
-        "generatedAt": datetime.now(timezone.utc).isoformat(),
+        "generatedAt": GENERATED_AT,
         "repoRoot": str(repo_root),
         "sourceRoot": str(source_root),
         "repos": repo_map,
