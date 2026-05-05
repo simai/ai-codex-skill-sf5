@@ -102,6 +102,7 @@ For every substantial SF5 task, produce:
 - Read `references/frontend-loader.md` for SFLoader architecture, cache model, API methods, and debug flow.
 - Read `references/frontend-modifiers.md` for utility syntax, breakpoints, color roles, and RTL-safe styling.
 - Read `references/frontend-components-smart.md` for boundaries between components, smart-components, and blocks.
+- Read `references/ux-implementation-contract.md` when a `$ux` screen spec or UX handoff exists, or when the task starts from interface design.
 - Read and reuse starter templates:
   - `references/component-template.md`
   - `references/smart-component-template.md`
