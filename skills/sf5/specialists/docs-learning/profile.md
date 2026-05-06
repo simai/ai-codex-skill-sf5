@@ -13,3 +13,4 @@ Focus:
 - keep docs cross-linked and compact;
 - document only stable, reusable outcomes;
 - update the smallest owner instead of spreading one lesson everywhere.
+- use `$docs` for substantial documentation architecture, user/developer guide writing, screenshot methodology, documentation audits, and publication handoff.

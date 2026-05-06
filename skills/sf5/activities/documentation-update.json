@@ -22,6 +22,9 @@
     "rules/decision-policy.md",
     "rules/learning.md"
   ],
+  "companion_skills": [
+    "docs"
+  ],
   "knowledge_packs": [
     "references/activity-routing-overview.md",
     "references/execution-workflow.md"
@@ -34,6 +37,7 @@
   ],
   "required_outputs": [
     "updated docs surface",
+    "docs coordination decision",
     "cross-link integrity",
     "verification result"
   ]
