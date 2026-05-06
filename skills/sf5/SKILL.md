@@ -15,6 +15,7 @@ Before activity logic, load and obey:
 - [rules/routing.md](./rules/routing.md)
 - [rules/decision-policy.md](./rules/decision-policy.md)
 - [rules/change-gates.md](./rules/change-gates.md)
+- [rules/skill-mesh-balance.md](./rules/skill-mesh-balance.md)
 
 Do not load every file by default. Load narrowly, then expand only when the task crosses SF5 surfaces.
 
