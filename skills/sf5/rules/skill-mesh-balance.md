@@ -26,9 +26,18 @@ patterns for Bitrix/Laravel alignment.
   surfaces.
 - Use `$docs` for substantial documentation and `$tester` for validation
   evidence.
+- For SF4 -> SF5, Bitrix -> SF5, Larena/SF5, or other reference-adaptive work,
+  `$sf5` owns target frontend adaptation: loader/runtime, components,
+  smart-components, blocks, layout contracts, utilities, recipes, and generated
+  working-set artifacts. `$tester` owns invariant evidence and verdict; source
+  platform skills own the reference behavior.
 
 ## Handoff
 
 Return SF5 layers/surfaces touched, source/recipe/working-set paths, generated
 artifacts, validation commands, compatibility constraints, blockers, and the
 companion owner expected to review.
+
+For reference-adaptive handoff, also return target behavior, allowed SF5
+adaptations, source/recipe mapping, already-working baseline, do-not-break list,
+and regression checks after fix.
