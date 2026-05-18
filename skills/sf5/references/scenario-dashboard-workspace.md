@@ -8,7 +8,7 @@ Use this scenario for operator/admin/workspace screens with KPIs, widgets, table
 - `references/pattern-pagination-filters.md`
 - `references/pattern-feedback-overlays.md`
 - `source/simai/ui-play/examples/tables/tables-default-parameters/index.html`
-- `source/simai/ui-play/examples/components/buttons/buttons/index.html`
+- `source/simai/ui-play/examples/components/buttons/all/index.html`
 
 ## Default Screen Structure
 

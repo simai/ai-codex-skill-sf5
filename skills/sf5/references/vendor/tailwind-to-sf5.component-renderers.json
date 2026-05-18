@@ -33,7 +33,7 @@
       ],
       "sourceRefs": [
         "references/component-smart-catalog.md",
-        "source/simai/ui-play/examples/components/buttons/buttons/index.html",
+        "source/simai/ui-play/examples/components/buttons/all/index.html",
         "source/simai/ui-play/examples/smart-components/buttons/element/index.html"
       ]
     },

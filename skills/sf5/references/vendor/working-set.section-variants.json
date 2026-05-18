@@ -6,7 +6,7 @@
       "description": "Centered login/register shell with stacked inputs and primary action.",
       "source_refs": [
         "source/simai/ui-play/examples/smart-components/inputs/element/index.html",
-        "source/simai/ui-play/examples/components/buttons/buttons/index.html"
+        "source/simai/ui-play/examples/components/buttons/all/index.html"
       ],
       "upstream_extracts": [
         {
@@ -24,7 +24,7 @@
           }
         },
         {
-          "source": "source/simai/ui-play/examples/components/buttons/buttons/index.html",
+          "source": "source/simai/ui-play/examples/components/buttons/all/index.html",
           "tag": "button",
           "class_token": "sf-button",
           "occurrence": 1
@@ -57,13 +57,13 @@
       "title": "Landing Hero CTA",
       "description": "Primary hero section with headline, body copy, and actions.",
       "source_refs": [
-        "source/simai/ui-play/examples/components/buttons/buttons/index.html",
+        "source/simai/ui-play/examples/components/buttons/all/index.html",
         "source/simai/ui-play/examples/links/links-default-parameters/index.html",
         "source/simai/ui-doc/source/docs/ru/utilities/grid/grid-template-columns.md"
       ],
       "upstream_extracts": [
         {
-          "source": "source/simai/ui-play/examples/components/buttons/buttons/index.html",
+          "source": "source/simai/ui-play/examples/components/buttons/all/index.html",
           "tag": "button",
           "class_token": "sf-button",
           "occurrence": 1
@@ -133,7 +133,7 @@
       "description": "Three-up responsive product grid with price and CTA.",
       "source_refs": [
         "source/simai/ui-play/examples/grid/grid-template-columns/index.html",
-        "source/simai/ui-play/examples/components/buttons/buttons/index.html",
+        "source/simai/ui-play/examples/components/buttons/all/index.html",
         "source/simai/ui-doc/source/docs/ru/utilities/grid/grid-template-columns.md"
       ],
       "upstream_extracts": [
@@ -180,7 +180,7 @@
       "title": "Catalog Empty State",
       "description": "Empty result block with reset filters action.",
       "source_refs": [
-        "source/simai/ui-play/examples/components/buttons/buttons/index.html",
+        "source/simai/ui-play/examples/components/buttons/all/index.html",
         "source/simai/ui-play/examples/components/placeholder/default/index.html"
       ],
       "upstream_extracts": [
@@ -191,7 +191,7 @@
           "occurrence": 1
         },
         {
-          "source": "source/simai/ui-play/examples/components/buttons/buttons/index.html",
+          "source": "source/simai/ui-play/examples/components/buttons/all/index.html",
           "tag": "button",
           "class_token": "sf-button",
           "occurrence": 1
@@ -205,7 +205,7 @@
       "description": "Compact top toolbar for empty listing state.",
       "source_refs": [
         "source/simai/ui-play/examples/components/tags/all/index.html",
-        "source/simai/ui-play/examples/components/buttons/buttons/index.html"
+        "source/simai/ui-play/examples/components/buttons/all/index.html"
       ],
       "upstream_extracts": [
         {
@@ -215,7 +215,7 @@
           "occurrence": 1
         },
         {
-          "source": "source/simai/ui-play/examples/components/buttons/buttons/index.html",
+          "source": "source/simai/ui-play/examples/components/buttons/all/index.html",
           "tag": "button",
           "class_token": "sf-button",
           "occurrence": 1
@@ -268,12 +268,12 @@
       "title": "Action Bar",
       "description": "Top controls for filters and primary dashboard action.",
       "source_refs": [
-        "source/simai/ui-play/examples/components/buttons/buttons/index.html",
+        "source/simai/ui-play/examples/components/buttons/all/index.html",
         "source/simai/ui-play/examples/grid-and-flexbox-utilities/justify-content/index.html"
       ],
       "upstream_extracts": [
         {
-          "source": "source/simai/ui-play/examples/components/buttons/buttons/index.html",
+          "source": "source/simai/ui-play/examples/components/buttons/all/index.html",
           "tag": "button",
           "class_token": "sf-button",
           "occurrence": 1
@@ -426,12 +426,12 @@
       "title": "Payment Summary",
       "description": "Sticky-style summary block for totals and CTA.",
       "source_refs": [
-        "source/simai/ui-play/examples/components/buttons/buttons/index.html",
+        "source/simai/ui-play/examples/components/buttons/all/index.html",
         "source/simai/ui-doc/source/docs/ru/utilities/grid-and-flexbox-utilities/justify-content.md"
       ],
       "upstream_extracts": [
         {
-          "source": "source/simai/ui-play/examples/components/buttons/buttons/index.html",
+          "source": "source/simai/ui-play/examples/components/buttons/all/index.html",
           "tag": "button",
           "class_token": "sf-button",
           "occurrence": 1

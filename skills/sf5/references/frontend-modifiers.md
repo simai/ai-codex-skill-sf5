@@ -99,6 +99,7 @@ Use logical properties for bidi support:
 - Typical spacing values include:
   `0, 1/4, 1/3, 1/2, 1, 2, 3, 4, 5, 6, 7, 8`
 - Prefer utility/token usage over raw pixel literals.
+- Pair visual spacing with matching corner radius: `p-4 radius-4`, `p-3 radius-3`, `p-2 radius-2`, `p-1 radius-1`, compact `p-y-1/2 p-x-1 radius-1/2`. See `spacing-radius-pairs.md` before designing nested surfaces or code/source blocks.
 
 ## Common Utility Groups
 

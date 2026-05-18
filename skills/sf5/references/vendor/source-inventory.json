@@ -8,7 +8,7 @@
       "name": "ui",
       "status": "ok",
       "branch": "main",
-      "commit": "64aadd5ef33b2fa665b3ef760606ed6c59141307",
+      "commit": "ced241ecc312ff683594ead19cee9e410b6541b8",
       "localPath": "source/simai/ui",
       "remote": "git@github.com:simai/ui.git",
       "priority": "primary",
@@ -28,7 +28,7 @@
       "name": "ui-play",
       "status": "ok",
       "branch": "master",
-      "commit": "6c3be0c41a917abc427485dfe63c62a2a0e3bcef",
+      "commit": "0a393e85f0c6a137ae024f442dd52cc34d5f0508",
       "localPath": "source/simai/ui-play",
       "remote": "git@github.com:simai/ui-play.git",
       "priority": "primary",
@@ -38,7 +38,7 @@
       "name": "ui-smart",
       "status": "ok",
       "branch": "main",
-      "commit": "5e66f1a7da87c2b553d42d33d5f27a39cb4a9217",
+      "commit": "36d5f50667c572db513e1fc36d4e23145bb05333",
       "localPath": "source/simai/ui-smart",
       "remote": "git@github.com:simai/ui-smart.git",
       "priority": "primary",
@@ -77,11 +77,11 @@
   },
   "summary": {
     "shippedComponentCount": 72,
-    "shippedSmartCount": 33,
+    "shippedSmartCount": 34,
     "utilityGroupCount": 234,
     "utilityExampleGroupCount": 28,
     "componentExampleGroupCount": 31,
-    "smartExampleGroupCount": 30,
+    "smartExampleGroupCount": 31,
     "componentsWithoutExamplesCount": 41,
     "smartWithoutExamplesCount": 1
   },
@@ -176,7 +176,7 @@
         "all"
       ],
       "buttons": [
-        "buttons",
+        "all",
         "tightness"
       ],
       "checkbox": [
@@ -316,7 +316,7 @@
       ],
       "breadcrumbs": [],
       "buttons": [
-        "components/buttons/buttons",
+        "components/buttons/all",
         "components/buttons/tightness"
       ],
       "carousel": [],
@@ -491,6 +491,7 @@
       "buttons",
       "checkbox",
       "close",
+      "context-menu",
       "country-code",
       "download-file",
       "dropdown",
@@ -535,6 +536,9 @@
       ],
       "checkbox": [
         "all"
+      ],
+      "context-menu": [
+        "default"
       ],
       "custom-smart-component": [
         "default"
@@ -621,6 +625,7 @@
       "badges",
       "buttons",
       "checkbox",
+      "context-menu",
       "custom-smart-component",
       "download-file",
       "dropdown",
@@ -669,6 +674,9 @@
         "smart-components/checkbox/all"
       ],
       "close": [],
+      "context-menu": [
+        "smart-components/context-menu/default"
+      ],
       "country-code": [
         "inputs/country-code"
       ],

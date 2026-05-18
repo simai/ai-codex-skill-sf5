@@ -22,14 +22,64 @@ Use the rules below as the working contract until dedicated component docs are c
 ## Layer Boundaries
 
 - `components`: reusable presentational UI with minimal side effects.
-- `smart-components`: stateful orchestration, data loading, events, lifecycle logic.
-- `blocks`: composition layer for features/pages, wiring inputs/outputs between components and smart-components.
+- `smart-components`: frontend custom elements with state, lifecycle, slots, methods, or events.
+- `smart`: SF5 UI/template/runtime layer that can wrap one smart-component, compose several smart-components, or render a backend-driven UI template from a manifest.
+- `blocks`: layout/editor units for features/pages; they own data binding, settings, placement, block views, and runtime relationships, and may call `smart` to render UI.
 
 Rule of thumb:
 
 - Keep rendering primitives in `components`.
 - Keep async/data/cache/event orchestration in `smart-components`.
-- Keep page business composition in `blocks`.
+- Keep reusable UI templates and smart-component compositions in `smart`.
+- Keep page business composition, editor placement, content-source binding, section/page concerns, and block-to-block runtime relationships in `blocks`.
+
+## Smart Runtime Contract
+
+Use `Smart` as the developer-facing SF5 UI layer. `Composite` is a technical manifest/API subtype for smart artifacts that compose multiple components or smart-components; do not position it as a separate layout/editor entity beside `Block`.
+
+When SF5 is packaged for Bitrix/SIMAI, treat `/simai` as the SIMAI platform root, not only an asset delivery folder. The preferred runtime/source layout for Smart artifacts is:
+
+```text
+/simai/smart/<code>/
+/simai.data/smart/<code>/
+```
+
+Resolver order:
+
+1. `/simai.data/smart/<code>/` for site/project overrides.
+2. `/simai/smart/<code>/` for system SIMAI Smart artifacts.
+3. module/package fallback only for install, update, recovery, or integrity checks.
+
+Keep names short, singular, and noun-like (`cards`, `filter`, `catalog`, `gallery`, `toolbar`). Distinguish the actual kind inside the manifest with `type: "component" | "smart" | "composite" | "template"` rather than by a long folder name such as `smart-composites`.
+
+Safety rule: PHP templates or internal files under `/simai/smart` or `/simai.data/smart` must not be direct URL entrypoints. Render them only through a backend resolver/renderer that reads the manifest, applies the selected view, validates inputs, connects assets, and returns safe HTML.
+
+The practical boundary is:
+
+```text
+Block = what this page unit is, where its data comes from, how it is edited and placed.
+Smart = how that unit is rendered and made interactive.
+```
+
+## Backend Runtime Bridge
+
+When SF5 needs backend rendering in Bitrix, Larena, or another platform, use runtime facades instead of project-specific helper sprawl:
+
+```text
+SitePack -> Design -> Page -> Section -> Block -> Smart
+```
+
+Rules:
+
+- Treat SitePack as the package/interchange container; SF5 is an extension/profile artifact inside it, not a replacement for SitePack.
+- Keep `Smart`, `Block`, `Section`, `Page`, `Design`, and `SitePack` as platform-neutral facade contracts where possible.
+- Put `SITE_ID`, Bitrix asset wiring, Laravel routes, storage disks, permissions, and write policies into platform adapters.
+- Build an import dry-run plan before any write/import action.
+- Validate contracts from schema-backed manifests before rendering or importing.
+- Keep raw HTML out of source of truth; HTML is render output or a legacy/import exception.
+- Resolve block smart rendering through the design cascade: block smart props -> local block view defaults -> design block view defaults -> design smart view.
+- Express invalid smart prop combinations in registry compatibility constraints; playground controls should hide invalid options and backend renderer should reject invalid combinations.
+- Treat controlled import policies as part of the dry-run contract: stable code/checksum IDs, conflict reporting, and backup-before-overwrite before any write-mode.
 
 ## Smart-Component Runtime Contract
 

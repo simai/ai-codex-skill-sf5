@@ -11,8 +11,8 @@ python3 skills/sf5/scripts/build_component_smart_catalog.py
 
 - Components: 72
 - Components with examples: 31
-- Smart-components: 33
-- Smart-components with examples: 32
+- Smart-components: 34
+- Smart-components with examples: 33
 
 ## Use In Conversion
 
@@ -28,10 +28,10 @@ python3 skills/sf5/scripts/build_component_smart_catalog.py
 - `avatars`: roots `sf-avatar, sf-avatar-card, sf-avatar-card-content, sf-avatar-card-image, sf-avatar-card-portrait`; examples: source/simai/ui-play/examples/components/avatar/card/index.html, source/simai/ui-play/examples/components/avatar/default/index.html
 - `avatars-group`: roots `sf-avatar, sf-avatar-card, sf-avatar-card-content, sf-avatar-card-image, sf-avatar-card-portrait`; examples: source/simai/ui-play/examples/components/avatar/card/index.html, source/simai/ui-play/examples/components/avatar/default/index.html
 - `badges`: roots `sf-badge, sf-badge-icon-container, sf-badge-text, sf-badge-text-container, sf-icon`; examples: source/simai/ui-play/examples/components/badges/all/index.html
-- `buttons`: roots `sf-button, sf-button-text-container, sf-card, sf-icon, sf-text-2`; examples: source/simai/ui-play/examples/components/buttons/buttons/index.html, source/simai/ui-play/examples/components/buttons/tightness/index.html
+- `buttons`: roots `sf-button, sf-button-text-container, sf-card, sf-icon, sf-text-2`; examples: source/simai/ui-play/examples/components/buttons/all/index.html, source/simai/ui-play/examples/components/buttons/tightness/index.html
 - `checkbox`: roots `sf-checkbox, sf-checkbox-box, sf-checkbox-container, sf-checkbox-description, sf-checkbox-label`; examples: source/simai/ui-play/examples/components/checkbox/all/index.html
 - `close`: roots `sf-close, sf-close-icon, sf-text-1, sf-weight-medium`; examples: source/simai/ui-play/examples/components/close/default/index.html
-- `context-menu`: roots `sf-context-menu, sf-context-menu-content, sf-context-menu-tooltip, sf-text-2`; examples: source/simai/ui-play/examples/components/context-menu/all/index.html
+- `context-menu`: roots `sf-button, sf-button-text-container, sf-context-menu, sf-context-menu-content, sf-context-menu-tooltip`; examples: source/simai/ui-play/examples/components/context-menu/all/index.html
 - `download-file`: roots `sf-download-file, sf-download-file-container, sf-download-file-file-size, sf-download-file-wrap, sf-icon`; examples: source/simai/ui-play/examples/components/download-file/default/index.html
 - `dropdown`: roots `sf-avatar, sf-avatar-label-group, sf-avatar-label-group-container, sf-avatar-label-group-title, sf-checkbox`; examples: source/simai/ui-play/examples/components/dropdown/dropdown/index.html, source/simai/ui-play/examples/components/dropdown/list/index.html
 - `featured-icon`: roots `sf-featured-icon, sf-icon`; examples: source/simai/ui-play/examples/components/featured-icon/all/index.html
@@ -39,7 +39,7 @@ python3 skills/sf5/scripts/build_component_smart_catalog.py
 - `icon-buttons`: roots `sf-card, sf-close, sf-close-icon, sf-icon, sf-icon-button`; examples: source/simai/ui-play/examples/components/icon-buttons/icon-buttons/index.html
 - `inputs`: roots `sf-text-2, sf-textarea, sf-textarea-hint-text-wrap, sf-textarea-label, sf-textarea-required`; examples: source/simai/ui-play/examples/components/inputs/textarea/index.html
 - `menu`: roots `sf-icon, sf-icon-button, sf-menu, sf-menu-element, sf-menu-element-text`; examples: source/simai/ui-play/examples/components/menu/default/index.html
-- `modal`: roots `-`; examples: source/simai/ui-play/examples/components/modal/all/index.html
+- `modal`: roots `sf-button, sf-button-text-container, sf-card`; examples: source/simai/ui-play/examples/components/modal/all/index.html
 - `pagination`: roots `sf-button, sf-button-text-container, sf-checkbox, sf-checkbox-box, sf-checkbox-container`; examples: source/simai/ui-play/examples/components/pagination/default/index.html, source/simai/ui-play/examples/components/pagination/page-number/index.html
 - `placeholder`: roots `sf-button, sf-button-text-container, sf-placeholder, sf-placeholder-left, sf-placeholder-right`; examples: source/simai/ui-play/examples/components/placeholder/default/index.html
 - `progress`: roots `sf-progress-bar, sf-progress-bar-main, sf-progress-bar-progress, sf-progress-bar-text, sf-progress-scale`; examples: source/simai/ui-play/examples/components/progress/default/index.html, source/simai/ui-play/examples/components/progress/progress-scale/index.html
@@ -63,6 +63,7 @@ python3 skills/sf5/scripts/build_component_smart_catalog.py
 - `badges`: elements `sf-badge`; sf-code `-`; examples: source/simai/ui-play/examples/smart-components/badges/element/index.html
 - `buttons`: elements `sf-button`; sf-code `-`; examples: source/simai/ui-play/examples/smart-components/buttons/element/index.html, source/simai/ui-play/examples/smart-components/buttons/events/index.html
 - `checkbox`: elements `sf-button, sf-checkbox`; sf-code `-`; examples: source/simai/ui-play/examples/smart-components/checkbox/all/index.html
+- `context-menu`: elements `sf-button, sf-context-menu`; sf-code `-`; examples: source/simai/ui-play/examples/smart-components/context-menu/default/index.html
 - `country-code`: elements `sf-country-code`; sf-code `-`; examples: source/simai/ui-play/examples/smart-components/inputs/country-code/index.html
 - `download-file`: elements `sf-download-file`; sf-code `-`; examples: source/simai/ui-play/examples/smart-components/download-file/element/index.html
 - `dropdown`: elements `sf-button, sf-dropdown, sf-list-item`; sf-code `-`; examples: source/simai/ui-play/examples/smart-components/dropdown/element/index.html

@@ -15,7 +15,7 @@ Use this playbook for modal dialogs, toast stacks, tooltip surfaces, and button-
 - Smart tooltip:
   `source/simai/ui-play/examples/smart-components/tooltip/element/index.html`
 - Buttons for triggers/state demos:
-  `source/simai/ui-play/examples/components/buttons/buttons/index.html`
+  `source/simai/ui-play/examples/components/buttons/all/index.html`
   `source/simai/ui-play/examples/smart-components/buttons/events/index.html`
 
 ## Modal Rule

@@ -74,6 +74,7 @@ Default specialist roles:
 - `working-set`: bundle generation, section variants, upstream extraction
 - `tailwind-converter`: Tailwind CSS to SF5 conversion, mapping quality, unmapped token reports
 - `validation-qa`: validators, regression fixtures, strict local checks
+- `bitrix-integration`: Bitrix installable usage, local asset packaging, `sfPath`/`sfSmartPath` wiring, admin/public demo surfaces, and storage-safe deployment.
 - `docs-learning`: SF5 references, indexes, usage facts, and narrow learning updates; coordinate substantial writing method with `$docs`
 - `skill-maintainer`: coordinator architecture, metadata, folder structure
 
@@ -86,6 +87,7 @@ Load specialist files only when selected:
 - [specialists/working-set/profile.md](./specialists/working-set/profile.md)
 - [specialists/tailwind-converter/profile.md](./specialists/tailwind-converter/profile.md)
 - [specialists/validation-qa/profile.md](./specialists/validation-qa/profile.md)
+- [specialists/bitrix-integration/profile.md](./specialists/bitrix-integration/profile.md)
 - [specialists/docs-learning/profile.md](./specialists/docs-learning/profile.md)
 - [specialists/skill-maintainer/profile.md](./specialists/skill-maintainer/profile.md)
 
@@ -183,7 +185,12 @@ Use templates when helpful:
 - Read `references/task-intake-template.md` when clarifying task boundaries and acceptance criteria.
 - Read `references/frontend-loader.md` for SFLoader architecture, cache model, API methods, and debug flow.
 - Read `references/frontend-modifiers.md` for utility syntax, breakpoints, color roles, and RTL-safe styling.
+- Read `references/spacing-radius-pairs.md` when choosing padding, gap, margin, and radius utilities for cards, panels, nested surfaces, code/source blocks, chips, and compact controls.
 - Read `references/frontend-components-smart.md` for boundaries between components, smart-components, and blocks.
+- Read `references/bitrix-ui-smart-integration.md` when packaging SF5 UI assets into Bitrix modules, wiring `sfPath`/`sfSmartPath`, or building Bitrix-native SF5 demo pages.
+- Read `knowledge-packs/backend-first-smart-runtime.md` when working on backend-first `Smart::render()`, `Smart::tree()`, smart manifests, smart templates, composite smart runtime, or smart runtime proofs.
+- Read `knowledge-packs/smart-component-implementation.md` when creating, syncing, or reviewing backend/frontend smart components, especially overlay and navigation primitives such as `drawer`, `modal`, `sidebar`, `side-menu`, `top-menu`, and `navigation-shell`.
+- Read `knowledge-packs/demo-path-overlay-playground.md` when `/demo/framework/` or another demo path is used as a path-scoped `simai.data` overlay with composite smart artifacts.
 - Read `references/ux-implementation-contract.md` when a `$ux` screen spec or UX handoff exists, or when the task starts from interface design.
 - Read `references/component-smart-catalog.md` when choosing existing shipped components or smart-components.
 - Read and reuse starter templates:

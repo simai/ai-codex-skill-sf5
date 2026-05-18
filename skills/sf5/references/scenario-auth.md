@@ -8,7 +8,7 @@ Use this scenario for sign in, sign up, password reset, confirmation, and compac
 - `references/pattern-forms-inputs.md`
 - `references/pattern-feedback-overlays.md`
 - `source/simai/ui-play/examples/smart-components/inputs/element/index.html`
-- `source/simai/ui-play/examples/components/buttons/buttons/index.html`
+- `source/simai/ui-play/examples/components/buttons/all/index.html`
 - `source/simai/ui-play/examples/modal/all`
 
 ## Default Screen Structure

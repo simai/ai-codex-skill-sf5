@@ -6,8 +6,8 @@
   "summary": {
     "componentCount": 72,
     "componentsWithExamples": 31,
-    "smartComponentCount": 33,
-    "smartComponentsWithExamples": 32
+    "smartComponentCount": 34,
+    "smartComponentsWithExamples": 33
   },
   "components": [
     {
@@ -365,11 +365,11 @@
         "hasTemplate": false
       },
       "playExamples": [
-        "source/simai/ui-play/examples/components/buttons/buttons/index.html",
+        "source/simai/ui-play/examples/components/buttons/all/index.html",
         "source/simai/ui-play/examples/components/buttons/tightness/index.html"
       ],
       "coverageRefs": [
-        "components/buttons/buttons",
+        "components/buttons/all",
         "components/buttons/tightness"
       ],
       "contract": {
@@ -582,24 +582,32 @@
       ],
       "contract": {
         "rootClassCandidates": [
+          "sf-button",
+          "sf-button-text-container",
           "sf-context-menu",
           "sf-context-menu-content",
           "sf-context-menu-tooltip",
-          "sf-text-2"
+          "sf-icon",
+          "sf-text-1",
+          "sf-text-1/2",
+          "sf-text-3"
         ],
         "modifierClassExamples": [
+          "sf-button",
+          "sf-button--link",
+          "sf-button--on-surface",
+          "sf-button--size-1/2",
+          "sf-button-text-container",
           "sf-context-menu",
-          "sf-context-menu--position-bottom",
-          "sf-context-menu--position-bottom-left",
-          "sf-context-menu--position-bottom-right",
-          "sf-context-menu--position-left",
+          "sf-context-menu--position-bottom-center",
           "sf-context-menu--position-right",
-          "sf-context-menu--position-top",
           "sf-context-menu--position-top-left",
-          "sf-context-menu--position-top-right",
           "sf-context-menu-content",
           "sf-context-menu-tooltip",
-          "sf-text-2"
+          "sf-icon",
+          "sf-text-1",
+          "sf-text-1/2",
+          "sf-text-3"
         ],
         "stateClassExamples": []
       },
@@ -1289,8 +1297,24 @@
         "components/modal/all"
       ],
       "contract": {
-        "rootClassCandidates": [],
-        "modifierClassExamples": [],
+        "rootClassCandidates": [
+          "sf-button",
+          "sf-button-text-container",
+          "sf-card"
+        ],
+        "modifierClassExamples": [
+          "sf-button",
+          "sf-button--default",
+          "sf-button--link",
+          "sf-button--on-surface",
+          "sf-button--outline",
+          "sf-button--primary",
+          "sf-button--secondary",
+          "sf-button--size-1",
+          "sf-button--size-1/2",
+          "sf-button-text-container",
+          "sf-card"
+        ],
         "stateClassExamples": []
       },
       "sourceRefs": [
@@ -2831,6 +2855,50 @@
       },
       "sourceRefs": [
         "source/simai/ui-smart/smart/close"
+      ]
+    },
+    {
+      "id": "context-menu",
+      "surface": "smart-component",
+      "shipped": true,
+      "runtimePath": "source/simai/ui-smart/smart/context-menu",
+      "runtime": {
+        "hasCss": false,
+        "hasJs": true,
+        "hasJson": false,
+        "hasTemplate": false
+      },
+      "playExamples": [
+        "source/simai/ui-play/examples/smart-components/context-menu/default/index.html"
+      ],
+      "coverageRefs": [
+        "smart-components/context-menu/default"
+      ],
+      "contract": {
+        "customElements": [
+          "sf-button",
+          "sf-context-menu"
+        ],
+        "sfCodeValues": [],
+        "attributeExamples": [
+          "icon-left",
+          "position",
+          "scheme",
+          "size",
+          "text",
+          "type"
+        ],
+        "attributeFrequency": {
+          "type": 12,
+          "icon-left": 12,
+          "scheme": 12,
+          "size": 12,
+          "text": 12,
+          "position": 3
+        }
+      },
+      "sourceRefs": [
+        "source/simai/ui-smart/smart/context-menu"
       ]
     },
     {

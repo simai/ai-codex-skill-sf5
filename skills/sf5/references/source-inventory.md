@@ -4,10 +4,10 @@ Generated from synced upstream repositories under `source/simai`.
 
 ## Source Revisions
 
-- `ui`: `main` @ `64aadd5ef33b2fa665b3ef760606ed6c59141307`
+- `ui`: `main` @ `ced241ecc312ff683594ead19cee9e410b6541b8`
 - `ui-doc`: `main` @ `6ecb05f1fa94dd379d6defd79fa0e0dae0374902`
-- `ui-play`: `master` @ `6c3be0c41a917abc427485dfe63c62a2a0e3bcef`
-- `ui-smart`: `main` @ `5e66f1a7da87c2b553d42d33d5f27a39cb4a9217`
+- `ui-play`: `master` @ `0a393e85f0c6a137ae024f442dd52cc34d5f0508`
+- `ui-smart`: `main` @ `36d5f50667c572db513e1fc36d4e23145bb05333`
 - `ui-utilities`: `main` @ `7ef2047a65ca5c81604199f997792c9ac0513de4`
 - `ui-vscode`: `main` @ `ad9d7815a5aba10e1c548778c1730f0583065ef4`
 - `ui-components`: `error` - Cloning into '/Users/rim/Documents/GitHub/ai-codex-skill-sf5/source/simai/ui-components'...
@@ -16,10 +16,10 @@ fatal: Remote branch main not found in upstream origin
 ## Summary
 
 - Shipped components in `ui`: `72`
-- Shipped smart-components in `ui-smart`: `33`
+- Shipped smart-components in `ui-smart`: `34`
 - Utility groups in `ui-utilities`: `234`
 - Component example groups in `ui-play`: `31`
-- Smart example groups in `ui-play`: `30`
+- Smart example groups in `ui-play`: `31`
 - Shipped components without direct component example groups: `41`
 - Shipped smart-components without direct smart example groups: `1`
 
@@ -37,7 +37,7 @@ fatal: Remote branch main not found in upstream origin
 - `avatars`: `avatar`
 - `avatars-group`: `avatar`
 - `badges`: `components/badges/all`
-- `buttons`: `components/buttons/buttons, components/buttons/tightness`
+- `buttons`: `components/buttons/all, components/buttons/tightness`
 - `checkbox`: `components/checkbox/all`
 - `close`: `components/close/default`
 - `context-menu`: `components/context-menu/all`
@@ -116,6 +116,7 @@ Direct component-example gaps:
 - `badges`: `smart-components/badges/element`
 - `buttons`: `smart-components/buttons/element, smart-components/buttons/events`
 - `checkbox`: `smart-components/checkbox/all`
+- `context-menu`: `smart-components/context-menu/default`
 - `country-code`: `inputs/country-code`
 - `download-file`: `smart-components/download-file/element`
 - `dropdown`: `smart-components/dropdown/element`
