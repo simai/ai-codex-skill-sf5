@@ -1,4 +1,11 @@
-/source/
-/output/
+.env
+.env.*
+!.env.example
+source/
+output/
 __pycache__/
 *.pyc
+*.bak
+*.bak_*
+*.bak-*
+*.codex-bak-*
