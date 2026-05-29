@@ -1,0 +1,201 @@
+{
+  "schema_version": "1.0.0",
+  "protocol_version": "1.0.0",
+  "graph_id": "growgraph.skill-sf5",
+  "exported_at": "2026-05-29T19:44:01.062450+00:00",
+  "freshness_hash": "sha256:13cfa0c96c84162496fad7737cee056142dcd88256eb5ffb9ddab29bc7fb747a",
+  "manifest": {
+    "graph_id": "growgraph.skill-sf5",
+    "title": "GrowGraph federation export for skill:sf5",
+    "graph_type": "growgraph_skill_pilot",
+    "owner": "sf5",
+    "source_of_truth": "generated_growgraph_pilot_artifacts",
+    "audience": "internal",
+    "canonical_write_allowed": false
+  },
+  "graph_contracts": [
+    {
+      "name": "growgraph-adoption-report",
+      "schema_ref": "schemas/core/growgraph-adoption-report.schema.json"
+    },
+    {
+      "name": "semantic-preservation-verdict",
+      "schema_ref": "schemas/core/semantic-preservation-verdict.schema.json"
+    },
+    {
+      "name": "effectiveness-report",
+      "schema_ref": "schemas/core/effectiveness-report.schema.json"
+    },
+    {
+      "name": "control-dashboard",
+      "schema_ref": "schemas/core/control-dashboard.schema.json"
+    },
+    {
+      "name": "graph-embryo",
+      "schema_ref": "schemas/core/graph-embryo.schema.json"
+    }
+  ],
+  "object_index_summary": {
+    "object_count": 36,
+    "total_object_count": 36,
+    "kinds": {
+      "capability": 4,
+      "knowledge": 26,
+      "policy": 4,
+      "skill": 2
+    },
+    "excluded_by_policy_count": 0
+  },
+  "relation_endpoint_summary": {
+    "relation_count": 34,
+    "relation_types": {
+      "relates_to": 9,
+      "source_related_to": 25
+    },
+    "top_endpoints": [
+      {
+        "object_id": "object.sf5.7097f915",
+        "degree": 28
+      },
+      {
+        "object_id": "object.change-gates.dbd112dd",
+        "degree": 3
+      },
+      {
+        "object_id": "object.skill-mesh-balance.20a52bfd",
+        "degree": 3
+      },
+      {
+        "object_id": "object.core-operating-model.1315be0d",
+        "degree": 2
+      },
+      {
+        "object_id": "object.kernel-output-contract-md-kernel-output-contract-md.59c37139",
+        "degree": 2
+      },
+      {
+        "object_id": "object.kernel-scope-contract-md-kernel-scope-contract-md.35782a23",
+        "degree": 2
+      },
+      {
+        "object_id": "object.kernel-sf5-dna-md-kernel-sf5-dna-md.1ff7d607",
+        "degree": 2
+      },
+      {
+        "object_id": "object.rules-routing-md-rules-routing-md.5988fd01",
+        "degree": 2
+      },
+      {
+        "object_id": "object.activities-source-refresh-json-activities-source-refresh-json.c340367f",
+        "degree": 1
+      },
+      {
+        "object_id": "object.blocks.54c45c03",
+        "degree": 1
+      },
+      {
+        "object_id": "object.companion-contracts.8181dfe2",
+        "degree": 1
+      },
+      {
+        "object_id": "object.components.9289473e",
+        "degree": 1
+      },
+      {
+        "object_id": "object.coordinator-rules.df8902ef",
+        "degree": 1
+      },
+      {
+        "object_id": "object.core.68836c55",
+        "degree": 1
+      },
+      {
+        "object_id": "object.default-activities.b0b4737e",
+        "degree": 1
+      },
+      {
+        "object_id": "object.delivery-rules.90467bb8",
+        "degree": 1
+      },
+      {
+        "object_id": "object.does-not-own.9533744f",
+        "degree": 1
+      },
+      {
+        "object_id": "object.handoff.09496b01",
+        "degree": 1
+      },
+      {
+        "object_id": "object.layer-boundaries.7d631de1",
+        "degree": 1
+      },
+      {
+        "object_id": "object.loader.ec6f9069",
+        "degree": 1
+      },
+      {
+        "object_id": "object.missing-data-protocol.b5796b46",
+        "degree": 1
+      },
+      {
+        "object_id": "object.required-baseline.9c6793ac",
+        "degree": 1
+      },
+      {
+        "object_id": "object.resource-routing.865c65e6",
+        "degree": 1
+      },
+      {
+        "object_id": "object.rules-change-gates-md-rules-change-gates-md.e921b7e4",
+        "degree": 1
+      },
+      {
+        "object_id": "object.rules-decision-policy-md-rules-decision-policy-md.857b15b6",
+        "degree": 1
+      }
+    ]
+  },
+  "readiness_summary": {
+    "adoption_level": 7,
+    "adoption_level_name": "effectiveness_checked",
+    "grs_score": null,
+    "semantic_verdict": "pass_with_notes",
+    "effectiveness_verdict": "improved"
+  },
+  "evidence_status_summary": {
+    "candidate": 36
+  },
+  "unresolved_links": [],
+  "migration_status": "federation_ready",
+  "compatibility": {
+    "kernel_version": "0.1.1",
+    "schema_version": "1.0.0",
+    "operation_model_version": "0.1.0",
+    "runtime_contract_version": "0.1.1",
+    "consumer_minimum_protocol": "1.0.0"
+  },
+  "growgraph_adoption": {
+    "target_ref": "skill:sf5",
+    "owner_skill": "sf5",
+    "adoption_level": 7,
+    "adoption_level_name": "effectiveness_checked",
+    "semantic_verdict": "pass_with_notes",
+    "effectiveness_verdict": "improved",
+    "source_refs": [
+      "graph/generated/growgraph/adoption-reports/sf5-repo-local-adoption-gga8-20260529/growgraph-adoption-report.json",
+      "graph/generated/control-dashboards/sf5-repo-local-control-dashboard-20260529/control-dashboard.json",
+      "graph/generated/growgraph/semantic-preservation/sf5-repo-local-semantic-review-20260529/semantic-preservation-verdict.json",
+      "graph/generated/growgraph/effectiveness-reports/sf5-repo-local-effectiveness-20260529/effectiveness-report.json",
+      "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json"
+    ]
+  },
+  "privacy_filter": {
+    "audience": "internal",
+    "include_private": false
+  },
+  "next_actions": [
+    "update adoption report with federation export",
+    "review AGENTS.md and hooks integration before GGA9"
+  ],
+  "canonical_write_allowed": false
+}

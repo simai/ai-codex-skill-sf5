@@ -1,7 +1,7 @@
 .env
 .env.*
 !.env.example
-source/
+/source/
 output/
 __pycache__/
 *.pyc

@@ -1,0 +1,45 @@
+{
+  "source_inventory": [
+    {
+      "source_ref": "skills/sf5/SKILL.md",
+      "bytes_read": 18162,
+      "truncated": false
+    },
+    {
+      "source_ref": "skills/sf5/rules/change-gates.md",
+      "bytes_read": 1852,
+      "truncated": false
+    },
+    {
+      "source_ref": "skills/sf5/rules/decision-policy.md",
+      "bytes_read": 880,
+      "truncated": false
+    },
+    {
+      "source_ref": "skills/sf5/rules/learning.md",
+      "bytes_read": 377,
+      "truncated": false
+    },
+    {
+      "source_ref": "skills/sf5/rules/routing.md",
+      "bytes_read": 2227,
+      "truncated": false
+    },
+    {
+      "source_ref": "skills/sf5/rules/skill-mesh-balance.md",
+      "bytes_read": 1817,
+      "truncated": false
+    },
+    {
+      "source_ref": "skills/sf5/rules/specialist-engagement-model.md",
+      "bytes_read": 736,
+      "truncated": false
+    },
+    {
+      "source_ref": "skills/sf5/activities/activity-registry.json",
+      "bytes_read": 256,
+      "truncated": false
+    }
+  ],
+  "warnings": []
+}

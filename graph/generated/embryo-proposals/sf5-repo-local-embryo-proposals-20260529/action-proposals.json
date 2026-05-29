@@ -1,0 +1,1991 @@
+{
+  "schema_version": "1.0.0",
+  "id": "action-proposals.sf5-repo-local-embryo-proposals-20260529",
+  "created_at": "2026-05-29T19:44:00.004182+00:00",
+  "operation_id": "graph.loop-propose-actions",
+  "signal_queue_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+  "source_operation_id": "graph.embryo-proposals",
+  "source_embryo_id": "graph-embryo.sf5-repo-local-seed-expand-20260529",
+  "source_embryo_operation_id": "graph.seed-expand",
+  "canonical_state_ref": "sha256:a29f6efa731728fc877856267e5760e95cee578ba2a42f48f49bed1cda10fe6f",
+  "summary": {
+    "candidate_object_count": 36,
+    "candidate_relation_count": 34,
+    "duplicate_group_count": 0,
+    "action_count": 70,
+    "min_accept_confidence": 0.55,
+    "action_type_counts": {
+      "accept_candidate_object": 6,
+      "reject_weak_source_relation": 25,
+      "request_domain_review": 39
+    }
+  },
+  "actions": [
+    {
+      "action_id": "action.embryo.request-domain-review.object-sf5-7097f915",
+      "source_signal_id": "embryo.object.object-sf5-7097f915",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "object.sf5.7097f915",
+      "candidate_type": "object",
+      "summary": "Request domain review for low-confidence candidate object `SF5` before canonical proposal.",
+      "confidence": 0.5,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_object": {
+        "id": "object.sf5.7097f915",
+        "schema_version": "1.0.0",
+        "kind": "knowledge",
+        "title": "SF5",
+        "summary": "Candidate object extracted from source heading: SF5",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "lifecycle": "candidate",
+        "readiness": "R0_candidate"
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.request-domain-review.object-core-operating-model-1315be0d",
+      "source_signal_id": "embryo.object.object-core-operating-model-1315be0d",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "object.core-operating-model.1315be0d",
+      "candidate_type": "object",
+      "summary": "Request domain review for low-confidence candidate object `Core Operating Model` before canonical proposal.",
+      "confidence": 0.5,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_object": {
+        "id": "object.core-operating-model.1315be0d",
+        "schema_version": "1.0.0",
+        "kind": "knowledge",
+        "title": "Core Operating Model",
+        "summary": "Candidate object extracted from source heading: Core Operating Model",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "lifecycle": "candidate",
+        "readiness": "R0_candidate"
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.request-domain-review.object-default-activities-b0b4737e",
+      "source_signal_id": "embryo.object.object-default-activities-b0b4737e",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "object.default-activities.b0b4737e",
+      "candidate_type": "object",
+      "summary": "Request domain review for low-confidence candidate object `Default Activities` before canonical proposal.",
+      "confidence": 0.5,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_object": {
+        "id": "object.default-activities.b0b4737e",
+        "schema_version": "1.0.0",
+        "kind": "knowledge",
+        "title": "Default Activities",
+        "summary": "Candidate object extracted from source heading: Default Activities",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "lifecycle": "candidate",
+        "readiness": "R0_candidate"
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.request-domain-review.object-specialists-e87135c5",
+      "source_signal_id": "embryo.object.object-specialists-e87135c5",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "object.specialists.e87135c5",
+      "candidate_type": "object",
+      "summary": "Request domain review for low-confidence candidate object `Specialists` before canonical proposal.",
+      "confidence": 0.5,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_object": {
+        "id": "object.specialists.e87135c5",
+        "schema_version": "1.0.0",
+        "kind": "knowledge",
+        "title": "Specialists",
+        "summary": "Candidate object extracted from source heading: Specialists",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "lifecycle": "candidate",
+        "readiness": "R0_candidate"
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.request-domain-review.object-coordinator-rules-df8902ef",
+      "source_signal_id": "embryo.object.object-coordinator-rules-df8902ef",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "object.coordinator-rules.df8902ef",
+      "candidate_type": "object",
+      "summary": "Request domain review for low-confidence candidate object `Coordinator Rules` before canonical proposal.",
+      "confidence": 0.5,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_object": {
+        "id": "object.coordinator-rules.df8902ef",
+        "schema_version": "1.0.0",
+        "kind": "knowledge",
+        "title": "Coordinator Rules",
+        "summary": "Candidate object extracted from source heading: Coordinator Rules",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "lifecycle": "candidate",
+        "readiness": "R0_candidate"
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.request-domain-review.object-required-baseline-9c6793ac",
+      "source_signal_id": "embryo.object.object-required-baseline-9c6793ac",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "object.required-baseline.9c6793ac",
+      "candidate_type": "object",
+      "summary": "Request domain review for low-confidence candidate object `Required Baseline` before canonical proposal.",
+      "confidence": 0.5,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_object": {
+        "id": "object.required-baseline.9c6793ac",
+        "schema_version": "1.0.0",
+        "kind": "knowledge",
+        "title": "Required Baseline",
+        "summary": "Candidate object extracted from source heading: Required Baseline",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "lifecycle": "candidate",
+        "readiness": "R0_candidate"
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.request-domain-review.object-layer-boundaries-7d631de1",
+      "source_signal_id": "embryo.object.object-layer-boundaries-7d631de1",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "object.layer-boundaries.7d631de1",
+      "candidate_type": "object",
+      "summary": "Request domain review for low-confidence candidate object `Layer Boundaries` before canonical proposal.",
+      "confidence": 0.5,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_object": {
+        "id": "object.layer-boundaries.7d631de1",
+        "schema_version": "1.0.0",
+        "kind": "knowledge",
+        "title": "Layer Boundaries",
+        "summary": "Candidate object extracted from source heading: Layer Boundaries",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "lifecycle": "candidate",
+        "readiness": "R0_candidate"
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.request-domain-review.object-core-68836c55",
+      "source_signal_id": "embryo.object.object-core-68836c55",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "object.core.68836c55",
+      "candidate_type": "object",
+      "summary": "Request domain review for low-confidence candidate object `Core` before canonical proposal.",
+      "confidence": 0.5,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_object": {
+        "id": "object.core.68836c55",
+        "schema_version": "1.0.0",
+        "kind": "knowledge",
+        "title": "Core",
+        "summary": "Candidate object extracted from source heading: Core",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "lifecycle": "candidate",
+        "readiness": "R0_candidate"
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.request-domain-review.object-loader-ec6f9069",
+      "source_signal_id": "embryo.object.object-loader-ec6f9069",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "object.loader.ec6f9069",
+      "candidate_type": "object",
+      "summary": "Request domain review for low-confidence candidate object `Loader` before canonical proposal.",
+      "confidence": 0.5,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_object": {
+        "id": "object.loader.ec6f9069",
+        "schema_version": "1.0.0",
+        "kind": "knowledge",
+        "title": "Loader",
+        "summary": "Candidate object extracted from source heading: Loader",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "lifecycle": "candidate",
+        "readiness": "R0_candidate"
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.request-domain-review.object-utilities-18fdc5ee",
+      "source_signal_id": "embryo.object.object-utilities-18fdc5ee",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "object.utilities.18fdc5ee",
+      "candidate_type": "object",
+      "summary": "Request domain review for low-confidence candidate object `Utilities` before canonical proposal.",
+      "confidence": 0.5,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_object": {
+        "id": "object.utilities.18fdc5ee",
+        "schema_version": "1.0.0",
+        "kind": "knowledge",
+        "title": "Utilities",
+        "summary": "Candidate object extracted from source heading: Utilities",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "lifecycle": "candidate",
+        "readiness": "R0_candidate"
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.request-domain-review.object-components-9289473e",
+      "source_signal_id": "embryo.object.object-components-9289473e",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "object.components.9289473e",
+      "candidate_type": "object",
+      "summary": "Request domain review for low-confidence candidate object `Components` before canonical proposal.",
+      "confidence": 0.5,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_object": {
+        "id": "object.components.9289473e",
+        "schema_version": "1.0.0",
+        "kind": "knowledge",
+        "title": "Components",
+        "summary": "Candidate object extracted from source heading: Components",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "lifecycle": "candidate",
+        "readiness": "R0_candidate"
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.request-domain-review.object-smart-components-cb17ddfd",
+      "source_signal_id": "embryo.object.object-smart-components-cb17ddfd",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "object.smart-components.cb17ddfd",
+      "candidate_type": "object",
+      "summary": "Request domain review for low-confidence candidate object `Smart-components` before canonical proposal.",
+      "confidence": 0.5,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_object": {
+        "id": "object.smart-components.cb17ddfd",
+        "schema_version": "1.0.0",
+        "kind": "knowledge",
+        "title": "Smart-components",
+        "summary": "Candidate object extracted from source heading: Smart-components",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "lifecycle": "candidate",
+        "readiness": "R0_candidate"
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.request-domain-review.object-blocks-54c45c03",
+      "source_signal_id": "embryo.object.object-blocks-54c45c03",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "object.blocks.54c45c03",
+      "candidate_type": "object",
+      "summary": "Request domain review for low-confidence candidate object `Blocks` before canonical proposal.",
+      "confidence": 0.5,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_object": {
+        "id": "object.blocks.54c45c03",
+        "schema_version": "1.0.0",
+        "kind": "knowledge",
+        "title": "Blocks",
+        "summary": "Candidate object extracted from source heading: Blocks",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "lifecycle": "candidate",
+        "readiness": "R0_candidate"
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.request-domain-review.object-missing-data-protocol-b5796b46",
+      "source_signal_id": "embryo.object.object-missing-data-protocol-b5796b46",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "object.missing-data-protocol.b5796b46",
+      "candidate_type": "object",
+      "summary": "Request domain review for low-confidence candidate object `Missing Data Protocol` before canonical proposal.",
+      "confidence": 0.5,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_object": {
+        "id": "object.missing-data-protocol.b5796b46",
+        "schema_version": "1.0.0",
+        "kind": "knowledge",
+        "title": "Missing Data Protocol",
+        "summary": "Candidate object extracted from source heading: Missing Data Protocol",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "lifecycle": "candidate",
+        "readiness": "R0_candidate"
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.request-domain-review.object-resource-routing-865c65e6",
+      "source_signal_id": "embryo.object.object-resource-routing-865c65e6",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "object.resource-routing.865c65e6",
+      "candidate_type": "object",
+      "summary": "Request domain review for low-confidence candidate object `Resource Routing` before canonical proposal.",
+      "confidence": 0.5,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_object": {
+        "id": "object.resource-routing.865c65e6",
+        "schema_version": "1.0.0",
+        "kind": "knowledge",
+        "title": "Resource Routing",
+        "summary": "Candidate object extracted from source heading: Resource Routing",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "lifecycle": "candidate",
+        "readiness": "R0_candidate"
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.request-domain-review.object-delivery-rules-90467bb8",
+      "source_signal_id": "embryo.object.object-delivery-rules-90467bb8",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "object.delivery-rules.90467bb8",
+      "candidate_type": "object",
+      "summary": "Request domain review for low-confidence candidate object `Delivery Rules` before canonical proposal.",
+      "confidence": 0.5,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_object": {
+        "id": "object.delivery-rules.90467bb8",
+        "schema_version": "1.0.0",
+        "kind": "knowledge",
+        "title": "Delivery Rules",
+        "summary": "Candidate object extracted from source heading: Delivery Rules",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "lifecycle": "candidate",
+        "readiness": "R0_candidate"
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.request-domain-review.object-change-gates-dbd112dd",
+      "source_signal_id": "embryo.object.object-change-gates-dbd112dd",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "object.change-gates.dbd112dd",
+      "candidate_type": "object",
+      "summary": "Request domain review for low-confidence candidate object `Change Gates` before canonical proposal.",
+      "confidence": 0.5,
+      "source_refs": [
+        "skills/sf5/rules/change-gates.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_object": {
+        "id": "object.change-gates.dbd112dd",
+        "schema_version": "1.0.0",
+        "kind": "knowledge",
+        "title": "Change Gates",
+        "summary": "Candidate object extracted from source heading: Change Gates",
+        "source_refs": [
+          "skills/sf5/rules/change-gates.md"
+        ],
+        "lifecycle": "candidate",
+        "readiness": "R0_candidate"
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.request-domain-review.object-source-refresh-gate-91d3c141",
+      "source_signal_id": "embryo.object.object-source-refresh-gate-91d3c141",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "object.source-refresh-gate.91d3c141",
+      "candidate_type": "object",
+      "summary": "Request domain review for low-confidence candidate object `Source Refresh Gate` before canonical proposal.",
+      "confidence": 0.5,
+      "source_refs": [
+        "skills/sf5/rules/change-gates.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_object": {
+        "id": "object.source-refresh-gate.91d3c141",
+        "schema_version": "1.0.0",
+        "kind": "knowledge",
+        "title": "Source Refresh Gate",
+        "summary": "Candidate object extracted from source heading: Source Refresh Gate",
+        "source_refs": [
+          "skills/sf5/rules/change-gates.md"
+        ],
+        "lifecycle": "candidate",
+        "readiness": "R0_candidate"
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.request-domain-review.object-working-set-gate-1a33c6a6",
+      "source_signal_id": "embryo.object.object-working-set-gate-1a33c6a6",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "object.working-set-gate.1a33c6a6",
+      "candidate_type": "object",
+      "summary": "Request domain review for low-confidence candidate object `Working-Set Gate` before canonical proposal.",
+      "confidence": 0.5,
+      "source_refs": [
+        "skills/sf5/rules/change-gates.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_object": {
+        "id": "object.working-set-gate.1a33c6a6",
+        "schema_version": "1.0.0",
+        "kind": "knowledge",
+        "title": "Working-Set Gate",
+        "summary": "Candidate object extracted from source heading: Working-Set Gate",
+        "source_refs": [
+          "skills/sf5/rules/change-gates.md"
+        ],
+        "lifecycle": "candidate",
+        "readiness": "R0_candidate"
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.request-domain-review.object-validation-hardening-gate-11f67696",
+      "source_signal_id": "embryo.object.object-validation-hardening-gate-11f67696",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "object.validation-hardening-gate.11f67696",
+      "candidate_type": "object",
+      "summary": "Request domain review for low-confidence candidate object `Validation Hardening Gate` before canonical proposal.",
+      "confidence": 0.5,
+      "source_refs": [
+        "skills/sf5/rules/change-gates.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_object": {
+        "id": "object.validation-hardening-gate.11f67696",
+        "schema_version": "1.0.0",
+        "kind": "knowledge",
+        "title": "Validation Hardening Gate",
+        "summary": "Candidate object extracted from source heading: Validation Hardening Gate",
+        "source_refs": [
+          "skills/sf5/rules/change-gates.md"
+        ],
+        "lifecycle": "candidate",
+        "readiness": "R0_candidate"
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.accept-candidate-object.object-decision-policy-f946f2b8",
+      "source_signal_id": "embryo.object.object-decision-policy-f946f2b8",
+      "action_type": "accept_candidate_object",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "object.decision-policy.f946f2b8",
+      "candidate_type": "object",
+      "summary": "Accept source-aware candidate object `Decision Policy` into a canonical proposal after review.",
+      "confidence": 0.62,
+      "source_refs": [
+        "skills/sf5/rules/decision-policy.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_object": {
+        "id": "object.decision-policy.f946f2b8",
+        "schema_version": "1.0.0",
+        "kind": "policy",
+        "title": "Decision Policy",
+        "summary": "Candidate object extracted from source heading: Decision Policy",
+        "source_refs": [
+          "skills/sf5/rules/decision-policy.md"
+        ],
+        "lifecycle": "candidate",
+        "readiness": "R0_candidate"
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.request-domain-review.object-learning-1016fcb2",
+      "source_signal_id": "embryo.object.object-learning-1016fcb2",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "object.learning.1016fcb2",
+      "candidate_type": "object",
+      "summary": "Request domain review for low-confidence candidate object `Learning` before canonical proposal.",
+      "confidence": 0.5,
+      "source_refs": [
+        "skills/sf5/rules/learning.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_object": {
+        "id": "object.learning.1016fcb2",
+        "schema_version": "1.0.0",
+        "kind": "knowledge",
+        "title": "Learning",
+        "summary": "Candidate object extracted from source heading: Learning",
+        "source_refs": [
+          "skills/sf5/rules/learning.md"
+        ],
+        "lifecycle": "candidate",
+        "readiness": "R0_candidate"
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.request-domain-review.object-routing-7d15dd1b",
+      "source_signal_id": "embryo.object.object-routing-7d15dd1b",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "object.routing.7d15dd1b",
+      "candidate_type": "object",
+      "summary": "Request domain review for low-confidence candidate object `Routing` before canonical proposal.",
+      "confidence": 0.5,
+      "source_refs": [
+        "skills/sf5/rules/routing.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_object": {
+        "id": "object.routing.7d15dd1b",
+        "schema_version": "1.0.0",
+        "kind": "knowledge",
+        "title": "Routing",
+        "summary": "Candidate object extracted from source heading: Routing",
+        "source_refs": [
+          "skills/sf5/rules/routing.md"
+        ],
+        "lifecycle": "candidate",
+        "readiness": "R0_candidate"
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.accept-candidate-object.object-skill-mesh-balance-20a52bfd",
+      "source_signal_id": "embryo.object.object-skill-mesh-balance-20a52bfd",
+      "action_type": "accept_candidate_object",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "object.skill-mesh-balance.20a52bfd",
+      "candidate_type": "object",
+      "summary": "Accept source-aware candidate object `Skill Mesh Balance` into a canonical proposal after review.",
+      "confidence": 0.66,
+      "source_refs": [
+        "skills/sf5/rules/skill-mesh-balance.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_object": {
+        "id": "object.skill-mesh-balance.20a52bfd",
+        "schema_version": "1.0.0",
+        "kind": "skill",
+        "title": "Skill Mesh Balance",
+        "summary": "Candidate object extracted from source heading: Skill Mesh Balance",
+        "source_refs": [
+          "skills/sf5/rules/skill-mesh-balance.md"
+        ],
+        "lifecycle": "candidate",
+        "readiness": "R0_candidate"
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.request-domain-review.object-does-not-own-9533744f",
+      "source_signal_id": "embryo.object.object-does-not-own-9533744f",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "object.does-not-own.9533744f",
+      "candidate_type": "object",
+      "summary": "Request domain review for low-confidence candidate object `Does Not Own` before canonical proposal.",
+      "confidence": 0.5,
+      "source_refs": [
+        "skills/sf5/rules/skill-mesh-balance.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_object": {
+        "id": "object.does-not-own.9533744f",
+        "schema_version": "1.0.0",
+        "kind": "knowledge",
+        "title": "Does Not Own",
+        "summary": "Candidate object extracted from source heading: Does Not Own",
+        "source_refs": [
+          "skills/sf5/rules/skill-mesh-balance.md"
+        ],
+        "lifecycle": "candidate",
+        "readiness": "R0_candidate"
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.request-domain-review.object-companion-contracts-8181dfe2",
+      "source_signal_id": "embryo.object.object-companion-contracts-8181dfe2",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "object.companion-contracts.8181dfe2",
+      "candidate_type": "object",
+      "summary": "Request domain review for low-confidence candidate object `Companion Contracts` before canonical proposal.",
+      "confidence": 0.5,
+      "source_refs": [
+        "skills/sf5/rules/skill-mesh-balance.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_object": {
+        "id": "object.companion-contracts.8181dfe2",
+        "schema_version": "1.0.0",
+        "kind": "knowledge",
+        "title": "Companion Contracts",
+        "summary": "Candidate object extracted from source heading: Companion Contracts",
+        "source_refs": [
+          "skills/sf5/rules/skill-mesh-balance.md"
+        ],
+        "lifecycle": "candidate",
+        "readiness": "R0_candidate"
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.request-domain-review.object-handoff-09496b01",
+      "source_signal_id": "embryo.object.object-handoff-09496b01",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "object.handoff.09496b01",
+      "candidate_type": "object",
+      "summary": "Request domain review for low-confidence candidate object `Handoff` before canonical proposal.",
+      "confidence": 0.5,
+      "source_refs": [
+        "skills/sf5/rules/skill-mesh-balance.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_object": {
+        "id": "object.handoff.09496b01",
+        "schema_version": "1.0.0",
+        "kind": "knowledge",
+        "title": "Handoff",
+        "summary": "Candidate object extracted from source heading: Handoff",
+        "source_refs": [
+          "skills/sf5/rules/skill-mesh-balance.md"
+        ],
+        "lifecycle": "candidate",
+        "readiness": "R0_candidate"
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.request-domain-review.object-specialist-engagement-model-375989a8",
+      "source_signal_id": "embryo.object.object-specialist-engagement-model-375989a8",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "object.specialist-engagement-model.375989a8",
+      "candidate_type": "object",
+      "summary": "Request domain review for low-confidence candidate object `Specialist Engagement Model` before canonical proposal.",
+      "confidence": 0.5,
+      "source_refs": [
+        "skills/sf5/rules/specialist-engagement-model.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_object": {
+        "id": "object.specialist-engagement-model.375989a8",
+        "schema_version": "1.0.0",
+        "kind": "knowledge",
+        "title": "Specialist Engagement Model",
+        "summary": "Candidate object extracted from source heading: Specialist Engagement Model",
+        "source_refs": [
+          "skills/sf5/rules/specialist-engagement-model.md"
+        ],
+        "lifecycle": "candidate",
+        "readiness": "R0_candidate"
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.request-domain-review.object-kernel-sf5-dna-md-kernel-sf5-dna-md-1ff7d607",
+      "source_signal_id": "embryo.object.object-kernel-sf5-dna-md-kernel-sf5-dna-md-1ff7d607",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "object.kernel-sf5-dna-md-kernel-sf5-dna-md.1ff7d607",
+      "candidate_type": "object",
+      "summary": "Request domain review for low-confidence candidate object `[kernel/sf5-dna.md](./kernel/sf5-dna.md)` before canonical proposal.",
+      "confidence": 0.48000000000000004,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_object": {
+        "id": "object.kernel-sf5-dna-md-kernel-sf5-dna-md.1ff7d607",
+        "schema_version": "1.0.0",
+        "kind": "capability",
+        "title": "[kernel/sf5-dna.md](./kernel/sf5-dna.md)",
+        "summary": "Candidate capability extracted from source bullet: [kernel/sf5-dna.md](./kernel/sf5-dna.md)",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "lifecycle": "candidate",
+        "readiness": "R0_candidate"
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.accept-candidate-object.object-kernel-scope-contract-md-kernel-scope-contract-md-35782a23",
+      "source_signal_id": "embryo.object.object-kernel-scope-contract-md-kernel-scope-contract-md-35782a23",
+      "action_type": "accept_candidate_object",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "object.kernel-scope-contract-md-kernel-scope-contract-md.35782a23",
+      "candidate_type": "object",
+      "summary": "Accept source-aware candidate object `[kernel/scope-contract.md](./kernel/scope-contract.md)` into a canonical proposal after review.",
+      "confidence": 0.6,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_object": {
+        "id": "object.kernel-scope-contract-md-kernel-scope-contract-md.35782a23",
+        "schema_version": "1.0.0",
+        "kind": "policy",
+        "title": "[kernel/scope-contract.md](./kernel/scope-contract.md)",
+        "summary": "Candidate capability extracted from source bullet: [kernel/scope-contract.md](./kernel/scope-contract.md)",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "lifecycle": "candidate",
+        "readiness": "R0_candidate"
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.accept-candidate-object.object-kernel-output-contract-md-kernel-output-contract-md-59c37139",
+      "source_signal_id": "embryo.object.object-kernel-output-contract-md-kernel-output-contract-md-59c37139",
+      "action_type": "accept_candidate_object",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "object.kernel-output-contract-md-kernel-output-contract-md.59c37139",
+      "candidate_type": "object",
+      "summary": "Accept source-aware candidate object `[kernel/output-contract.md](./kernel/output-contract.md)` into a canonical proposal after review.",
+      "confidence": 0.6,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_object": {
+        "id": "object.kernel-output-contract-md-kernel-output-contract-md.59c37139",
+        "schema_version": "1.0.0",
+        "kind": "policy",
+        "title": "[kernel/output-contract.md](./kernel/output-contract.md)",
+        "summary": "Candidate capability extracted from source bullet: [kernel/output-contract.md](./kernel/output-contract.md)",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "lifecycle": "candidate",
+        "readiness": "R0_candidate"
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.request-domain-review.object-rules-routing-md-rules-routing-md-5988fd01",
+      "source_signal_id": "embryo.object.object-rules-routing-md-rules-routing-md-5988fd01",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "object.rules-routing-md-rules-routing-md.5988fd01",
+      "candidate_type": "object",
+      "summary": "Request domain review for low-confidence candidate object `[rules/routing.md](./rules/routing.md)` before canonical proposal.",
+      "confidence": 0.48000000000000004,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_object": {
+        "id": "object.rules-routing-md-rules-routing-md.5988fd01",
+        "schema_version": "1.0.0",
+        "kind": "capability",
+        "title": "[rules/routing.md](./rules/routing.md)",
+        "summary": "Candidate capability extracted from source bullet: [rules/routing.md](./rules/routing.md)",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "lifecycle": "candidate",
+        "readiness": "R0_candidate"
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.accept-candidate-object.object-rules-decision-policy-md-rules-decision-policy-md-857b15b6",
+      "source_signal_id": "embryo.object.object-rules-decision-policy-md-rules-decision-policy-md-857b15b6",
+      "action_type": "accept_candidate_object",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "object.rules-decision-policy-md-rules-decision-policy-md.857b15b6",
+      "candidate_type": "object",
+      "summary": "Accept source-aware candidate object `[rules/decision-policy.md](./rules/decision-policy.md)` into a canonical proposal after review.",
+      "confidence": 0.6,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_object": {
+        "id": "object.rules-decision-policy-md-rules-decision-policy-md.857b15b6",
+        "schema_version": "1.0.0",
+        "kind": "policy",
+        "title": "[rules/decision-policy.md](./rules/decision-policy.md)",
+        "summary": "Candidate capability extracted from source bullet: [rules/decision-policy.md](./rules/decision-policy.md)",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "lifecycle": "candidate",
+        "readiness": "R0_candidate"
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.request-domain-review.object-rules-change-gates-md-rules-change-gates-md-e921b7e4",
+      "source_signal_id": "embryo.object.object-rules-change-gates-md-rules-change-gates-md-e921b7e4",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "object.rules-change-gates-md-rules-change-gates-md.e921b7e4",
+      "candidate_type": "object",
+      "summary": "Request domain review for low-confidence candidate object `[rules/change-gates.md](./rules/change-gates.md)` before canonical proposal.",
+      "confidence": 0.48000000000000004,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_object": {
+        "id": "object.rules-change-gates-md-rules-change-gates-md.e921b7e4",
+        "schema_version": "1.0.0",
+        "kind": "capability",
+        "title": "[rules/change-gates.md](./rules/change-gates.md)",
+        "summary": "Candidate capability extracted from source bullet: [rules/change-gates.md](./rules/change-gates.md)",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "lifecycle": "candidate",
+        "readiness": "R0_candidate"
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.accept-candidate-object.object-rules-skill-mesh-balance-md-rules-skill-mesh-balance-md-43cbe145",
+      "source_signal_id": "embryo.object.object-rules-skill-mesh-balance-md-rules-skill-mesh-balance-md-43cbe145",
+      "action_type": "accept_candidate_object",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "object.rules-skill-mesh-balance-md-rules-skill-mesh-balance-md.43cbe145",
+      "candidate_type": "object",
+      "summary": "Accept source-aware candidate object `[rules/skill-mesh-balance.md](./rules/skill-mesh-balance.md)` into a canonical proposal after review.",
+      "confidence": 0.64,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_object": {
+        "id": "object.rules-skill-mesh-balance-md-rules-skill-mesh-balance-md.43cbe145",
+        "schema_version": "1.0.0",
+        "kind": "skill",
+        "title": "[rules/skill-mesh-balance.md](./rules/skill-mesh-balance.md)",
+        "summary": "Candidate capability extracted from source bullet: [rules/skill-mesh-balance.md](./rules/skill-mesh-balance.md)",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "lifecycle": "candidate",
+        "readiness": "R0_candidate"
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.request-domain-review.object-activities-source-refresh-json-activities-source-refresh-json-c340367f",
+      "source_signal_id": "embryo.object.object-activities-source-refresh-json-activities-source-refresh-json-c340367f",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "object.activities-source-refresh-json-activities-source-refresh-json.c340367f",
+      "candidate_type": "object",
+      "summary": "Request domain review for low-confidence candidate object `[activities/source-refresh.json](./activities/source-refresh.json)` before canonical proposal.",
+      "confidence": 0.48000000000000004,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_object": {
+        "id": "object.activities-source-refresh-json-activities-source-refresh-json.c340367f",
+        "schema_version": "1.0.0",
+        "kind": "capability",
+        "title": "[activities/source-refresh.json](./activities/source-refresh.json)",
+        "summary": "Candidate capability extracted from source bullet: [activities/source-refresh.json](./activities/source-refresh.json)",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "lifecycle": "candidate",
+        "readiness": "R0_candidate"
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.request-domain-review.object-sf5-7097f915.relates-to.object-core-operating-model-1315be0d",
+      "source_signal_id": "embryo.relation.object-sf5-7097f915.relates-to.object-core-operating-model-1315be0d",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "relation:object.sf5.7097f915:relates_to:object.core-operating-model.1315be0d",
+      "candidate_type": "relation",
+      "summary": "Request domain review for low-confidence relation `object.sf5.7097f915` --`relates_to`--> `object.core-operating-model.1315be0d`.",
+      "confidence": 0.32,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_relation": {
+        "from": "object.sf5.7097f915",
+        "type": "relates_to",
+        "to": "object.core-operating-model.1315be0d",
+        "summary": "Low-confidence relation inferred only from nearby source order; review before accepting.",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "confidence": 0.32
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.request-domain-review.object-sf5-7097f915.relates-to.object-kernel-sf5-dna-md-kernel-sf5-dna-md-1ff7d607",
+      "source_signal_id": "embryo.relation.object-sf5-7097f915.relates-to.object-kernel-sf5-dna-md-kernel-sf5-dna-md-1ff7d607",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "relation:object.sf5.7097f915:relates_to:object.kernel-sf5-dna-md-kernel-sf5-dna-md.1ff7d607",
+      "candidate_type": "relation",
+      "summary": "Request domain review for low-confidence relation `object.sf5.7097f915` --`relates_to`--> `object.kernel-sf5-dna-md-kernel-sf5-dna-md.1ff7d607`.",
+      "confidence": 0.28,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_relation": {
+        "from": "object.sf5.7097f915",
+        "type": "relates_to",
+        "to": "object.kernel-sf5-dna-md-kernel-sf5-dna-md.1ff7d607",
+        "summary": "Weak relation inferred from heading-to-bullet context and relation keywords; review before accepting.",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "confidence": 0.28
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.request-domain-review.object-sf5-7097f915.relates-to.object-kernel-scope-contract-md-kernel-scope-contract-md-35782a23",
+      "source_signal_id": "embryo.relation.object-sf5-7097f915.relates-to.object-kernel-scope-contract-md-kernel-scope-contract-md-35782a23",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "relation:object.sf5.7097f915:relates_to:object.kernel-scope-contract-md-kernel-scope-contract-md.35782a23",
+      "candidate_type": "relation",
+      "summary": "Request domain review for low-confidence relation `object.sf5.7097f915` --`relates_to`--> `object.kernel-scope-contract-md-kernel-scope-contract-md.35782a23`.",
+      "confidence": 0.28,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_relation": {
+        "from": "object.sf5.7097f915",
+        "type": "relates_to",
+        "to": "object.kernel-scope-contract-md-kernel-scope-contract-md.35782a23",
+        "summary": "Weak relation inferred from heading-to-bullet context and relation keywords; review before accepting.",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "confidence": 0.28
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.request-domain-review.object-sf5-7097f915.relates-to.object-kernel-output-contract-md-kernel-output-contract-md-59c37139",
+      "source_signal_id": "embryo.relation.object-sf5-7097f915.relates-to.object-kernel-output-contract-md-kernel-output-contract-md-59c37139",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "relation:object.sf5.7097f915:relates_to:object.kernel-output-contract-md-kernel-output-contract-md.59c37139",
+      "candidate_type": "relation",
+      "summary": "Request domain review for low-confidence relation `object.sf5.7097f915` --`relates_to`--> `object.kernel-output-contract-md-kernel-output-contract-md.59c37139`.",
+      "confidence": 0.28,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_relation": {
+        "from": "object.sf5.7097f915",
+        "type": "relates_to",
+        "to": "object.kernel-output-contract-md-kernel-output-contract-md.59c37139",
+        "summary": "Weak relation inferred from heading-to-bullet context and relation keywords; review before accepting.",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "confidence": 0.28
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.request-domain-review.object-sf5-7097f915.relates-to.object-rules-routing-md-rules-routing-md-5988fd01",
+      "source_signal_id": "embryo.relation.object-sf5-7097f915.relates-to.object-rules-routing-md-rules-routing-md-5988fd01",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "relation:object.sf5.7097f915:relates_to:object.rules-routing-md-rules-routing-md.5988fd01",
+      "candidate_type": "relation",
+      "summary": "Request domain review for low-confidence relation `object.sf5.7097f915` --`relates_to`--> `object.rules-routing-md-rules-routing-md.5988fd01`.",
+      "confidence": 0.28,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_relation": {
+        "from": "object.sf5.7097f915",
+        "type": "relates_to",
+        "to": "object.rules-routing-md-rules-routing-md.5988fd01",
+        "summary": "Weak relation inferred from heading-to-bullet context and relation keywords; review before accepting.",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "confidence": 0.28
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.request-domain-review.object-sf5-7097f915.relates-to.object-rules-decision-policy-md-rules-decision-policy-md-857b15b6",
+      "source_signal_id": "embryo.relation.object-sf5-7097f915.relates-to.object-rules-decision-policy-md-rules-decision-policy-md-857b15b6",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "relation:object.sf5.7097f915:relates_to:object.rules-decision-policy-md-rules-decision-policy-md.857b15b6",
+      "candidate_type": "relation",
+      "summary": "Request domain review for low-confidence relation `object.sf5.7097f915` --`relates_to`--> `object.rules-decision-policy-md-rules-decision-policy-md.857b15b6`.",
+      "confidence": 0.28,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_relation": {
+        "from": "object.sf5.7097f915",
+        "type": "relates_to",
+        "to": "object.rules-decision-policy-md-rules-decision-policy-md.857b15b6",
+        "summary": "Weak relation inferred from heading-to-bullet context and relation keywords; review before accepting.",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "confidence": 0.28
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.request-domain-review.object-sf5-7097f915.relates-to.object-rules-change-gates-md-rules-change-gates-md-e921b7e4",
+      "source_signal_id": "embryo.relation.object-sf5-7097f915.relates-to.object-rules-change-gates-md-rules-change-gates-md-e921b7e4",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "relation:object.sf5.7097f915:relates_to:object.rules-change-gates-md-rules-change-gates-md.e921b7e4",
+      "candidate_type": "relation",
+      "summary": "Request domain review for low-confidence relation `object.sf5.7097f915` --`relates_to`--> `object.rules-change-gates-md-rules-change-gates-md.e921b7e4`.",
+      "confidence": 0.28,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_relation": {
+        "from": "object.sf5.7097f915",
+        "type": "relates_to",
+        "to": "object.rules-change-gates-md-rules-change-gates-md.e921b7e4",
+        "summary": "Weak relation inferred from heading-to-bullet context and relation keywords; review before accepting.",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "confidence": 0.28
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.request-domain-review.object-sf5-7097f915.relates-to.object-rules-skill-mesh-balance-md-rules-skill-mesh-balance-md-43cbe145",
+      "source_signal_id": "embryo.relation.object-sf5-7097f915.relates-to.object-rules-skill-mesh-balance-md-rules-skill-mesh-balance-md-43cbe145",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "relation:object.sf5.7097f915:relates_to:object.rules-skill-mesh-balance-md-rules-skill-mesh-balance-md.43cbe145",
+      "candidate_type": "relation",
+      "summary": "Request domain review for low-confidence relation `object.sf5.7097f915` --`relates_to`--> `object.rules-skill-mesh-balance-md-rules-skill-mesh-balance-md.43cbe145`.",
+      "confidence": 0.28,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_relation": {
+        "from": "object.sf5.7097f915",
+        "type": "relates_to",
+        "to": "object.rules-skill-mesh-balance-md-rules-skill-mesh-balance-md.43cbe145",
+        "summary": "Weak relation inferred from heading-to-bullet context and relation keywords; review before accepting.",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "confidence": 0.28
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.request-domain-review.object-sf5-7097f915.relates-to.object-activities-source-refresh-json-activities-source-refresh-json-c340367f",
+      "source_signal_id": "embryo.relation.object-sf5-7097f915.relates-to.object-activities-source-refresh-json-activities-source-refresh-json-c340367f",
+      "action_type": "request_domain_review",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "relation:object.sf5.7097f915:relates_to:object.activities-source-refresh-json-activities-source-refresh-json.c340367f",
+      "candidate_type": "relation",
+      "summary": "Request domain review for low-confidence relation `object.sf5.7097f915` --`relates_to`--> `object.activities-source-refresh-json-activities-source-refresh-json.c340367f`.",
+      "confidence": 0.28,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_relation": {
+        "from": "object.sf5.7097f915",
+        "type": "relates_to",
+        "to": "object.activities-source-refresh-json-activities-source-refresh-json.c340367f",
+        "summary": "Weak relation inferred from heading-to-bullet context and relation keywords; review before accepting.",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "confidence": 0.28
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.reject-weak-source-relation.object-sf5-7097f915.source-related-to.object-core-operating-model-1315be0d",
+      "source_signal_id": "embryo.relation.object-sf5-7097f915.source-related-to.object-core-operating-model-1315be0d",
+      "action_type": "reject_weak_source_relation",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "relation:object.sf5.7097f915:source_related_to:object.core-operating-model.1315be0d",
+      "candidate_type": "relation",
+      "summary": "Reject weak source-group relation `object.sf5.7097f915` --`source_related_to`--> `object.core-operating-model.1315be0d` unless a reviewer replaces it with an explicit typed domain relation.",
+      "confidence": 0.45,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_relation": {
+        "from": "object.sf5.7097f915",
+        "type": "source_related_to",
+        "to": "object.core-operating-model.1315be0d",
+        "summary": "Candidates appear in the same seed expansion source group: skills/sf5/SKILL.md.",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "confidence": 0.45
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.reject-weak-source-relation.object-sf5-7097f915.source-related-to.object-default-activities-b0b4737e",
+      "source_signal_id": "embryo.relation.object-sf5-7097f915.source-related-to.object-default-activities-b0b4737e",
+      "action_type": "reject_weak_source_relation",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "relation:object.sf5.7097f915:source_related_to:object.default-activities.b0b4737e",
+      "candidate_type": "relation",
+      "summary": "Reject weak source-group relation `object.sf5.7097f915` --`source_related_to`--> `object.default-activities.b0b4737e` unless a reviewer replaces it with an explicit typed domain relation.",
+      "confidence": 0.45,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_relation": {
+        "from": "object.sf5.7097f915",
+        "type": "source_related_to",
+        "to": "object.default-activities.b0b4737e",
+        "summary": "Candidates appear in the same seed expansion source group: skills/sf5/SKILL.md.",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "confidence": 0.45
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.reject-weak-source-relation.object-sf5-7097f915.source-related-to.object-specialists-e87135c5",
+      "source_signal_id": "embryo.relation.object-sf5-7097f915.source-related-to.object-specialists-e87135c5",
+      "action_type": "reject_weak_source_relation",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "relation:object.sf5.7097f915:source_related_to:object.specialists.e87135c5",
+      "candidate_type": "relation",
+      "summary": "Reject weak source-group relation `object.sf5.7097f915` --`source_related_to`--> `object.specialists.e87135c5` unless a reviewer replaces it with an explicit typed domain relation.",
+      "confidence": 0.45,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_relation": {
+        "from": "object.sf5.7097f915",
+        "type": "source_related_to",
+        "to": "object.specialists.e87135c5",
+        "summary": "Candidates appear in the same seed expansion source group: skills/sf5/SKILL.md.",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "confidence": 0.45
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.reject-weak-source-relation.object-sf5-7097f915.source-related-to.object-coordinator-rules-df8902ef",
+      "source_signal_id": "embryo.relation.object-sf5-7097f915.source-related-to.object-coordinator-rules-df8902ef",
+      "action_type": "reject_weak_source_relation",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "relation:object.sf5.7097f915:source_related_to:object.coordinator-rules.df8902ef",
+      "candidate_type": "relation",
+      "summary": "Reject weak source-group relation `object.sf5.7097f915` --`source_related_to`--> `object.coordinator-rules.df8902ef` unless a reviewer replaces it with an explicit typed domain relation.",
+      "confidence": 0.45,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_relation": {
+        "from": "object.sf5.7097f915",
+        "type": "source_related_to",
+        "to": "object.coordinator-rules.df8902ef",
+        "summary": "Candidates appear in the same seed expansion source group: skills/sf5/SKILL.md.",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "confidence": 0.45
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.reject-weak-source-relation.object-sf5-7097f915.source-related-to.object-required-baseline-9c6793ac",
+      "source_signal_id": "embryo.relation.object-sf5-7097f915.source-related-to.object-required-baseline-9c6793ac",
+      "action_type": "reject_weak_source_relation",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "relation:object.sf5.7097f915:source_related_to:object.required-baseline.9c6793ac",
+      "candidate_type": "relation",
+      "summary": "Reject weak source-group relation `object.sf5.7097f915` --`source_related_to`--> `object.required-baseline.9c6793ac` unless a reviewer replaces it with an explicit typed domain relation.",
+      "confidence": 0.45,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_relation": {
+        "from": "object.sf5.7097f915",
+        "type": "source_related_to",
+        "to": "object.required-baseline.9c6793ac",
+        "summary": "Candidates appear in the same seed expansion source group: skills/sf5/SKILL.md.",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "confidence": 0.45
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.reject-weak-source-relation.object-sf5-7097f915.source-related-to.object-layer-boundaries-7d631de1",
+      "source_signal_id": "embryo.relation.object-sf5-7097f915.source-related-to.object-layer-boundaries-7d631de1",
+      "action_type": "reject_weak_source_relation",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "relation:object.sf5.7097f915:source_related_to:object.layer-boundaries.7d631de1",
+      "candidate_type": "relation",
+      "summary": "Reject weak source-group relation `object.sf5.7097f915` --`source_related_to`--> `object.layer-boundaries.7d631de1` unless a reviewer replaces it with an explicit typed domain relation.",
+      "confidence": 0.45,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_relation": {
+        "from": "object.sf5.7097f915",
+        "type": "source_related_to",
+        "to": "object.layer-boundaries.7d631de1",
+        "summary": "Candidates appear in the same seed expansion source group: skills/sf5/SKILL.md.",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "confidence": 0.45
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.reject-weak-source-relation.object-sf5-7097f915.source-related-to.object-core-68836c55",
+      "source_signal_id": "embryo.relation.object-sf5-7097f915.source-related-to.object-core-68836c55",
+      "action_type": "reject_weak_source_relation",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "relation:object.sf5.7097f915:source_related_to:object.core.68836c55",
+      "candidate_type": "relation",
+      "summary": "Reject weak source-group relation `object.sf5.7097f915` --`source_related_to`--> `object.core.68836c55` unless a reviewer replaces it with an explicit typed domain relation.",
+      "confidence": 0.45,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_relation": {
+        "from": "object.sf5.7097f915",
+        "type": "source_related_to",
+        "to": "object.core.68836c55",
+        "summary": "Candidates appear in the same seed expansion source group: skills/sf5/SKILL.md.",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "confidence": 0.45
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.reject-weak-source-relation.object-sf5-7097f915.source-related-to.object-loader-ec6f9069",
+      "source_signal_id": "embryo.relation.object-sf5-7097f915.source-related-to.object-loader-ec6f9069",
+      "action_type": "reject_weak_source_relation",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "relation:object.sf5.7097f915:source_related_to:object.loader.ec6f9069",
+      "candidate_type": "relation",
+      "summary": "Reject weak source-group relation `object.sf5.7097f915` --`source_related_to`--> `object.loader.ec6f9069` unless a reviewer replaces it with an explicit typed domain relation.",
+      "confidence": 0.45,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_relation": {
+        "from": "object.sf5.7097f915",
+        "type": "source_related_to",
+        "to": "object.loader.ec6f9069",
+        "summary": "Candidates appear in the same seed expansion source group: skills/sf5/SKILL.md.",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "confidence": 0.45
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.reject-weak-source-relation.object-sf5-7097f915.source-related-to.object-utilities-18fdc5ee",
+      "source_signal_id": "embryo.relation.object-sf5-7097f915.source-related-to.object-utilities-18fdc5ee",
+      "action_type": "reject_weak_source_relation",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "relation:object.sf5.7097f915:source_related_to:object.utilities.18fdc5ee",
+      "candidate_type": "relation",
+      "summary": "Reject weak source-group relation `object.sf5.7097f915` --`source_related_to`--> `object.utilities.18fdc5ee` unless a reviewer replaces it with an explicit typed domain relation.",
+      "confidence": 0.45,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_relation": {
+        "from": "object.sf5.7097f915",
+        "type": "source_related_to",
+        "to": "object.utilities.18fdc5ee",
+        "summary": "Candidates appear in the same seed expansion source group: skills/sf5/SKILL.md.",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "confidence": 0.45
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.reject-weak-source-relation.object-sf5-7097f915.source-related-to.object-components-9289473e",
+      "source_signal_id": "embryo.relation.object-sf5-7097f915.source-related-to.object-components-9289473e",
+      "action_type": "reject_weak_source_relation",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "relation:object.sf5.7097f915:source_related_to:object.components.9289473e",
+      "candidate_type": "relation",
+      "summary": "Reject weak source-group relation `object.sf5.7097f915` --`source_related_to`--> `object.components.9289473e` unless a reviewer replaces it with an explicit typed domain relation.",
+      "confidence": 0.45,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_relation": {
+        "from": "object.sf5.7097f915",
+        "type": "source_related_to",
+        "to": "object.components.9289473e",
+        "summary": "Candidates appear in the same seed expansion source group: skills/sf5/SKILL.md.",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "confidence": 0.45
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.reject-weak-source-relation.object-sf5-7097f915.source-related-to.object-smart-components-cb17ddfd",
+      "source_signal_id": "embryo.relation.object-sf5-7097f915.source-related-to.object-smart-components-cb17ddfd",
+      "action_type": "reject_weak_source_relation",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "relation:object.sf5.7097f915:source_related_to:object.smart-components.cb17ddfd",
+      "candidate_type": "relation",
+      "summary": "Reject weak source-group relation `object.sf5.7097f915` --`source_related_to`--> `object.smart-components.cb17ddfd` unless a reviewer replaces it with an explicit typed domain relation.",
+      "confidence": 0.45,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_relation": {
+        "from": "object.sf5.7097f915",
+        "type": "source_related_to",
+        "to": "object.smart-components.cb17ddfd",
+        "summary": "Candidates appear in the same seed expansion source group: skills/sf5/SKILL.md.",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "confidence": 0.45
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.reject-weak-source-relation.object-sf5-7097f915.source-related-to.object-blocks-54c45c03",
+      "source_signal_id": "embryo.relation.object-sf5-7097f915.source-related-to.object-blocks-54c45c03",
+      "action_type": "reject_weak_source_relation",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "relation:object.sf5.7097f915:source_related_to:object.blocks.54c45c03",
+      "candidate_type": "relation",
+      "summary": "Reject weak source-group relation `object.sf5.7097f915` --`source_related_to`--> `object.blocks.54c45c03` unless a reviewer replaces it with an explicit typed domain relation.",
+      "confidence": 0.45,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_relation": {
+        "from": "object.sf5.7097f915",
+        "type": "source_related_to",
+        "to": "object.blocks.54c45c03",
+        "summary": "Candidates appear in the same seed expansion source group: skills/sf5/SKILL.md.",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "confidence": 0.45
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.reject-weak-source-relation.object-sf5-7097f915.source-related-to.object-missing-data-protocol-b5796b46",
+      "source_signal_id": "embryo.relation.object-sf5-7097f915.source-related-to.object-missing-data-protocol-b5796b46",
+      "action_type": "reject_weak_source_relation",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "relation:object.sf5.7097f915:source_related_to:object.missing-data-protocol.b5796b46",
+      "candidate_type": "relation",
+      "summary": "Reject weak source-group relation `object.sf5.7097f915` --`source_related_to`--> `object.missing-data-protocol.b5796b46` unless a reviewer replaces it with an explicit typed domain relation.",
+      "confidence": 0.45,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_relation": {
+        "from": "object.sf5.7097f915",
+        "type": "source_related_to",
+        "to": "object.missing-data-protocol.b5796b46",
+        "summary": "Candidates appear in the same seed expansion source group: skills/sf5/SKILL.md.",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "confidence": 0.45
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.reject-weak-source-relation.object-sf5-7097f915.source-related-to.object-resource-routing-865c65e6",
+      "source_signal_id": "embryo.relation.object-sf5-7097f915.source-related-to.object-resource-routing-865c65e6",
+      "action_type": "reject_weak_source_relation",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "relation:object.sf5.7097f915:source_related_to:object.resource-routing.865c65e6",
+      "candidate_type": "relation",
+      "summary": "Reject weak source-group relation `object.sf5.7097f915` --`source_related_to`--> `object.resource-routing.865c65e6` unless a reviewer replaces it with an explicit typed domain relation.",
+      "confidence": 0.45,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_relation": {
+        "from": "object.sf5.7097f915",
+        "type": "source_related_to",
+        "to": "object.resource-routing.865c65e6",
+        "summary": "Candidates appear in the same seed expansion source group: skills/sf5/SKILL.md.",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "confidence": 0.45
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.reject-weak-source-relation.object-sf5-7097f915.source-related-to.object-delivery-rules-90467bb8",
+      "source_signal_id": "embryo.relation.object-sf5-7097f915.source-related-to.object-delivery-rules-90467bb8",
+      "action_type": "reject_weak_source_relation",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "relation:object.sf5.7097f915:source_related_to:object.delivery-rules.90467bb8",
+      "candidate_type": "relation",
+      "summary": "Reject weak source-group relation `object.sf5.7097f915` --`source_related_to`--> `object.delivery-rules.90467bb8` unless a reviewer replaces it with an explicit typed domain relation.",
+      "confidence": 0.45,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_relation": {
+        "from": "object.sf5.7097f915",
+        "type": "source_related_to",
+        "to": "object.delivery-rules.90467bb8",
+        "summary": "Candidates appear in the same seed expansion source group: skills/sf5/SKILL.md.",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "confidence": 0.45
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.reject-weak-source-relation.object-sf5-7097f915.source-related-to.object-kernel-sf5-dna-md-kernel-sf5-dna-md-1ff7d607",
+      "source_signal_id": "embryo.relation.object-sf5-7097f915.source-related-to.object-kernel-sf5-dna-md-kernel-sf5-dna-md-1ff7d607",
+      "action_type": "reject_weak_source_relation",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "relation:object.sf5.7097f915:source_related_to:object.kernel-sf5-dna-md-kernel-sf5-dna-md.1ff7d607",
+      "candidate_type": "relation",
+      "summary": "Reject weak source-group relation `object.sf5.7097f915` --`source_related_to`--> `object.kernel-sf5-dna-md-kernel-sf5-dna-md.1ff7d607` unless a reviewer replaces it with an explicit typed domain relation.",
+      "confidence": 0.45,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_relation": {
+        "from": "object.sf5.7097f915",
+        "type": "source_related_to",
+        "to": "object.kernel-sf5-dna-md-kernel-sf5-dna-md.1ff7d607",
+        "summary": "Candidates appear in the same seed expansion source group: skills/sf5/SKILL.md.",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "confidence": 0.45
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.reject-weak-source-relation.object-sf5-7097f915.source-related-to.object-kernel-scope-contract-md-kernel-scope-contract-md-35782a23",
+      "source_signal_id": "embryo.relation.object-sf5-7097f915.source-related-to.object-kernel-scope-contract-md-kernel-scope-contract-md-35782a23",
+      "action_type": "reject_weak_source_relation",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "relation:object.sf5.7097f915:source_related_to:object.kernel-scope-contract-md-kernel-scope-contract-md.35782a23",
+      "candidate_type": "relation",
+      "summary": "Reject weak source-group relation `object.sf5.7097f915` --`source_related_to`--> `object.kernel-scope-contract-md-kernel-scope-contract-md.35782a23` unless a reviewer replaces it with an explicit typed domain relation.",
+      "confidence": 0.45,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_relation": {
+        "from": "object.sf5.7097f915",
+        "type": "source_related_to",
+        "to": "object.kernel-scope-contract-md-kernel-scope-contract-md.35782a23",
+        "summary": "Candidates appear in the same seed expansion source group: skills/sf5/SKILL.md.",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "confidence": 0.45
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.reject-weak-source-relation.object-sf5-7097f915.source-related-to.object-kernel-output-contract-md-kernel-output-contract-md-59c37139",
+      "source_signal_id": "embryo.relation.object-sf5-7097f915.source-related-to.object-kernel-output-contract-md-kernel-output-contract-md-59c37139",
+      "action_type": "reject_weak_source_relation",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "relation:object.sf5.7097f915:source_related_to:object.kernel-output-contract-md-kernel-output-contract-md.59c37139",
+      "candidate_type": "relation",
+      "summary": "Reject weak source-group relation `object.sf5.7097f915` --`source_related_to`--> `object.kernel-output-contract-md-kernel-output-contract-md.59c37139` unless a reviewer replaces it with an explicit typed domain relation.",
+      "confidence": 0.45,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_relation": {
+        "from": "object.sf5.7097f915",
+        "type": "source_related_to",
+        "to": "object.kernel-output-contract-md-kernel-output-contract-md.59c37139",
+        "summary": "Candidates appear in the same seed expansion source group: skills/sf5/SKILL.md.",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "confidence": 0.45
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.reject-weak-source-relation.object-sf5-7097f915.source-related-to.object-rules-routing-md-rules-routing-md-5988fd01",
+      "source_signal_id": "embryo.relation.object-sf5-7097f915.source-related-to.object-rules-routing-md-rules-routing-md-5988fd01",
+      "action_type": "reject_weak_source_relation",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "relation:object.sf5.7097f915:source_related_to:object.rules-routing-md-rules-routing-md.5988fd01",
+      "candidate_type": "relation",
+      "summary": "Reject weak source-group relation `object.sf5.7097f915` --`source_related_to`--> `object.rules-routing-md-rules-routing-md.5988fd01` unless a reviewer replaces it with an explicit typed domain relation.",
+      "confidence": 0.45,
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_relation": {
+        "from": "object.sf5.7097f915",
+        "type": "source_related_to",
+        "to": "object.rules-routing-md-rules-routing-md.5988fd01",
+        "summary": "Candidates appear in the same seed expansion source group: skills/sf5/SKILL.md.",
+        "source_refs": [
+          "skills/sf5/SKILL.md"
+        ],
+        "confidence": 0.45
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.reject-weak-source-relation.object-change-gates-dbd112dd.source-related-to.object-source-refresh-gate-91d3c141",
+      "source_signal_id": "embryo.relation.object-change-gates-dbd112dd.source-related-to.object-source-refresh-gate-91d3c141",
+      "action_type": "reject_weak_source_relation",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "relation:object.change-gates.dbd112dd:source_related_to:object.source-refresh-gate.91d3c141",
+      "candidate_type": "relation",
+      "summary": "Reject weak source-group relation `object.change-gates.dbd112dd` --`source_related_to`--> `object.source-refresh-gate.91d3c141` unless a reviewer replaces it with an explicit typed domain relation.",
+      "confidence": 0.45,
+      "source_refs": [
+        "skills/sf5/rules/change-gates.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_relation": {
+        "from": "object.change-gates.dbd112dd",
+        "type": "source_related_to",
+        "to": "object.source-refresh-gate.91d3c141",
+        "summary": "Candidates appear in the same seed expansion source group: skills/sf5/rules/change-gates.md.",
+        "source_refs": [
+          "skills/sf5/rules/change-gates.md"
+        ],
+        "confidence": 0.45
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.reject-weak-source-relation.object-change-gates-dbd112dd.source-related-to.object-working-set-gate-1a33c6a6",
+      "source_signal_id": "embryo.relation.object-change-gates-dbd112dd.source-related-to.object-working-set-gate-1a33c6a6",
+      "action_type": "reject_weak_source_relation",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "relation:object.change-gates.dbd112dd:source_related_to:object.working-set-gate.1a33c6a6",
+      "candidate_type": "relation",
+      "summary": "Reject weak source-group relation `object.change-gates.dbd112dd` --`source_related_to`--> `object.working-set-gate.1a33c6a6` unless a reviewer replaces it with an explicit typed domain relation.",
+      "confidence": 0.45,
+      "source_refs": [
+        "skills/sf5/rules/change-gates.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_relation": {
+        "from": "object.change-gates.dbd112dd",
+        "type": "source_related_to",
+        "to": "object.working-set-gate.1a33c6a6",
+        "summary": "Candidates appear in the same seed expansion source group: skills/sf5/rules/change-gates.md.",
+        "source_refs": [
+          "skills/sf5/rules/change-gates.md"
+        ],
+        "confidence": 0.45
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.reject-weak-source-relation.object-change-gates-dbd112dd.source-related-to.object-validation-hardening-gate-11f67696",
+      "source_signal_id": "embryo.relation.object-change-gates-dbd112dd.source-related-to.object-validation-hardening-gate-11f67696",
+      "action_type": "reject_weak_source_relation",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "relation:object.change-gates.dbd112dd:source_related_to:object.validation-hardening-gate.11f67696",
+      "candidate_type": "relation",
+      "summary": "Reject weak source-group relation `object.change-gates.dbd112dd` --`source_related_to`--> `object.validation-hardening-gate.11f67696` unless a reviewer replaces it with an explicit typed domain relation.",
+      "confidence": 0.45,
+      "source_refs": [
+        "skills/sf5/rules/change-gates.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_relation": {
+        "from": "object.change-gates.dbd112dd",
+        "type": "source_related_to",
+        "to": "object.validation-hardening-gate.11f67696",
+        "summary": "Candidates appear in the same seed expansion source group: skills/sf5/rules/change-gates.md.",
+        "source_refs": [
+          "skills/sf5/rules/change-gates.md"
+        ],
+        "confidence": 0.45
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.reject-weak-source-relation.object-skill-mesh-balance-20a52bfd.source-related-to.object-does-not-own-9533744f",
+      "source_signal_id": "embryo.relation.object-skill-mesh-balance-20a52bfd.source-related-to.object-does-not-own-9533744f",
+      "action_type": "reject_weak_source_relation",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "relation:object.skill-mesh-balance.20a52bfd:source_related_to:object.does-not-own.9533744f",
+      "candidate_type": "relation",
+      "summary": "Reject weak source-group relation `object.skill-mesh-balance.20a52bfd` --`source_related_to`--> `object.does-not-own.9533744f` unless a reviewer replaces it with an explicit typed domain relation.",
+      "confidence": 0.45,
+      "source_refs": [
+        "skills/sf5/rules/skill-mesh-balance.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_relation": {
+        "from": "object.skill-mesh-balance.20a52bfd",
+        "type": "source_related_to",
+        "to": "object.does-not-own.9533744f",
+        "summary": "Candidates appear in the same seed expansion source group: skills/sf5/rules/skill-mesh-balance.md.",
+        "source_refs": [
+          "skills/sf5/rules/skill-mesh-balance.md"
+        ],
+        "confidence": 0.45
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.reject-weak-source-relation.object-skill-mesh-balance-20a52bfd.source-related-to.object-companion-contracts-8181dfe2",
+      "source_signal_id": "embryo.relation.object-skill-mesh-balance-20a52bfd.source-related-to.object-companion-contracts-8181dfe2",
+      "action_type": "reject_weak_source_relation",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "relation:object.skill-mesh-balance.20a52bfd:source_related_to:object.companion-contracts.8181dfe2",
+      "candidate_type": "relation",
+      "summary": "Reject weak source-group relation `object.skill-mesh-balance.20a52bfd` --`source_related_to`--> `object.companion-contracts.8181dfe2` unless a reviewer replaces it with an explicit typed domain relation.",
+      "confidence": 0.45,
+      "source_refs": [
+        "skills/sf5/rules/skill-mesh-balance.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_relation": {
+        "from": "object.skill-mesh-balance.20a52bfd",
+        "type": "source_related_to",
+        "to": "object.companion-contracts.8181dfe2",
+        "summary": "Candidates appear in the same seed expansion source group: skills/sf5/rules/skill-mesh-balance.md.",
+        "source_refs": [
+          "skills/sf5/rules/skill-mesh-balance.md"
+        ],
+        "confidence": 0.45
+      },
+      "canonical_write_allowed": false
+    },
+    {
+      "action_id": "action.embryo.reject-weak-source-relation.object-skill-mesh-balance-20a52bfd.source-related-to.object-handoff-09496b01",
+      "source_signal_id": "embryo.relation.object-skill-mesh-balance-20a52bfd.source-related-to.object-handoff-09496b01",
+      "action_type": "reject_weak_source_relation",
+      "status": "proposed",
+      "requires_approval": true,
+      "safe_default": "no_execute",
+      "target_ref": "relation:object.skill-mesh-balance.20a52bfd:source_related_to:object.handoff.09496b01",
+      "candidate_type": "relation",
+      "summary": "Reject weak source-group relation `object.skill-mesh-balance.20a52bfd` --`source_related_to`--> `object.handoff.09496b01` unless a reviewer replaces it with an explicit typed domain relation.",
+      "confidence": 0.45,
+      "source_refs": [
+        "skills/sf5/rules/skill-mesh-balance.md"
+      ],
+      "source_embryo_ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json",
+      "suggested_canonical_relation": {
+        "from": "object.skill-mesh-balance.20a52bfd",
+        "type": "source_related_to",
+        "to": "object.handoff.09496b01",
+        "summary": "Candidates appear in the same seed expansion source group: skills/sf5/rules/skill-mesh-balance.md.",
+        "source_refs": [
+          "skills/sf5/rules/skill-mesh-balance.md"
+        ],
+        "confidence": 0.45
+      },
+      "canonical_write_allowed": false
+    }
+  ],
+  "warnings": [],
+  "blockers": [],
+  "canonical_write_allowed": false,
+  "auto_execute_allowed": false
+}
