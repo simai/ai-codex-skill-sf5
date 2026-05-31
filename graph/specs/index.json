@@ -1,17 +1,43 @@
 {
   "schema_version": "1.0.0",
-  "graph_id": "example.graph",
-  "title": "Example Graph",
-  "description": "Template graph index.",
+  "graph_id": "ai-codex-skill-sf5.graph",
+  "title": "SF5 Skill Graph",
+  "description": "GrowGraph runtime capability profile for ai-codex-skill-sf5.",
   "type_descriptor_files": [
     "type-descriptors/core.json"
   ],
   "object_files": [
-    "objects/example-capability.json",
-    "objects/example-policy.json"
+    "objects/skill-sf5-core.json",
+    "objects/capability-sf5-frontend-components.json",
+    "objects/capability-sf5-loader-runtime.json",
+    "objects/capability-sf5-smart-components.json",
+    "objects/capability-sf5-page-recipes.json",
+    "objects/capability-sf5-tailwind-conversion.json",
+    "objects/policy-sf5-frontend-first-boundary.json",
+    "objects/policy-sf5-validation-hardening.json",
+    "objects/gate-sf5-release-readiness.json"
   ],
   "relation_files": [
-    "relations/example-relation.json"
+    "relations/relation-skill-sf5-core-implements-capability-sf5-frontend-components.json",
+    "relations/relation-skill-sf5-core-implements-capability-sf5-loader-runtime.json",
+    "relations/relation-skill-sf5-core-implements-capability-sf5-smart-components.json",
+    "relations/relation-skill-sf5-core-implements-capability-sf5-page-recipes.json",
+    "relations/relation-skill-sf5-core-implements-capability-sf5-tailwind-conversion.json",
+    "relations/relation-capability-sf5-frontend-components-governed-by-policy-sf5-frontend-first-boundary.json",
+    "relations/relation-capability-sf5-frontend-components-governed-by-policy-sf5-validation-hardening.json",
+    "relations/relation-capability-sf5-loader-runtime-governed-by-policy-sf5-frontend-first-boundary.json",
+    "relations/relation-capability-sf5-loader-runtime-governed-by-policy-sf5-validation-hardening.json",
+    "relations/relation-capability-sf5-smart-components-governed-by-policy-sf5-frontend-first-boundary.json",
+    "relations/relation-capability-sf5-smart-components-governed-by-policy-sf5-validation-hardening.json",
+    "relations/relation-capability-sf5-page-recipes-governed-by-policy-sf5-frontend-first-boundary.json",
+    "relations/relation-capability-sf5-page-recipes-governed-by-policy-sf5-validation-hardening.json",
+    "relations/relation-capability-sf5-tailwind-conversion-governed-by-policy-sf5-frontend-first-boundary.json",
+    "relations/relation-capability-sf5-tailwind-conversion-governed-by-policy-sf5-validation-hardening.json",
+    "relations/relation-gate-sf5-release-readiness-validates-capability-sf5-frontend-components.json",
+    "relations/relation-gate-sf5-release-readiness-validates-capability-sf5-loader-runtime.json",
+    "relations/relation-gate-sf5-release-readiness-validates-capability-sf5-smart-components.json",
+    "relations/relation-gate-sf5-release-readiness-validates-capability-sf5-page-recipes.json",
+    "relations/relation-gate-sf5-release-readiness-validates-capability-sf5-tailwind-conversion.json"
   ],
   "evolution_track_files": [
     "evolution-tracks/example-track.json"

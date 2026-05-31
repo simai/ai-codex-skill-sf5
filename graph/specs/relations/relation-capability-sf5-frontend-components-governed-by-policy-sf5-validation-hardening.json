@@ -1,0 +1,18 @@
+{
+  "id": "relation-capability-sf5-frontend-components-governed-by-policy-sf5-validation-hardening",
+  "schema_version": "1.0.0",
+  "kind": "relation",
+  "from": "capability.sf5.frontend-components",
+  "to": "policy.sf5.validation-hardening",
+  "relation_type": "governed_by",
+  "status": "accepted",
+  "confidence": 0.86,
+  "confidence_method": "human_asserted_from_skill_contract",
+  "evidence_status": "asserted_by_human",
+  "impact": "medium",
+  "owner": "graph",
+  "source_refs": [
+    "skills/sf5/SKILL.md"
+  ],
+  "evidence_refs": []
+}

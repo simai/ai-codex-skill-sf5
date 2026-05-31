@@ -1,0 +1,28 @@
+{
+  "id": "gate.sf5.release-readiness",
+  "schema_version": "1.0.0",
+  "kind": "gate",
+  "title": "SF5 release readiness gate",
+  "summary": "Blocks completion until component/loader changes have working-set, validation and release-gate evidence.",
+  "owner": "sf5",
+  "lifecycle": "active",
+  "readiness": "pilot",
+  "confidence": 0.88,
+  "confidence_method": "human_asserted_from_skill_contract",
+  "evidence_status": "asserted_by_human",
+  "source_refs": [
+    "skills/sf5/SKILL.md",
+    "skills/sf5/rules/change-gates.md",
+    "skills/sf5/knowledge-packs/validation-hardening.md"
+  ],
+  "evidence_refs": [],
+  "tags": [
+    "skill",
+    "growgraph-runtime",
+    "capability-profile",
+    "sf5",
+    "gate",
+    "gate"
+  ],
+  "subtype": "quality_gate"
+}

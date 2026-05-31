@@ -1,0 +1,28 @@
+{
+  "id": "capability.sf5.frontend-components",
+  "schema_version": "1.0.0",
+  "kind": "capability",
+  "title": "SF5 frontend components",
+  "summary": "Implement SF5 frontend components, blocks, utilities, modifiers and component recipes.",
+  "owner": "sf5",
+  "lifecycle": "active",
+  "readiness": "pilot",
+  "confidence": 0.88,
+  "confidence_method": "human_asserted_from_skill_contract",
+  "evidence_status": "asserted_by_human",
+  "source_refs": [
+    "skills/sf5/SKILL.md",
+    "skills/sf5/references/frontend-components-smart.md",
+    "skills/sf5/references/frontend-playbook.md"
+  ],
+  "evidence_refs": [],
+  "tags": [
+    "skill",
+    "growgraph-runtime",
+    "capability-profile",
+    "sf5",
+    "capability",
+    "capability"
+  ],
+  "subtype": "skill_capability"
+}

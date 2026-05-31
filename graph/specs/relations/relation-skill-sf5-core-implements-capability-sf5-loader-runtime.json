@@ -1,0 +1,18 @@
+{
+  "id": "relation-skill-sf5-core-implements-capability-sf5-loader-runtime",
+  "schema_version": "1.0.0",
+  "kind": "relation",
+  "from": "skill.sf5.core",
+  "to": "capability.sf5.loader-runtime",
+  "relation_type": "implements",
+  "status": "accepted",
+  "confidence": 0.86,
+  "confidence_method": "human_asserted_from_skill_contract",
+  "evidence_status": "asserted_by_human",
+  "impact": "high",
+  "owner": "graph",
+  "source_refs": [
+    "skills/sf5/SKILL.md"
+  ],
+  "evidence_refs": []
+}

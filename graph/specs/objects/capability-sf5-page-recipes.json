@@ -1,0 +1,28 @@
+{
+  "id": "capability.sf5.page-recipes",
+  "schema_version": "1.0.0",
+  "kind": "capability",
+  "title": "SF5 page recipes",
+  "summary": "Route work to page recipes and scenario playbooks for landing, dashboard, catalog, auth, checkout and profile flows.",
+  "owner": "sf5",
+  "lifecycle": "active",
+  "readiness": "pilot",
+  "confidence": 0.88,
+  "confidence_method": "human_asserted_from_skill_contract",
+  "evidence_status": "asserted_by_human",
+  "source_refs": [
+    "skills/sf5/SKILL.md",
+    "skills/sf5/references/page-recipes-index.md",
+    "skills/sf5/references/scenario-dashboard-workspace.md"
+  ],
+  "evidence_refs": [],
+  "tags": [
+    "skill",
+    "growgraph-runtime",
+    "capability-profile",
+    "sf5",
+    "capability",
+    "capability"
+  ],
+  "subtype": "skill_capability"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "skill.sf5.core",
+  "schema_version": "1.0.0",
+  "kind": "skill",
+  "title": "SF5 skill core",
+  "summary": "Owns SIMAI Framework 5 frontend-first workflows: loader, utilities, components, smart-components, recipes and staged backend planning.",
+  "owner": "sf5",
+  "lifecycle": "active",
+  "readiness": "pilot",
+  "confidence": 0.88,
+  "confidence_method": "human_asserted_from_skill_contract",
+  "evidence_status": "asserted_by_human",
+  "source_refs": [
+    "skills/sf5/SKILL.md"
+  ],
+  "evidence_refs": [],
+  "tags": [
+    "skill",
+    "growgraph-runtime",
+    "capability-profile",
+    "sf5",
+    "skill",
+    "core"
+  ],
+  "subtype": "skill_core"
+}

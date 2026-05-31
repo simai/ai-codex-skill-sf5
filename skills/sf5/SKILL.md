@@ -19,6 +19,10 @@ Before activity logic, load and obey:
 
 Do not load every file by default. Load narrowly, then expand only when the task crosses SF5 surfaces.
 
+## GrowGraph Runtime Entry
+
+For substantial `sf5` tasks, use repo-local `graph/specs` and the latest GrowGraph runtime context as the first machine-readable index for capability selection, routing, readiness, companion contracts and scenario evidence. The graph layer may choose the owner boundary, required gates, related skills and raw-source fallback path for SIMAI Framework 5 frontend-first architecture, components, loader/runtime and migration judgement. Raw `sf5` sources remain authoritative for detailed methodology, judgement, longform playbooks, sensitive rules, reporting format and final domain verdicts. Sensitive/runtime/security and safe-write decisions require raw-source fallback and the relevant owner gate. Platform-specific playbooks stay in the owner skill; the central graph may point to them but must not absorb them. This is GrowGraph Hybrid SOT, not graph-only runtime.
+
 ## Core Operating Model
 
 Follow this sequence for every substantial SF5 task:

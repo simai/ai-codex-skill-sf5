@@ -1,0 +1,28 @@
+{
+  "id": "capability.sf5.tailwind-conversion",
+  "schema_version": "1.0.0",
+  "kind": "capability",
+  "title": "Tailwind to SF5 conversion",
+  "summary": "Convert Tailwind/UI source into SF5 components with working-set coverage and validation hardening.",
+  "owner": "sf5",
+  "lifecycle": "active",
+  "readiness": "pilot",
+  "confidence": 0.88,
+  "confidence_method": "human_asserted_from_skill_contract",
+  "evidence_status": "asserted_by_human",
+  "source_refs": [
+    "skills/sf5/SKILL.md",
+    "skills/sf5/activities/tailwind-conversion.json",
+    "skills/sf5/knowledge-packs/tailwind-to-sf5-conversion.md"
+  ],
+  "evidence_refs": [],
+  "tags": [
+    "skill",
+    "growgraph-runtime",
+    "capability-profile",
+    "sf5",
+    "capability",
+    "capability"
+  ],
+  "subtype": "skill_capability"
+}
