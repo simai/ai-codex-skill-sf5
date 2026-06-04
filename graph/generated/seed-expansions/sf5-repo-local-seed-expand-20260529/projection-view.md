@@ -1,11 +1,11 @@
-# Seed summary for skill.sf5.growgraph
+# Seed summary for skill.sf5.mirai_graph
 
 - View type: `seed_summary`
 - Source: `graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/graph-embryo.json`
 
 ## Seed
 
-- purpose: Start a controlled GrowGraph pilot for the SIMAI sf5 skill without changing canonical skill behavior.
+- purpose: Start a controlled Mirai Graph pilot for the SIMAI sf5 skill without changing canonical skill behavior.
 - target_profile: profile.skill_graph
 - target_mode: pilot
 

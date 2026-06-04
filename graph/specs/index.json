@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "graph_id": "ai-codex-skill-sf5.graph",
   "title": "SF5 Skill Graph",
-  "description": "GrowGraph runtime capability profile for ai-codex-skill-sf5.",
+  "description": "Mirai Graph runtime capability profile for ai-codex-skill-sf5.",
   "type_descriptor_files": [
     "type-descriptors/core.json"
   ],

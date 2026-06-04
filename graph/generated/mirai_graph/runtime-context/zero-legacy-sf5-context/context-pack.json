@@ -1,0 +1,362 @@
+{
+  "schema_version": "1.0.0",
+  "request": {
+    "task": "Mirai Graph zero legacy rename",
+    "skill": "sf5",
+    "repo": "/Users/rim/Documents/GitHub/ai-codex-skill-sf5",
+    "mode": "mirai_graph_skill_runtime_context"
+  },
+  "included_objects": [
+    {
+      "object_id": "skill.sf5.core",
+      "score": 0.51,
+      "reason": "keyword match",
+      "confidence": 0.88,
+      "evidence_status": "asserted_by_human",
+      "title": "SF5 skill core",
+      "summary": "Owns SIMAI Framework 5 frontend-first workflows: loader, utilities, components, smart-components, recipes and staged backend planning.",
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ]
+    },
+    {
+      "object_id": "policy.sf5.frontend-first-boundary",
+      "score": 0.51,
+      "reason": "keyword match",
+      "confidence": 0.88,
+      "evidence_status": "asserted_by_human",
+      "title": "SF5 frontend-first boundary",
+      "summary": "Keep SF5 frontend-first scope explicit and escalate staged backend work to the owning platform skill.",
+      "source_refs": [
+        "skills/sf5/SKILL.md",
+        "skills/sf5/kernel/scope-contract.md",
+        "skills/sf5/rules/routing.md"
+      ]
+    },
+    {
+      "object_id": "policy.sf5.validation-hardening",
+      "score": 0.51,
+      "reason": "keyword match",
+      "confidence": 0.88,
+      "evidence_status": "asserted_by_human",
+      "title": "SF5 validation hardening",
+      "summary": "Component/recipe changes need validation hardening, working-set coverage and release gate evidence.",
+      "source_refs": [
+        "skills/sf5/SKILL.md",
+        "skills/sf5/activities/validation-hardening.json",
+        "skills/sf5/knowledge-packs/validation-hardening.md"
+      ]
+    },
+    {
+      "object_id": "gate.sf5.release-readiness",
+      "score": 0.51,
+      "reason": "keyword match",
+      "confidence": 0.88,
+      "evidence_status": "asserted_by_human",
+      "title": "SF5 release readiness gate",
+      "summary": "Blocks completion until component/loader changes have working-set, validation and release-gate evidence.",
+      "source_refs": [
+        "skills/sf5/SKILL.md",
+        "skills/sf5/rules/change-gates.md",
+        "skills/sf5/knowledge-packs/validation-hardening.md"
+      ]
+    },
+    {
+      "object_id": "capability.sf5.frontend-components",
+      "score": 0.36,
+      "reason": "keyword match",
+      "confidence": 0.88,
+      "evidence_status": "asserted_by_human",
+      "title": "SF5 frontend components",
+      "summary": "Implement SF5 frontend components, blocks, utilities, modifiers and component recipes.",
+      "source_refs": [
+        "skills/sf5/SKILL.md",
+        "skills/sf5/references/frontend-components-smart.md",
+        "skills/sf5/references/frontend-playbook.md"
+      ]
+    },
+    {
+      "object_id": "capability.sf5.loader-runtime",
+      "score": 0.36,
+      "reason": "keyword match",
+      "confidence": 0.88,
+      "evidence_status": "asserted_by_human",
+      "title": "SF5 loader runtime",
+      "summary": "Handle frontend loader, smart runtime, backend-first integration and project conventions.",
+      "source_refs": [
+        "skills/sf5/SKILL.md",
+        "skills/sf5/references/frontend-loader.md",
+        "skills/sf5/knowledge-packs/backend-first-smart-runtime.md"
+      ]
+    },
+    {
+      "object_id": "capability.sf5.smart-components",
+      "score": 0.36,
+      "reason": "keyword match",
+      "confidence": 0.88,
+      "evidence_status": "asserted_by_human",
+      "title": "SF5 smart components",
+      "summary": "Design and validate smart components, catalog entries, templates and smart hints.",
+      "source_refs": [
+        "skills/sf5/SKILL.md",
+        "skills/sf5/references/component-smart-catalog.md",
+        "skills/sf5/references/smart-component-template.md"
+      ]
+    },
+    {
+      "object_id": "capability.sf5.page-recipes",
+      "score": 0.36,
+      "reason": "keyword match",
+      "confidence": 0.88,
+      "evidence_status": "asserted_by_human",
+      "title": "SF5 page recipes",
+      "summary": "Route work to page recipes and scenario playbooks for landing, dashboard, catalog, auth, checkout and profile flows.",
+      "source_refs": [
+        "skills/sf5/SKILL.md",
+        "skills/sf5/references/page-recipes-index.md",
+        "skills/sf5/references/scenario-dashboard-workspace.md"
+      ]
+    },
+    {
+      "object_id": "capability.sf5.tailwind-conversion",
+      "score": 0.36,
+      "reason": "keyword match",
+      "confidence": 0.88,
+      "evidence_status": "asserted_by_human",
+      "title": "Tailwind to SF5 conversion",
+      "summary": "Convert Tailwind/UI source into SF5 components with working-set coverage and validation hardening.",
+      "source_refs": [
+        "skills/sf5/SKILL.md",
+        "skills/sf5/activities/tailwind-conversion.json",
+        "skills/sf5/knowledge-packs/tailwind-to-sf5-conversion.md"
+      ]
+    }
+  ],
+  "excluded_objects": [],
+  "warnings": [],
+  "source_refs": [
+    "skills/sf5/SKILL.md",
+    "skills/sf5/kernel/scope-contract.md",
+    "skills/sf5/rules/routing.md",
+    "skills/sf5/activities/validation-hardening.json",
+    "skills/sf5/knowledge-packs/validation-hardening.md",
+    "skills/sf5/rules/change-gates.md",
+    "skills/sf5/references/frontend-components-smart.md",
+    "skills/sf5/references/frontend-playbook.md",
+    "skills/sf5/references/frontend-loader.md",
+    "skills/sf5/knowledge-packs/backend-first-smart-runtime.md",
+    "skills/sf5/references/component-smart-catalog.md",
+    "skills/sf5/references/smart-component-template.md",
+    "skills/sf5/references/page-recipes-index.md",
+    "skills/sf5/references/scenario-dashboard-workspace.md",
+    "skills/sf5/activities/tailwind-conversion.json",
+    "skills/sf5/knowledge-packs/tailwind-to-sf5-conversion.md"
+  ],
+  "related_relations": [
+    {
+      "id": "relation-skill-sf5-core-implements-capability-sf5-frontend-components",
+      "from": "skill.sf5.core",
+      "to": "capability.sf5.frontend-components",
+      "relation_type": "implements",
+      "impact": "high",
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ]
+    },
+    {
+      "id": "relation-skill-sf5-core-implements-capability-sf5-loader-runtime",
+      "from": "skill.sf5.core",
+      "to": "capability.sf5.loader-runtime",
+      "relation_type": "implements",
+      "impact": "high",
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ]
+    },
+    {
+      "id": "relation-skill-sf5-core-implements-capability-sf5-smart-components",
+      "from": "skill.sf5.core",
+      "to": "capability.sf5.smart-components",
+      "relation_type": "implements",
+      "impact": "high",
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ]
+    },
+    {
+      "id": "relation-skill-sf5-core-implements-capability-sf5-page-recipes",
+      "from": "skill.sf5.core",
+      "to": "capability.sf5.page-recipes",
+      "relation_type": "implements",
+      "impact": "high",
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ]
+    },
+    {
+      "id": "relation-skill-sf5-core-implements-capability-sf5-tailwind-conversion",
+      "from": "skill.sf5.core",
+      "to": "capability.sf5.tailwind-conversion",
+      "relation_type": "implements",
+      "impact": "high",
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ]
+    },
+    {
+      "id": "relation-capability-sf5-frontend-components-governed-by-policy-sf5-frontend-first-boundary",
+      "from": "capability.sf5.frontend-components",
+      "to": "policy.sf5.frontend-first-boundary",
+      "relation_type": "governed_by",
+      "impact": "medium",
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ]
+    },
+    {
+      "id": "relation-capability-sf5-frontend-components-governed-by-policy-sf5-validation-hardening",
+      "from": "capability.sf5.frontend-components",
+      "to": "policy.sf5.validation-hardening",
+      "relation_type": "governed_by",
+      "impact": "medium",
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ]
+    },
+    {
+      "id": "relation-capability-sf5-loader-runtime-governed-by-policy-sf5-frontend-first-boundary",
+      "from": "capability.sf5.loader-runtime",
+      "to": "policy.sf5.frontend-first-boundary",
+      "relation_type": "governed_by",
+      "impact": "medium",
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ]
+    },
+    {
+      "id": "relation-capability-sf5-loader-runtime-governed-by-policy-sf5-validation-hardening",
+      "from": "capability.sf5.loader-runtime",
+      "to": "policy.sf5.validation-hardening",
+      "relation_type": "governed_by",
+      "impact": "medium",
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ]
+    },
+    {
+      "id": "relation-capability-sf5-smart-components-governed-by-policy-sf5-frontend-first-boundary",
+      "from": "capability.sf5.smart-components",
+      "to": "policy.sf5.frontend-first-boundary",
+      "relation_type": "governed_by",
+      "impact": "medium",
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ]
+    },
+    {
+      "id": "relation-capability-sf5-smart-components-governed-by-policy-sf5-validation-hardening",
+      "from": "capability.sf5.smart-components",
+      "to": "policy.sf5.validation-hardening",
+      "relation_type": "governed_by",
+      "impact": "medium",
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ]
+    },
+    {
+      "id": "relation-capability-sf5-page-recipes-governed-by-policy-sf5-frontend-first-boundary",
+      "from": "capability.sf5.page-recipes",
+      "to": "policy.sf5.frontend-first-boundary",
+      "relation_type": "governed_by",
+      "impact": "medium",
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ]
+    },
+    {
+      "id": "relation-capability-sf5-page-recipes-governed-by-policy-sf5-validation-hardening",
+      "from": "capability.sf5.page-recipes",
+      "to": "policy.sf5.validation-hardening",
+      "relation_type": "governed_by",
+      "impact": "medium",
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ]
+    },
+    {
+      "id": "relation-capability-sf5-tailwind-conversion-governed-by-policy-sf5-frontend-first-boundary",
+      "from": "capability.sf5.tailwind-conversion",
+      "to": "policy.sf5.frontend-first-boundary",
+      "relation_type": "governed_by",
+      "impact": "medium",
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ]
+    },
+    {
+      "id": "relation-capability-sf5-tailwind-conversion-governed-by-policy-sf5-validation-hardening",
+      "from": "capability.sf5.tailwind-conversion",
+      "to": "policy.sf5.validation-hardening",
+      "relation_type": "governed_by",
+      "impact": "medium",
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ]
+    },
+    {
+      "id": "relation-gate-sf5-release-readiness-validates-capability-sf5-frontend-components",
+      "from": "gate.sf5.release-readiness",
+      "to": "capability.sf5.frontend-components",
+      "relation_type": "validates",
+      "impact": "medium",
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ]
+    },
+    {
+      "id": "relation-gate-sf5-release-readiness-validates-capability-sf5-loader-runtime",
+      "from": "gate.sf5.release-readiness",
+      "to": "capability.sf5.loader-runtime",
+      "relation_type": "validates",
+      "impact": "medium",
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ]
+    },
+    {
+      "id": "relation-gate-sf5-release-readiness-validates-capability-sf5-smart-components",
+      "from": "gate.sf5.release-readiness",
+      "to": "capability.sf5.smart-components",
+      "relation_type": "validates",
+      "impact": "medium",
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ]
+    },
+    {
+      "id": "relation-gate-sf5-release-readiness-validates-capability-sf5-page-recipes",
+      "from": "gate.sf5.release-readiness",
+      "to": "capability.sf5.page-recipes",
+      "relation_type": "validates",
+      "impact": "medium",
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ]
+    },
+    {
+      "id": "relation-gate-sf5-release-readiness-validates-capability-sf5-tailwind-conversion",
+      "from": "gate.sf5.release-readiness",
+      "to": "capability.sf5.tailwind-conversion",
+      "relation_type": "validates",
+      "impact": "medium",
+      "source_refs": [
+        "skills/sf5/SKILL.md"
+      ]
+    }
+  ],
+  "runtime_contract": {
+    "graph_first_scope": "routing/capability/policy orientation",
+    "raw_source_authoritative": true,
+    "canonical_write_allowed": false
+  }
+}

@@ -12,9 +12,9 @@
   "seed": {
     "status": "success",
     "label": "seed",
-    "ref": "graph/source/growgraph/seeds/sf5-repo-local-seed-20260529.json",
+    "ref": "graph/source/mirai-graph/seeds/sf5-repo-local-seed-20260529.json",
     "operation_id": "graph-seed",
-    "id": "seed.sf5-skill.growgraph-pilot.20260529",
+    "id": "seed.sf5-skill.mirai-graph-pilot.20260529",
     "canonical_state_ref": null
   },
   "embryo": {
@@ -72,7 +72,7 @@
       "status": "available",
       "ref": "graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/projection-view.json",
       "view_type": "seed_summary",
-      "title": "Seed summary for skill.sf5.growgraph"
+      "title": "Seed summary for skill.sf5.mirai_graph"
     }
   ],
   "proposal_queue": {

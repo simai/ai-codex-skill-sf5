@@ -1,0 +1,44 @@
+# sf5 Repo Mirai Graph Migration
+
+Дата: 2026-05-29
+
+## Scope
+
+Repo-local Mirai Graph companion layer for `skill:sf5`.
+
+This migration does not rewrite `skills/sf5/SKILL.md` and does not move SF5
+domain knowledge out of the sf5 skill.
+
+## Generated Artifacts
+
+```text
+graph/source/mirai-graph/seeds/sf5-repo-local-seed-20260529.json
+graph/generated/seed-validation/sf5-repo-local-seed-validate-20260529/
+graph/generated/seed-expansions/sf5-repo-local-seed-expand-20260529/
+graph/generated/embryo-proposals/sf5-repo-local-embryo-proposals-20260529/
+graph/generated/control-dashboards/sf5-repo-local-control-dashboard-20260529/
+graph/generated/mirai-graph/semantic-preservation/sf5-repo-local-semantic-review-20260529/
+graph/generated/mirai-graph/effectiveness-reports/sf5-repo-local-effectiveness-20260529/
+graph/generated/readiness-scores/sf5-repo-local-score-20260529/
+graph/federation/exports/sf5-repo-local-federation-export-20260529/
+graph/generated/mirai-graph/integration-reviews/sf5-repo-local-integration-review-active-gate-20260529/
+graph/generated/mirai-graph/adoption-reports/sf5-repo-local-adoption-gga9-active-gate-20260529/
+```
+
+## Result
+
+```text
+semantic preservation: pass_with_notes
+effectiveness: improved
+federation export: success
+integration review: pass_with_notes
+adoption: GGA9 federation_integrated
+contract gate: success
+canonical_write_allowed: false
+```
+
+## Boundary
+
+This is `GGA9 federation_integrated` for the repo-local companion layer.
+It is not `GGA10`; source-of-truth rewrites require a separate approved apply
+plan.
