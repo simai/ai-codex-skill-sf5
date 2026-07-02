@@ -1,6 +1,9 @@
 ---
 name: sf5
 description: Build, refactor, and maintain SIMAI Framework 5 (SF5) projects with frontend-first workflows for core, loader, utilities, components, smart-components, and blocks. Use when tasks involve SF5 architecture decisions, implementation patterns, code reviews, migration planning, or staged backend planning for Bitrix and Laravel.
+metadata:
+  display-name: "SIMAI Framework 5"
+  short-description: "SF5 workflows, architecture, frontend and component work"
 ---
 
 # SF5

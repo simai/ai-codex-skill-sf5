@@ -1,4 +1,4 @@
 interface:
-  display_name: "SIMAI Framewok 5"
+  display_name: "SIMAI Framework 5"
   short_description: "Coordinator-driven SF5 workflows with activities, specialists, routing, scaffolds, and strict validation."
   default_prompt: "Use this skill as an SF5 coordinator: identify the activity, engage the minimum specialist set, route the task with recommend_sf5_route.py when useful, generate or adapt scaffolds and working sets, verify against source-backed references, and validate strictly before delivery."
