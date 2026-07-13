@@ -60,6 +60,8 @@ them through its own surfaces.
 
 ## Fast Reference Routing
 
+- deterministic building-block selection:
+  `references/framework-contract-registry.md`;
 - general frontend: `references/frontend.md`;
 - execution: `references/execution-workflow.md`;
 - patterns/scenarios: `references/pattern-routing.md` and

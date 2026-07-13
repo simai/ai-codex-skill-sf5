@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "operation_id": "graph.skill-evolution.changed-source.report",
+  "created_at": "2026-07-13T14:11:34.320170+00:00",
+  "skill": "sf5",
+  "owner": "sf5",
+  "federation_control_plane": false,
+  "status": "success",
+  "source_change_evidence_ref": "graph/generated/mirai-graph/skill-source-changes/framework-contract-registry-v1-20260713/skill-source-change-evidence.json",
+  "runtime_verify_ref": "graph/generated/mirai-graph/runtime-kit/framework-contract-registry-v1-20260713-verify/runtime-kit-verify.json",
+  "runtime_context_ref": "graph/generated/mirai-graph/runtime-context/framework-contract-registry-v1-20260713-context/context-pack.json",
+  "federation_change_proposal_ref": "repo://ai-codex-skill-graph/graph/generated/mirai-graph/federation-change/framework-contract-registry-v1-20260713-federation-proposal/federation-change-proposal.json",
+  "specialist_promotion_proposal_refs": [],
+  "required_actions": [
+    "evidence",
+    "federation-proposal",
+    "route-check",
+    "runtime-context"
+  ],
+  "blockers": [],
+  "canonical_write_allowed": false,
+  "sync_fingerprint": "bc8fdcd34ca02a51e0d5302ea78496b27bc7b0d6117b9c078c394b40462eee3b"
+}

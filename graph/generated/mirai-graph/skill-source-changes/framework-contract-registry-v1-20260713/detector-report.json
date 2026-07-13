@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0.0",
+  "operation_id": "simai.skill-change.detect",
+  "created_at": "2026-07-13T14:11:33.849290+00:00",
+  "repo": "repo://ai-codex-skill-sf5",
+  "skill": "sf5",
+  "owner": "sf5",
+  "federation_control_plane": false,
+  "base": null,
+  "git": {
+    "dirty": true,
+    "ahead": 0,
+    "head": "6c461ad"
+  },
+  "changed_files": [
+    {
+      "path": "skills/sf5/SKILL.md",
+      "source_path": "SKILL.md",
+      "change_types": [
+        "capability",
+        "federation-impact",
+        "routing-impact"
+      ],
+      "routing_impact": true,
+      "federation_impact": true,
+      "status": "M",
+      "old_path": ""
+    },
+    {
+      "path": "skills/sf5/references/framework-contract-registry.md",
+      "source_path": "references/framework-contract-registry.md",
+      "change_types": [
+        "methodology",
+        "routing-impact"
+      ],
+      "routing_impact": true,
+      "federation_impact": false,
+      "status": "??",
+      "old_path": ""
+    },
+    {
+      "path": "skills/sf5/references/vendor/framework-contract-registry.pointer.json",
+      "source_path": "references/vendor/framework-contract-registry.pointer.json",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "??",
+      "old_path": ""
+    }
+  ],
+  "changed_skill_count": 1,
+  "change_types": [
+    "capability",
+    "federation-impact",
+    "methodology",
+    "routing-impact"
+  ],
+  "detected_specialists": [],
+  "required_actions": [
+    "evidence",
+    "federation-proposal",
+    "route-check",
+    "runtime-context"
+  ],
+  "specialist_promotion_required": false,
+  "route_check_required": true,
+  "federation_proposal_required": true,
+  "blockers": [],
+  "status": "changed"
+}
