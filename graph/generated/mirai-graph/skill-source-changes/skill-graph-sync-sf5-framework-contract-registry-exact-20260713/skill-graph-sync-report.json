@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "operation_id": "graph.skill-evolution.changed-source.report",
+  "created_at": "2026-07-13T15:37:59.442727+00:00",
+  "skill": "sf5",
+  "owner": "sf5",
+  "federation_control_plane": false,
+  "base": "6c461ad3a09a94361ee615d71dc5c1aa2f4d630c",
+  "base_commit": "6c461ad3a09a94361ee615d71dc5c1aa2f4d630c",
+  "comparison_mode": "baseline_to_worktree",
+  "detector_fingerprint": "822322d88ebed593f5d891451ebc1d8dff06d6728ad0d464c527cc6bd5385d9d",
+  "status": "success",
+  "source_change_evidence_ref": "graph/generated/mirai-graph/skill-source-changes/skill-graph-sync-sf5-framework-contract-registry-exact-20260713/skill-source-change-evidence.json",
+  "runtime_verify_ref": "graph/generated/mirai-graph/runtime-kit/skill-graph-sync-sf5-framework-contract-registry-exact-20260713-verify/runtime-kit-verify.json",
+  "runtime_context_ref": "graph/generated/mirai-graph/runtime-context/skill-graph-sync-sf5-framework-contract-registry-exact-20260713-context/context-pack.json",
+  "federation_change_proposal_ref": "repo://ai-codex-skill-graph/graph/generated/mirai-graph/federation-change/skill-graph-sync-sf5-framework-contract-registry-exact-20260713-federation-proposal/federation-change-proposal.json",
+  "specialist_promotion_proposal_refs": [],
+  "required_actions": [
+    "evidence",
+    "federation-proposal",
+    "route-check",
+    "runtime-context"
+  ],
+  "blockers": [],
+  "canonical_write_allowed": false,
+  "sync_fingerprint": "1fb60c0fd1926d93f7159316d59a8325fb4967a399d7ecb61baed4b3f78969fd",
+  "task_sha256": "0c165098bcba5e81e230c85006a3a3f63bf36098b3ab8c7497fc990e35929cdc",
+  "task_bytes": 83
+}

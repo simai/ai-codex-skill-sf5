@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "id": "mirai-graph-skill-runtime-verify.skill-graph-sync-sf5-framework-contract-registry-exact-20260713-verify",
+  "operation_id": "mirai_graph.skill-runtime.verify",
+  "created_at": "2026-07-13T15:37:59.153213+00:00",
+  "skill": "sf5",
+  "repo": "repo://ai-codex-skill-sf5",
+  "object_count": 9,
+  "relation_count": 20,
+  "required_files": {
+    "contract_gate": "scripts/mirai_graph_contract_gate.py",
+    "agents": "AGENTS.md",
+    "hook_doc": "graph/federation/hooks/mirai-graph-contract-gate.md"
+  },
+  "missing_required": [],
+  "warnings": [],
+  "blockers": [],
+  "canonical_write_allowed": false
+}

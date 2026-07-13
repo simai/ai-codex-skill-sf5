@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0.0",
+  "operation_id": "simai.skill-change.detect",
+  "created_at": "2026-07-13T15:37:58.838312+00:00",
+  "repo": "repo://ai-codex-skill-sf5",
+  "skill": "sf5",
+  "owner": "sf5",
+  "federation_control_plane": false,
+  "base": "6c461ad3a09a94361ee615d71dc5c1aa2f4d630c",
+  "base_commit": "6c461ad3a09a94361ee615d71dc5c1aa2f4d630c",
+  "comparison_mode": "baseline_to_worktree",
+  "git": {
+    "dirty": false,
+    "ahead": 1,
+    "head": "2462779"
+  },
+  "changed_files": [
+    {
+      "path": "skills/sf5/SKILL.md",
+      "source_path": "SKILL.md",
+      "change_types": [
+        "capability",
+        "federation-impact",
+        "routing-impact"
+      ],
+      "routing_impact": true,
+      "federation_impact": true,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "ec8215d3af6822452366fa31fcbacee60c2fb253d9a801260111304b785dccfb",
+      "source_bytes": 3630,
+      "baseline_path": "skills/sf5/SKILL.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "e6b603629a0c203133c26cb3073c6e8a7315235b0fdeb866d0dbca70abbf972e",
+      "baseline_bytes": 3541
+    },
+    {
+      "path": "skills/sf5/references/framework-contract-registry.md",
+      "source_path": "references/framework-contract-registry.md",
+      "change_types": [
+        "methodology",
+        "routing-impact"
+      ],
+      "routing_impact": true,
+      "federation_impact": false,
+      "status": "A",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "8766c8959a3f7a3d1bbbcc97c6ae5831dd40be95f2a670d4bd80fea2b39c8eb9",
+      "source_bytes": 1252,
+      "baseline_path": "skills/sf5/references/framework-contract-registry.md",
+      "baseline_mode": "not_present",
+      "baseline_sha256": "not_present",
+      "baseline_bytes": 0
+    },
+    {
+      "path": "skills/sf5/references/vendor/framework-contract-registry.pointer.json",
+      "source_path": "references/vendor/framework-contract-registry.pointer.json",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "A",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "3cf983a02422ac41a51ccf210ed999cc5a277db4e804eb72a874d0264da16782",
+      "source_bytes": 623,
+      "baseline_path": "skills/sf5/references/vendor/framework-contract-registry.pointer.json",
+      "baseline_mode": "not_present",
+      "baseline_sha256": "not_present",
+      "baseline_bytes": 0
+    }
+  ],
+  "changed_skill_count": 1,
+  "change_types": [
+    "capability",
+    "federation-impact",
+    "methodology",
+    "routing-impact"
+  ],
+  "detected_specialists": [],
+  "required_actions": [
+    "evidence",
+    "federation-proposal",
+    "route-check",
+    "runtime-context"
+  ],
+  "specialist_promotion_required": false,
+  "route_check_required": true,
+  "federation_proposal_required": true,
+  "blockers": [],
+  "status": "changed",
+  "detector_fingerprint": "822322d88ebed593f5d891451ebc1d8dff06d6728ad0d464c527cc6bd5385d9d"
+}
