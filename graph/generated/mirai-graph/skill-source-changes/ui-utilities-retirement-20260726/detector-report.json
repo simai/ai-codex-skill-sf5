@@ -1,0 +1,239 @@
+{
+  "schema_version": "1.0.0",
+  "operation_id": "simai.skill-change.detect",
+  "created_at": "2026-07-26T11:31:21.312890+00:00",
+  "repo": "repo://ai-codex-skill-sf5",
+  "skill": "sf5",
+  "owner": "sf5",
+  "federation_control_plane": false,
+  "base": "HEAD~1",
+  "base_commit": "44a1360fbeb2d39b21ab2605c21d2f254c5fc968",
+  "comparison_mode": "baseline_to_worktree",
+  "git": {
+    "dirty": false,
+    "ahead": 0,
+    "head": "ce51146"
+  },
+  "changed_files": [
+    {
+      "path": "skills/sf5/references/component-smart-catalog.md",
+      "source_path": "references/component-smart-catalog.md",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "ca8b1bfb48f3102670c1c4bfe88b75c51b19b7913fb897b86e08ff94a2fef3aa",
+      "source_bytes": 13701,
+      "baseline_path": "skills/sf5/references/component-smart-catalog.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "abfa4262528ede1cf4fc33b178e32f3586349e83948c38d6699ca4e5743edbba",
+      "baseline_bytes": 11765
+    },
+    {
+      "path": "skills/sf5/references/sf5-fast-start.md",
+      "source_path": "references/sf5-fast-start.md",
+      "change_types": [
+        "methodology",
+        "routing-impact"
+      ],
+      "routing_impact": true,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "00381e5c8c60cf9df45fed6117ec5c5ffb0884d0570f64ec84b308f10371bf08",
+      "source_bytes": 4049,
+      "baseline_path": "skills/sf5/references/sf5-fast-start.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "742aaa25dd94e1e18a6d4ecb05fd6905cbab5ec4d0da24b70676786fb7e547c5",
+      "baseline_bytes": 4046
+    },
+    {
+      "path": "skills/sf5/references/source-inventory.md",
+      "source_path": "references/source-inventory.md",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "39d10810697eb1f84f0ed447d8b6f2cf9cda48e5c2721d95147aabff5c6475a5",
+      "source_bytes": 6733,
+      "baseline_path": "skills/sf5/references/source-inventory.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "f735f5ab3edaba82de4bf0e295b1ba634061abda812f2f5adbc16ed60ef7318e",
+      "baseline_bytes": 5790
+    },
+    {
+      "path": "skills/sf5/references/source-repositories.md",
+      "source_path": "references/source-repositories.md",
+      "change_types": [
+        "methodology",
+        "routing-impact"
+      ],
+      "routing_impact": true,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "a44117cf8263a04b713de8b2556c2d53eb95f5458d77db3ca2b650e19ae9bde1",
+      "source_bytes": 6045,
+      "baseline_path": "skills/sf5/references/source-repositories.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "933c31fd278fe8060163fdd972a51612c790680cefd2c8c526f133001499bd8c",
+      "baseline_bytes": 5774
+    },
+    {
+      "path": "skills/sf5/references/vendor/component-smart-catalog.json",
+      "source_path": "references/vendor/component-smart-catalog.json",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "7d2f43d05c9d21e694701b39861d45ec23ed018155b1204ace06feb2fd54b573",
+      "source_bytes": 132081,
+      "baseline_path": "skills/sf5/references/vendor/component-smart-catalog.json",
+      "baseline_mode": "100644",
+      "baseline_sha256": "acf48c4e40b63233de985eb4a1ef19b554317aebfdc93f67c98090e5476ccf22",
+      "baseline_bytes": 113372
+    },
+    {
+      "path": "skills/sf5/references/vendor/source-inventory.json",
+      "source_path": "references/vendor/source-inventory.json",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "0104150007bcf952c1caf5fa8af20b2f91945b4398df3157a307cf13433e7d84",
+      "source_bytes": 29996,
+      "baseline_path": "skills/sf5/references/vendor/source-inventory.json",
+      "baseline_mode": "100644",
+      "baseline_sha256": "96be396c01ed9cc30870e6f1aa3ed26a18a8740eb4b0c677deda9e5d56f7b7c6",
+      "baseline_bytes": 21877
+    },
+    {
+      "path": "skills/sf5/references/vendor/source-repos.json",
+      "source_path": "references/vendor/source-repos.json",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "de81e8503c7eccc74a066108b1f42554386607e0136782f3a9c5677366016364",
+      "source_bytes": 3065,
+      "baseline_path": "skills/sf5/references/vendor/source-repos.json",
+      "baseline_mode": "100644",
+      "baseline_sha256": "90cdeca7e8bba4726a1464758da52d70218ca8ab75f42a949981ee93d910b68d",
+      "baseline_bytes": 3059
+    },
+    {
+      "path": "skills/sf5/references/vendor/source-repos.lock.json",
+      "source_path": "references/vendor/source-repos.lock.json",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "c849b30d4e6be526e6d9d91a1bb8c1b4de184fd9ee43b3744aeabfe993188332",
+      "source_bytes": 2523,
+      "baseline_path": "skills/sf5/references/vendor/source-repos.lock.json",
+      "baseline_mode": "100644",
+      "baseline_sha256": "1f64dd69c542c3a81ae0b417b502f9bab1aa3530456b8fc8b1a4a5907be7ff65",
+      "baseline_bytes": 2538
+    },
+    {
+      "path": "skills/sf5/scripts/build_source_inventory.py",
+      "source_path": "scripts/build_source_inventory.py",
+      "change_types": [
+        "runtime"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100755",
+      "source_sha256": "41ab2baa783e8690620d6bdc94a8617e29d035a621a83bdd9e8b22e8ae372182",
+      "source_bytes": 11152,
+      "baseline_path": "skills/sf5/scripts/build_source_inventory.py",
+      "baseline_mode": "100755",
+      "baseline_sha256": "1d4ecab48f9d6e0cd08b6c7f3f58bbf8231c9d75d37bab3cd34962c3e36ac3c7",
+      "baseline_bytes": 10473
+    },
+    {
+      "path": "skills/sf5/scripts/validate_source_refresh_contract.py",
+      "source_path": "scripts/validate_source_refresh_contract.py",
+      "change_types": [
+        "runtime"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "bf9af01cd191123f45b6fdd35cf7fb32d129e5fcc9f0f1bdba8f9ec03e6310e9",
+      "source_bytes": 4981,
+      "baseline_path": "skills/sf5/scripts/validate_source_refresh_contract.py",
+      "baseline_mode": "100644",
+      "baseline_sha256": "e3047b84688a0cffd6961b3495ab89dfe75505098856c301314dd1e735096537",
+      "baseline_bytes": 4292
+    },
+    {
+      "path": "skills/sf5/scripts/validate_tailwind_converter.py",
+      "source_path": "scripts/validate_tailwind_converter.py",
+      "change_types": [
+        "routing-impact",
+        "runtime"
+      ],
+      "routing_impact": true,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "9fcd9262ff94f448ad72ba62cc245137b89b5b26e3a152f07c1831ef800b86ba",
+      "source_bytes": 23827,
+      "baseline_path": "skills/sf5/scripts/validate_tailwind_converter.py",
+      "baseline_mode": "100644",
+      "baseline_sha256": "4fc27ae466024e086f7b5311284c35d0ab8fa88c7f13522ed5b273bd342c5c23",
+      "baseline_bytes": 23898
+    }
+  ],
+  "changed_skill_count": 1,
+  "change_types": [
+    "methodology",
+    "routing-impact",
+    "runtime"
+  ],
+  "detected_specialists": [],
+  "required_actions": [
+    "evidence",
+    "federation-proposal",
+    "route-check",
+    "runtime-context"
+  ],
+  "specialist_promotion_required": false,
+  "route_check_required": true,
+  "federation_proposal_required": true,
+  "blockers": [],
+  "status": "changed",
+  "detector_fingerprint": "67da903c533fa0057f7f36ca4b43d9d558e9a3bafe11143eb91dd6f70d7fc506"
+}
