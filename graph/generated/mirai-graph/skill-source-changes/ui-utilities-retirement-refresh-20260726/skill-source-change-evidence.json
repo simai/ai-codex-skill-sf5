@@ -1,0 +1,141 @@
+{
+  "schema_version": "1.0.0",
+  "operation_id": "graph.skill-evolution.changed-source.evidence",
+  "created_at": "2026-07-26T12:13:04.731967+00:00",
+  "skill": "sf5",
+  "repo": "repo://ai-codex-skill-sf5",
+  "base": "HEAD~1",
+  "base_commit": "8960a604d6bcc16838310e61851cbe2dae0af45c",
+  "comparison_mode": "baseline_to_worktree",
+  "detector_fingerprint": "048debd195e31169708b363f8dea427be47becea8c137cf40cf4a62ee6bfb0dc",
+  "detector_report_ref": "graph/generated/mirai-graph/skill-source-changes/ui-utilities-retirement-refresh-20260726/detector-report.json",
+  "changed_files": [
+    {
+      "path": "skills/sf5/references/source-inventory.md",
+      "source_path": "references/source-inventory.md",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "4b5e404de2089c598b316fc783d5ca36cb5a3dac55ea426a8945ce985d967f7b",
+      "source_bytes": 6733,
+      "baseline_path": "skills/sf5/references/source-inventory.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "39d10810697eb1f84f0ed447d8b6f2cf9cda48e5c2721d95147aabff5c6475a5",
+      "baseline_bytes": 6733
+    },
+    {
+      "path": "skills/sf5/references/ui-doc-full-map.md",
+      "source_path": "references/ui-doc-full-map.md",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "02920bece03513923557eecadfa65484750a9ca3c51fe9104a8840f412cfcc34",
+      "source_bytes": 42840,
+      "baseline_path": "skills/sf5/references/ui-doc-full-map.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "d18651d128dd1ad7139d4cb3cfbe47f2acbc0105c370a149a6d2d554a4533fea",
+      "baseline_bytes": 42311
+    },
+    {
+      "path": "skills/sf5/references/ui-doc-manifest.json",
+      "source_path": "references/ui-doc-manifest.json",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "2641305335c487ac82189bc8ae265d8a9b7c280bffdb06683e1da853e2810b9b",
+      "source_bytes": 316673,
+      "baseline_path": "skills/sf5/references/ui-doc-manifest.json",
+      "baseline_mode": "100644",
+      "baseline_sha256": "5c5ec80233697f1b430facb1805bbcb1189b2d1c1f48ab2632b7939a0c3cfd9c",
+      "baseline_bytes": 308543
+    },
+    {
+      "path": "skills/sf5/references/ui-doc-utility-atlas.md",
+      "source_path": "references/ui-doc-utility-atlas.md",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "d77501953f4ab504915e99814af71fb9b2e36b8dc9182d07bc2b55c1835031e4",
+      "source_bytes": 49353,
+      "baseline_path": "skills/sf5/references/ui-doc-utility-atlas.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "4e91a44f6e0bd338993f605ddf6beae5bf8c2b946aae87d5924eac57d1b72459",
+      "baseline_bytes": 49110
+    },
+    {
+      "path": "skills/sf5/references/vendor/source-inventory.json",
+      "source_path": "references/vendor/source-inventory.json",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "069c7db458e1a49a207733d227e518de00f42cedda23c8deaae14dbd9f71217b",
+      "source_bytes": 29996,
+      "baseline_path": "skills/sf5/references/vendor/source-inventory.json",
+      "baseline_mode": "100644",
+      "baseline_sha256": "0104150007bcf952c1caf5fa8af20b2f91945b4398df3157a307cf13433e7d84",
+      "baseline_bytes": 29996
+    },
+    {
+      "path": "skills/sf5/references/vendor/source-repos.lock.json",
+      "source_path": "references/vendor/source-repos.lock.json",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "0baa12f31e85e8adf953e6bad8020e1f7755c2754ade8fd399c0c648a892f2a3",
+      "source_bytes": 2523,
+      "baseline_path": "skills/sf5/references/vendor/source-repos.lock.json",
+      "baseline_mode": "100644",
+      "baseline_sha256": "c849b30d4e6be526e6d9d91a1bb8c1b4de184fd9ee43b3744aeabfe993188332",
+      "baseline_bytes": 2523
+    }
+  ],
+  "change_types": [
+    "methodology"
+  ],
+  "required_actions": [
+    "evidence",
+    "runtime-context"
+  ],
+  "detected_specialists": [],
+  "route_check_required": false,
+  "federation_proposal_required": false,
+  "evidence_refs": [
+    "skills/sf5/references/source-inventory.md",
+    "skills/sf5/references/ui-doc-full-map.md",
+    "skills/sf5/references/ui-doc-manifest.json",
+    "skills/sf5/references/ui-doc-utility-atlas.md",
+    "skills/sf5/references/vendor/source-inventory.json",
+    "skills/sf5/references/vendor/source-repos.lock.json"
+  ],
+  "canonical_write_allowed": false
+}
