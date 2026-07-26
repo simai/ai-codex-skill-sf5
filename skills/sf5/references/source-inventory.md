@@ -4,9 +4,9 @@ Generated from synced upstream repositories under `source/simai`.
 
 ## Source Revisions
 
-- `ui`: `main` @ `f0b41eb526a8f1daf24a34484143bdfabf7802a4`
-- `ui-loader`: `main` @ `e6dd3cb8a0cc89169ea5c3ede807f8749b088b94`
-- `ui-doc`: `main` @ `3da118bad022529ea41a91a6d11789aec6bff8bb`
+- `ui`: `main` @ `ff47bd694b6c0ed61b7ad4824f986d99b150cbea`
+- `ui-loader`: `main` @ `3ca31c6c2c50ca099b51ce3c25251c71d4860317`
+- `ui-doc`: `main` @ `85148eb2c0ba0b21d497ecb912085337a37a7d88`
 - `ui-play`: `master` @ `bdd253aaa3418bee7f51b4b69d8e5c08af49ee58`
 - `ui-smart`: `main` @ `ab896dc7cd33f151377e3992ffb286769beee7f7`
 - `ui-vscode`: `main` @ `a8fd4a8dcd75ce53d2af0c07186fb0ef3b907058`

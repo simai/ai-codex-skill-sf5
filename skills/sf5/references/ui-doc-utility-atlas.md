@@ -10,9 +10,9 @@ Generated from utility pages in the SF5 docs snapshot at `/Users/rim/Documents/G
 
 ## Summary
 
-- Utility files: `246`
+- Utility files: `247`
 - Files with extracted class tokens: `179`
-- Total extracted class tokens (non-unique across files): `1530`
+- Total extracted class tokens (non-unique across files): `1539`
 
 ## Utility Groups
 
@@ -35,7 +35,7 @@ Generated from utility pages in the SF5 docs snapshot at `/Users/rim/Documents/G
 - `mask` (`9` files)
 - `objects` (`3` files)
 - `outline` (`8` files)
-- `overscroll` (`15` files)
+- `overscroll` (`16` files)
 - `print` (`3` files)
 - `shadows` (`5` files)
 - `sizes` (`7` files)
@@ -69,7 +69,8 @@ Generated from utility pages in the SF5 docs snapshot at `/Users/rim/Documents/G
   - class tokens: .duration-1, .duration-2, .duration-3, .duration-4, .duration-5, .duration-6, .duration-7, .duration-8, .duration-9, .duration-fast, .duration-normal, .duration-slow
   - playground: `yes`
 - `utilities/animation/animation-transition-property.md` - Общее свойство перехода
-  - class tokens: .transition, .transition-all, .transition-color, .transition-none, .transition-opacity, .transition-shadow, .transition-transform
+  - class tokens: .transition, .transition-all, .transition-colors, .transition-flex, .transition-flex-basis, .transition-height, .transition-layout, .transition-max-height, .transition-max-size, .transition-max-width, .transition-none, .transition-opacity
+  - more tokens: `+4`
   - playground: `yes`
 - `utilities/animation/animation-transition-timing-function.md` - Функция времени перехода
   - class tokens: .ease-in, .ease-in-out, .ease-linear, .ease-out
@@ -237,7 +238,7 @@ Generated from utility pages in the SF5 docs snapshot at `/Users/rim/Documents/G
   - class tokens: .flex-nowrap, .flex-wrap, .flex-wrap-reverse
   - playground: `yes`
 - `utilities/flex/flexibility.md` - Гибкость элементов (flex)
-  - class tokens: .flex-1, .flex-auto, .flex-initial, .flex-none
+  - class tokens: .flex-1, .flex-auto, .flex-content, .flex-initial, .flex-none
   - playground: `yes`
 - `utilities/flex/index.md` - Флексбоксы
 
@@ -551,6 +552,8 @@ Generated from utility pages in the SF5 docs snapshot at `/Users/rim/Documents/G
 - `utilities/overscroll/scroll.md` - Толщина ползунка прокрутки (scroll / scroll-thumb-size)
   - class tokens: .scroll-1, .scroll-2, .scroll-3, .scroll-4, .scroll-thumb-1, .scroll-thumb-2, .scroll-thumb-3, .scroll-thumb-4
   - playground: `yes`
+- `utilities/overscroll/scrollbar-presets.md` - Режимы полосы прокрутки
+  - playground: `yes`
 
 ### `print`
 
@@ -591,7 +594,7 @@ Generated from utility pages in the SF5 docs snapshot at `/Users/rim/Documents/G
   - more tokens: `+1`
   - playground: `yes`
 - `utilities/sizes/min-height.md` - Минимальная высота (min-height)
-  - class tokens: .min-h-0, .min-h-fit, .min-h-full, .min-h-max, .min-h-screen
+  - class tokens: .min-h-0, .min-h-fit, .min-h-full, .min-h-max, .min-h-min, .min-h-screen
   - playground: `yes`
 - `utilities/sizes/min-width.md` - Минимальная ширина (min-width)
   - class tokens: .min-w-0, .min-w-fit, .min-w-full, .min-w-max, .min-w-min
@@ -716,7 +719,7 @@ Generated from utility pages in the SF5 docs snapshot at `/Users/rim/Documents/G
   - class tokens: .skew-x-0, .skew-x-1, .skew-x-15, .skew-x-2, .skew-x-3, .skew-x-5, .skew-y-0, .skew-y-1, .skew-y-15, .skew-y-2, .skew-y-3, .skew-y-5
   - playground: `yes`
 - `utilities/transform/transform-translate.md` - Смещение (transform-translate)
-  - class tokens: .translate-x-0, .translate-x-9, .translate-x-a0, .translate-x-half, .translate-x-i9, .translate-y-0, .translate-y-9, .translate-y-a0, .translate-y-half, .translate-y-i9
+  - class tokens: .translate-x-0, .translate-x-9, .translate-x-full, .translate-x-half, .translate-y-0, .translate-y-9, .translate-y-full, .translate-y-half
   - playground: `yes`
 
 ### `typography`

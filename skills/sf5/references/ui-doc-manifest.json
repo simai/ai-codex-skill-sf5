@@ -1,11 +1,58 @@
 [
   {
+    "path": "components/buttons.md",
+    "top": "components",
+    "utility_group": "",
+    "title": "Кнопки",
+    "description": "",
+    "h2": [
+      "Когда использовать",
+      "Когда не использовать",
+      "Подключение",
+      "Варианты",
+      "Параметры",
+      "CSS-переменные",
+      "Состояния",
+      "Примеры",
+      "Playground",
+      "Доступность",
+      "Связанные компоненты"
+    ],
+    "has_playground": true,
+    "class_tokens": [],
+    "class_token_count": 0,
+    "example_class_tokens": [
+      "border",
+      "border-surface-overlay",
+      "loading",
+      "overflow-hidden",
+      "sf-button",
+      "sf-button--default",
+      "sf-button--link",
+      "sf-button--on-surface",
+      "sf-button--outline",
+      "sf-button--primary",
+      "sf-button--secondary",
+      "sf-button--size-1",
+      "sf-button--tonal",
+      "sf-button-text-container",
+      "sf-icon",
+      "sf-playground"
+    ],
+    "example_class_token_count": 16
+  },
+  {
     "path": "components/introduction.md",
     "top": "components",
     "utility_group": "",
     "title": "Компоненты",
     "description": "",
-    "h2": [],
+    "h2": [
+      "Принципы",
+      "Категории",
+      "Список компонентов",
+      "Часто используемые"
+    ],
     "has_playground": false,
     "class_tokens": [],
     "class_token_count": 0,
@@ -19,6 +66,26 @@
     "title": "Сокращения свойств",
     "description": "Сокращения свойств",
     "h2": [],
+    "has_playground": false,
+    "class_tokens": [],
+    "class_token_count": 0,
+    "example_class_tokens": [],
+    "example_class_token_count": 0
+  },
+  {
+    "path": "fundamentals/adaptive-sizing-system.md",
+    "top": "fundamentals",
+    "utility_group": "",
+    "title": "Адаптивная система размеров",
+    "description": "Архитектура вертикальных размеров SIMAI Framework.",
+    "h2": [
+      "Три независимые оси",
+      "Root и rem",
+      "Typography pair",
+      "Высота control",
+      "Что система не обещает",
+      "Куда идти дальше"
+    ],
     "has_playground": false,
     "class_tokens": [],
     "class_token_count": 0,
@@ -996,14 +1063,25 @@
     "path": "fundamentals/directions/directions.md",
     "top": "fundamentals",
     "utility_group": "",
-    "title": "Направления",
-    "description": "Направления",
-    "h2": [],
+    "title": "Поддержка LTR и RTL",
+    "description": "Как задавать направление документа и создавать интерфейсы SIMAI Framework с логическими CSS-свойствами.",
+    "h2": [
+      "Задайте направление документа",
+      "Логические стороны",
+      "Компоненты и Smart-компоненты",
+      "Когда нужны физические координаты",
+      "Совместимость сборки",
+      "Проверка интерфейса"
+    ],
     "has_playground": false,
     "class_tokens": [],
     "class_token_count": 0,
-    "example_class_tokens": [],
-    "example_class_token_count": 0
+    "example_class_tokens": [
+      "border-inline-start",
+      "p-inline-end-2",
+      "p-inline-start-4"
+    ],
+    "example_class_token_count": 3
   },
   {
     "path": "fundamentals/index.md",
@@ -1652,19 +1730,34 @@
     "h2": [
       "Основные разделы"
     ],
-    "has_playground": true,
+    "has_playground": false,
     "class_tokens": [],
     "class_token_count": 0,
     "example_class_tokens": [
-      "border",
-      "border-surface-overlay",
       "lg-p-4",
       "md-bg-primary",
-      "overflow-hidden",
-      "sf-playground",
       "sm-txt-center"
     ],
-    "example_class_token_count": 7
+    "example_class_token_count": 3
+  },
+  {
+    "path": "migration/adaptive-sizing-v1.md",
+    "top": "migration",
+    "utility_group": "",
+    "title": "Переход на вертикальный sizing contract",
+    "description": "Миграция root, typography и controls без горизонтального rebaseline.",
+    "h2": [
+      "До обновления",
+      "Последовательность",
+      "Важное изменение",
+      "Не менять в этой миграции",
+      "Rollback"
+    ],
+    "has_playground": false,
+    "class_tokens": [],
+    "class_token_count": 0,
+    "example_class_tokens": [],
+    "example_class_token_count": 0
   },
   {
     "path": "migration/change-history.md",
@@ -1676,6 +1769,25 @@
       "Цвет",
       "Тень",
       "Закругление границ"
+    ],
+    "has_playground": false,
+    "class_tokens": [],
+    "class_token_count": 0,
+    "example_class_tokens": [],
+    "example_class_token_count": 0
+  },
+  {
+    "path": "reference/adaptive-sizing/generated-contract.md",
+    "top": "reference",
+    "utility_group": "",
+    "title": "Справочник вертикальных размеров",
+    "description": "Сгенерированные пары mobile и desktop для типографики, интервалов и controls.",
+    "h2": [
+      "Primitive scale A–I",
+      "Типографика",
+      "Вертикальные интервалы",
+      "Высоты controls",
+      "Граница контракта"
     ],
     "has_playground": false,
     "class_tokens": [],
@@ -2587,8 +2699,11 @@
     "title": "События загрузчика",
     "description": "",
     "h2": [
-      "Список событий",
-      "Подписка",
+      "События loader-а",
+      "События регистрации компонентов",
+      "События Smart-компонентов",
+      "Подписка на loader events",
+      "Ожидание custom elements",
       "Примечания"
     ],
     "has_playground": false,
@@ -2617,13 +2732,24 @@
     "title": "Методы API",
     "description": "",
     "h2": [
-      "Основные методы",
+      "Глобальные методы `SF`",
+      "Основные методы `SF.Loader`",
+      "Методы discovery и загрузки",
+      "Методы preloader",
       "Примеры",
-      "Важные параметры инициализации"
+      "Boot config",
+      "Примечания"
     ],
     "has_playground": false,
-    "class_tokens": [],
-    "class_token_count": 0,
+    "class_tokens": [
+      ".create",
+      ".createAsync",
+      ".loadSmartBase",
+      ".smartBaseReady",
+      ".whenDefine",
+      ".whenDefined"
+    ],
+    "class_token_count": 6,
     "example_class_tokens": [],
     "example_class_token_count": 0
   },
@@ -2775,11 +2901,15 @@
     "title": "1.8 Очистка и контроль кэша",
     "description": "1.8 Очистка и контроль кэша",
     "h2": [
-      "Назначение",
-      "Кэшируемые данные",
-      "Как выполняется очистка",
-      "Что делает `SF.Loader.clearCache()`",
-      "Особенности"
+      "Что можно очистить",
+      "Ручная очистка через URL",
+      "Ручная очистка из JS",
+      "Очистка через DevTools",
+      "Автоматическая инвалидация через версии",
+      "Где задаются версии",
+      "Обновление URL ассетов",
+      "Когда что использовать",
+      "Что очистка не делает"
     ],
     "has_playground": false,
     "class_tokens": [],
@@ -2794,12 +2924,16 @@
     "title": "1.4 Кэширование и ускорение загрузки",
     "description": "1.4 Кэширование и ускорение загрузки",
     "h2": [
-      "Что кэшируется",
-      "Как создается `Хеш`",
-      "Как работает кэширование",
-      "Сжатие данных (compressToUTF16)",
-      "Когда используется кэш",
-      "Очистка кэша"
+      "Основные ключи",
+      "Page hash",
+      "Кэш списка модулей",
+      "Кэш Smart-шаблонов",
+      "Missing files cache",
+      "Версии кэша",
+      "Версионирование URL ассетов",
+      "Предзагруженные модули",
+      "Очистка кэша",
+      "Что кэш не гарантирует"
     ],
     "has_playground": false,
     "class_tokens": [],
@@ -2814,9 +2948,12 @@
     "title": "1.3 Управление зависимостями плагинов",
     "description": "1.3 Управление зависимостями плагинов",
     "h2": [
-      "Как это работает",
-      "Пример запроса к серверу",
-      "Как реализован порядок загрузки",
+      "Формат `relation`",
+      "Как loader собирает зависимости",
+      "Порядок загрузки",
+      "Серверный режим",
+      "Примеры",
+      "Повторная загрузка",
       "Особенности"
     ],
     "has_playground": false,
@@ -2832,18 +2969,58 @@
     "title": "1.2 Динамическая загрузка JS и CSS",
     "description": "1.2 Динамическая загрузка JS и CSS",
     "h2": [
-      "Как работает загрузка",
-      "Форматы загрузки",
-      "Динамическая вставка в DOM",
-      "Асинхронность",
-      "Особенности",
-      "Пример работы"
+      "Общая схема",
+      "Режим `standAlone`",
+      "Серверный режим",
+      "Подключение файлов",
+      "Зависимости",
+      "Повторная загрузка и ошибки",
+      "Отложенная загрузка тяжёлых модулей",
+      "События готовности",
+      "Пример"
     ],
     "has_playground": false,
     "class_tokens": [],
     "class_token_count": 0,
-    "example_class_tokens": [],
-    "example_class_token_count": 0
+    "example_class_tokens": [
+      "cursor-pointer",
+      "flex",
+      "flex-1",
+      "flex-col",
+      "items-cross-center",
+      "radius-default",
+      "selected",
+      "sf-dropdown",
+      "sf-dropdown--outlined",
+      "sf-dropdown--size-1/3",
+      "sf-dropdown--text",
+      "sf-dropdown-field",
+      "sf-dropdown-label",
+      "sf-dropdown-required",
+      "sf-dropdown-text",
+      "sf-icon",
+      "sf-icon-button",
+      "sf-icon-button--icon",
+      "sf-icon-button--link",
+      "sf-icon-button--on-surface",
+      "sf-icon-button--size-1/3",
+      "sf-icon-hint",
+      "sf-input",
+      "sf-input--filled",
+      "sf-input--size-1/3",
+      "sf-input-field",
+      "sf-list",
+      "sf-list-container",
+      "sf-list-container-wrap",
+      "sf-list-item",
+      "sf-list-item--size-1/3",
+      "sf-list-item--text",
+      "sf-list-item-container",
+      "sf-list-item-selected-item",
+      "sf-list-item-wrap",
+      "transition"
+    ],
+    "example_class_token_count": 36
   },
   {
     "path": "start/loader/frontend/index.md",
@@ -2865,7 +3042,15 @@
     "title": "1.1 Автоматический поиск плагинов",
     "description": "1.1 Автоматический поиск плагинов",
     "h2": [
-      "Как это работает"
+      "Основной контракт `SF.RuleLoader`",
+      "Как проходит первичный поиск",
+      "Поиск по `tags`",
+      "Поиск через `regex`",
+      "Явное подключение через `sf-asset`",
+      "Зависимости",
+      "Динамические изменения DOM",
+      "Внутренние методы",
+      "Особенности"
     ],
     "has_playground": false,
     "class_tokens": [],
@@ -2880,20 +3065,26 @@
     "title": "1.5 Прелоадер (индикатор загрузки)",
     "description": "1.5 Прелоадер (индикатор загрузки)",
     "h2": [
-      "Назначение",
-      "Как работает",
-      "Настройка прелоадера",
-      "Методы",
-      "Условия отображения",
-      "Прелоадер НЕ отображается, если"
+      "Задачи прелоадера",
+      "Boot-этап",
+      "Настройка через `SF_BOOT_CONFIG`",
+      "DOM-разметка",
+      "Runtime-этап",
+      "События",
+      "Методы runtime",
+      "Когда preloader не показывается",
+      "Пример отключения"
     ],
     "has_playground": false,
     "class_tokens": [],
     "class_token_count": 0,
     "example_class_tokens": [
-      "sf-loader"
+      "loader-default",
+      "sf-loader",
+      "sf-loader-block",
+      "sf-loader-boot"
     ],
-    "example_class_token_count": 1
+    "example_class_token_count": 4
   },
   {
     "path": "start/loader/frontend/smart-components.md",
@@ -2902,19 +3093,28 @@
     "title": "1.7 Поддержка Smart-компонентов",
     "description": "1.7 Поддержка Smart-компонентов",
     "h2": [
-      "Назначение",
-      "Особенности Smart-компонентов",
-      "Обработка инициализации",
-      "Загрузка и кеширование шаблонов",
-      "Вспомогательные методы CacheManager",
-      "Когда используется кэш",
-      "Преимущества Smart-компонентов"
+      "Основная схема",
+      "Правило загрузки",
+      "Базовый класс `SfBaseElement`",
+      "Props и атрибуты",
+      "Рендеринг",
+      "Light DOM",
+      "Slots",
+      "Обновление состояния",
+      "Программное создание",
+      "Внешние шаблоны",
+      "События готовности",
+      "Особенности"
     ],
     "has_playground": false,
     "class_tokens": [],
     "class_token_count": 0,
-    "example_class_tokens": [],
-    "example_class_token_count": 0
+    "example_class_tokens": [
+      "${context.rootClass}",
+      "sf-button",
+      "w-full"
+    ],
+    "example_class_token_count": 3
   },
   {
     "path": "start/loader/frontend/standalone.md",
@@ -2923,13 +3123,18 @@
     "title": "1.9 Режим standAlone",
     "description": "1.9 Режим standAlone",
     "h2": [
-      "Почему важно подключать загрузчик вверху страницы",
-      "Назначение",
-      "Как включить",
-      "Поведение в режиме `standAlone: true`",
-      "Значение по умолчанию в проекте",
-      "Преимущества standAlone",
-      "Ограничения standAlone"
+      "Зачем нужен standAlone",
+      "Как включается",
+      "Как работает загрузка",
+      "Группировка модулей",
+      "Построение путей",
+      "JS и CSS",
+      "Relations",
+      "Приоритетные и тяжёлые модули",
+      "Кэш и повторные проходы",
+      "Отличие от серверного режима",
+      "Ограничения",
+      "Когда использовать"
     ],
     "has_playground": false,
     "class_tokens": [],
@@ -2991,6 +3196,19 @@
     "utility_group": "",
     "title": "Быстрый старт",
     "description": "",
+    "h2": [],
+    "has_playground": false,
+    "class_tokens": [],
+    "class_token_count": 0,
+    "example_class_tokens": [],
+    "example_class_token_count": 0
+  },
+  {
+    "path": "start/version-matrix.md",
+    "top": "start",
+    "utility_group": "",
+    "title": "Матрица версий sizing contract",
+    "description": "Идентичность source contract и статус поверхностей.",
     "h2": [],
     "has_playground": false,
     "class_tokens": [],
@@ -3197,13 +3415,22 @@
     "class_tokens": [
       ".transition",
       ".transition-all",
-      ".transition-color",
+      ".transition-colors",
+      ".transition-flex",
+      ".transition-flex-basis",
+      ".transition-height",
+      ".transition-layout",
+      ".transition-max-height",
+      ".transition-max-size",
+      ".transition-max-width",
       ".transition-none",
       ".transition-opacity",
       ".transition-shadow",
-      ".transition-transform"
+      ".transition-size",
+      ".transition-transform",
+      ".transition-width"
     ],
-    "class_token_count": 7,
+    "class_token_count": 16,
     "example_class_tokens": [
       "border",
       "border-surface-overlay",
@@ -3757,8 +3984,8 @@
       "flex",
       "gr-line-2",
       "gr-to-right",
-      "gr1-red-5",
-      "gr2-purple-5",
+      "gr1-error",
+      "gr2-tertiary",
       "items-cross-center",
       "md:bg-clip-content",
       "overflow-hidden",
@@ -5286,10 +5513,11 @@
     "class_tokens": [
       ".flex-1",
       ".flex-auto",
+      ".flex-content",
       ".flex-initial",
       ".flex-none"
     ],
-    "class_token_count": 4,
+    "class_token_count": 5,
     "example_class_tokens": [
       "bg-neutral-10",
       "bg-neutral-20",
@@ -6908,8 +7136,8 @@
       "color-transparent",
       "gr-line-2",
       "gr-to-top",
-      "gr1-purple-5",
-      "gr2-red-5",
+      "gr1-tertiary",
+      "gr2-error",
       "overflow-hidden",
       "sf-playground"
     ],
@@ -8863,6 +9091,36 @@
     "example_class_token_count": 8
   },
   {
+    "path": "utilities/overscroll/scrollbar-presets.md",
+    "top": "utilities",
+    "utility_group": "overscroll",
+    "title": "Режимы полосы прокрутки",
+    "description": "Компонент sf-scrollbar и режимы overlay, standard, persistent и hidden",
+    "h2": [
+      "Быстрый старт",
+      "Какой режим выбрать",
+      "Overlay",
+      "Standard",
+      "Persistent",
+      "Hidden",
+      "Доступность",
+      "Совместимость с прежними утилитами",
+      "Playground"
+    ],
+    "has_playground": true,
+    "class_tokens": [],
+    "class_token_count": 0,
+    "example_class_tokens": [
+      "border",
+      "border-surface-overlay",
+      "overflow-hidden",
+      "sf-playground",
+      "sf-scrollbar",
+      "sf-scrollbar__viewport"
+    ],
+    "example_class_token_count": 6
+  },
+  {
     "path": "utilities/print/display-print.md",
     "top": "utilities",
     "utility_group": "print",
@@ -9305,9 +9563,10 @@
       ".min-h-fit",
       ".min-h-full",
       ".min-h-max",
+      ".min-h-min",
       ".min-h-screen"
     ],
-    "class_token_count": 5,
+    "class_token_count": 6,
     "example_class_tokens": [
       "border",
       "border-surface-overlay",
@@ -10535,23 +10794,23 @@
     "class_tokens": [
       ".translate-x-0",
       ".translate-x-9",
-      ".translate-x-a0",
+      ".translate-x-full",
       ".translate-x-half",
-      ".translate-x-i9",
       ".translate-y-0",
       ".translate-y-9",
-      ".translate-y-a0",
-      ".translate-y-half",
-      ".translate-y-i9"
+      ".translate-y-full",
+      ".translate-y-half"
     ],
-    "class_token_count": 10,
+    "class_token_count": 8,
     "example_class_tokens": [
       "border",
       "border-surface-overlay",
       "overflow-hidden",
-      "sf-playground"
+      "sf-playground",
+      "translate-x-half",
+      "translate-y-half"
     ],
-    "example_class_token_count": 4
+    "example_class_token_count": 6
   },
   {
     "path": "utilities/typography/content.md",

@@ -12,20 +12,20 @@ Generated from:
 
 ## Summary
 
-- Total markdown files: `455`
-- Utility files: `246`
-- Files with playground embeds: `219`
+- Total markdown files: `461`
+- Utility files: `247`
+- Files with playground embeds: `220`
 
 ## Top-Level Sections
 
-- `components`: `1`
-- `fundamentals`: `116`
-- `migration`: `1`
-- `reference`: `65`
+- `components`: `2`
+- `fundamentals`: `117`
+- `migration`: `2`
+- `reference`: `66`
 - `root`: `1`
 - `smart-components`: `1`
-- `start`: `24`
-- `utilities`: `246`
+- `start`: `25`
+- `utilities`: `247`
 
 ## Utility Groups
 
@@ -48,7 +48,7 @@ Generated from:
 - `utilities/mask`: `9`
 - `utilities/objects`: `3`
 - `utilities/outline`: `8`
-- `utilities/overscroll`: `15`
+- `utilities/overscroll`: `16`
 - `utilities/print`: `3`
 - `utilities/shadows`: `5`
 - `utilities/sizes`: `7`
@@ -63,11 +63,13 @@ Generated from:
 
 ### `components`
 
+- `components/buttons.md` - Кнопки
 - `components/introduction.md` - Компоненты
 
 ### `fundamentals`
 
 - `fundamentals/abbreviations-of-properties/abbreviations-of-properties.md` - Сокращения свойств
+- `fundamentals/adaptive-sizing-system.md` - Адаптивная система размеров
 - `fundamentals/alignment/alignment.md` - Выравнивание
 - `fundamentals/best-practices.md` - Ограничения модификаторов
 - `fundamentals/break-points/break-points-description.md` - Описание контрольных точек
@@ -138,7 +140,7 @@ Generated from:
 - `fundamentals/concept/variables/variables-types.md` - Типы переменных
 - `fundamentals/concept/variables/variables.md` - Переменные
 - `fundamentals/conditions.md` - Условия действия модификаторов
-- `fundamentals/directions/directions.md` - Направления
+- `fundamentals/directions/directions.md` - Поддержка LTR и RTL
 - `fundamentals/index.md` - Основы
 - `fundamentals/modifier-parameters/angle-parameter.md` - Параметр угла
 - `fundamentals/modifier-parameters/axle-designations.md` - Обозначение осей
@@ -186,10 +188,12 @@ Generated from:
 
 ### `migration`
 
+- `migration/adaptive-sizing-v1.md` - Переход на вертикальный sizing contract
 - `migration/change-history.md` - Изменения в версии 5.4.0
 
 ### `reference`
 
+- `reference/adaptive-sizing/generated-contract.md` - Справочник вертикальных размеров
 - `reference/color-primitives/additional-themes.md` - Дополнительные темы
 - `reference/color-primitives/color-palette/color-palette.md` - Цветовая палитра
 - `reference/color-primitives/color-palette/error.md` - Error
@@ -290,6 +294,7 @@ Generated from:
 - `start/playground.md` - Playground
 - `start/project-setup.md` - Настройка проекта
 - `start/quickstart.md` - Быстрый старт
+- `start/version-matrix.md` - Матрица версий sizing contract
 
 ### `utilities`
 
@@ -458,6 +463,7 @@ Generated from:
 - `utilities/overscroll/scroll-snap-stop.md` - Ограничитель прокрутки (scroll-snap-stop)
 - `utilities/overscroll/scroll-snap-type.md` - Тип привязки прокрутки (scroll-snap-type)
 - `utilities/overscroll/scroll.md` - Толщина ползунка прокрутки (scroll / scroll-thumb-size)
+- `utilities/overscroll/scrollbar-presets.md` - Режимы полосы прокрутки
 - `utilities/print/display-print.md` - Отображение элемента при печати (display-print)
 - `utilities/print/display-visibility.md` - Видимость элемента при печати (print-visibility)
 - `utilities/print/index.md` - Печать
