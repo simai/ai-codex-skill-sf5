@@ -66,6 +66,20 @@ Use as the source of truth for runnable examples and real integration wiring.
   - checking if a component or smart-component already has a runnable example
   - understanding how a standalone or demo environment boots SF5
 
+### `simai/ui-loader`
+
+Use as the source of truth for framework source and utility semantics.
+
+- Local path: `source/simai/ui-loader`
+- Trust for:
+  - utility source groups under `src/utility/*`
+  - utility rule, state and responsive semantics
+  - inputs that produce the shipped `ui` distribution
+- Use when:
+  - checking whether a current utility is implemented at source level
+  - inspecting rule and state behavior behind a shipped utility
+  - diagnosing source/distribution drift together with `simai/ui`
+
 ### `simai/ui-smart`
 
 Use as the source of truth for available smart runtime artifacts.
@@ -79,19 +93,6 @@ Use as the source of truth for available smart runtime artifacts.
   - checking whether a smart component actually exists
   - deriving inventory for `smart-codes` or related registries
   - verifying template/js/css co-location conventions
-
-### `simai/ui-utilities`
-
-Use as the source of truth for standalone utility distribution.
-
-- Local path: `source/simai/ui-utilities`
-- Trust for:
-  - utility bundle files in `distr/full`
-  - utility group folder names in `distr/utility/*`
-  - utility-only integration paths
-- Use when:
-  - validating utility group names against shipped folders
-  - reasoning about standalone utility delivery
 
 ### `simai/ui-vscode`
 
@@ -120,9 +121,10 @@ Treat as optional until access is confirmed.
 
 - "How do I find the right docs page?" -> `ui-doc`
 - "What actually ships in the runtime?" -> `ui`
+- "Where is a utility implemented and which states does it support?" -> `ui-loader`
 - "How is this used in a working example?" -> `ui-play`
 - "Does this smart-component really exist?" -> `ui-smart`
-- "Which utility folders/classes are delivered standalone?" -> `ui-utilities`
+- "Which utility groups ship in the current runtime?" -> `ui`
 - "How can we improve editor support?" -> `ui-vscode`
 
 ## Refresh Workflow
@@ -178,8 +180,14 @@ List shipped smart components:
 find source/simai/ui-smart/smart -maxdepth 1 -mindepth 1 -type d | sort
 ```
 
-List utility groups from the standalone distribution:
+List shipped utility groups:
 
 ```bash
-find source/simai/ui-utilities/distr/utility -maxdepth 1 -mindepth 1 -type d | sort
+find source/simai/ui/distr/utility -maxdepth 1 -mindepth 1 -type d | sort
+```
+
+List utility source groups:
+
+```bash
+find source/simai/ui-loader/src/utility -maxdepth 1 -mindepth 1 -type d | sort
 ```

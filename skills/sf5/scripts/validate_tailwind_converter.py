@@ -512,19 +512,19 @@ def main() -> int:
             }
         )
     if smart_render.get("sfCode") == "table":
-        if smart_render.get("sourceBacked") is not False:
+        if smart_render.get("sourceBacked") is not True:
             failures.append(
                 {
                     "fixtureId": "smart-render-table-source-backed-smoke",
-                    "expected": "sf-code table is registry-only until a source-backed smart runtime exists",
+                    "expected": "sf-code table is backed by the current ui-smart table runtime",
                     "actual": smart_render,
                 }
             )
-        if smart_render.get("promotionStatus") != "blocked-by-missing-source-backed-smart":
+        if smart_render.get("promotionStatus") != "candidate":
             failures.append(
                 {
                     "fixtureId": "smart-render-table-promotion-smoke",
-                    "expected": "blocked-by-missing-source-backed-smart",
+                    "expected": "candidate",
                     "actual": smart_render.get("promotionStatus"),
                 }
             )

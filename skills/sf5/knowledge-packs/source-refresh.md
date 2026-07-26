@@ -5,7 +5,7 @@ Use this pack when the activity is `source-refresh`.
 Focus:
 
 - sync `source/simai/*` mirrors safely;
-- detect upstream path drift in `ui`, `ui-play`, `ui-smart`, `ui-doc`, `ui-utilities`;
+- detect upstream path drift in `ui`, `ui-loader`, `ui-play`, `ui-smart`, and `ui-doc`;
 - rebuild source-backed inventories and docs atlases only where needed;
 - keep derived manifests aligned with real upstream layout.
 

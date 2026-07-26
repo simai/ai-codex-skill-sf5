@@ -233,7 +233,8 @@ Use templates when helpful:
   - `source/simai/ui-play/examples` for runnable examples
   - `source/simai/ui/distr/component` for shipped component inventory
   - `source/simai/ui-smart/smart` for shipped smart inventory
-  - `source/simai/ui-utilities/distr/utility` for utility group inventory
+  - `source/simai/ui/distr/utility` for shipped utility group inventory
+  - `source/simai/ui-loader/src/utility` for utility source, rule and state semantics
 - Prefer vendor data as the source of truth for strict class/state/smart validation:
   - `references/vendor/source/catalog-lite.sf-only.json`
   - `references/vendor/source-repos.json`

@@ -8,17 +8,27 @@
       "name": "ui",
       "status": "ok",
       "branch": "main",
-      "commit": "ced241ecc312ff683594ead19cee9e410b6541b8",
+      "commit": "f0b41eb526a8f1daf24a34484143bdfabf7802a4",
       "localPath": "source/simai/ui",
       "remote": "git@github.com:simai/ui.git",
       "priority": "primary",
       "kind": "runtime-distribution"
     },
+    "ui-loader": {
+      "name": "ui-loader",
+      "status": "ok",
+      "branch": "main",
+      "commit": "e6dd3cb8a0cc89169ea5c3ede807f8749b088b94",
+      "localPath": "source/simai/ui-loader",
+      "remote": "git@github.com:simai/ui-loader.git",
+      "priority": "primary",
+      "kind": "framework-source"
+    },
     "ui-doc": {
       "name": "ui-doc",
       "status": "ok",
       "branch": "main",
-      "commit": "6ecb05f1fa94dd379d6defd79fa0e0dae0374902",
+      "commit": "3da118bad022529ea41a91a6d11789aec6bff8bb",
       "localPath": "source/simai/ui-doc",
       "remote": "git@github.com:simai/ui-doc.git",
       "priority": "primary",
@@ -28,7 +38,7 @@
       "name": "ui-play",
       "status": "ok",
       "branch": "master",
-      "commit": "0a393e85f0c6a137ae024f442dd52cc34d5f0508",
+      "commit": "bdd253aaa3418bee7f51b4b69d8e5c08af49ee58",
       "localPath": "source/simai/ui-play",
       "remote": "git@github.com:simai/ui-play.git",
       "priority": "primary",
@@ -38,27 +48,17 @@
       "name": "ui-smart",
       "status": "ok",
       "branch": "main",
-      "commit": "36d5f50667c572db513e1fc36d4e23145bb05333",
+      "commit": "ab896dc7cd33f151377e3992ffb286769beee7f7",
       "localPath": "source/simai/ui-smart",
       "remote": "git@github.com:simai/ui-smart.git",
       "priority": "primary",
       "kind": "smart-components-runtime"
     },
-    "ui-utilities": {
-      "name": "ui-utilities",
-      "status": "ok",
-      "branch": "main",
-      "commit": "7ef2047a65ca5c81604199f997792c9ac0513de4",
-      "localPath": "source/simai/ui-utilities",
-      "remote": "git@github.com:simai/ui-utilities.git",
-      "priority": "secondary",
-      "kind": "utility-distribution"
-    },
     "ui-vscode": {
       "name": "ui-vscode",
       "status": "ok",
       "branch": "main",
-      "commit": "ad9d7815a5aba10e1c548778c1730f0583065ef4",
+      "commit": "a8fd4a8dcd75ce53d2af0c07186fb0ef3b907058",
       "localPath": "source/simai/ui-vscode",
       "remote": "git@github.com:simai/ui-vscode.git",
       "priority": "secondary",
@@ -76,23 +76,24 @@
     }
   },
   "summary": {
-    "shippedComponentCount": 72,
-    "shippedSmartCount": 34,
-    "utilityGroupCount": 234,
-    "utilityExampleGroupCount": 28,
-    "componentExampleGroupCount": 31,
-    "smartExampleGroupCount": 31,
-    "componentsWithoutExamplesCount": 41,
-    "smartWithoutExamplesCount": 1
+    "shippedComponentCount": 77,
+    "shippedSmartCount": 50,
+    "shippedUtilityGroupCount": 225,
+    "sourceUtilityGroupCount": 226,
+    "utilityExampleGroupCount": 29,
+    "componentExampleGroupCount": 37,
+    "smartExampleGroupCount": 42,
+    "componentsWithoutExamplesCount": 43,
+    "smartWithoutExamplesCount": 7
   },
   "components": {
     "shipped": [
       "accordion",
+      "admin-menu",
       "ajax",
       "ajaxload",
       "alerts",
       "avatars",
-      "avatars-group",
       "badges",
       "breadcrumbs",
       "buttons",
@@ -103,6 +104,7 @@
       "contentDivider",
       "context-menu",
       "country-code",
+      "datepicker",
       "doc",
       "dot",
       "download-file",
@@ -111,8 +113,9 @@
       "fab",
       "fancybox",
       "featured-icon",
+      "file-preview",
       "file-upload",
-      "fileUpload",
+      "flags",
       "hideShow",
       "highlight",
       "icon",
@@ -121,6 +124,8 @@
       "inputs",
       "jquery",
       "lazy-load",
+      "link",
+      "list",
       "menu",
       "modal",
       "monaco",
@@ -128,13 +133,12 @@
       "overcard",
       "pagination",
       "placeholder",
-      "progress",
       "progress-bar",
       "progress-scale",
-      "progressbar",
       "quantity",
       "radio",
       "range-slider",
+      "rating",
       "reference-link",
       "scrollbar",
       "sf-system",
@@ -155,6 +159,8 @@
       "toast",
       "toggle",
       "tooltip",
+      "tree",
+      "tree-item",
       "verification",
       "viewbox",
       "waves",
@@ -162,6 +168,9 @@
     ],
     "playExampleGroups": {
       "accordion": [
+        "default"
+      ],
+      "admin-menu": [
         "default"
       ],
       "alert": [
@@ -175,8 +184,12 @@
       "badges": [
         "all"
       ],
+      "breadcrumbs": [
+        "default"
+      ],
       "buttons": [
         "all",
+        "segments",
         "tightness"
       ],
       "checkbox": [
@@ -187,6 +200,9 @@
       ],
       "context-menu": [
         "all"
+      ],
+      "datepicker": [
+        "default"
       ],
       "download-file": [
         "default"
@@ -199,15 +215,27 @@
       "featured-icon": [
         "all"
       ],
+      "file-preview": [
+        "default"
+      ],
       "file-upload": [
         "default",
         "interactive"
+      ],
+      "files": [
+        "default",
+        "file-item",
+        "tree"
       ],
       "icon-buttons": [
         "icon-buttons"
       ],
       "inputs": [
-        "textarea"
+        "all",
+        "country-code",
+        "quantity",
+        "textarea",
+        "verification"
       ],
       "menu": [
         "default"
@@ -250,6 +278,9 @@
       "switch": [
         "default"
       ],
+      "tabs": [
+        "default"
+      ],
       "tags": [
         "all"
       ],
@@ -265,17 +296,22 @@
     },
     "playExampleGroupNames": [
       "accordion",
+      "admin-menu",
       "alert",
       "avatar",
       "badges",
+      "breadcrumbs",
       "buttons",
       "checkbox",
       "close",
       "context-menu",
+      "datepicker",
       "download-file",
       "dropdown",
       "featured-icon",
+      "file-preview",
       "file-upload",
+      "files",
       "icon-buttons",
       "inputs",
       "menu",
@@ -291,6 +327,7 @@
       "spinner",
       "step",
       "switch",
+      "tabs",
       "tags",
       "toast",
       "toggle",
@@ -300,6 +337,9 @@
       "accordion": [
         "components/accordion/default"
       ],
+      "admin-menu": [
+        "components/admin-menu/default"
+      ],
       "ajax": [],
       "ajaxload": [],
       "alerts": [
@@ -308,15 +348,15 @@
       "avatars": [
         "avatar"
       ],
-      "avatars-group": [
-        "avatar"
-      ],
       "badges": [
         "components/badges/all"
       ],
-      "breadcrumbs": [],
+      "breadcrumbs": [
+        "components/breadcrumbs/default"
+      ],
       "buttons": [
         "components/buttons/all",
+        "components/buttons/segments",
         "components/buttons/tightness"
       ],
       "carousel": [],
@@ -332,6 +372,9 @@
         "components/context-menu/all"
       ],
       "country-code": [],
+      "datepicker": [
+        "components/datepicker/default"
+      ],
       "doc": [],
       "dot": [],
       "download-file": [
@@ -348,11 +391,14 @@
       "featured-icon": [
         "components/featured-icon/all"
       ],
+      "file-preview": [
+        "components/file-preview/default"
+      ],
       "file-upload": [
         "components/file-upload/default",
         "components/file-upload/interactive"
       ],
-      "fileUpload": [],
+      "flags": [],
       "hideShow": [],
       "highlight": [],
       "icon": [],
@@ -361,10 +407,16 @@
       ],
       "icons": [],
       "inputs": [
-        "components/inputs/textarea"
+        "components/inputs/all",
+        "components/inputs/country-code",
+        "components/inputs/quantity",
+        "components/inputs/textarea",
+        "components/inputs/verification"
       ],
       "jquery": [],
       "lazy-load": [],
+      "link": [],
+      "list": [],
       "menu": [
         "components/menu/default"
       ],
@@ -381,18 +433,14 @@
       "placeholder": [
         "components/placeholder/default"
       ],
-      "progress": [
-        "components/progress/default",
-        "components/progress/progress-scale"
-      ],
       "progress-bar": [],
       "progress-scale": [],
-      "progressbar": [],
       "quantity": [],
       "radio": [],
       "range-slider": [
         "components/range-slider/default"
       ],
+      "rating": [],
       "reference-link": [
         "components/reference-link/default"
       ],
@@ -417,7 +465,9 @@
         "components/switch/default"
       ],
       "tab": [],
-      "tabs": [],
+      "tabs": [
+        "components/tabs/default"
+      ],
       "tags": [
         "components/tags/all"
       ],
@@ -433,6 +483,8 @@
       "tooltip": [
         "components/tooltip/all"
       ],
+      "tree": [],
+      "tree-item": [],
       "verification": [],
       "viewbox": [],
       "waves": [],
@@ -441,7 +493,6 @@
     "withoutPlayExamples": [
       "ajax",
       "ajaxload",
-      "breadcrumbs",
       "carousel",
       "clipboard",
       "contentDivider",
@@ -451,31 +502,34 @@
       "emoji",
       "fab",
       "fancybox",
-      "fileUpload",
+      "flags",
       "hideShow",
       "highlight",
       "icon",
       "icons",
       "jquery",
       "lazy-load",
+      "link",
+      "list",
       "monaco",
       "overbox",
       "overcard",
       "progress-bar",
       "progress-scale",
-      "progressbar",
       "quantity",
       "radio",
+      "rating",
       "scrollbar",
       "sf-system",
       "share",
       "special",
       "swiper",
       "tab",
-      "tabs",
       "textarea",
       "theme",
       "theme-builder",
+      "tree",
+      "tree-item",
       "verification",
       "viewbox",
       "waves",
@@ -484,22 +538,33 @@
   },
   "smartComponents": {
     "shipped": [
+      "admin-menu",
       "alert",
       "avatar",
       "avatars",
       "badges",
+      "breadcrumbs",
       "buttons",
       "checkbox",
       "close",
       "context-menu",
       "country-code",
+      "datepicker",
       "download-file",
+      "drawer",
       "dropdown",
+      "editor",
+      "fab",
+      "file-preview",
       "file-upload",
+      "flags",
+      "form",
       "gallery",
       "icon-buttons",
       "icons",
       "inputs",
+      "link",
+      "list",
       "list-item",
       "modal",
       "pagination",
@@ -507,19 +572,27 @@
       "progress-scale",
       "radio",
       "range-slider",
+      "rating",
       "reference-link",
       "skeleton",
       "slider",
       "spinner",
       "steps",
       "switch",
+      "table",
+      "tabs",
       "tags",
       "textarea",
       "toast",
       "toggle",
-      "tooltip"
+      "tooltip",
+      "tree",
+      "tree-item"
     ],
     "playExampleGroups": {
+      "admin-menu": [
+        "default"
+      ],
       "alert": [
         "default"
       ],
@@ -529,6 +602,9 @@
       ],
       "badges": [
         "element"
+      ],
+      "breadcrumbs": [
+        "default"
       ],
       "buttons": [
         "element",
@@ -543,14 +619,26 @@
       "custom-smart-component": [
         "default"
       ],
+      "date": [
+        "default"
+      ],
       "download-file": [
         "element"
       ],
       "dropdown": [
         "element"
       ],
+      "editor": [
+        "default"
+      ],
+      "fab": [
+        "default"
+      ],
       "file-upload": [
         "element"
+      ],
+      "flags": [
+        "default"
       ],
       "gallery": [
         "default",
@@ -564,7 +652,11 @@
       ],
       "inputs": [
         "country-code",
-        "element"
+        "element",
+        "password"
+      ],
+      "link": [
+        "default"
       ],
       "list-item": [
         "element"
@@ -585,6 +677,9 @@
       "range-slider": [
         "default"
       ],
+      "rating": [
+        "default"
+      ],
       "reference-link": [
         "default"
       ],
@@ -603,6 +698,12 @@
       "switch": [
         "default"
       ],
+      "table": [
+        "default"
+      ],
+      "tabs": [
+        "default"
+      ],
       "tags": [
         "element"
       ],
@@ -617,42 +718,60 @@
       ],
       "tooltip": [
         "element"
+      ],
+      "tree": [
+        "default",
+        "item"
       ]
     },
     "playExampleGroupNames": [
+      "admin-menu",
       "alert",
       "avatar",
       "badges",
+      "breadcrumbs",
       "buttons",
       "checkbox",
       "context-menu",
       "custom-smart-component",
+      "date",
       "download-file",
       "dropdown",
+      "editor",
+      "fab",
       "file-upload",
+      "flags",
       "gallery",
       "icon-buttons",
       "icons",
       "inputs",
+      "link",
       "list-item",
       "modal",
       "pagination",
       "progress",
       "radio",
       "range-slider",
+      "rating",
       "reference-link",
       "skeleton",
       "slider",
       "spinner",
       "steps",
       "switch",
+      "table",
+      "tabs",
       "tags",
       "textarea",
       "toast",
       "toggle",
-      "tooltip"
+      "tooltip",
+      "tree"
     ],
     "coverageRefs": {
+      "admin-menu": [
+        "smart-components/admin-menu/default"
+      ],
       "alert": [
         "smart-components/alert/default"
       ],
@@ -665,6 +784,9 @@
       ],
       "badges": [
         "smart-components/badges/element"
+      ],
+      "breadcrumbs": [
+        "smart-components/breadcrumbs/default"
       ],
       "buttons": [
         "smart-components/buttons/element",
@@ -680,15 +802,28 @@
       "country-code": [
         "inputs/country-code"
       ],
+      "datepicker": [],
       "download-file": [
         "smart-components/download-file/element"
       ],
+      "drawer": [],
       "dropdown": [
         "smart-components/dropdown/element"
       ],
+      "editor": [
+        "smart-components/editor/default"
+      ],
+      "fab": [
+        "smart-components/fab/default"
+      ],
+      "file-preview": [],
       "file-upload": [
         "smart-components/file-upload/element"
       ],
+      "flags": [
+        "smart-components/flags/default"
+      ],
+      "form": [],
       "gallery": [
         "smart-components/gallery/default",
         "smart-components/gallery/images"
@@ -701,8 +836,13 @@
       ],
       "inputs": [
         "smart-components/inputs/country-code",
-        "smart-components/inputs/element"
+        "smart-components/inputs/element",
+        "smart-components/inputs/password"
       ],
+      "link": [
+        "smart-components/link/default"
+      ],
+      "list": [],
       "list-item": [
         "smart-components/list-item/element"
       ],
@@ -724,6 +864,9 @@
       "range-slider": [
         "smart-components/range-slider/default"
       ],
+      "rating": [
+        "smart-components/rating/default"
+      ],
       "reference-link": [
         "smart-components/reference-link/default"
       ],
@@ -742,6 +885,12 @@
       "switch": [
         "smart-components/switch/default"
       ],
+      "table": [
+        "smart-components/table/default"
+      ],
+      "tabs": [
+        "smart-components/tabs/default"
+      ],
       "tags": [
         "smart-components/tags/element"
       ],
@@ -756,19 +905,31 @@
       ],
       "tooltip": [
         "smart-components/tooltip/element"
-      ]
+      ],
+      "tree": [
+        "smart-components/tree/default",
+        "smart-components/tree/item"
+      ],
+      "tree-item": []
     },
     "withoutPlayExamples": [
-      "close"
+      "close",
+      "datepicker",
+      "drawer",
+      "file-preview",
+      "form",
+      "list",
+      "tree-item"
     ]
   },
   "utilities": {
     "shippedGroups": [
       "accent-color",
-      "accent-color-ext",
       "align-content",
       "align-items",
       "align-self",
+      "animation",
+      "animation-duration",
       "appearance",
       "aspect-ratio",
       "backdrop-filer-hue-rotate",
@@ -784,50 +945,45 @@
       "background-clip",
       "background-color",
       "background-color-brand",
-      "background-color-ext",
       "background-fake",
-      "background-opacity",
+      "background-gradient",
       "background-origin",
       "background-position",
       "background-repeat",
       "background-size",
+      "background-size-ext",
+      "border-collapse",
       "border-color",
-      "border-color-ext",
-      "border-opacity",
       "border-radius",
+      "border-spacing",
       "border-style",
       "border-width",
       "box-decoration-break",
       "box-shadow",
       "box-shadow-color",
-      "box-shadow-color-ext",
       "box-sizing",
       "break-after",
       "break-before",
       "break-inside",
       "caret-color",
-      "caret-color-ext",
       "clear",
       "column",
+      "column-gap",
       "container",
       "content",
       "cursor",
       "display",
       "display-print",
       "divider-color",
-      "divider-color-ext",
       "divider-opacity",
       "divider-style",
       "divider-width",
       "drop-shadow",
       "drop-shadow-color",
-      "drop-shadow-color-ext",
-      "editor",
       "element-position",
       "element-position-ext",
       "fill",
       "fill-brand",
-      "fill-ext",
       "fill-rule",
       "filter-blur",
       "filter-brightness",
@@ -858,8 +1014,7 @@
       "font-weight",
       "gap",
       "gradient-color",
-      "gradient-color-ext",
-      "gradient-opacity",
+      "gradient-stops",
       "gradient-type",
       "grid-auto-columns",
       "grid-auto-flow",
@@ -876,17 +1031,16 @@
       "height",
       "height-ext",
       "isolate",
-      "js",
       "justify-content",
       "justify-items",
       "justify-self",
       "letter-spacing",
+      "line-clamp",
       "line-height",
       "list-style-position",
       "list-style-type",
       "margin",
       "margin-ext",
-      "mark",
       "mask-clip",
       "mask-composite",
       "mask-mode",
@@ -906,11 +1060,10 @@
       "object-fit",
       "object-position",
       "offset",
+      "opacity",
       "order",
       "outline-color",
-      "outline-color-ext",
       "outline-offset",
-      "outline-opacity",
       "outline-style",
       "outline-width",
       "overflow",
@@ -921,39 +1074,39 @@
       "place-content",
       "place-items",
       "place-self",
+      "placeholder-color",
+      "placeholder-opacity",
       "pointer-events",
       "position",
       "resize",
       "ring-color",
-      "ring-color-ext",
-      "ring-offset",
+      "ring-inset",
       "ring-offset-color",
-      "ring-offset-color-ext",
+      "ring-offset-width",
+      "ring-opacity",
       "ring-width",
       "scroll-backdrop-color",
-      "scroll-backdrop-color-ext",
       "scroll-backdrop-radius",
       "scroll-backdrop-width",
       "scroll-behavior",
+      "scroll-hover",
       "scroll-margin",
       "scroll-margin-ext",
       "scroll-padding",
       "scroll-padding-ext",
       "scroll-slider-color",
-      "scroll-slider-color-ext",
       "scroll-slider-radius",
       "scroll-slider-width",
       "scroll-snap-align",
       "scroll-snap-stop",
       "scroll-snap-type",
+      "scroll-subtle",
       "space",
+      "sr-only",
       "stripe",
       "stripe-color",
-      "stripe-color-ext",
-      "stripe-opacity",
       "stripe-width",
       "stroke-color",
-      "stroke-color-ext",
       "stroke-linecap",
       "stroke-linejoin",
       "stroke-width",
@@ -966,7 +1119,6 @@
       "table-stripe",
       "text-align",
       "text-color",
-      "text-color-ext",
       "text-decoration",
       "text-decoration-color",
       "text-decoration-offset",
@@ -974,7 +1126,6 @@
       "text-decoration-thickness",
       "text-indent",
       "text-max-width",
-      "text-opacity",
       "text-overflow",
       "theme",
       "title",
@@ -998,6 +1149,238 @@
       "will-change",
       "word-break",
       "z-index"
+    ],
+    "sourceGroups": [
+      "accent-color",
+      "align-content",
+      "align-items",
+      "align-self",
+      "animation",
+      "animation-duration",
+      "appearance",
+      "aspect-ratio",
+      "backdrop-filer-hue-rotate",
+      "backdrop-filter-blur",
+      "backdrop-filter-brightness",
+      "backdrop-filter-contrast",
+      "backdrop-filter-grayscale",
+      "backdrop-filter-invert",
+      "backdrop-filter-opacity",
+      "backdrop-filter-saturate",
+      "backdrop-filter-sepia",
+      "background-attachment",
+      "background-clip",
+      "background-color",
+      "background-color-brand",
+      "background-fake",
+      "background-gradient",
+      "background-origin",
+      "background-position",
+      "background-repeat",
+      "background-size",
+      "background-size-ext",
+      "border-collapse",
+      "border-color",
+      "border-radius",
+      "border-spacing",
+      "border-style",
+      "border-width",
+      "box-decoration-break",
+      "box-shadow",
+      "box-shadow-color",
+      "box-sizing",
+      "break-after",
+      "break-before",
+      "break-inside",
+      "caret-color",
+      "clear",
+      "column",
+      "column-gap",
+      "container",
+      "content",
+      "cursor",
+      "display",
+      "display-print",
+      "divider-color",
+      "divider-opacity",
+      "divider-style",
+      "divider-width",
+      "drop-shadow",
+      "drop-shadow-color",
+      "editor",
+      "element-position",
+      "element-position-ext",
+      "fill",
+      "fill-brand",
+      "fill-rule",
+      "filter-blur",
+      "filter-brightness",
+      "filter-contrast",
+      "filter-grayscale",
+      "filter-hue-rotate",
+      "filter-invert",
+      "filter-opacity",
+      "filter-saturate",
+      "filter-sepia",
+      "flex",
+      "flex-align",
+      "flex-basis",
+      "flex-basis-ext",
+      "flex-direction",
+      "flex-grow",
+      "flex-shrink",
+      "flex-wrap",
+      "float",
+      "font-family",
+      "font-size",
+      "font-size-ext",
+      "font-smoothing",
+      "font-style",
+      "font-transform",
+      "font-variant",
+      "font-variant-numeric",
+      "font-weight",
+      "gap",
+      "gradient-color",
+      "gradient-stops",
+      "gradient-type",
+      "grid-auto-columns",
+      "grid-auto-flow",
+      "grid-auto-rows",
+      "grid-column",
+      "grid-column-end",
+      "grid-column-start",
+      "grid-row",
+      "grid-row-end",
+      "grid-row-start",
+      "grid-template-columns",
+      "grid-template-rows",
+      "headers",
+      "height",
+      "height-ext",
+      "isolate",
+      "justify-content",
+      "justify-items",
+      "justify-self",
+      "letter-spacing",
+      "line-clamp",
+      "line-height",
+      "list-style-position",
+      "list-style-type",
+      "margin",
+      "margin-ext",
+      "mask-clip",
+      "mask-composite",
+      "mask-mode",
+      "mask-origin",
+      "mask-position",
+      "mask-repeat",
+      "mask-size",
+      "mask-type",
+      "max-container",
+      "max-height",
+      "max-height-ext",
+      "max-width",
+      "max-width-ext",
+      "min-height",
+      "min-width",
+      "mix-blend-mode",
+      "object-fit",
+      "object-position",
+      "offset",
+      "opacity",
+      "order",
+      "outline-color",
+      "outline-offset",
+      "outline-style",
+      "outline-width",
+      "overflow",
+      "overscroll-behavior",
+      "padding",
+      "padding-ext",
+      "pattern",
+      "place-content",
+      "place-items",
+      "place-self",
+      "placeholder-color",
+      "placeholder-opacity",
+      "pointer-events",
+      "position",
+      "resize",
+      "ring-color",
+      "ring-inset",
+      "ring-offset-color",
+      "ring-offset-width",
+      "ring-opacity",
+      "ring-width",
+      "scroll-backdrop-color",
+      "scroll-backdrop-radius",
+      "scroll-backdrop-width",
+      "scroll-behavior",
+      "scroll-hover",
+      "scroll-margin",
+      "scroll-margin-ext",
+      "scroll-padding",
+      "scroll-padding-ext",
+      "scroll-slider-color",
+      "scroll-slider-radius",
+      "scroll-slider-width",
+      "scroll-snap-align",
+      "scroll-snap-stop",
+      "scroll-snap-type",
+      "scroll-subtle",
+      "space",
+      "sr-only",
+      "stripe",
+      "stripe-color",
+      "stripe-width",
+      "stroke-color",
+      "stroke-linecap",
+      "stroke-linejoin",
+      "stroke-width",
+      "svg-size",
+      "table",
+      "table-active",
+      "table-border",
+      "table-hover",
+      "table-layout",
+      "table-stripe",
+      "text-align",
+      "text-color",
+      "text-decoration",
+      "text-decoration-color",
+      "text-decoration-offset",
+      "text-decoration-style",
+      "text-decoration-thickness",
+      "text-indent",
+      "text-max-width",
+      "text-overflow",
+      "theme",
+      "title",
+      "touch-action",
+      "transform-origin",
+      "transform-rotate",
+      "transform-scale",
+      "transform-skew",
+      "transform-translate",
+      "transform-translate-ext",
+      "transition-delay",
+      "transition-duration",
+      "transition-property",
+      "transition-timing-function",
+      "user-select",
+      "vertical-align",
+      "visibility",
+      "white-space",
+      "width",
+      "width-ext",
+      "will-change",
+      "word-break",
+      "z-index"
+    ],
+    "shippedOnlyGroups": [],
+    "sourceOnlyGroups": [
+      "editor"
     ],
     "playExampleGroups": [
       "animation",
@@ -1027,7 +1410,8 @@
       "tables",
       "text-formatting",
       "transform",
-      "typography"
+      "typography",
+      "utilities"
     ]
   }
 }

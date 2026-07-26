@@ -17,6 +17,19 @@
       ]
     },
     {
+      "name": "ui-loader",
+      "remote": "git@github.com:simai/ui-loader.git",
+      "defaultBranch": "main",
+      "localPath": "source/simai/ui-loader",
+      "kind": "framework-source",
+      "priority": "primary",
+      "authoritativeFor": [
+        "utility source groups under src/utility",
+        "utility rule and state semantics",
+        "core and component build inputs"
+      ]
+    },
+    {
       "name": "ui-doc",
       "remote": "git@github.com:simai/ui-doc.git",
       "defaultBranch": "main",
@@ -53,19 +66,6 @@
         "available smart component names",
         "smart js/css/template structure",
         "smart deploy artifact layout"
-      ]
-    },
-    {
-      "name": "ui-utilities",
-      "remote": "git@github.com:simai/ui-utilities.git",
-      "defaultBranch": "main",
-      "localPath": "source/simai/ui-utilities",
-      "kind": "utility-distribution",
-      "priority": "secondary",
-      "authoritativeFor": [
-        "full utility bundle",
-        "utility group folder naming",
-        "utility-only standalone integration"
       ]
     },
     {

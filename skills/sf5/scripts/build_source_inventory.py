@@ -10,6 +10,7 @@ import json
 from pathlib import Path
 
 GENERATED_AT = "1970-01-01T00:00:00+00:00"
+UTILITY_NON_GROUP_DIRS = {"js"}
 
 ACTIVITY_HINT = {
     "activity_id": "source-refresh",
@@ -69,7 +70,12 @@ def build_inventory(repo_root: Path, skill_root: Path) -> dict:
 
     shipped_components = list_dirnames(source_root / "ui/distr/component")
     shipped_smart = list_dirnames(source_root / "ui-smart/smart")
-    utility_groups = list_dirnames(source_root / "ui-utilities/distr/utility")
+    shipped_utility_groups = [
+        name
+        for name in list_dirnames(source_root / "ui/distr/utility")
+        if name not in UTILITY_NON_GROUP_DIRS
+    ]
+    source_utility_groups = list_dirnames(source_root / "ui-loader/src/utility")
     utility_example_groups = sorted(
         name
         for name in list_dirnames(source_root / "ui-play/examples")
@@ -126,7 +132,8 @@ def build_inventory(repo_root: Path, skill_root: Path) -> dict:
         "summary": {
             "shippedComponentCount": len(shipped_components),
             "shippedSmartCount": len(shipped_smart),
-            "utilityGroupCount": len(utility_groups),
+            "shippedUtilityGroupCount": len(shipped_utility_groups),
+            "sourceUtilityGroupCount": len(source_utility_groups),
             "utilityExampleGroupCount": len(utility_example_groups),
             "componentExampleGroupCount": len(component_examples),
             "smartExampleGroupCount": len(smart_examples),
@@ -148,7 +155,10 @@ def build_inventory(repo_root: Path, skill_root: Path) -> dict:
             "withoutPlayExamples": smart_without_examples,
         },
         "utilities": {
-            "shippedGroups": utility_groups,
+            "shippedGroups": shipped_utility_groups,
+            "sourceGroups": source_utility_groups,
+            "shippedOnlyGroups": sorted(set(shipped_utility_groups) - set(source_utility_groups)),
+            "sourceOnlyGroups": sorted(set(source_utility_groups) - set(shipped_utility_groups)),
             "playExampleGroups": utility_example_groups,
         },
     }
@@ -168,7 +178,7 @@ def write_markdown(inventory: dict, out_path: Path) -> None:
     lines.append("")
     lines.append("## Source Revisions")
     lines.append("")
-    for repo_name in ["ui", "ui-doc", "ui-play", "ui-smart", "ui-utilities", "ui-vscode", "ui-components"]:
+    for repo_name in ["ui", "ui-loader", "ui-doc", "ui-play", "ui-smart", "ui-vscode", "ui-components"]:
         item = repos.get(repo_name)
         if not item:
             continue
@@ -181,7 +191,8 @@ def write_markdown(inventory: dict, out_path: Path) -> None:
     lines.append("")
     lines.append(f"- Shipped components in `ui`: `{summary['shippedComponentCount']}`")
     lines.append(f"- Shipped smart-components in `ui-smart`: `{summary['shippedSmartCount']}`")
-    lines.append(f"- Utility groups in `ui-utilities`: `{summary['utilityGroupCount']}`")
+    lines.append(f"- Shipped utility groups in `ui`: `{summary['shippedUtilityGroupCount']}`")
+    lines.append(f"- Utility source groups in `ui-loader`: `{summary['sourceUtilityGroupCount']}`")
     lines.append(f"- Component example groups in `ui-play`: `{summary['componentExampleGroupCount']}`")
     lines.append(f"- Smart example groups in `ui-play`: `{summary['smartExampleGroupCount']}`")
     lines.append(f"- Shipped components without direct component example groups: `{summary['componentsWithoutExamplesCount']}`")
@@ -189,7 +200,7 @@ def write_markdown(inventory: dict, out_path: Path) -> None:
     lines.append("")
     lines.append("## Practical Reading Order")
     lines.append("")
-    lines.append("- For utility/layout work: start with `ui-doc` atlas, then validate class names against `ui-utilities`.")
+    lines.append("- For utility/layout work: start with the `ui-doc` atlas, validate shipped groups in `ui`, then inspect rule and state semantics in `ui-loader`.")
     lines.append("- For presentational components: start with `ui-play/examples/components`, then confirm shipping in `ui/distr/component`.")
     lines.append("- For smart-components: start with `ui-play/examples/smart-components`, then confirm runtime presence in `ui-smart/smart`.")
     lines.append("- For loader/runtime assumptions: confirm actual boot paths in `ui-play/packages/*/setup-sf.ts` and shipped paths in `ui/distr/core`.")

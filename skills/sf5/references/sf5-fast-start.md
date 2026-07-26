@@ -48,11 +48,8 @@ For standalone HTML/testing, the actual runtime pattern seen in `ui` and `ui-pla
 <script type="module" src="/simai/core/js/core.js"></script>
 ```
 
-If only utility classes are needed, the standalone utility bundle from `ui-utilities` is:
-
-```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/simai/ui-utilities@main/distr/full/utility.full.min.css" />
-```
+Utility classes are part of the current Simai Framework runtime. Load the
+normal current runtime rather than a separate utility-only legacy bundle.
 
 ## Choosing Between Utilities, Components, And Smart Components
 
@@ -92,8 +89,10 @@ If only utility classes are needed, the standalone utility bundle from `ui-utili
   `source/simai/ui/distr/component`
 - Shipped smart runtime:
   `source/simai/ui-smart/smart`
-- Standalone utilities:
-  `source/simai/ui-utilities/distr/utility`
+- Shipped utility groups:
+  `source/simai/ui/distr/utility`
+- Utility source, rule and state semantics:
+  `source/simai/ui-loader/src/utility`
 
 ## Smart-Component Practical Notes
 
