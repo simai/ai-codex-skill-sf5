@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "operation_id": "graph.skill-evolution.changed-source.report",
+  "created_at": "2026-08-02T18:09:35.067798+00:00",
+  "skill": "sf5",
+  "owner": "sf5",
+  "federation_control_plane": false,
+  "base": "49f49d6e598e460f1cf83371004b5d234f780416",
+  "base_commit": "49f49d6e598e460f1cf83371004b5d234f780416",
+  "comparison_mode": "baseline_to_worktree",
+  "detector_fingerprint": "cbbba77759a8a84a152d5e14bab07c76eff942aebf6f5279e569d2bae741271c",
+  "status": "success",
+  "source_change_evidence_ref": "graph/generated/mirai-graph/skill-source-changes/portable-smart-artifact-abi-v1-20260802/skill-source-change-evidence.json",
+  "runtime_verify_ref": "graph/generated/mirai-graph/runtime-kit/portable-smart-artifact-abi-v1-20260802-verify/runtime-kit-verify.json",
+  "runtime_context_ref": "graph/generated/mirai-graph/runtime-context/portable-smart-artifact-abi-v1-20260802-context/context-pack.json",
+  "federation_change_proposal_ref": "repo://ai-codex-skill-graph-portable-smart-abi-v1-sync/graph/generated/mirai-graph/federation-change/portable-smart-artifact-abi-v1-20260802-federation-proposal/federation-change-proposal.json",
+  "specialist_promotion_proposal_refs": [],
+  "required_actions": [
+    "evidence",
+    "federation-proposal",
+    "route-check",
+    "runtime-context"
+  ],
+  "blockers": [],
+  "canonical_write_allowed": false,
+  "sync_fingerprint": "5b90bc85fe8c205b37153d92c7697a5662986221eabb3e0d89f610263598fb0a",
+  "task_sha256": "8e6c15d3117df755a6f56d8379262338247d7670306fab76ce2962c93ffe3791",
+  "task_bytes": 92
+}
