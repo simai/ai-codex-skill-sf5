@@ -1,0 +1,142 @@
+{
+  "$schema": "https://simai.io/schemas/federation/repository-recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "sf5.project",
+  "version": "1.0.0",
+  "kind": "structural_recipe",
+  "owner": "sf5",
+  "title": "sf5.project",
+  "repository_family": "sf5",
+  "repository_kind": "project",
+  "base_recipe": "generic.repository",
+  "compatibility": {
+    "allowed_bases": [
+      "generic.repository"
+    ],
+    "allowed_overlays": [
+      "sf5.technology-overlay",
+      "docs.technology-overlay",
+      "tester.technology-overlay"
+    ],
+    "incompatible_recipes": [
+      "graph.domain_atlas",
+      "client.project",
+      "bitrix.module",
+      "bitrix.client_project",
+      "larena.application",
+      "larena.package",
+      "sf4.project",
+      "orgportal.solution",
+      "docara.project"
+    ]
+  },
+  "required_inputs": [
+    {
+      "name": "repository_name",
+      "required": true,
+      "type": "string"
+    }
+  ],
+  "source_contract": {
+    "entrypoints": [
+      "skills/sf5/SKILL.md",
+      "skills/sf5/references/framework-contract-registry.md"
+    ],
+    "processes": [
+      "skills/sf5/activities/activity-registry.json"
+    ],
+    "checks": [
+      "skills/sf5/scripts/run_local_checks.sh"
+    ]
+  },
+  "file_manifest": [
+    {
+      "path": "src/core/",
+      "ownership": "owner_template",
+      "required": true,
+      "materializer": "directory"
+    },
+    {
+      "path": "src/loader/",
+      "ownership": "owner_template",
+      "required": true,
+      "materializer": "directory"
+    },
+    {
+      "path": "src/utilities/",
+      "ownership": "owner_template",
+      "required": true,
+      "materializer": "directory"
+    },
+    {
+      "path": "src/components/",
+      "ownership": "owner_template",
+      "required": true,
+      "materializer": "directory"
+    },
+    {
+      "path": "src/smart-components/",
+      "ownership": "owner_template",
+      "required": true,
+      "materializer": "directory"
+    },
+    {
+      "path": "src/blocks/",
+      "ownership": "owner_template",
+      "required": true,
+      "materializer": "directory"
+    },
+    {
+      "path": "tests/",
+      "ownership": "owner_template",
+      "required": true,
+      "materializer": "directory"
+    },
+    {
+      "path": "docs/",
+      "ownership": "owner_template",
+      "required": true,
+      "materializer": "directory"
+    },
+    {
+      "path": "source/",
+      "ownership": "local_only",
+      "required": true,
+      "materializer": "directory"
+    },
+    {
+      "path": "docs/sf5-project-contract.md",
+      "ownership": "owner_template",
+      "required": true,
+      "materializer": "template_file",
+      "source": "docs/owner-contract.md"
+    }
+  ],
+  "technology": {
+    "task_scoped": true,
+    "may_override_federation_safety": false,
+    "may_authorize_write": false,
+    "raw_source_required": true
+  },
+  "availability": {
+    "policy": "local_skill_override",
+    "default_state": "available"
+  },
+  "migrations": [],
+  "materialization": {
+    "mode": "declarative_manifest",
+    "generator_contract": "repository_factory.manifest.v1",
+    "template_root": "templates",
+    "template_files": [
+      "docs/owner-contract.md"
+    ]
+  },
+  "validators": [
+    {
+      "id": "sf5.source-check.1",
+      "type": "owner_source",
+      "ref": "skills/sf5/scripts/run_local_checks.sh",
+      "required": true
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "recipe_id": "sf5.technology-overlay",
+  "positive": [
+    {
+      "name": "technology-base",
+      "base_recipe": "technology.repository",
+      "overlays": [
+        "sf5.technology-overlay"
+      ],
+      "expected": "compatible"
+    }
+  ],
+  "negative": [
+    {
+      "name": "generic-base-rejected",
+      "base_recipe": "generic.repository",
+      "overlays": [
+        "sf5.technology-overlay"
+      ],
+      "expected": "incompatible"
+    }
+  ],
+  "compatibility": [
+    {
+      "name": "single-owner-overlay",
+      "base_recipe": "technology.repository",
+      "primary_owner": "sf5",
+      "overlays": [
+        "sf5.technology-overlay"
+      ],
+      "expected": "compatible"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0.0",
+  "recipe_id": "sf5.project",
+  "positive": [
+    {
+      "name": "declared-base",
+      "base_recipe": "generic.repository",
+      "overlays": [
+        "sf5.technology-overlay"
+      ],
+      "expected": "compatible",
+      "expected_paths": [
+        "src/core/",
+        "src/loader/",
+        "src/utilities/",
+        "src/components/",
+        "src/smart-components/",
+        "src/blocks/",
+        "tests/",
+        "docs/",
+        "source/",
+        "docs/sf5-project-contract.md"
+      ],
+      "expected_ownership": {
+        "src/core/": "owner_template",
+        "src/loader/": "owner_template",
+        "src/utilities/": "owner_template",
+        "src/components/": "owner_template",
+        "src/smart-components/": "owner_template",
+        "src/blocks/": "owner_template",
+        "tests/": "owner_template",
+        "docs/": "owner_template",
+        "source/": "local_only",
+        "docs/sf5-project-contract.md": "owner_template"
+      }
+    }
+  ],
+  "negative": [
+    {
+      "name": "unknown-base",
+      "base_recipe": "unknown.repository",
+      "overlays": [],
+      "expected": "incompatible",
+      "expected_diagnostics": [
+        "unsupported_base_recipe"
+      ]
+    }
+  ],
+  "compatibility": [
+    {
+      "name": "owner-overlay",
+      "base_recipe": "generic.repository",
+      "primary_owner": "sf5",
+      "overlays": [
+        "sf5.technology-overlay"
+      ],
+      "expected": "compatible",
+      "expected_recipe_signature": "sf5.project@1.0.0"
+    }
+  ]
+}
