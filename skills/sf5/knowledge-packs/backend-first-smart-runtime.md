@@ -1,6 +1,6 @@
 # Backend-First Smart Runtime
 
-Use this knowledge pack when implementing or reviewing SF5 backend Smart API,
+Use this knowledge pack when implementing or reviewing the Simai Framework backend Smart API,
 smart manifests, smart templates, composite smart components, or smart runtime
 proofs.
 
@@ -60,9 +60,37 @@ The manifest render contract can carry:
 }
 ```
 
-## PHP Facade Pattern
+## Contract Identity And Ownership
 
-Use `Simai\Main\UI\Smart` as the current backend facade:
+The portable Smart artifact ABI is owned by Simai Framework, not by a backend
+facade or host repository:
+
+```text
+contract_id: sf.smart_artifact_abi
+schema_version: 1.0.0
+compatibility_id: sf-smart-artifact-abi-v1
+```
+
+It defines the artifact-root and manifest shape, normalized template context
+(`id`, `smart`, `manifest`, `view`, `preset`, `props`, `childrenHtml`, `slot`),
+and the renderer result (`html`, `assets`, `hydration`, `cache`,
+`resolvedArtifacts`). Conformance requires one unchanged fixture rendered by
+exact immutable adapter revisions with byte-identical HTML and equivalent
+normalized context. Never use `main` or `latest` as the compatibility contract.
+
+Host boundaries are explicit:
+
+- `bx-simai.main` is the Bitrix adapter and current facade implementation;
+- Docara is a standalone adapter and consumer of the same ABI;
+- Larena is a future consumer-adapter boundary until it has conformance proof;
+- `ui-smart` is the generated frontend behavior/assets distribution and is not
+  the portable backend contract owner;
+- product repositories may own product-specific conforming Smart artifacts
+  without creating a new ABI dialect.
+
+## Bitrix Host Facade Pattern
+
+Use `Simai\Main\UI\Smart` as the current Bitrix host-adapter facade:
 
 ```php
 Smart::render('button', [
@@ -92,7 +120,7 @@ resolvedArtifacts
 
 ## Artifact Roots
 
-The neutral runtime accepts explicit `artifactRoots`. Platform adapters should
+The neutral contract accepts explicit `artifactRoots`. Platform adapters should
 build these roots from the platform context. The core Smart facade should not
 read storage, settings, site structure, or page state directly.
 
@@ -111,7 +139,7 @@ Props merge order:
 preset props -> view props -> call props
 ```
 
-If a template is found, it receives normalized context only:
+If a template is found, it receives the portable normalized context only:
 
 ```text
 id

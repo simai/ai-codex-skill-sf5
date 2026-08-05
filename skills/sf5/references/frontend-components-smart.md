@@ -61,6 +61,57 @@ Block = what this page unit is, where its data comes from, how it is edited and 
 Smart = how that unit is rendered and made interactive.
 ```
 
+## Portable Smart Artifact ABI
+
+Simai Framework owns the host-neutral Smart artifact contract identified as:
+
+```text
+contract_id: sf.smart_artifact_abi
+schema_version: 1.0.0
+compatibility_id: sf-smart-artifact-abi-v1
+```
+
+The contract covers the authored manifest and artifact-root shape, normalized
+template context, and the renderer result. It does not assign ownership to a
+particular backend facade.
+
+Artifact roots use the following shape:
+
+```text
+<root>/<smart>/manifest.json|php
+<root>/<smart>/preset/<code>.json|php
+<root>/<smart>/view/<code>.json|php
+<root>/<smart>/template/<code>.php
+```
+
+A trusted template receives the same normalized context on every conforming
+host:
+
+```text
+id, smart, manifest, view, preset, props, childrenHtml, slot
+```
+
+The portable renderer result carries stable HTML plus assets, hydration nodes,
+cache metadata, and resolved artifacts. Conformance is proven by rendering one
+unchanged fixture on two exact adapter revisions and comparing the normalized
+context and HTML byte-for-byte; `main` and `latest` are not compatibility
+identities.
+
+Ownership boundaries:
+
+- Simai Framework owns this neutral contract and its conformance fixtures.
+- `bx-simai.main` implements the current Bitrix host adapter and exposes the
+  `Simai\Main\UI\Smart` facade.
+- Docara implements a standalone host adapter and consumes the same artifact
+  ABI; it does not define a separate dialect.
+- Larena is a consumer boundary for a future Laravel host adapter. Until it has
+  a conforming implementation, no runtime-support claim is allowed.
+- `ui-smart` remains the generated frontend behavior and assets distribution;
+  it does not own the portable backend ABI and must not be edited manually.
+- Products may own product-specific Smart artifacts. Those artifacts remain
+  portable when they conform to this ABI and declare their own dependencies;
+  product ownership does not create a new framework contract.
+
 ## Backend Runtime Bridge
 
 When SF5 needs backend rendering in Bitrix, Larena, or another platform, use runtime facades instead of project-specific helper sprawl:
@@ -72,7 +123,9 @@ SitePack -> Design -> Page -> Section -> Block -> Smart
 Rules:
 
 - Treat SitePack as the package/interchange container; SF5 is an extension/profile artifact inside it, not a replacement for SitePack.
-- Keep `Smart`, `Block`, `Section`, `Page`, `Design`, and `SitePack` as platform-neutral facade contracts where possible.
+- Keep `Smart`, `Block`, `Section`, `Page`, `Design`, and `SitePack` contracts
+  platform-neutral. Host facade classes are adapter implementations, not the
+  neutral contract owner.
 - Put `SITE_ID`, Bitrix asset wiring, Laravel routes, storage disks, permissions, and write policies into platform adapters.
 - Build an import dry-run plan before any write/import action.
 - Validate contracts from schema-backed manifests before rendering or importing.

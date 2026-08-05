@@ -1,0 +1,22 @@
+{
+  "operation_id": "graph.skill-evolution.changed-source",
+  "status": "success",
+  "mode": "write_generated",
+  "changed_canonical_objects": [],
+  "changed_generated_artifacts": [
+    "graph/generated/mirai-graph/skill-source-changes/portable-smart-artifact-abi-v1-20260802/skill-source-change-evidence.json",
+    "graph/generated/mirai-graph/skill-source-changes/portable-smart-artifact-abi-v1-20260802/detector-report.json",
+    "graph/generated/mirai-graph/skill-source-changes/portable-smart-artifact-abi-v1-20260802/skill-graph-sync-report.json",
+    "graph/generated/mirai-graph/skill-source-changes/portable-smart-artifact-abi-v1-20260802/skill-graph-sync-report.md",
+    "graph/generated/mirai-graph/skill-source-changes/portable-smart-artifact-abi-v1-20260802/operation-result.json"
+  ],
+  "warnings": [],
+  "blockers": [],
+  "next_suggested_operations": [],
+  "source_change_evidence_ref": "graph/generated/mirai-graph/skill-source-changes/portable-smart-artifact-abi-v1-20260802/skill-source-change-evidence.json",
+  "detector_report_ref": "graph/generated/mirai-graph/skill-source-changes/portable-smart-artifact-abi-v1-20260802/detector-report.json",
+  "detector_fingerprint": "cbbba77759a8a84a152d5e14bab07c76eff942aebf6f5279e569d2bae741271c",
+  "skill_graph_sync_report_ref": "graph/generated/mirai-graph/skill-source-changes/portable-smart-artifact-abi-v1-20260802/skill-graph-sync-report.json",
+  "canonical_write_allowed": false,
+  "retention_class": "skill_graph_sync"
+}

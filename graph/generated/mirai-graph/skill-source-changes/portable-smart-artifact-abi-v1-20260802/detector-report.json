@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0.0",
+  "operation_id": "simai.skill-change.detect",
+  "created_at": "2026-08-02T18:09:34.541922+00:00",
+  "repo": "repo://ai-codex-skill-sf5-portable-smart-abi-v1",
+  "skill": "sf5",
+  "owner": "sf5",
+  "federation_control_plane": false,
+  "base": "49f49d6e598e460f1cf83371004b5d234f780416",
+  "base_commit": "49f49d6e598e460f1cf83371004b5d234f780416",
+  "comparison_mode": "baseline_to_worktree",
+  "git": {
+    "dirty": true,
+    "ahead": 0,
+    "head": "49f49d6"
+  },
+  "changed_files": [
+    {
+      "path": "skills/sf5/references/frontend-components-smart.md",
+      "source_path": "references/frontend-components-smart.md",
+      "change_types": [
+        "methodology",
+        "routing-impact"
+      ],
+      "routing_impact": true,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "b3b3347ec255e97c84183c89028e15e6e3cfb50f270e64016090b511e69728a9",
+      "source_bytes": 11005,
+      "baseline_path": "skills/sf5/references/frontend-components-smart.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "8c83eafd462acb901eb31d196e458e82e4c3b1f6e8183b62bd45a116b5a33234",
+      "baseline_bytes": 9015
+    }
+  ],
+  "changed_skill_count": 1,
+  "change_types": [
+    "methodology",
+    "routing-impact"
+  ],
+  "detected_specialists": [],
+  "required_actions": [
+    "evidence",
+    "federation-proposal",
+    "route-check",
+    "runtime-context"
+  ],
+  "specialist_promotion_required": false,
+  "route_check_required": true,
+  "federation_proposal_required": true,
+  "blockers": [],
+  "status": "changed",
+  "detector_fingerprint": "cbbba77759a8a84a152d5e14bab07c76eff942aebf6f5279e569d2bae741271c"
+}
