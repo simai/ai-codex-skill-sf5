@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0.0",
+  "operation_id": "simai.skill-change.detect",
+  "created_at": "2026-08-05T07:13:31.790572+00:00",
+  "repo": "repo://ai-codex-skill-sf5",
+  "skill": "sf5",
+  "owner": "sf5",
+  "federation_control_plane": false,
+  "base": "HEAD",
+  "base_commit": "758541e52982fb250a37114cbb9797db90812a77",
+  "comparison_mode": "baseline_to_worktree",
+  "git": {
+    "dirty": true,
+    "ahead": 1,
+    "head": "758541e"
+  },
+  "changed_files": [
+    {
+      "path": "skills/sf5/references/vendor/source-inventory.json",
+      "source_path": "references/vendor/source-inventory.json",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "2e7d777617a02a48272ec95ebf244de2fc6fb8e9d77efdd6f075ff9c2adec2e2",
+      "source_bytes": 29904,
+      "baseline_path": "skills/sf5/references/vendor/source-inventory.json",
+      "baseline_mode": "100644",
+      "baseline_sha256": "069c7db458e1a49a207733d227e518de00f42cedda23c8deaae14dbd9f71217b",
+      "baseline_bytes": 29996
+    },
+    {
+      "path": "skills/sf5/scripts/build_source_inventory.py",
+      "source_path": "scripts/build_source_inventory.py",
+      "change_types": [
+        "runtime"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100755",
+      "source_sha256": "5152e8381e802329ae7885cd42e64c5db95dca72d4631e85247b4940cafb0a41",
+      "source_bytes": 11139,
+      "baseline_path": "skills/sf5/scripts/build_source_inventory.py",
+      "baseline_mode": "100755",
+      "baseline_sha256": "41ab2baa783e8690620d6bdc94a8617e29d035a621a83bdd9e8b22e8ae372182",
+      "baseline_bytes": 11152
+    }
+  ],
+  "changed_skill_count": 1,
+  "change_types": [
+    "methodology",
+    "runtime"
+  ],
+  "detected_specialists": [],
+  "required_actions": [
+    "evidence",
+    "runtime-context"
+  ],
+  "specialist_promotion_required": false,
+  "route_check_required": false,
+  "federation_proposal_required": false,
+  "blockers": [],
+  "status": "changed",
+  "detector_fingerprint": "853e2eb895ca8a402339bb4f3ceb40b7dde41c0b64b819c3fc42d70172b08911"
+}

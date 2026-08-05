@@ -126,8 +126,8 @@ def build_inventory(repo_root: Path, skill_root: Path) -> dict:
     return {
         "schemaVersion": 1,
         "generatedAt": GENERATED_AT,
-        "repoRoot": str(repo_root),
-        "sourceRoot": str(source_root),
+        "repoRoot": ".",
+        "sourceRoot": "source/simai",
         "repos": repo_map,
         "summary": {
             "shippedComponentCount": len(shipped_components),
