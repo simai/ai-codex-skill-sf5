@@ -84,6 +84,7 @@ def main() -> int:
     smart_registry = load_json(vendor_root / "registries" / "smart-codes.json")
     catalog = load_json(skill_root / "references" / "vendor" / "source" / "catalog-lite.sf-only.json")
     repo_root = repo_root_from_script()
+    upstream_sources_available = (repo_root / "source" / "simai").is_dir()
     catalog_classes = set(catalog.get("classes", []))
     known_smart_codes = smart_codes_from_registry(smart_registry)
 
@@ -303,6 +304,8 @@ def main() -> int:
             failures.append(f"component renderer {renderer_id} misses manualChecks")
         for rel_ref in renderer.get("sourceRefs", []):
             if rel_ref.startswith("source/"):
+                if not upstream_sources_available:
+                    continue
                 ref_path = repo_root / rel_ref
             else:
                 ref_path = skill_root / rel_ref
@@ -338,6 +341,7 @@ def main() -> int:
         "componentRecipeCount": len(recipe_items),
         "componentRendererCount": len(renderer_items),
         "smartHintCount": len(smart_hint_items),
+        "upstreamSourceRefValidation": "validated" if upstream_sources_available else "skipped",
     }
     if failures:
         result["failures"] = failures

@@ -53,26 +53,49 @@ echo "[sf5] Legacy class alias check"
 echo "[sf5] Build working-set coverage report"
 "$PYTHON_BIN" skills/sf5/scripts/build_working_set_coverage.py
 
-echo "[sf5] Build source inventory (machine-readable smoke)"
-"$PYTHON_BIN" skills/sf5/scripts/build_source_inventory.py \
-  --repo-root "$ROOT_DIR" \
-  --skill-root "$ROOT_DIR/skills/sf5" \
-  --format json > /tmp/sf5-source-inventory-build.json
+SF5_UPSTREAM_SOURCES_AVAILABLE=0
+if [[ -d "$ROOT_DIR/source/simai/ui/distr/component" \
+  && -d "$ROOT_DIR/source/simai/ui-smart/smart" \
+  && -d "$ROOT_DIR/source/simai/ui-play/examples" ]]; then
+  SF5_UPSTREAM_SOURCES_AVAILABLE=1
+fi
+export SF5_UPSTREAM_SOURCES_AVAILABLE
 
-echo "[sf5] Build component/smart catalog"
-"$PYTHON_BIN" skills/sf5/scripts/build_component_smart_catalog.py \
-  --repo-root "$ROOT_DIR" \
-  --skill-root "$ROOT_DIR/skills/sf5" \
-  --format json > /tmp/sf5-component-smart-catalog.json
+if [[ "$SF5_UPSTREAM_SOURCES_AVAILABLE" == "1" ]]; then
+  echo "[sf5] Build source inventory (machine-readable smoke)"
+  "$PYTHON_BIN" skills/sf5/scripts/build_source_inventory.py \
+    --repo-root "$ROOT_DIR" \
+    --skill-root "$ROOT_DIR/skills/sf5" \
+    --format json > /tmp/sf5-source-inventory-build.json
 
-echo "[sf5] Validate working-set source refs"
-"$PYTHON_BIN" skills/sf5/scripts/validate_working_set_sources.py > /tmp/sf5-working-set-sources.json
+  echo "[sf5] Build component/smart catalog"
+  "$PYTHON_BIN" skills/sf5/scripts/build_component_smart_catalog.py \
+    --repo-root "$ROOT_DIR" \
+    --skill-root "$ROOT_DIR/skills/sf5" \
+    --format json > /tmp/sf5-component-smart-catalog.json
+
+  echo "[sf5] Validate working-set source refs"
+  "$PYTHON_BIN" skills/sf5/scripts/validate_working_set_sources.py > /tmp/sf5-working-set-sources.json
+else
+  echo "[sf5] Skip upstream source checks (source/simai is not present in this checkout)"
+  printf '%s\n' '{"ok": true, "status": "skipped", "reason": "upstream_sources_unavailable"}' \
+    > /tmp/sf5-source-inventory-build.json
+  printf '%s\n' '{"ok": true, "status": "skipped", "reason": "upstream_sources_unavailable"}' \
+    > /tmp/sf5-component-smart-catalog.json
+  printf '%s\n' '{"ok": true, "status": "skipped", "reason": "upstream_sources_unavailable"}' \
+    > /tmp/sf5-working-set-sources.json
+fi
 
 echo "[sf5] Validate activity manifests"
 "$PYTHON_BIN" skills/sf5/scripts/validate_activity_manifests.py > /tmp/sf5-activity-manifests.json
 
-echo "[sf5] Validate source-refresh contract"
-"$PYTHON_BIN" skills/sf5/scripts/validate_source_refresh_contract.py > /tmp/sf5-source-refresh.json
+if [[ "$SF5_UPSTREAM_SOURCES_AVAILABLE" == "1" ]]; then
+  echo "[sf5] Validate source-refresh contract"
+  "$PYTHON_BIN" skills/sf5/scripts/validate_source_refresh_contract.py > /tmp/sf5-source-refresh.json
+else
+  printf '%s\n' '{"ok": true, "status": "skipped", "reason": "upstream_sources_unavailable"}' \
+    > /tmp/sf5-source-refresh.json
+fi
 
 echo "[sf5] Validate validation-layer contract"
 "$PYTHON_BIN" skills/sf5/scripts/validate_validation_contract.py > /tmp/sf5-validation-contract.json
@@ -83,8 +106,13 @@ echo "[sf5] Validate lower-level router activity hints"
 echo "[sf5] Validate scaffold generator activity hints"
 "$PYTHON_BIN" skills/sf5/scripts/validate_scaffold_hints.py > /tmp/sf5-scaffold-hints.json
 
-echo "[sf5] Validate source-refresh gate"
-"$PYTHON_BIN" skills/sf5/scripts/validate_source_refresh_gate.py > /tmp/sf5-source-refresh-gate.json
+if [[ "$SF5_UPSTREAM_SOURCES_AVAILABLE" == "1" ]]; then
+  echo "[sf5] Validate source-refresh gate"
+  "$PYTHON_BIN" skills/sf5/scripts/validate_source_refresh_gate.py > /tmp/sf5-source-refresh-gate.json
+else
+  printf '%s\n' '{"ok": true, "status": "skipped", "reason": "upstream_sources_unavailable"}' \
+    > /tmp/sf5-source-refresh-gate.json
+fi
 
 echo "[sf5] Validate Tailwind conversion contract"
 "$PYTHON_BIN" skills/sf5/scripts/validate_tailwind_conversion_contract.py > /tmp/sf5-tailwind-conversion.json
@@ -128,7 +156,12 @@ assert "nearly black" in result.stdout or "dark" in result.stdout, result.stdout
 PY
 
 echo "[sf5] Validate validation-hardening gate"
-"$PYTHON_BIN" skills/sf5/scripts/validate_validation_hardening_gate.py > /tmp/sf5-validation-gate.json
+if [[ "$SF5_UPSTREAM_SOURCES_AVAILABLE" == "1" ]]; then
+  "$PYTHON_BIN" skills/sf5/scripts/validate_validation_hardening_gate.py > /tmp/sf5-validation-gate.json
+else
+  printf '%s\n' '{"ok": true, "status": "skipped", "reason": "upstream_sources_unavailable"}' \
+    > /tmp/sf5-validation-gate.json
+fi
 
 echo "[sf5] Validate page recipes (vendor strict)"
 "$PYTHON_BIN" skills/sf5/scripts/validate_page_recipes.py --strict --catalog-strict
@@ -174,18 +207,25 @@ echo "[sf5] Route and preparation smoke checks"
   > /tmp/sf5-ui-pattern.json
 "$PYTHON_BIN" skills/sf5/scripts/validate_route_fixtures.py > /tmp/sf5-route-fixtures.json
 "$PYTHON_BIN" skills/sf5/scripts/validate_activity_fixtures.py > /tmp/sf5-activity-fixtures.json
-"$PYTHON_BIN" skills/sf5/scripts/validate_e2e_fixtures.py > /tmp/sf5-e2e-fixtures.json
+if [[ "$SF5_UPSTREAM_SOURCES_AVAILABLE" == "1" ]]; then
+  "$PYTHON_BIN" skills/sf5/scripts/validate_e2e_fixtures.py > /tmp/sf5-e2e-fixtures.json
+else
+  printf '%s\n' '{"ok": true, "status": "skipped", "reason": "upstream_sources_unavailable"}' \
+    > /tmp/sf5-e2e-fixtures.json
+fi
 "$PYTHON_BIN" skills/sf5/scripts/prepare_sf5_task.py \
   "profile settings page with avatar upload and notification toggles" \
   --format json \
   --scaffold-out /tmp/sf5-prepared-profile.html \
   > /tmp/sf5-task.json
-"$PYTHON_BIN" skills/sf5/scripts/generate_sf5_working_set.py \
-  "dashboard with KPI cards, activity table and filters" \
-  --out-dir /tmp/sf5-working-set
+if [[ "$SF5_UPSTREAM_SOURCES_AVAILABLE" == "1" ]]; then
+  "$PYTHON_BIN" skills/sf5/scripts/generate_sf5_working_set.py \
+    "dashboard with KPI cards, activity table and filters" \
+    --out-dir /tmp/sf5-working-set
+fi
 
 echo "[sf5] Validate generated HTML snippets (vendor strict)"
-"$PYTHON_BIN" skills/sf5/scripts/validate_sf5_html_files.py --strict --catalog-strict \
+HTML_CHECK_PATHS=(
   /tmp/sf5-page.html \
   /tmp/sf5-auth-page.html \
   /tmp/sf5-catalog-page.html \
@@ -196,18 +236,25 @@ echo "[sf5] Validate generated HTML snippets (vendor strict)"
   /tmp/sf5-checkout-page.html \
   /tmp/sf5-profile-page.html \
   /tmp/sf5-prepared-profile.html \
-  /tmp/sf5-working-set/scaffold.html \
-  /tmp/sf5-working-set/sections/kpi-row.html \
-  /tmp/sf5-working-set/sections/activity-table.html \
-  /tmp/sf5-working-set/sections/action-bar.html \
-  /tmp/sf5-working-set/upstream/activity-table.html \
   /tmp/sf5-component.html \
   /tmp/sf5-smart.html \
   /tmp/sf5-block.html
+)
+if [[ "$SF5_UPSTREAM_SOURCES_AVAILABLE" == "1" ]]; then
+  HTML_CHECK_PATHS+=(
+    /tmp/sf5-working-set/scaffold.html
+    /tmp/sf5-working-set/sections/kpi-row.html
+    /tmp/sf5-working-set/sections/activity-table.html
+    /tmp/sf5-working-set/sections/action-bar.html
+    /tmp/sf5-working-set/upstream/activity-table.html
+  )
+fi
+"$PYTHON_BIN" skills/sf5/scripts/validate_sf5_html_files.py --strict --catalog-strict "${HTML_CHECK_PATHS[@]}"
 
 echo "[sf5] Validate JSON outputs"
 "$PYTHON_BIN" - <<'PY'
 import json
+import os
 from pathlib import Path
 
 route = json.loads(Path("/tmp/sf5-route.json").read_text(encoding="utf-8"))
@@ -232,7 +279,12 @@ source_inventory_build = json.loads(Path("/tmp/sf5-source-inventory-build.json")
 component_smart_catalog = json.loads(Path("/tmp/sf5-component-smart-catalog.json").read_text(encoding="utf-8"))
 e2e_fixtures = json.loads(Path("/tmp/sf5-e2e-fixtures.json").read_text(encoding="utf-8"))
 task = json.loads(Path("/tmp/sf5-task.json").read_text(encoding="utf-8"))
-manifest = json.loads(Path("/tmp/sf5-working-set/manifest.json").read_text(encoding="utf-8"))
+upstream_sources_available = os.environ.get("SF5_UPSTREAM_SOURCES_AVAILABLE") == "1"
+manifest = (
+    json.loads(Path("/tmp/sf5-working-set/manifest.json").read_text(encoding="utf-8"))
+    if upstream_sources_available
+    else None
+)
 coverage = json.loads(Path("skills/sf5/references/vendor/working-set.coverage.json").read_text(encoding="utf-8"))
 
 assert route["matched"] is True
@@ -252,6 +304,9 @@ assert working_set_sources["ok"] is True
 assert activity_manifests["ok"] is True
 assert source_refresh["ok"] is True
 assert source_refresh_gate["ok"] is True
+if not upstream_sources_available:
+    assert source_refresh["status"] == "skipped"
+    assert source_refresh_gate["status"] == "skipped"
 assert tailwind_conversion["ok"] is True
 assert tailwind_conversion["activityId"] == "tailwind-conversion"
 assert tailwind_mapping["ok"] is True
@@ -270,26 +325,39 @@ assert tailwind_converter["promotionGateFixtureCount"] >= 4
 assert tailwind_converter["e2eFixtureCount"] >= 4
 assert validation_contract["ok"] is True
 assert validation_gate["ok"] is True
+if not upstream_sources_available:
+    assert validation_gate["status"] == "skipped"
 assert source_inventory_build["ok"] is True
-assert source_inventory_build["activity_hint"]["activity_id"] == "source-refresh"
 assert component_smart_catalog["ok"] is True
-assert component_smart_catalog["summary"]["componentCount"] > 0
-assert component_smart_catalog["summary"]["componentsWithExamples"] > 0
-assert component_smart_catalog["summary"]["smartComponentCount"] > 0
-assert component_smart_catalog["summary"]["smartComponentsWithExamples"] > 0
+if upstream_sources_available:
+    assert source_inventory_build["activity_hint"]["activity_id"] == "source-refresh"
+    assert component_smart_catalog["summary"]["componentCount"] > 0
+    assert component_smart_catalog["summary"]["componentsWithExamples"] > 0
+    assert component_smart_catalog["summary"]["smartComponentCount"] > 0
+    assert component_smart_catalog["summary"]["smartComponentsWithExamples"] > 0
+else:
+    assert source_inventory_build["status"] == "skipped"
+    assert component_smart_catalog["status"] == "skipped"
+    assert working_set_sources["status"] == "skipped"
 assert route_fixtures["fixtureCount"] >= 9
 assert activity_fixtures["fixtureCount"] >= 5
 assert router_hints["fixtureCount"] >= 4
 assert scaffold_hints["fixtureCount"] >= 4
-assert working_set_sources["checked"] >= 10
+if upstream_sources_available:
+    assert working_set_sources["checked"] >= 10
 assert activity_manifests["checked"] >= 7
-assert source_refresh["checked"] >= 5
+if upstream_sources_available:
+    assert source_refresh["checked"] >= 5
 assert validation_contract["routeFixtureCount"] >= 10
 assert validation_contract["routerHintFixtureCount"] >= 4
 assert validation_contract["scaffoldHintFixtureCount"] >= 4
-assert source_inventory_build["summary"]["shippedComponentCount"] > 0
+if upstream_sources_available:
+    assert source_inventory_build["summary"]["shippedComponentCount"] > 0
 assert e2e_fixtures["ok"] is True
-assert e2e_fixtures["fixtureCount"] >= 3
+if upstream_sources_available:
+    assert e2e_fixtures["fixtureCount"] >= 3
+else:
+    assert e2e_fixtures["status"] == "skipped"
 
 assert task["route"]["matched"] is True
 assert task["route"]["activity"]["activity_id"] == "working-set-maintenance"
@@ -297,22 +365,24 @@ assert task["route"]["scenario_id"] == "profile-settings"
 assert task["route"]["recipe_type"] == "profile"
 assert task["scaffold_output"] == "/tmp/sf5-prepared-profile.html"
 
-assert manifest["route"]["matched"] is True
-assert manifest["activity"]["activity_id"] == "working-set-maintenance"
-assert manifest["route"]["scenario_id"] == "dashboard-workspace"
-assert manifest["route"]["recipe_type"] == "dashboard"
-assert manifest["files"]["activity_json"] == "activity.json"
-assert manifest["files"]["scaffold"] == "scaffold.html"
-assert manifest["files"]["sections_index"] == "sections.md"
-assert manifest["files"]["sources_index"] == "sources.md"
-assert manifest["files"]["sections_dir"] == "sections/"
-assert manifest["files"]["upstream_index"] == "upstream.md"
-assert manifest["files"]["upstream_dir"] == "upstream/"
-assert len(manifest["section_variants"]) >= 3
-assert manifest["section_variants"][0]["file"].startswith("sections/")
-assert manifest["section_variants"][0]["source_refs"]
-assert len(manifest["upstream_variants"]) >= 1
-assert manifest["upstream_variants"][0]["file"].startswith("upstream/")
+if upstream_sources_available:
+    assert manifest is not None
+    assert manifest["route"]["matched"] is True
+    assert manifest["activity"]["activity_id"] == "working-set-maintenance"
+    assert manifest["route"]["scenario_id"] == "dashboard-workspace"
+    assert manifest["route"]["recipe_type"] == "dashboard"
+    assert manifest["files"]["activity_json"] == "activity.json"
+    assert manifest["files"]["scaffold"] == "scaffold.html"
+    assert manifest["files"]["sections_index"] == "sections.md"
+    assert manifest["files"]["sources_index"] == "sources.md"
+    assert manifest["files"]["sections_dir"] == "sections/"
+    assert manifest["files"]["upstream_index"] == "upstream.md"
+    assert manifest["files"]["upstream_dir"] == "upstream/"
+    assert len(manifest["section_variants"]) >= 3
+    assert manifest["section_variants"][0]["file"].startswith("sections/")
+    assert manifest["section_variants"][0]["source_refs"]
+    assert len(manifest["upstream_variants"]) >= 1
+    assert manifest["upstream_variants"][0]["file"].startswith("upstream/")
 assert coverage["summary"]["expectedRecipeTypeCount"] == 9
 assert coverage["summary"]["supportedRecipeTypeCount"] == 9
 assert coverage["summary"]["unsupportedRecipeTypes"] == []
