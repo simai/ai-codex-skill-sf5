@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "operation_id": "graph.skill-evolution.changed-source.report",
+  "created_at": "2026-08-11T18:23:34.389881+00:00",
+  "skill": "sf5",
+  "owner": "sf5",
+  "federation_control_plane": false,
+  "base": "origin/main",
+  "base_commit": "e2cba8751416b3d583fe0e3b7efe8a7b7eda63da",
+  "comparison_mode": "baseline_to_worktree",
+  "detector_fingerprint": "25db9de8dcc6fe6f32875a09673488e6714d44d024f3cab9294851b1a827744f",
+  "status": "success",
+  "source_change_evidence_ref": "graph/generated/mirai-graph/skill-source-changes/v810-final2-sf5/skill-source-change-evidence.json",
+  "runtime_verify_ref": "graph/generated/mirai-graph/runtime-kit/v810-final2-sf5-verify/runtime-kit-verify.json",
+  "runtime_context_ref": "graph/generated/mirai-graph/runtime-context/v810-final2-sf5-context/context-pack.json",
+  "federation_change_proposal_ref": "repo://ai-codex-skill-graph/graph/generated/mirai-graph/federation-change/v810-final2-sf5-federation-proposal/federation-change-proposal.json",
+  "specialist_promotion_proposal_refs": [],
+  "required_actions": [
+    "evidence",
+    "federation-proposal",
+    "route-check",
+    "runtime-context"
+  ],
+  "blockers": [],
+  "canonical_write_allowed": false,
+  "sync_fingerprint": "16cc8373f422038ce68379d792f1e2c05201b7e7f48686dfa82c67ed2e92c24d",
+  "task_sha256": "f914c344a632cd4cb2e9db00795dd021add8276e5611e190dd5542012c5f0a64",
+  "task_bytes": 55
+}
