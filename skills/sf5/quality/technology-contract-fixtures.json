@@ -5,19 +5,19 @@
   "positive_cases": [
     {
       "id": "sf5.paraphrase.ru",
-      "task": "Используй $sf5. Выполни основную проверяемую задачу владельца sf5 в синтетическом проекте.",
+      "task": "Используй $sf5. Выполни типовую задачу владельца sf5 в синтетическом проекте.",
       "expected_process_model_id": "sf5_frontend_delivery"
     },
     {
       "id": "sf5.paraphrase.en",
-      "task": "Use $sf5 to complete the owner's primary verifiable task in a synthetic project.",
+      "task": "Use $sf5 to complete the owner's representative task in a synthetic project.",
       "expected_process_model_id": "sf5_frontend_delivery"
     }
   ],
   "negative_cases": [
     {
       "id": "sf5.owner_boundary",
-      "task": "Не используй $sf5. Используй $dev для точечного backend bugfix.",
+      "task": "Используй $dev для точечного backend bugfix в существующем API.",
       "expected_primary_skill": "dev"
     }
   ],
