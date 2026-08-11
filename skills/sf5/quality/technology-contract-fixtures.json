@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "operation_id": "simai.owner_skill.technology_contract_fixture",
+  "skill": "sf5",
+  "positive_cases": [
+    {
+      "id": "sf5.paraphrase.ru",
+      "task": "Используй $sf5. Выполни основную проверяемую задачу владельца sf5 в синтетическом проекте.",
+      "expected_process_model_id": "sf5_frontend_delivery"
+    },
+    {
+      "id": "sf5.paraphrase.en",
+      "task": "Use $sf5 to complete the owner's primary verifiable task in a synthetic project.",
+      "expected_process_model_id": "sf5_frontend_delivery"
+    }
+  ],
+  "negative_cases": [
+    {
+      "id": "sf5.owner_boundary",
+      "task": "Не используй $sf5. Используй $dev для точечного backend bugfix.",
+      "expected_primary_skill": "dev"
+    }
+  ],
+  "outcome_cases": [
+    {
+      "id": "sf5.ready_registry_reuse.outcome",
+      "capability_id": "sf5.ready_registry_reuse",
+      "prompt_ru": "Используй $sf5. Выполни проверяемый синтетический сценарий sf5.ready_registry_reuse и верни evidence без внешних или live-записей.",
+      "prompt_en": "Use $sf5. Complete the synthetic sf5.ready_registry_reuse scenario and return evidence without external or live writes.",
+      "fixture_repository": "graph/benchmarks/owner-outcomes/fixtures/sf5/ready_registry_reuse",
+      "rubric_ref": "graph/benchmarks/owner-outcomes/rubrics/sf5.json"
+    }
+  ]
+}
