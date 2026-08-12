@@ -1,0 +1,22 @@
+{
+  "operation_id": "graph.skill-evolution.changed-source",
+  "status": "success",
+  "mode": "write_generated",
+  "changed_canonical_objects": [],
+  "changed_generated_artifacts": [
+    "graph/generated/mirai-graph/skill-source-changes/capability-discovery-8.11.0-sf5/skill-source-change-evidence.json",
+    "graph/generated/mirai-graph/skill-source-changes/capability-discovery-8.11.0-sf5/detector-report.json",
+    "graph/generated/mirai-graph/skill-source-changes/capability-discovery-8.11.0-sf5/skill-graph-sync-report.json",
+    "graph/generated/mirai-graph/skill-source-changes/capability-discovery-8.11.0-sf5/skill-graph-sync-report.md",
+    "graph/generated/mirai-graph/skill-source-changes/capability-discovery-8.11.0-sf5/operation-result.json"
+  ],
+  "warnings": [],
+  "blockers": [],
+  "next_suggested_operations": [],
+  "source_change_evidence_ref": "graph/generated/mirai-graph/skill-source-changes/capability-discovery-8.11.0-sf5/skill-source-change-evidence.json",
+  "detector_report_ref": "graph/generated/mirai-graph/skill-source-changes/capability-discovery-8.11.0-sf5/detector-report.json",
+  "detector_fingerprint": "7638a43bf2ce013aed9f8d32d142094caf2205ea6f4781e371fc8e23fe6ab95a",
+  "skill_graph_sync_report_ref": "graph/generated/mirai-graph/skill-source-changes/capability-discovery-8.11.0-sf5/skill-graph-sync-report.json",
+  "canonical_write_allowed": false,
+  "retention_class": "skill_graph_sync"
+}
