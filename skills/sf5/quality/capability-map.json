@@ -5,6 +5,255 @@
   "readiness": "ready",
   "capabilities": [
     {
+      "id": "sf5.loader",
+      "aliases": [
+        "SF5 loader",
+        "sf5 loader",
+        "загрузчик sf5"
+      ],
+      "user_outcome": "Подключение ресурсов штатным loader",
+      "readiness": "ready",
+      "canonical_source_refs": [
+        "SKILL.md"
+      ],
+      "extension_points": [
+        {
+          "id": "sf5.loader.extension",
+          "kind": "extend",
+          "source_ref": "SKILL.md",
+          "validator_ref": "federation://technology-conformance"
+        }
+      ],
+      "constraints": [
+        "Use the exact project version and native lifecycle, rights and APIs."
+      ],
+      "non_goals": [
+        "Do not create a parallel data, access, status or notification subsystem."
+      ],
+      "validator_refs": [
+        "federation://technology-conformance"
+      ],
+      "roles": [
+        "discovery",
+        "outcome_harness"
+      ],
+      "discovery": {
+        "intent_signals": [
+          "SF5 loader",
+          "sf5 loader",
+          "загрузчик sf5",
+          "sf5.loader",
+          "Подключение ресурсов штатным loader"
+        ],
+        "requirement_signals": [
+          "SF5 loader",
+          "sf5 loader",
+          "загрузчик sf5",
+          "sf5.loader",
+          "Подключение ресурсов штатным loader"
+        ],
+        "project_signals": [
+          "sf5"
+        ],
+        "dependency_signals": []
+      },
+      "applicability": {
+        "platform": "sf5",
+        "editions": [],
+        "version_range": "exact-project-version-or-owner-contract",
+        "required_modules": []
+      },
+      "coverage": {
+        "provides": [
+          "Подключение ресурсов штатным loader"
+        ],
+        "does_not_provide": [
+          "Capabilities outside the declared owner boundary"
+        ]
+      },
+      "ownership": {
+        "data": "sf5",
+        "access": "sf5",
+        "lifecycle": "sf5",
+        "interface": "sf5",
+        "runtime": "sf5"
+      },
+      "composition": {
+        "requires": [],
+        "compatible_with": [],
+        "conflicts_with": []
+      },
+      "no_fit_conditions": [
+        "A required outcome remains uncovered after checking the exact owner source and project version."
+      ]
+    },
+    {
+      "id": "sf5.page_recipe",
+      "aliases": [
+        "SF5 recipe",
+        "sf5 recipe",
+        "рецепт страницы"
+      ],
+      "user_outcome": "Страница из штатного рецепта SF5",
+      "readiness": "ready",
+      "canonical_source_refs": [
+        "references/vendor/tailwind-to-sf5.component-recipes.json"
+      ],
+      "extension_points": [
+        {
+          "id": "sf5.page_recipe.extension",
+          "kind": "extend",
+          "source_ref": "references/vendor/tailwind-to-sf5.component-recipes.json",
+          "validator_ref": "federation://technology-conformance"
+        }
+      ],
+      "constraints": [
+        "Use the exact project version and native lifecycle, rights and APIs."
+      ],
+      "non_goals": [
+        "Do not create a parallel data, access, status or notification subsystem."
+      ],
+      "validator_refs": [
+        "federation://technology-conformance"
+      ],
+      "roles": [
+        "discovery",
+        "outcome_harness"
+      ],
+      "discovery": {
+        "intent_signals": [
+          "SF5 recipe",
+          "sf5 recipe",
+          "рецепт страницы",
+          "sf5.page_recipe",
+          "Страница из штатного рецепта SF5"
+        ],
+        "requirement_signals": [
+          "SF5 recipe",
+          "sf5 recipe",
+          "рецепт страницы",
+          "sf5.page_recipe",
+          "Страница из штатного рецепта SF5"
+        ],
+        "project_signals": [
+          "sf5"
+        ],
+        "dependency_signals": []
+      },
+      "applicability": {
+        "platform": "sf5",
+        "editions": [],
+        "version_range": "exact-project-version-or-owner-contract",
+        "required_modules": []
+      },
+      "coverage": {
+        "provides": [
+          "Страница из штатного рецепта SF5"
+        ],
+        "does_not_provide": [
+          "Capabilities outside the declared owner boundary"
+        ]
+      },
+      "ownership": {
+        "data": "sf5",
+        "access": "sf5",
+        "lifecycle": "sf5",
+        "interface": "sf5",
+        "runtime": "sf5"
+      },
+      "composition": {
+        "requires": [],
+        "compatible_with": [],
+        "conflicts_with": []
+      },
+      "no_fit_conditions": [
+        "A required outcome remains uncovered after checking the exact owner source and project version."
+      ]
+    },
+    {
+      "id": "sf5.ready_component",
+      "aliases": [
+        "SF5 ready component",
+        "sf5 component",
+        "компонент sf5"
+      ],
+      "user_outcome": "Готовый компонент из точного registry",
+      "readiness": "ready",
+      "canonical_source_refs": [
+        "references/framework-contract-registry.md"
+      ],
+      "extension_points": [
+        {
+          "id": "sf5.ready_component.extension",
+          "kind": "extend",
+          "source_ref": "references/framework-contract-registry.md",
+          "validator_ref": "federation://technology-conformance"
+        }
+      ],
+      "constraints": [
+        "Use the exact project version and native lifecycle, rights and APIs."
+      ],
+      "non_goals": [
+        "Do not create a parallel data, access, status or notification subsystem."
+      ],
+      "validator_refs": [
+        "federation://technology-conformance"
+      ],
+      "roles": [
+        "discovery",
+        "outcome_harness"
+      ],
+      "discovery": {
+        "intent_signals": [
+          "SF5 ready component",
+          "sf5 component",
+          "компонент sf5",
+          "sf5.ready_component",
+          "Готовый компонент из точного registry"
+        ],
+        "requirement_signals": [
+          "SF5 ready component",
+          "sf5 component",
+          "компонент sf5",
+          "sf5.ready_component",
+          "Готовый компонент из точного registry"
+        ],
+        "project_signals": [
+          "sf5"
+        ],
+        "dependency_signals": []
+      },
+      "applicability": {
+        "platform": "sf5",
+        "editions": [],
+        "version_range": "exact-project-version-or-owner-contract",
+        "required_modules": []
+      },
+      "coverage": {
+        "provides": [
+          "Готовый компонент из точного registry"
+        ],
+        "does_not_provide": [
+          "Capabilities outside the declared owner boundary"
+        ]
+      },
+      "ownership": {
+        "data": "sf5",
+        "access": "sf5",
+        "lifecycle": "sf5",
+        "interface": "sf5",
+        "runtime": "sf5"
+      },
+      "composition": {
+        "requires": [],
+        "compatible_with": [],
+        "conflicts_with": []
+      },
+      "no_fit_conditions": [
+        "A required outcome remains uncovered after checking the exact owner source and project version."
+      ]
+    },
+    {
       "id": "sf5.ready_registry_reuse",
       "aliases": [
         "SF5 registry",
@@ -16,7 +265,12 @@
         "SKILL.md"
       ],
       "extension_points": [
-        "owner://sf5/existing-methodology"
+        {
+          "id": "sf5.ready_registry_reuse.extension",
+          "kind": "extend",
+          "source_ref": "SKILL.md",
+          "validator_ref": "federation://owner-capability-map"
+        }
       ],
       "constraints": [
         "Use raw owner sources for methodology and judgement.",
@@ -28,6 +282,223 @@
       "validator_refs": [
         "federation://owner-capability-map",
         "federation://technology-conformance"
+      ],
+      "roles": [
+        "discovery",
+        "outcome_harness"
+      ],
+      "discovery": {
+        "intent_signals": [
+          "SF5 registry",
+          "ready record",
+          "sf5.ready_registry_reuse",
+          "Reuse only a ready SF5 registry record and return an upstream gap for discoverable-only entries."
+        ],
+        "requirement_signals": [
+          "SF5 registry",
+          "ready record",
+          "sf5.ready_registry_reuse",
+          "Reuse only a ready SF5 registry record and return an upstream gap for discoverable-only entries."
+        ],
+        "project_signals": [
+          "sf5"
+        ],
+        "dependency_signals": []
+      },
+      "applicability": {
+        "platform": "sf5",
+        "editions": [],
+        "version_range": "exact-project-version-or-owner-contract",
+        "required_modules": []
+      },
+      "coverage": {
+        "provides": [
+          "Reuse only a ready SF5 registry record and return an upstream gap for discoverable-only entries."
+        ],
+        "does_not_provide": [
+          "Capabilities outside the declared owner boundary"
+        ]
+      },
+      "ownership": {
+        "data": "sf5",
+        "access": "sf5",
+        "lifecycle": "sf5",
+        "interface": "sf5",
+        "runtime": "sf5"
+      },
+      "composition": {
+        "requires": [],
+        "compatible_with": [],
+        "conflicts_with": []
+      },
+      "no_fit_conditions": [
+        "A required outcome remains uncovered after checking the exact owner source and project version."
+      ]
+    },
+    {
+      "id": "sf5.ready_smart_component",
+      "aliases": [
+        "SF5 smart component",
+        "smart component",
+        "умный компонент"
+      ],
+      "user_outcome": "Готовый smart component из точного registry",
+      "readiness": "ready",
+      "canonical_source_refs": [
+        "references/component-smart-catalog.md"
+      ],
+      "extension_points": [
+        {
+          "id": "sf5.ready_smart_component.extension",
+          "kind": "extend",
+          "source_ref": "references/component-smart-catalog.md",
+          "validator_ref": "federation://technology-conformance"
+        }
+      ],
+      "constraints": [
+        "Use the exact project version and native lifecycle, rights and APIs."
+      ],
+      "non_goals": [
+        "Do not create a parallel data, access, status or notification subsystem."
+      ],
+      "validator_refs": [
+        "federation://technology-conformance"
+      ],
+      "roles": [
+        "discovery",
+        "outcome_harness"
+      ],
+      "discovery": {
+        "intent_signals": [
+          "SF5 smart component",
+          "smart component",
+          "умный компонент",
+          "sf5.ready_smart_component",
+          "Готовый smart component из точного registry"
+        ],
+        "requirement_signals": [
+          "SF5 smart component",
+          "smart component",
+          "умный компонент",
+          "sf5.ready_smart_component",
+          "Готовый smart component из точного registry"
+        ],
+        "project_signals": [
+          "sf5"
+        ],
+        "dependency_signals": []
+      },
+      "applicability": {
+        "platform": "sf5",
+        "editions": [],
+        "version_range": "exact-project-version-or-owner-contract",
+        "required_modules": []
+      },
+      "coverage": {
+        "provides": [
+          "Готовый smart component из точного registry"
+        ],
+        "does_not_provide": [
+          "Capabilities outside the declared owner boundary"
+        ]
+      },
+      "ownership": {
+        "data": "sf5",
+        "access": "sf5",
+        "lifecycle": "sf5",
+        "interface": "sf5",
+        "runtime": "sf5"
+      },
+      "composition": {
+        "requires": [],
+        "compatible_with": [],
+        "conflicts_with": []
+      },
+      "no_fit_conditions": [
+        "A required outcome remains uncovered after checking the exact owner source and project version."
+      ]
+    },
+    {
+      "id": "sf5.utilities",
+      "aliases": [
+        "SF5 utilities",
+        "sf5 utilities",
+        "утилиты sf5"
+      ],
+      "user_outcome": "Использование готовых utilities SF5",
+      "readiness": "ready",
+      "canonical_source_refs": [
+        "SKILL.md"
+      ],
+      "extension_points": [
+        {
+          "id": "sf5.utilities.extension",
+          "kind": "extend",
+          "source_ref": "SKILL.md",
+          "validator_ref": "federation://technology-conformance"
+        }
+      ],
+      "constraints": [
+        "Use the exact project version and native lifecycle, rights and APIs."
+      ],
+      "non_goals": [
+        "Do not create a parallel data, access, status or notification subsystem."
+      ],
+      "validator_refs": [
+        "federation://technology-conformance"
+      ],
+      "roles": [
+        "discovery",
+        "outcome_harness"
+      ],
+      "discovery": {
+        "intent_signals": [
+          "SF5 utilities",
+          "sf5 utilities",
+          "утилиты sf5",
+          "sf5.utilities",
+          "Использование готовых utilities SF5"
+        ],
+        "requirement_signals": [
+          "SF5 utilities",
+          "sf5 utilities",
+          "утилиты sf5",
+          "sf5.utilities",
+          "Использование готовых utilities SF5"
+        ],
+        "project_signals": [
+          "sf5"
+        ],
+        "dependency_signals": []
+      },
+      "applicability": {
+        "platform": "sf5",
+        "editions": [],
+        "version_range": "exact-project-version-or-owner-contract",
+        "required_modules": []
+      },
+      "coverage": {
+        "provides": [
+          "Использование готовых utilities SF5"
+        ],
+        "does_not_provide": [
+          "Capabilities outside the declared owner boundary"
+        ]
+      },
+      "ownership": {
+        "data": "sf5",
+        "access": "sf5",
+        "lifecycle": "sf5",
+        "interface": "sf5",
+        "runtime": "sf5"
+      },
+      "composition": {
+        "requires": [],
+        "compatible_with": [],
+        "conflicts_with": []
+      },
+      "no_fit_conditions": [
+        "A required outcome remains uncovered after checking the exact owner source and project version."
       ]
     }
   ]
