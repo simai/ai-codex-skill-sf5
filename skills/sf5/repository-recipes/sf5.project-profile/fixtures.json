@@ -1,0 +1,1 @@
+{"positive":[{"task":"add SF5 to its selected native mount","expected_recipe":"sf5.project-profile"}],"negative":[{"task":"create a universal src tree for another platform","forbidden_behavior":"cross_platform_layout"}],"compatibility":[{"shape":"package.repository","compatible":true}]}

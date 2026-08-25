@@ -1,0 +1,8 @@
+{
+  "$schema":"https://simai.io/schemas/federation/repository-recipe.schema.json","schema_version":"3.0.0","id":"sf5.project-profile","version":"3.0.0","kind":"platform_profile","owner":"sf5","title":"SF5 frontend project layout","repository_family":"platform","repository_kind":"sf5_project","base_recipe":null,
+  "compatibility":{"allowed_bases":["application.repository","package.repository","product.monorepo"],"allowed_overlays":[],"incompatible_recipes":[]},"capabilities":[],"requires_capabilities":[],"required_inputs":[],
+  "source_contract":{"entrypoints":["skills/sf5/SKILL.md"],"processes":["skills/sf5/references/project-conventions.md"],"checks":["skills/sf5/references/execution-workflow.md"]},
+  "file_manifest":[],"materialization":{"mode":"declarative_manifest","generator_contract":"repository_factory.manifest.v1","template_root":null,"template_files":[]},
+  "validators":[{"id":"sf5.layout","type":"owner_source","ref":"skills/sf5/references/project-conventions.md","required":true}],
+  "availability":{"policy":"local_skill_override","default_state":"available","disabled_state_behavior":"fail_closed"},"migrations":[]
+}
