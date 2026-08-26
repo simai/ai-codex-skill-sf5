@@ -1,0 +1,18 @@
+{
+  "evidence": [],
+  "from": "capability.sf5.ready_smart_component",
+  "id": "relation.capability-sf5-ready-smart-component.documented-by.source-sf5-component-smart-catalog-md-48ad6d4ee870",
+  "kind": "relation",
+  "profile": "skill_runtime",
+  "readiness": "accepted",
+  "relation_type": "documented_by",
+  "schema_version": "1.0.0",
+  "source": "capability.sf5.ready_smart_component",
+  "source_refs": [
+    "skills/sf5/quality/capability-map.json"
+  ],
+  "status": "accepted",
+  "target": "source.sf5.component-smart-catalog-md.48ad6d4ee870",
+  "to": "source.sf5.component-smart-catalog-md.48ad6d4ee870",
+  "type": "documented_by"
+}

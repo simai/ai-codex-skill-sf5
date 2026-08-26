@@ -1,0 +1,33 @@
+{
+  "aliases": [
+    "SF5 recipe",
+    "sf5 recipe",
+    "рецепт страницы"
+  ],
+  "applicability": {
+    "editions": [],
+    "platform": "sf5",
+    "required_modules": [],
+    "version_range": "exact-project-version-or-owner-contract"
+  },
+  "authority": "owner_capability_map",
+  "evidence": [],
+  "expansion_policy": "expandable",
+  "id": "capability.sf5.page_recipe",
+  "kind": "capability",
+  "lifecycle": "accepted",
+  "negative_boundaries": [
+    "Do not create a parallel data, access, status or notification subsystem."
+  ],
+  "owner": "sf5",
+  "profile": "skill_runtime",
+  "readiness": "ready",
+  "schema_version": "1.0.0",
+  "source_refs": [
+    "skills/sf5/quality/capability-map.json",
+    "skills/sf5/references/vendor/tailwind-to-sf5.component-recipes.json"
+  ],
+  "subtype": "owner_capability_map_entry",
+  "summary": "Страница из штатного рецепта SF5",
+  "title": "Страница из штатного рецепта SF5"
+}

@@ -1,0 +1,18 @@
+{
+  "evidence": [],
+  "from": "capability.sf5.page_recipe",
+  "id": "relation.capability-sf5-page-recipe.documented-by.source-sf5-tailwind-to-sf5-component-recipes-json-9865f9554b7a",
+  "kind": "relation",
+  "profile": "skill_runtime",
+  "readiness": "accepted",
+  "relation_type": "documented_by",
+  "schema_version": "1.0.0",
+  "source": "capability.sf5.page_recipe",
+  "source_refs": [
+    "skills/sf5/quality/capability-map.json"
+  ],
+  "status": "accepted",
+  "target": "source.sf5.tailwind-to-sf5-component-recipes-json.9865f9554b7a",
+  "to": "source.sf5.tailwind-to-sf5-component-recipes-json.9865f9554b7a",
+  "type": "documented_by"
+}

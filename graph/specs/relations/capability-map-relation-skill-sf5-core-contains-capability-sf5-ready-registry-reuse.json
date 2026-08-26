@@ -1,0 +1,18 @@
+{
+  "evidence": [],
+  "from": "skill.sf5.core",
+  "id": "relation.skill-sf5-core.contains.capability-sf5-ready-registry-reuse",
+  "kind": "relation",
+  "profile": "skill_runtime",
+  "readiness": "accepted",
+  "relation_type": "contains",
+  "schema_version": "1.0.0",
+  "source": "skill.sf5.core",
+  "source_refs": [
+    "skills/sf5/quality/capability-map.json"
+  ],
+  "status": "accepted",
+  "target": "capability.sf5.ready_registry_reuse",
+  "to": "capability.sf5.ready_registry_reuse",
+  "type": "contains"
+}

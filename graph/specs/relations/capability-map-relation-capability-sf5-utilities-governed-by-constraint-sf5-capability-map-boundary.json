@@ -1,0 +1,18 @@
+{
+  "evidence": [],
+  "from": "capability.sf5.utilities",
+  "id": "relation.capability-sf5-utilities.governed-by.constraint-sf5-capability-map-boundary",
+  "kind": "relation",
+  "profile": "skill_runtime",
+  "readiness": "accepted",
+  "relation_type": "governed_by",
+  "schema_version": "1.0.0",
+  "source": "capability.sf5.utilities",
+  "source_refs": [
+    "skills/sf5/quality/capability-map.json"
+  ],
+  "status": "accepted",
+  "target": "constraint.sf5.capability-map-boundary",
+  "to": "constraint.sf5.capability-map-boundary",
+  "type": "governed_by"
+}

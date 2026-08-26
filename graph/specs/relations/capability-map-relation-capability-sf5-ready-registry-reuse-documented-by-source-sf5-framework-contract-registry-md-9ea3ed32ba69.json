@@ -1,0 +1,18 @@
+{
+  "evidence": [],
+  "from": "capability.sf5.ready_registry_reuse",
+  "id": "relation.capability-sf5-ready-registry-reuse.documented-by.source-sf5-framework-contract-registry-md-9ea3ed32ba69",
+  "kind": "relation",
+  "profile": "skill_runtime",
+  "readiness": "accepted",
+  "relation_type": "documented_by",
+  "schema_version": "1.0.0",
+  "source": "capability.sf5.ready_registry_reuse",
+  "source_refs": [
+    "skills/sf5/quality/capability-map.json"
+  ],
+  "status": "accepted",
+  "target": "source.sf5.framework-contract-registry-md.9ea3ed32ba69",
+  "to": "source.sf5.framework-contract-registry-md.9ea3ed32ba69",
+  "type": "documented_by"
+}

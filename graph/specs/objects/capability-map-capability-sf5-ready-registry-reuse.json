@@ -1,0 +1,33 @@
+{
+  "aliases": [
+    "SF5 registry",
+    "ready record"
+  ],
+  "applicability": {
+    "editions": [],
+    "platform": "sf5",
+    "required_modules": [],
+    "version_range": "exact-project-version-or-owner-contract"
+  },
+  "authority": "owner_capability_map",
+  "evidence": [],
+  "expansion_policy": "expandable",
+  "id": "capability.sf5.ready_registry_reuse",
+  "kind": "capability",
+  "lifecycle": "accepted",
+  "negative_boundaries": [
+    "Do not create a parallel owner or duplicate an existing platform capability."
+  ],
+  "owner": "sf5",
+  "profile": "skill_runtime",
+  "readiness": "ready",
+  "schema_version": "1.0.0",
+  "source_refs": [
+    "skills/sf5/quality/capability-map.json",
+    "skills/sf5/references/framework-contract-registry.md",
+    "skills/sf5/references/vendor/framework-contract-registry.pointer.json"
+  ],
+  "subtype": "owner_capability_map_entry",
+  "summary": "Reuse only a ready SF5 registry record and return an upstream gap for discoverable-only entries.",
+  "title": "Reuse only a ready SF5 registry record and return an upstream gap for discoverable-only entries."
+}

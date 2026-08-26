@@ -1,0 +1,33 @@
+{
+  "aliases": [
+    "SF5 ready component",
+    "sf5 component",
+    "компонент sf5"
+  ],
+  "applicability": {
+    "editions": [],
+    "platform": "sf5",
+    "required_modules": [],
+    "version_range": "exact-project-version-or-owner-contract"
+  },
+  "authority": "owner_capability_map",
+  "evidence": [],
+  "expansion_policy": "expandable",
+  "id": "capability.sf5.ready_component",
+  "kind": "capability",
+  "lifecycle": "accepted",
+  "negative_boundaries": [
+    "Do not create a parallel data, access, status or notification subsystem."
+  ],
+  "owner": "sf5",
+  "profile": "skill_runtime",
+  "readiness": "ready",
+  "schema_version": "1.0.0",
+  "source_refs": [
+    "skills/sf5/quality/capability-map.json",
+    "skills/sf5/references/framework-contract-registry.md"
+  ],
+  "subtype": "owner_capability_map_entry",
+  "summary": "Готовый компонент из точного registry",
+  "title": "Готовый компонент из точного registry"
+}
